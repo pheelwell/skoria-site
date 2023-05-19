@@ -1,7 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/arathor/","noteIcon":"Deity","created":"2023-05-19T18:19:02.469+02:00","updated":"2023-05-19T19:47:03.818+02:00"}
+type: Deity
+dg-publish: true
+sum:
+  - Arathor, god of justice, order, and righteousness
+  - Known as the Radiant Judge
+  - Followers called League of Arathor uphold teachings and combat evil
+  - Symbol is a radiant sun; temples built to catch sunlight
+  - Ascended to godhood through unwavering determination and belief in justice
+dg-publish: true
 ---
-
 
 As the first rays of dawn pierce the darkness, illuminating the resplendent temple atop a mountain, a figure clad in shining armor kneels in prayer. Seeking guidance and strength from Arathor, the god of righteousness, order, and justice, they are filled with divine wisdom as the deity's thunderous voice resonates within their soul.
 
