@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/gods/","noteIcon":"Meta","created":"2023-05-19T18:19:02.468+02:00","updated":"2023-05-19T19:46:17.191+02:00"}
+dg-publish: true
+type: Meta
+sum:
 ---
-
 ## Twins of Luminance: [[Worldbuilding/Nether Plane/Sori\|Sori]], [[Worldbuilding/Nether Plane/Luniam\|Luniam]]
 Sori and Luniam are the deities of light, representing the sun and the moon respectively. 
 
