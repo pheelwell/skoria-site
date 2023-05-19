@@ -1,0 +1,3 @@
+[submodule "skoria-notes"]
+	path = skoria-notes
+	url = https://github.com/pheelwell/skoria.git

@@ -48,7 +48,7 @@ function getGraph(data) {
       url: v.url,
       group,
       home:
-        v.data["dg-home"] ||
+        v.data["dg-skoria-home"] ||
         (v.data.tags && v.data.tags.indexOf("gardenEntry") > -1) ||
         false,
       outBound: extractLinks(v.template.frontMatter.content),
@@ -59,7 +59,7 @@ function getGraph(data) {
     };
     stemURLs[fpath] = v.url;
     if (
-      v.data["dg-home"] ||
+      v.data["dg-skoria-home"] ||
       (v.data.tags && v.data.tags.indexOf("gardenEntry") > -1)
     ) {
       homeAlias = v.url;
