@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/arathor/","noteIcon":"Deity","created":"2023-05-19T18:19:02.469+02:00","updated":"2023-05-19T19:37:21.384+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/arathor/","noteIcon":"Deity","created":"2023-05-19T18:19:02.469+02:00","updated":"2023-05-19T19:47:03.818+02:00"}
 ---
 
 
