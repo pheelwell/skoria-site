@@ -1,13 +1,695 @@
+/*************************************************************
+                  ANIMATED UNDERLINE
+**************************************************************/
+
+// This section turns links into a animated gradient underline
+.cm-s-obsidian a {
+  background: linear-gradient(to right, var(--link-color), var(--link-color)),
+    linear-gradient(to right, var(--link-color-hover), var(--link-color-hover));
+  background-size: 100% 0.07em, 0 0.07em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms ease;
+  text-decoration: none;
+  color: var(--text-normal);
+}
+
+.cm-s-obsidian a:hover,
+.cm-s-obsidian a:focus {
+  background-size: 0 0.07em, 100% 0.07em;
+  /* rotate 10 degrees counter-clockwise */
+  transform: rotate(-10deg);
+  color: var(--text-normal);
+}
+
+/*************************************************************
+                  LISTS
+**************************************************************/
+
+//nord theme has weird borders on lists, this removes them
+li {
+  border-left: none;
+}
+li:nth-child(even) {
+  border-left: none;
+}
+ul > li:nth-child(even)::before {
+  color: var(--accent);
+}
+
+/*************************************************************
+                  CALLOUTS
+**************************************************************/
+
+// the theme sets blend mode to lighten;, dont set for img in callouts::after
+.callout {
+  margin: 20px 20px;
+  mix-blend-mode: normal;
+}
+
+//This section moves the tip callout 
+//to the right side of the page (deepened on the screen size)
+@media only screen and (min-width: 1900px) {
+  .callout[data-callout="tip"] {
+    width: 50%; /* Set the width of the callout div to 40% */
+    position: absolute; /* Position the callout div absolutely */
+    left: 100%; /* Position the callout div to the right of the container */
+    margin-left: 20px; /* Add some margin to the right of the callout div */
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1900px) {
+  .callout[data-callout="tip"] > .callout-content {
+    //transform to 2 columns
+    column-count: 2;
+    column-gap: 20px;
+    height: 100%;
+    
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1900px) {
+  .callout[data-callout="tip"] {
+    
+  }
+}
+
+/*************************************************************
+                  LINK GRAPH and SIDEBAR
+**************************************************************/
+
+// This section removes the border radius from the link graph
+// and always moves the sidebar to the bottom of the page to
+// not colide with the tip callout 
+#link-graph {
+  border-radius: 0 10px 10px 10px;
+}
+
+.sidebar {
+  position: relative;
+  transform: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  max-width: 850px;
+  margin: auto;
+  border-radius: 0;
+  border-top: 2px solid var(--background-secondary);
+  justify-content: space-between;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.graph {
+  flex: 1;
+  .graph-title-container {
+    justify-content: flex-start;
+  }
+}
+
+.toc {
+  display: none;
+}
+
+/*************************************************************
+                  CAPITOL LETTERS
+  This section makes the first letter of the first paragraph
+  of a note a capitol letter and adds a minimal height to the
+  paragraph to make it look better :) 
+**************************************************************/
+
+.cm-s-obsidian > p:first-of-type:first-letter {
+  float: left;
+  font-family: "Solbera Imitation", "Times New Roman", Times, serif;
+  font-size: 5em;
+  line-height: 0.5em;
+  padding-bottom: 0.05em;
+  padding-top: 0.2em;
+  --text-selection: rgba(var(--red_x), 0.6);
+}
+.cm-s-obsidian > p:first-of-type {
+  //minimal height for small paragraphs
+  min-height: 6em;
+}
+
+/*************************************************************
+                  Callout Icons
+  This section adds icons to the callouts
+**************************************************************/
+                  
+.callout[data-callout="read"] {
+  --callout-color: 183, 50, 255;
+  --callout-icon: lucide-book-open;
+}
+
+.callout[data-callout="secret"] {
+  --callout-color: 100, 100, 100;
+  --callout-icon: lucide-lock;
+}
+.callout[data-callout="stats"] {
+  --callout-color: 255, 50, 50;
+  --callout-icon: lucide-dice;
+}
+
+.callout[data-callout="seed"] {
+  --callout-color: 183, 255, 50;
+  --callout-icon: lucide-sprout;
+}
+
+
+/*************************************************************
+                  Mermiad Scaling
+  Always scale the mermaid graph to 100% of the page width
+**************************************************************/
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/*************************************************************
+        add Popup Emojis to links
+  - remove the standard svg icon from front
+  - add the emoji after container
+  - hide by default
+  - scale up on hover 
+
+  For refference:
+        Meta: ⚙️
+        Region: 🗺
+        Settlement: 🏰
+        Locality: 🏠
+        NPC: 👤
+        History: 📅
+        Arc: 📖
+        Plot: 📜
+        Scene: 🎬
+        Thing: 🔮
+        Faction:
+**************************************************************/
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before,
+body.filetree-note-icon .filename[data-note-icon]::before,
+body.links-note-icon .internal-link[data-note-icon]::before,
+body.backlinks-note-icon .backlink[data-note-icon]::before {
+  //default
+  content: "";
+  width: 0em;
+  //no background image
+  background-image: none;
+}
+
+/*undo for header
+body.title-note-icon .cm-s-obsidian > header > h1::after {
+  content: "";
+}
+*/
+
+// hide emoji by default
+body.filetree-note-icon .filename::after,
+body.links-note-icon .internal-link::after,
+body.backlinks-note-icon .backlink::after {
+  background-image: none;
+  transition: font-size 400ms ease;
+  //scale down
+  font-size: 0em;
+}
+
+// scale up the emoji on hover
+body.filetree-note-icon .filename:hover::after,
+body.links-note-icon .internal-link:hover::after,
+body.backlinks-note-icon .backlink:hover::after {
+  font-size: 1em;
+}
+
+//set the emoji for each note type
+[data-note-icon="Meta"]::after {
+  content: "⚙️" !important;
+}
+
+[data-note-icon="Locality"]::after {
+  content: "🏠" !important;
+}
+
+[data-note-icon="NPC"]::after {
+  content: "👤" !important;
+}
+
+[data-note-icon="History"]::after {
+  content: "📅" !important;
+}
+
+[data-note-icon="Arc"]::after {
+  content: "📖" !important;
+}
+
+[data-note-icon="Plot"]::after {
+  content: "📜" !important;
+}
+
+[data-note-icon="Scene"]::after {
+  content: "🎬" !important;
+}
+
+[data-note-icon="Thing"]::after {
+  content: "🔮" !important;
+}
+
+[data-note-icon="Faction"]::after {
+  content: "⚔️" !important;
+}
+
+[data-note-icon="Region"]::after {
+  content: "🗺" !important;
+}
+
+[data-note-icon="Settlement"]::after {
+  content: "🏰" !important;
+}
+
+[data-note-icon="Technical"]::after {
+  content: "🔧" !important;
+}
+
+[data-note-icon="Psycho"]::after {
+  content: "🧠" !important;
+}
+
+/*************************************************************
+        IMAGES
+**************************************************************/
+
+//center images in the editor on 
+img[alt*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*************************************************************
+        GRAPH
+**************************************************************/
+
+/* Graphs fetch --graph-muted and --graph-main, set those to be dark themed*/
 body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  --graph-muted: var(--background);
+  --graph-main: var(--h6-color);
+}
+
+/*************************************************************
+        H1
+**************************************************************/
+
+section > h1 {
+  text-align: center;
+  margin: -2em 0px 32px 0px !important;
+  animation: ticket 20s lineardirection;
+}
+
+// emoji to the header, but smol
+.cm-s-obsidian > header > h1::after {
+  font-size: 0.5em;
+}
+
+// remove the lower margin of a h1 if it is followed by a h2
+h2 ~ h1 {
+  margin-bottom: 0px;
+}
+
+// give header more space
+header > h1 {
+  text-align: center;
+  margin: 50px 0 60px 0 !important;
+  //set font size
+  font-size: 3.5em !important;
+}
+
+/*************************************************************
+        H2
+  give header more space
+**************************************************************/
+h2 {
+  margin: 40px 0 20px 0 !important;
+}
+
+
+/*************************************************************
+        Main Content div
+**************************************************************/
+.content,
+.comments {
+  max-width: 900px;
+}
+
+/*************************************************************
+        BACKGROUND TEXTURE
+**************************************************************/
+
+//select the background-texture div and add padding
+.background-texture {
+  padding-top: 100px;
+}
+
+body {
+  padding: 0px !important;
+}
+
+.footer .content {
+  margin: 0px !important;
+}
+
+.background-texture,
+.footer,
+.footer > .content {
+  background: url(../img/black-concrete-wall.jpg) var(--background-primary);
+  background-image: url(../img/black-concrete-wall.jpg);
+  //darken image a bit
+}
+
+/*************************************************************
+        CONTENT BACKGROUND
+**************************************************************/
+//put a grey background on the sections that have a h1 or h2 child
+section:has(> h1),
+.backlinks {
+  margin: 100px 0px 0px 0px !important;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: var(--background-primary);
+  //shadow
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.277);
+  //border
+  border: 1px solid var(--background-secondary);
+  border-radius: 3px;
+}
+
+section > img {
+  margin-top: -20px !important;
+}
+
+/*************************************************************
+        EMBEDS
+  (when you paste content from other notes)
+**************************************************************/
+
+// remove the left line from markdown-embed
+.markdown-embed {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  margin: 0;
+  padding: var(--embed-padding);
+}
+
+
+/*************************************************************
+        TIMESTAMP
+**************************************************************/
+
+//allign timestamps div to the center (not text-align)
+.timestamps {
+  display: flex;
+  justify-content: center;
+}
+/*************************************************************
+        COMMENTS
+**************************************************************/
+
+//div for utterances
+.comments {
+  margin: 80px auto;
+}
+
+/* Utterances styling */
+
+.timeline-comment.current-user .comment-header {
+  background-color: #182030;
+}
+
+.timeline-comment .comment-footer {
+  border-top: 1px solid var(--background-primary);
+}
+
+.timeline-comment .new-comment-header {
+  background-color: #df0e0e !important;
+  border-bottom: 1px solid #1fabda !important;
+}
+
+.timeline-comment .comment {
+  background-color: #0522fd !important;
+  border: 0px;
+}
+
+/*************************************************************
+        SIDEBAR
+**************************************************************/
+
+.filetree-sidebar,
+.navbar {
+  background-color: var(--background-primary);
+  //shadow
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  //border
+  border: 1px solid var(--background-secondary);
+}
+
+// add padding to the content in .cm-s-obsidian
+section > p,
+section > h1,
+section > h2,
+section > h3,
+section > h4,
+section > h5,
+section > h6,
+section > ul,
+section > ol,
+section > blockquote,
+section > div {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+//when the p of the content has a image, remove the padding of the p
+.cm-s-obsidian > p > img {
+  padding: 0;
+}
+
+.backlinks {
+  margin: 10px;
+}
+
+//revert weird image hover effect from template
+.img-grid img[alt*="."]:hover,
+.image-embed[src*="#grid"]:hover,
+.image-embed[src*="#grid"]:hover,
+img[alt*="grid"]:hover {
+  transform: scale(1);
+}
+
+
+/*************************************************************
+        FONTFACES
+**************************************************************/
+
+@font-face {
+  font-family: "Bookinsanity";
+  src: 
+      local("Bookinsanity Remake"),
+      local("Bookinsanity"),
+      url('./Bookinsanity/Bookinsanity.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity.otf") format("opentype");
+}
+@font-face {
+  font-family: "Bookinsanity";
+  src: 
+      local("Bookinsanity Remake"),
+      local("Bookinsanity"),
+      url('./Bookinsanity/Bookinsanity Bold Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold%20Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bookinsanity";
+  src: 
+      local("Bookinsanity Remake"),
+      local("Bookinsanity"),
+      url('./Bookinsanity/Bookinsanity Bold.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Bookinsanity";
+  src: 
+      local("Bookinsanity Remake"),
+      local("Bookinsanity"),
+      url('./Bookinsanity/Bookinsanity Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Italic.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Zatanna Misdirection";
+  src: 
+      local("Zatanna Misdirection Remake"),    
+      local("Zatanna Misdirection"),
+      url('./Zatanna Misdirection/Zatanna Misdirection.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zatanna Misdirection";
+  src: 
+      local("Zatanna Misdirection Remake"),    
+      local("Zatanna Misdirection"),
+      url('./Zatanna Misdirection/Zatanna Misdirection Bold Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Bold%20Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Zatanna Misdirection";
+  src: 
+      local("Zatanna Misdirection Remake"),    
+      local("Zatanna Misdirection"),
+      url('./Zatanna Misdirection/Zatanna Misdirection Bold.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Zatanna Misdirection";
+  src: 
+      local("Zatanna Misdirection Remake"),    
+      local("Zatanna Misdirection"),
+      url('./Zatanna Misdirection/Zatanna Misdirection Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Italic.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Nodesto Caps Condensed";
+  src: 
+      local("Nodesto Caps Condensed"),
+      url('./Nodesto Caps Condensed/Nodesto Caps Condensed.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: "Nodesto Caps Condensed";
+  src: 
+      local("Nodesto Caps Condensed"),
+      url('./Nodesto Caps Condensed/Nodesto Caps Condensed Bold Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Nodesto Caps Condensed";
+  src: 
+      local("Nodesto Caps Condensed"),
+      url('./Nodesto Caps Condensed/Nodesto Caps Condensed Bold.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Nodesto Caps Condensed";
+  src: 
+      local("Nodesto Caps Condensed"),
+      url('./Nodesto Caps Condensed/Nodesto Caps Condensed Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mr Eaves Small Caps";
+  src: 
+      local("Mr Eaves Small Caps"),
+      url('./Mr Eaves/Mr Eaves Small Caps.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf") format("opentype");
+}
+@font-face {
+  font-family: "Scaly Sans";
+  src: 
+      local("Scaly Sans"),
+      url('./Scaly Sans/Scaly Sans.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans.otf") format("opentype");
+}
+@font-face {
+  font-family: "Scaly Sans";
+  src: 
+      local("Scaly Sans"),
+      url('./Scaly Sans/Scaly Sans Bold Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Bold%20Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Scaly Sans";
+  src: 
+      local("Scaly Sans"),
+      url('./Scaly Sans/Scaly Sans Bold.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Scaly Sans";
+  src: 
+      local("Scaly Sans"),
+      url('./Scaly Sans/Scaly Sans Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Italic.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Scaly Sans Caps";
+  src: 
+      local("Scaly Sans Caps"),
+      url('./Scaly Sans Caps/Scaly Sans Caps.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps.otf") format("opentype");
+}
+@font-face {
+  font-family: "Scaly Sans Caps";
+  src: 
+      local("Scaly Sans Caps"),
+      url('./Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold%20Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Scaly Sans Caps";
+  src: 
+      local("Scaly Sans Caps"),
+      url('./Scaly Sans Caps/Scaly Sans Caps Bold.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Scaly Sans Caps";
+  src: 
+      local("Scaly Sans Caps"),
+      url('./Scaly Sans Caps/Scaly Sans Caps Italic.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Italic.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Solbera Imitation";
+  src: 
+      local("Solbera Imitation"),
+      url('./Solbera Imitation/Solbera Imitation.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Solbera%20Imitation/Solbera%20Imitation.otf") format("opentype");
+}
+@font-face {
+  font-family: "Dungeon Drop Case";
+  src: 
+      local("Dungeon Drop Case"),
+      url('/Dungeon Drop Case/Dungeon Drop Case.otf'),
+      url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Dungeon%20Drop%20Case/Dungeon%20Drop%20Case.otf") format("opentype");
+}
+//https://benlk.github.io/solbera-dnd-fonts/#bookinsanity
+//use these fonts with the following css
+
+p,ul,.foldername,.filename,.callout-title-inner {
+  font-family: "Bookinsanity"
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Mr Eaves Small Caps" !important;
 }

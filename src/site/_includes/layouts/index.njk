@@ -20,47 +20,56 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}">
-      <header>
-      {% if settings.dgShowInlineTitle === true %}
-        <h1>{{ noteTitle  }}</h1>
-      {% endif %}
-
-      <div class="header-meta">
-        {% if settings.dgShowTags === true and tags %}
-          <div class="header-tags">
-            {% for tag in tags %}
-              {% if tag != 'gardenEntry' and tag !='note' %}
-                <a class="tag" onclick="toggleTagSearch(this)">
-                  #{{tag}}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
+    <div class="background-texture">
+      <main class="content cm-s-obsidian {{contentClasses}}">
+        <header>
+        {% if settings.dgShowInlineTitle === true %}
+          <h1>{{ noteTitle  }}</h1>
         {% endif %}
+        <div class="header-meta">
+          {% if settings.dgShowTags === true and tags %}
+            <div class="header-tags">
+              {% for tag in tags %}
+                {% if tag != 'gardenEntry' and tag !='note' %}
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #{{tag}}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+        {% for imp in dynamics.common.header %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.header %}
+          {% include imp %}
+        {% endfor %}
+        </header>
+        {% for imp in dynamics.common.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {{ content | hideDataview | link | taggify | safe}}
+        {% for imp in dynamics.common.afterContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.afterContent %}
+          {% include imp %}
+        {% endfor %}
+      </main>
+    </div>
+    <div class="footer">
+      <div class="content">
+        {% for imp in dynamics.common.footer %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.footer %}
+          {% include imp %}
+        {% endfor %}
       </div>
-      {% for imp in dynamics.common.header %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.header %}
-        {% include imp %}
-      {% endfor %}
-      </header>
-      {% for imp in dynamics.common.beforeContent %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.beforeContent %}
-        {% include imp %}
-      {% endfor %}
-      {{ content | hideDataview | link | taggify | safe}}
-      {% for imp in dynamics.common.afterContent %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.afterContent %}
-        {% include imp %}
-      {% endfor %}
-    </main>
-
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk" %}
     {%endif%}
@@ -75,5 +84,15 @@
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    {%include "components/comments.njk" %}
+    </div>
+    <script type="application/json" class="js-hypothesis-config">
+    {
+    "showHighlights": false,
+    "theme": "clean",
+    "openSidebar": false,
+    }
+    </script>
+    <script async src="https://hypothes.is/embed.js"></script>
     </body>
   </html>
