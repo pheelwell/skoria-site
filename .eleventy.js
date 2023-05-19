@@ -14,29 +14,15 @@ const {
   userEleventySetup,
 } = require("./src/helpers/userSetup");
 
-const Image = require("@11ty/eleventy-img");
-function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
-  let options = {
-    widths: widths,
-    formats: ["webp", "jpeg"],
-    outputDir: "./dist/img/optimized",
-    urlPath: "/img/optimized",
-  };
-
-  // generate images, while this is async we don’t wait
-  Image(src, options);
-  let metadata = Image.statsSync(src, options);
-  return metadata;
-}
-
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
+  
   let markdownLib = markdownIt({
-    breaks: true,
+    breaks: false,
     html: true,
   })
     .use(require("markdown-it-anchor"), {
@@ -59,7 +45,7 @@ module.exports = function (eleventyConfig) {
     })
     .use(require("markdown-it-attrs"))
     .use(require("markdown-it-task-checkbox"), {
-      disabled: true,
+      disabled: false,
       divWrap: false,
       divClass: "checkbox",
       idPrefix: "cbx_",
@@ -119,7 +105,6 @@ module.exports = function (eleventyConfig) {
         // Other languages
         return origFenceRule(tokens, idx, options, env, slf);
       };
-
       const defaultImageRule =
         md.renderer.rules.image ||
         function (tokens, idx, options, env, self) {
@@ -138,8 +123,10 @@ module.exports = function (eleventyConfig) {
           }
         }
 
-        return defaultImageRule(tokens, idx, options, env, self);
+        return `</p>${defaultImageRule(tokens, idx, options, env, self)}<p>`;
       };
+
+      
 
       const defaultLinkRule =
         md.renderer.rules.link_open ||
@@ -165,7 +152,11 @@ module.exports = function (eleventyConfig) {
         return defaultLinkRule(tokens, idx, options, env, self);
       };
     })
-    .use(userMarkdownSetup);
+    .use(userMarkdownSetup)
+    .use(require('markdown-it-header-sections')); 
+
+  // Add the markdown-it-wrap plugin and configure it to wrap headings with <div> tags
+
 
   eleventyConfig.setLibrary("md", markdownLib);
 
