@@ -1,8 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/meta/note-structure-guidelines/","noteIcon":"Meta","created":"2023-05-22T22:36:48.581+02:00","updated":"2023-05-22T22:43:34.623+02:00"}
+---
 
----
-type: Meta
-dg-publish: true
----
 # Folder Structure
 Obsidian notes in this Repo are structured this way:
 
@@ -20,19 +19,21 @@ Obsidian notes in this Repo are structured this way:
     │   ├── Concepts
     │   ├── Factions
     │   └── Things
-    └── [Continent/Plane Name]
-        ├── Factions
-        │   ├── [Faction Name]
-        │   │   ├── [Faction Name] (Main Article)
-        │   │   ├── [Person from Faction]
-        │   │   └── ...
-        ├── Regions
-        │   ├── [Region Name]
-        │   │   ├── [Region Name] (Main Article)
-        │   │   ├── [Location in Region]
-        │   │   └── ...
-        └── Things
-            └── [Thing]
+    └── [Plane Name]
+        ├── [Region Name]
+	 │   ├── Factions
+	 │   │   ├── [Faction Name]
+	 │   │   │   ├── [Faction Name] (Main Article)
+	 │   │   │   ├── [Person from Faction]
+	 │   │   │   └── ...
+	 │   ├── Regions
+	 │   │   ├── [Region Name]
+	 │   │   │   ├── [Region Name] (Main Article)
+	 │   │   │   ├── [Location in Region]
+	 │   │   │   └── ...
+	 │   └── Things
+	 │       └── [Thing]
+	 └── ...
 ```
 
 # Frontmatter
@@ -64,7 +65,7 @@ Note content goes here.
 
 - `status`: Indicates the level of completion or development of the note. The categories are:
   - `seed`: A basic idea or concept that needs further development. This topic is up for grabs.
-  - `sprout`: A developed concept with some fleshed-out details. Talk to the owner before working on it. 
+  - `sprout`: A developed concept with some fleshed-out details. Talk to the owner before working on it.
   - `tree`: A fully developed and detailed note, that is deeply rooted into your campain, many secrets exist under the surface.
   - `willow`: a deprecated note that needs trimming or is outdated.
 
@@ -78,6 +79,8 @@ It is a good idea to follow this guideline for writing notes:
 - Use bold and italic text to emphasize important points or keywords
 - Include relevant links to other notes or external sources when necessary
 - Break down long paragraphs into smaller, more digestible chunks of text
+
+Example Formatting can be found at [[Meta/Example Site\|Example Site]]
 
 # Images and Media
 
