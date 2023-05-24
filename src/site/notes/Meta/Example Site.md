@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-type: Meta
+{"dg-publish":true,"permalink":"/meta/example-site/","noteIcon":"Meta","created":"2023-05-22T22:36:48.575+02:00","updated":"2023-05-24T22:57:29.712+02:00"}
 ---
+
 
 # Example
 This is an example Obsidian note.
