@@ -1,19 +1,7 @@
 ---
-type: Deity
-dg-publish: true
-sum:
-  - Domain: Discord and Chaos
-  - Associated Element: Chaos
-  - Virtue: Deception 
-  - Banished by other gods, least known by mortals
-  - Killed during the Shattering, no influence on the world
-  - No cults or followers
-  - Domain distributed among other gods in Divine Pantheon
-ownership:
-- corellion: role in shattering
-- pheelwell: result of shattering (specificly regarding Arathor)
-status: sprout
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/umbrial/","noteIcon":"Deity","created":"2023-05-22T22:36:48.758+02:00","updated":"2023-05-24T22:57:51.645+02:00"}
 ---
+
 > [!quote] Umbrial's laughter echoes through the shadows, bringing chaos and discord to all who hear it. Yet, his influence has waned, and now he is but a whisper in the darkness.
 ## Overview
 Once a powerful and enigmatic God of Discord and Chaos, Umbrial now remains as a barely known figure in the mortal realm. Banished by other gods and killed during the Shattering, his influence has vanished from the world. With no cults or followers to carry on his legacy, his domain has been distributed among the other gods in the Divine Pantheon.
