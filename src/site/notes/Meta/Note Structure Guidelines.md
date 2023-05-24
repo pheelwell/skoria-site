@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/note-structure-guidelines/","noteIcon":"Meta","created":"2023-05-22T22:36:48.581+02:00","updated":"2023-05-22T22:43:34.623+02:00"}
+{"dg-publish":true,"permalink":"/meta/note-structure-guidelines/","noteIcon":"Meta","created":"2023-05-22T22:36:48.581+02:00","updated":"2023-05-24T22:57:31.339+02:00"}
 ---
 
 # Folder Structure
