@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/example-site/","noteIcon":"Meta","created":"2023-05-22T22:36:48.575+02:00","updated":"2023-05-24T23:07:43.093+02:00"}
+{"dg-publish":true,"permalink":"/meta/example-site/","noteIcon":"Meta","created":"2023-05-24T23:19:26.578+02:00","updated":"2023-05-24T23:21:48.848+02:00"}
 ---
 
 
@@ -93,7 +93,7 @@ Ordered list:
 
 > [!tip] GM Tip, Hint, Important
 > Something useful could stand here
-    
+
 > [!warning] Warning, Caution, Attention
 > Something Important to be reminded of
   
@@ -107,7 +107,7 @@ Ordered list:
 >[!seed] Seed, Adventure Hook
 >This is something you could use to build your adventure upon
 
->[!secret]- 
+>[!secret]-
 > This should not be directly revealed to a player
 
 
