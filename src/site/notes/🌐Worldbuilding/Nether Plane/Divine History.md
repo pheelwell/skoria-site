@@ -1,10 +1,7 @@
 ---
-dg-publish: true
-type: Meta
-ownership:
-- pheelwell: Aftermath of the Shattering
-status: seed
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-history/","noteIcon":"Meta","created":"2023-05-22T22:36:48.675+02:00","updated":"2023-05-24T22:57:45.898+02:00"}
 ---
+
 
 # History
 ?: Only Gods Exist
