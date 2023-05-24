@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/nomphis/","noteIcon":"Deity","created":"2023-05-22T22:36:48.744+02:00","updated":"2023-05-24T23:07:46.456+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/nomphis/","noteIcon":"Deity","created":"2023-05-24T23:19:19.945+02:00","updated":"2023-05-24T23:20:44.154+02:00"}
 ---
 
 ### Nomphis
