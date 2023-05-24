@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/the-basin/","title":"The Basin","hideInGraph":true,"noteIcon":"Region","created":"2023-05-22T22:36:48.665+02:00","updated":"2023-05-24T23:07:43.893+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/the-basin/","title":"The Basin","hideInGraph":true,"noteIcon":"Region","created":"2023-05-24T23:19:19.886+02:00","updated":"2023-05-24T23:21:17.541+02:00"}
 ---
 
 
 As twilight descends upon the Ivagur Peaks, casting long shadows across the Basin, a solitary traveler journeys along an ancient path. The Silent River winds gracefully around the hill atop which Edschmied stands sentinel, its waters glimmering like molten silver in the dwindling light. Within this secluded and diverse land, a myriad of tales and mysteries await those bold enough to seek them out.
 
-![[Map of the Basin.png\|Map of the Basin.png]]
+![Map of the Basin.png](/img/user/Pictures/Map%20of%20the%20Basin.png)
 
 # Geography
 ## Notable Settlements:
