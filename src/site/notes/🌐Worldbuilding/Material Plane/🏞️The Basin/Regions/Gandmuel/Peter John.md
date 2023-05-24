@@ -1,9 +1,7 @@
 ---
-alias: Peter John
-dg-publish: true
-title: Peter John
-type: SideNPC
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/peter-john/","title":"Peter John","noteIcon":"SideNPC","created":"2023-05-22T22:36:48.643+02:00","updated":"2023-05-24T22:58:11.437+02:00"}
 ---
+
 
 **Elf - Mayor**
 
