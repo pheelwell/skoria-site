@@ -1,8 +1,7 @@
 ---
-dg-publish: true
-title: Shadow Hunter
-type: Meta
+{"dg-publish":true,"permalink":"/bestiary/subclasses/shadow-hunter/","title":"Shadow Hunter","noteIcon":"Meta","created":"2023-05-22T22:36:48.791+02:00","updated":"2023-05-24T22:57:28.536+02:00"}
 ---
+
 You can choose the **Shadow Hunter** subclass for the **Rogue** class. 
 
 Shadow hunters are masters of voodoo and shadow magic and were once the highest authority amongst trolls. Their spirit powers is walking the line of dark and light in hope of saving the future of trollkind, doing whatever it takes to secure a future for their kin. The loa can channel themselves through the shadow hunters when they use their ceremonial rush'kah masks.
