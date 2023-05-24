@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/carillea/","noteIcon":"Deity","created":"2023-05-22T22:36:48.700+02:00","updated":"2023-05-24T23:07:44.690+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/carillea/","noteIcon":"Deity","created":"2023-05-24T23:19:19.898+02:00","updated":"2023-05-24T23:20:47.167+02:00"}
 ---
 
 ### Carillea
