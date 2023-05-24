@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/bestiary/subclasses/shadow-hunter/","title":"Shadow Hunter","noteIcon":"Meta","created":"2023-05-22T22:36:48.791+02:00","updated":"2023-05-24T22:57:28.536+02:00"}
+{"dg-publish":true,"permalink":"/bestiary/subclasses/shadow-hunter/","title":"Shadow Hunter","noteIcon":"Meta","created":"2023-05-22T22:36:48.791+02:00","updated":"2023-05-24T23:07:49.556+02:00"}
 ---
 
 You can choose the **Shadow Hunter** subclass for the **Rogue** class. 
