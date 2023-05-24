@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-history/","noteIcon":"Meta","created":"2023-05-22T22:36:48.675+02:00","updated":"2023-05-24T23:07:47.804+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-history/","noteIcon":"Meta","created":"2023-05-24T23:19:32.715+02:00","updated":"2023-05-24T23:20:48.388+02:00"}
 ---
 
 
@@ -14,7 +14,8 @@ This was the time when only gods existed, and they shaped the world to their lik
 This period marks the birth of mortal civilizations, as gods began to create various races and creatures.
 # Epoch of Harmony
 During this time, mortal civilizations thrived under the guidance and protection of their patron gods.
-[[🌐Worldbuilding/Nether Plane/The Shattering\|The Shattering]]
+
+# [[🌐Worldbuilding/Nether Plane/The Shattering\|The Shattering]]
 
 # Epoch of Rebirth
 After the devastation caused by The Shattering, surviving civilizations began to rebuild and adapt to their new circumstances.
@@ -23,5 +24,5 @@ As mortal civilizations grew more powerful, conflicts between them increased, le
 # Epoch of Change
 With the barrier between [[🌐Worldbuilding/Skoria\|Skoria]] and the [[🌐Worldbuilding/Nether Plane/Nether Plane\|Nether Plane]] in place, divine forces began to find ways to access [[🌐Worldbuilding/Skoria\|Skoria]] again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
 # Epoch of Unity
-In response to the growing threats from both within and beyond Skoria, different races and kingdoms began forming alliances for mutual protection and cooperation.
+In response to the growing threats from both within and beyond [[🌐Worldbuilding/Skoria\|Skoria]], different races and kingdoms began forming alliances for mutual protection and cooperation.
 
