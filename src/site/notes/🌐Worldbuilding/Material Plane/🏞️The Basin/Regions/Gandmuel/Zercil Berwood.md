@@ -1,11 +1,7 @@
 ---
-alias:
-- Zercil Berwood
-- Zercil
-dg-publish: true
-title: Zercil Berwood
-type: SideNPC
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/zercil-berwood/","title":"Zercil Berwood","noteIcon":"SideNPC","created":"2023-05-22T22:36:48.648+02:00","updated":"2023-05-24T22:58:11.051+02:00"}
 ---
+
 
 **Elf - Tourist Guide**
 
