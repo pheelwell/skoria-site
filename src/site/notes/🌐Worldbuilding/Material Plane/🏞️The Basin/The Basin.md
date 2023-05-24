@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/the-basin/","title":"The Basin","hideInGraph":true,"noteIcon":"Region","created":"2023-05-22T22:36:48.665+02:00","updated":"2023-05-24T22:58:06.420+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/the-basin/","title":"The Basin","hideInGraph":true,"noteIcon":"Region","created":"2023-05-22T22:36:48.665+02:00","updated":"2023-05-24T23:07:43.893+02:00"}
 ---
 
 
