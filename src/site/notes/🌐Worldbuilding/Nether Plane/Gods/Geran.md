@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/geran/","noteIcon":"Deity","created":"2023-05-22T22:36:48.714+02:00","updated":"2023-05-24T23:07:45.206+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/geran/","noteIcon":"Deity","created":"2023-05-24T23:19:19.914+02:00","updated":"2023-05-24T23:20:46.403+02:00"}
 ---
 
 ### Geran
