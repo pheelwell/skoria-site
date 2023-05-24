@@ -1,15 +1,7 @@
 ---
-dg-publish: true
-sum:
-- Giant River spans 20 miles, flows through Basin from north-west to south-east
-- Source of water and transportation
-- Bordered by Mountains in the north-west and smaller side rivers
-- source of life and prosperity for inhabitants, protect them from intruders
-- Believed to be enchanted by magical forces, whispers heard coming from within the
-  water
-title: Silent River
-type: Region
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/silent-river/","title":"Silent River","noteIcon":"Region","created":"2023-05-22T22:36:48.661+02:00","updated":"2023-05-24T22:58:08.584+02:00"}
 ---
+
 
 This Giant River Flows through the entire Basin and is the main source of water. It flows very slowly and spans up to 20 miles at times. Water mainly comes from the Mountains in the north-west but also from smaller siderivers.
 
