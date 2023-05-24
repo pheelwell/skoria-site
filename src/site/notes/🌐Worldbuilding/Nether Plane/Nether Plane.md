@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/nether-plane/","noteIcon":"Meta","created":"2023-05-22T22:36:48.770+02:00","updated":"2023-05-24T22:57:44.160+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/nether-plane/","noteIcon":"Meta","created":"2023-05-22T22:36:48.770+02:00","updated":"2023-05-24T23:07:49.981+02:00"}
 ---
 
 In the cosmos of this realm, the gods hold sway over the forces that govern the world. These divine beings exist in pairs, each representing opposing forces, and they maintain a cosmic balance that allows life to flourish. As an adventurer in this world, understanding the rules and axioms that govern these gods will be crucial to your journey.
