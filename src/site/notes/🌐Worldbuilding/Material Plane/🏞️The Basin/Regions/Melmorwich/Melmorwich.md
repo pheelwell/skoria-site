@@ -1,19 +1,7 @@
 ---
-dg-publish: true
-sum:
-- Melmorwich is a city founded many years ago by a necromancer who was killed in battle.
-- The city is inhabited by undead creatures and humans who have either been turned
-  into zombies or are servants to the undead.
-- The city is ruled by a High Council made up of powerful undead creatures and various
-  Guildmasters who are in charge of their respective guilds.
-- The Necromancer is the ruler of the city and his word is law.
-- The city has a thriving market and many businesses run by the undead.
-- There are multiple guilds including: Necromancers, Vampires, Zombies, Skeletons,
-    Ghosts which help to keep the city running smoothly.
-title: Melmorwich
-type: Settlement
-status: Seed
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/melmorwich/melmorwich/","title":"Melmorwich","noteIcon":"Settlement","created":"2023-05-22T22:36:48.656+02:00","updated":"2023-05-24T22:58:09.053+02:00"}
 ---
+
 
 The chilling wind whistles through the decaying streets of Melmorwich, a city of darkness and death that teems with unsettling activity. Undead creatures roam the alleys, mingling with humans who have either been turned into zombies or serve their undead masters. It's a place where the living and the dead coexist in an unnatural harmony, bound together by the iron grip of their enigmatic ruler.
 
