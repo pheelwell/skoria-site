@@ -1,8 +1,7 @@
 ---
-dg-publish: true
-title: Cult of the Gifted Ones (Class)
-type: Meta
+{"dg-publish":true,"permalink":"/bestiary/subclasses/cult-of-the-gifted-ones-class/","title":"Cult of the Gifted Ones (Class)","noteIcon":"Meta","created":"2023-05-22T22:36:48.790+02:00","updated":"2023-05-24T22:57:28.070+02:00"}
 ---
+
 
 You can choose [[The Gifted\|The Gifted]] Ones subclass for the Priest class.[[The Gifted#Naruun\|Naruun]] is an ancient forgotten old god. People seek him in the deepest moments of despair, to beg for his gifts. And for some whos desires are strong enougth, he also returns those bids.
 Some believe that [[The Gifted#Naruun\|Naruun]] is a malevolent god, while others believe that he is simply misunderstood. In either case, he offers his gifts to his followers, the Gifted ones.
