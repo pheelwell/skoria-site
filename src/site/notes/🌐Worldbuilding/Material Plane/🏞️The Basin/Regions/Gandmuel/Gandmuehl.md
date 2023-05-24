@@ -1,15 +1,7 @@
 ---
-type: Settlement
-dg-publish: true
-sum:
-  - Gandmühl is a small town with predominantly elven population of approximately 2000 residents.
-  - Town is divided into two factions, Chuckers (lumber trade) and Reformers (tourism).
-  - Governed by an elven council with equal representation from both factions.
-  - Notable locations include lumber mills (east) and harbor (west).
-  - Famous for its bakery producing delicious bread, attracting tourists.
-  - Located next to a river, surrounded by forest and fields.
-status: sprout
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/gandmuehl/","noteIcon":"Settlement","created":"2023-05-22T22:36:48.633+02:00","updated":"2023-05-24T22:58:11.916+02:00"}
 ---
+
 
 The sun sets over the small town of Gandmühl, casting a warm glow on the elven faces that bustle through the streets. The scent of freshly baked bread fills the air, drawing travelers from far and wide to taste its legendary flavor. But beneath this idyllic surface, tensions simmer between those who wish to preserve the town's heritage and those who seek progress through tourism.
 
