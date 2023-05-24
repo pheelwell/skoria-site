@@ -1,10 +1,7 @@
 ---
-alias:
-- Fer
-dg-publish: true
-title: Fer
-type: SideNPC
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/fer/","title":"Fer","noteIcon":"SideNPC","created":"2023-05-22T22:36:48.627+02:00","updated":"2023-05-24T22:58:12.655+02:00"}
 ---
+
 
 **Elf - Druid**
 
