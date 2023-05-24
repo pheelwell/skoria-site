@@ -24,6 +24,7 @@ For any updates or changes made to this digital garden, please refer to our
 
 
 
+- 2023-05-22 at 22h53 · [[🌐Worldbuilding/Nether Plane/Gods/Arathor\|Arathor]]
 - 2023-05-22 at 22h43 · [[Meta/Note Structure Guidelines\|Note Structure Guidelines]]
 - 2023-05-22 at 22h43 · [[Skoria Landing Page\|Skoria Landing Page]]
 - 2023-05-22 at 22h38 · [[🗡️Adventuring/Promisses of Victory Journal\|Promisses of Victory Journal]]
@@ -43,7 +44,6 @@ For any updates or changes made to this digital garden, please refer to our
 - 2023-05-22 at 22h36 · [[🌐Worldbuilding/Nether Plane/Gods/Nefaris\|Nefaris]]
 - 2023-05-22 at 22h36 · [[🌐Worldbuilding/Nether Plane/Gods/Narkis\|Narkis]]
 - 2023-05-22 at 22h36 · [[🌐Worldbuilding/Nether Plane/Gods/Mysteria\|Mysteria]]
-- 2023-05-22 at 22h36 · [[🌐Worldbuilding/Nether Plane/Gods/Luniam\|Luniam]]
 
 
 </div></div>
