@@ -1,21 +1,7 @@
 ---
-dg-publish: true
-dg-hide-in-graph: true
-title: The Basin
-type: Region
-sum:
-  - Located within Ivagur Peaks
-  - Divided by Silent River
-  - Central settlement is Edschmied
-  - Notable settlements include Trollbans Hold, Defiler's Den, Maerhof, and Lichtachte
-  - Geography includes hills, meadows, grasslands, dry barrens, and dense forests
-  - Diverse flora and fauna with common animals like deer and foxes
-  - Cultural melting pot with undead citizens due to The Plague
-  - Main religion is worship of Arathor; rise in popularity of The Gifted who follow Naruun
-  - Politics influenced by war between Defilers and League of Arathor; economy controlled by The Triad
-  - Known for weaponsmithing and valuable resource Stoalium from Mines of Torrar
-  - History involves ancient forces or gods shaping the land; hidden underground network connects key locations
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/the-basin/","title":"The Basin","hideInGraph":true,"noteIcon":"Region","created":"2023-05-22T22:36:48.665+02:00","updated":"2023-05-24T22:58:06.420+02:00"}
 ---
+
 
 As twilight descends upon the Ivagur Peaks, casting long shadows across the Basin, a solitary traveler journeys along an ancient path. The Silent River winds gracefully around the hill atop which Edschmied stands sentinel, its waters glimmering like molten silver in the dwindling light. Within this secluded and diverse land, a myriad of tales and mysteries await those bold enough to seek them out.
 
@@ -61,7 +47,7 @@ For an exhaustive account of pivotal regional historic events, consult the Histo
 
 ```leaflet
 id: main-map
-image: [[Map of the Basin.png\|Map of the Basin.png]]
+image: [[Map of the Basin.png]]
 height: 500px
 lat: 50
 long: 50
