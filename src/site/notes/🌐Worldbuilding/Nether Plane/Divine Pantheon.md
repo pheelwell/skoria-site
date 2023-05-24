@@ -1,19 +1,7 @@
 ---
-dg-publish: true
-type: Meta
-ownership:
-- pheelwell: Mysteria, Lar, Arathor, Umbrial
-- corellion: every other motherfoka
-sum:
-  - Twins of Luminance: Sori (sun, warmth, life) and Luniam (moon, dreams, intuition)
-  - Twins of Winds: Carillea (gentle winds, guidance) and Nomphis (perfectionism, humanism ideals)
-  - Twins of Order & Chaos: Arathor (justice, orderliness) and Umbrial (secrets, chaos)
-  - Twins of Temperature: Asmadan (heat, fire, passion) and Drinera (coldness, ice, tranquility)
-  - Twins of Wild Whims: Narkis (artistry, creativity) and Nefaris (mischief, unpredictability)
-  - Twins of the Cycle: Leptys (growth and decay cycles in nature) and Varuún (cycles in mortal beings' lives)
-  - Twins of Magic: Mysteria (raw arcane energy) and Lar (structured magic discipline)
-status: Sprout
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-pantheon/","noteIcon":"Meta","created":"2023-05-22T22:36:48.681+02:00","updated":"2023-05-24T22:57:45.471+02:00"}
 ---
+
 
 ## Twins of Luminance: [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]], [[🌐Worldbuilding/Nether Plane/Gods/Luniam\|Luniam]]
 [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]] and [[🌐Worldbuilding/Nether Plane/Gods/Luniam\|Luniam]] are the deities of light, representing the sun and the moon respectively. 
