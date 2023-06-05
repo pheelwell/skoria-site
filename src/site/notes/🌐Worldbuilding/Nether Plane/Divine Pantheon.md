@@ -1,16 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-pantheon/","noteIcon":"Meta","created":"2023-05-24T23:19:32.717+02:00","updated":"2023-05-24T23:20:48.111+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-pantheon/","noteIcon":"Meta","created":"2023-06-06T00:07:09.993+02:00","updated":"2023-06-06T00:08:03.653+02:00"}
 ---
 
 
-## Twins of Luminance: [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]], [[🌐Worldbuilding/Nether Plane/Gods/Luniam\|Luniam]]
-[[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori]] and [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] are the deities of light, representing the sun and the moon respectively. 
+## Twins of Luminance: [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]], [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]]
+[[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]] and [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] are the deities of light, representing the sun and the moon respectively. 
 
-[[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori]], the god of the sun, is associated with warmth, life, and growth. Their domain encompasses energy, vitality, and healing. As a deity of light and life, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori]] is often revered for their kindness and nurturing qualities. Their virtues include compassion, generosity, and wisdom.
+[[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]], the god of the sun, is associated with warmth, life, and growth. Their domain encompasses energy, vitality, and healing. As a deity of light and life, [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]] is often revered for their kindness and nurturing qualities. Their virtues include compassion, generosity, and wisdom.
 
-[[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]], on the other hand, represents the beauty of night and the element of stars. They govern over dreams, intuition, and mystery. While [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori]] brings clarity and illumination during the day, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] embraces the shadows and uncertainty that come with nightfall. Their virtues include introspection, imagination, and adaptability.
+[[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]], on the other hand, represents the beauty of night and the element of stars. They govern over dreams, intuition, and mystery. While [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]] brings clarity and illumination during the day, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] embraces the shadows and uncertainty that come with nightfall. Their virtues include introspection, imagination, and adaptability.
 
-Together, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori]] and [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] symbolize harmony between day and night as well as balance between knowledge and intuition.
+Together, [[🌐Worldbuilding/Nether Plane/Gods/Sori\|Sori]] and [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam]] symbolize harmony between day and night as well as balance between knowledge and intuition.
 
 ## Twins of Winds: [[🌐Worldbuilding/Nether Plane/Gods/Carillea\|Carillea]], [[🌐Worldbuilding/Nether Plane/Gods/Nomphis\|Nomphis]]
 [[🌐Worldbuilding/Nether Plane/Gods/Carillea\|Carillea]] represents gentle breezes, guiding winds, and whispers in the air. They are associated with guidance, communication, and [[inspiration\|inspiration]]. 
@@ -27,12 +27,12 @@ Together, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Sori\|🌐Skoria/🌐
 
 Together, [[🌐Worldbuilding/Nether Plane/Gods/Arathor\|Arathor]] and [[🌐Worldbuilding/Nether Plane/Gods/Umbrial\|Umbrial]] maintain a balance between order and chaos in both mortal societies as well as throughout nature.
 
-## Twins of Temperature: [[🌐Worldbuilding/Nether Plane/Gods/Asmadan\|Asmadan]], [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]]
-[[🌐Worldbuilding/Nether Plane/Gods/Asmadan\|Asmadan]] governs heat, fire, and passion. Their domain covers energy, transformation, and desire. As a deity of warmth and intensity, [[🌐Worldbuilding/Nether Plane/Gods/Asmadan\|Asmadan]] is often associated with courage, determination, and ambition. Their virtues include resilience, perseverance, and enthusiasm. [[🌐Worldbuilding/Nether Plane/Gods/Asmadan\|Asmadan]] is also connected to combat and the thrill of the fight while being cautious about uncontrolled anger or wrath.
+## Twins of Temperature: [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan]], [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]]
+[[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan]] governs heat, fire, and passion. Their domain covers energy, transformation, and desire. As a deity of warmth and intensity, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan]] is often associated with courage, determination, and ambition. Their virtues include resilience, perseverance, and enthusiasm. [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan]] is also connected to combat and the thrill of the fight while being cautious about uncontrolled anger or wrath.
 
 [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]] embodies coldness, ice, and tranquility. Their domain involves stillness, preservation, and reflection. As a deity of coolness and serenity, [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]] symbolizes patience, wisdom, and inner peace. Their virtues include contemplation, restraint, and acceptance.
 
-Together, [[🌐Worldbuilding/Nether Plane/Gods/Asmadan\|Asmadan]] and [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]] maintain a balance between extreme heat and cold in the world's climates as well as the emotional spectrum within mortal beings.
+Together, [[🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan\|🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Asmadan]] and [[🌐Worldbuilding/Nether Plane/Gods/Drinera\|Drinera]] maintain a balance between extreme heat and cold in the world's climates as well as the emotional spectrum within mortal beings.
 
 ## Twins of Wild Whims: [[🌐Worldbuilding/Nether Plane/Gods/Narkis\|Narkis]], [[🌐Worldbuilding/Nether Plane/Gods/Nefaris\|Nefaris]]
 [[🌐Worldbuilding/Nether Plane/Gods/Narkis\|Narkis]] is the deity of artistry and creativity. They govern over [[inspiration\|inspiration]] within various forms such as music or painting as well as promoting self-expression through artistic endeavors that reflect one's soul or innermost desires. [[🌐Worldbuilding/Nether Plane/Gods/Narkis\|Narkis]] encourages mortals to explore their talents while appreciating beauty found within creative works or natural wonders alike.
