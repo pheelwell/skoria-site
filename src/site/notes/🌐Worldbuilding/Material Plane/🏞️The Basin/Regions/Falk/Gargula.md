@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/falk/gargula/","noteIcon":"NPC","created":"2023-05-24T23:19:19.841+02:00","updated":"2023-05-24T23:21:46.916+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/falk/gargula/","noteIcon":"NPC","created":"2023-06-06T00:07:03.397+02:00","updated":"2023-06-06T00:08:10.162+02:00"}
 ---
 
 Gargula is a mysterious, black-clothed old lady who sees omens and sells magical trinkets in the small town of [[🌐Worldbuilding/Material Plane/🏞️The Basin/Regions/Falk/Falk\|Falk]].
