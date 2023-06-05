@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/peter-john/","title":"Peter John","noteIcon":"SideNPC","created":"2023-05-24T23:19:19.864+02:00","updated":"2023-05-24T23:21:45.113+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/peter-john/","title":"Peter John","noteIcon":"SideNPC","created":"2023-06-06T00:07:03.429+02:00","updated":"2023-06-06T00:08:07.808+02:00"}
 ---
 
 
