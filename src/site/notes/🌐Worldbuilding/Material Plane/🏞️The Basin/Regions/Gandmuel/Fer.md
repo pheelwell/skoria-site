@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/fer/","title":"Fer","noteIcon":"SideNPC","created":"2023-05-24T23:19:19.847+02:00","updated":"2023-05-24T23:21:46.482+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/fer/","title":"Fer","noteIcon":"SideNPC","created":"2023-06-06T00:07:03.401+02:00","updated":"2023-06-06T00:08:09.595+02:00"}
 ---
 
 
