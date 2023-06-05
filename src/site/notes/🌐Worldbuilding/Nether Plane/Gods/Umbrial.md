@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/umbrial/","noteIcon":"Deity","created":"2023-05-24T23:19:19.955+02:00","updated":"2023-05-24T23:20:40.648+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/umbrial/","noteIcon":"Deity","created":"2023-06-06T00:07:03.483+02:00","updated":"2023-06-06T00:07:54.689+02:00"}
 ---
 
 > [!quote] Umbrial's laughter echoes through the shadows, bringing chaos and discord to all who hear it. Yet, his influence has waned, and now he is but a whisper in the darkness.
