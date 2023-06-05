@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/irasnian-wastes/regions/ergon/","noteIcon":"Settlement","created":"2023-06-06T00:07:09.985+02:00","updated":"2023-06-06T00:08:11.308+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/irasnian-wastes/regions/ergon/","noteIcon":"Settlement","created":"2023-06-06T00:07:09.985+02:00","updated":"2023-06-06T00:12:24.929+02:00"}
 ---
 
 
 > [!quote] "The people of Ergon are like cacti in the desert - resilient, adaptable, and able to make use of every resource at their disposal." - A proud Ergonian citizen
 
-## Overview
+# Overview
 
 Ergon, the City of [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Zarinesh's Hand\|Zarinesh's Hand]], stands as a beacon of life and prosperity amidst the harsh [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes\|Irasnian Wastes]]. Built within the enigmatic crevices of [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Zarinesh's Hand\|Zarinesh's Hand]], this thriving metropolis offers refuge to weary travelers and merchants alike. Named after the ancient deity [[🌐Worldbuilding/Nether Plane/Gods/Zarinesh\|Zarinesh]], who is believed to have created the land it inhabits, Ergon's unique location has shaped its culture and way of life, attracting adventurers from all corners of the world.
 
-## Notable Locations
+# Notable Locations
 
 ### [[The Helix Plaza\|The Helix Plaza]]
 
@@ -33,7 +33,7 @@ A popular watering hole among locals and travelers alike, The Gilded Dune Tavern
 
 > [!seed] A powerful sandstorm has unearthed an ancient entrance within [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Zarinesh's Hand\|Zarinesh's Hand]], rumored to lead to a long-lost underground city. Adventurers are sought to explore the depths and uncover the hidden secrets that lie within.
 
-## Notable Figures
+# Notable Figures
 
 ### [[Master Artificer Tornas\|Master Artificer Tornas]]
 
