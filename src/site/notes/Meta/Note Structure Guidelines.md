@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/note-structure-guidelines/","noteIcon":"Meta","created":"2023-05-24T23:19:19.830+02:00","updated":"2023-05-24T23:21:48.257+02:00"}
+{"dg-publish":true,"permalink":"/meta/note-structure-guidelines/","noteIcon":"Meta","created":"2023-06-06T00:07:03.364+02:00","updated":"2023-06-06T00:08:16.640+02:00"}
 ---
 
 # Folder Structure
@@ -47,7 +47,7 @@ type: Region/Settlement, Locality, NPC, SideNPC, Faction, History, Arc, Plot, Sc
 sum:
 - summery of the note in bullet points for refference in gpt templates
 - can have multiple bullet points or just one
-dg-publish: true/false
+dg-publish:  true/false
 owner: your alias
 status: seed/sprout/tree/willow
 ---
