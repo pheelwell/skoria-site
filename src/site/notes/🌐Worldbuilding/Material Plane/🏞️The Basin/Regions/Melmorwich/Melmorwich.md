@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/melmorwich/melmorwich/","title":"Melmorwich","noteIcon":"Settlement","created":"2023-05-24T23:19:19.878+02:00","updated":"2023-05-24T23:21:40.597+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/melmorwich/melmorwich/","title":"Melmorwich","noteIcon":"Settlement","created":"2023-06-06T00:07:03.439+02:00","updated":"2023-06-06T00:08:06.072+02:00"}
 ---
 
 
