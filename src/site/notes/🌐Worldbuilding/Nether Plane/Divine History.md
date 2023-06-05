@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-history/","noteIcon":"Meta","created":"2023-05-24T23:19:32.715+02:00","updated":"2023-05-24T23:20:48.388+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/divine-history/","noteIcon":"Meta","created":"2023-06-06T00:07:09.989+02:00","updated":"2023-06-06T00:08:04.335+02:00"}
 ---
 
 
