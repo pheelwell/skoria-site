@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/bestiary/subclasses/cult-of-the-gifted-ones-class/","title":"Cult of the Gifted Ones (Class)","noteIcon":"Meta","created":"2023-05-22T22:36:48.790+02:00","updated":"2023-05-24T23:20:37.812+02:00"}
+{"dg-publish":true,"permalink":"/bestiary/subclasses/cult-of-the-gifted-ones-class/","title":"Cult of the Gifted Ones (Class)","noteIcon":"Meta","created":"2023-06-06T00:07:03.500+02:00","updated":"2023-06-06T00:07:50.753+02:00"}
 ---
 
 
