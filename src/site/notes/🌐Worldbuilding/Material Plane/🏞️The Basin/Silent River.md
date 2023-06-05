@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/silent-river/","title":"Silent River","noteIcon":"Region","created":"2023-05-24T23:19:19.882+02:00","updated":"2023-05-24T23:21:14.483+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/silent-river/","title":"Silent River","noteIcon":"Region","created":"2023-06-06T00:07:03.444+02:00","updated":"2023-06-06T00:08:05.669+02:00"}
 ---
 
 
