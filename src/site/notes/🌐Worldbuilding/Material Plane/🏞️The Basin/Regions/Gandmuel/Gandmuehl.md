@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/gandmuehl/","noteIcon":"Settlement","created":"2023-05-24T23:19:19.853+02:00","updated":"2023-05-24T23:21:46.075+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/gandmuehl/","noteIcon":"Settlement","created":"2023-06-06T00:07:03.415+02:00","updated":"2023-06-06T00:08:08.998+02:00"}
 ---
 
 
