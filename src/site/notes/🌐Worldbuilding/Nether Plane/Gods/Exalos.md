@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/exalos/","noteIcon":"Deity","created":"2023-05-24T23:19:19.908+02:00","updated":"2023-05-24T23:20:46.656+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/exalos/","noteIcon":"Deity","created":"2023-06-06T00:07:10.030+02:00","updated":"2023-06-06T00:07:59.490+02:00"}
 ---
 
 ### Exalos
 - Domain: Lightning
 - Associated Element: Strength
 - Virtue: Honor
+
+
+*Appeareance Steampunk Design?*
