@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/herbstbog/herbstbog/","title":"Herbstbog","noteIcon":"Settlement","created":"2023-05-24T23:19:32.714+02:00","updated":"2023-05-24T23:21:41.150+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/herbstbog/herbstbog/","title":"Herbstbog","noteIcon":"Settlement","created":"2023-06-06T00:07:09.988+02:00","updated":"2023-06-06T00:08:06.688+02:00"}
 ---
 
 
