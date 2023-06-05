@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/arathor/","noteIcon":"Deity","created":"2023-05-24T23:19:26.582+02:00","updated":"2023-05-24T23:20:47.888+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/arathor/","noteIcon":"Deity","created":"2023-06-06T00:07:09.994+02:00","updated":"2023-06-06T00:08:03.018+02:00"}
 ---
 
 
@@ -9,7 +9,7 @@ As the first rays of dawn pierce the darkness, illuminating the resplendent temp
 Arathor is known as the Radiant Judge due to their role in maintaining justice throughout mortal societies. As a deity of orderliness they represent fairness in judgment while ruling over concepts such as lawfulness or stability within society itself. Arathor is also associated with protection and safety, ensuring that all creatures can exist without fear of harm.
 
 > [!TIP] Quick Reference
-> ![[Pasted image 20230430131352.png\|300]]
+> ![Arathor.png|300](/img/user/Pictures/Arathor.png) 
 > **Arathor** 
 >  God of Righteousness, Order, and Justice
 >- **Domains**: Righteousness, Order, Justice
