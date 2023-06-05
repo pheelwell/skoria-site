@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skoria-landing-page/","tags":["gardenEntry"],"noteIcon":"Meta","created":"2023-05-24T23:19:32.712+02:00","updated":"2023-05-24T23:21:47.727+02:00"}
+{"dg-publish":true,"permalink":"/skoria-landing-page/","tags":["gardenEntry"],"noteIcon":"Meta","created":"2023-06-06T00:07:09.956+02:00","updated":"2023-06-06T00:08:15.285+02:00"}
 ---
 
 
@@ -11,6 +11,7 @@ Delve into the mystical world of [[🌐Worldbuilding/Skoria\|Skoria]], a land fi
 - The mysterious [[🌐Worldbuilding/Nether Plane/Nether Plane\|Nether Plane]]
 - The rich [[🌐Worldbuilding/Nether Plane/Divine History\|Divine History]] of gods and deities
 - The captivating cities and cultures within [[🌐Worldbuilding/Skoria\|Skoria]]
+- The city of [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Regions/Ergon\|Ergon]] in the [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes\|Irasnian Wastes]] 
 
 Explore unique subclasses such as:
 - The enigmatic [[🐻Bestiary/Subclasses/Shadow Hunter\|Shadow Hunter]]
@@ -22,4 +23,4 @@ Let the adventure begin!
 
 ![Changelog]
 
-For any updates or changes made to this digital garden, please refer to our ![[Changelog\|Changelog]].
+For any updates or changes made to this digital garden, please refer to our ![[Changelog\|Changelog]]
