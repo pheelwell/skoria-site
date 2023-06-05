@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/falk/falk/","title":"Falk","noteIcon":"Settlement","created":"2023-05-24T23:19:32.714+02:00","updated":"2023-05-24T23:21:47.380+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/falk/falk/","title":"Falk","noteIcon":"Settlement","created":"2023-06-06T00:07:09.988+02:00","updated":"2023-06-06T00:08:10.754+02:00"}
 ---
 
 
 Falk is a small, remote town nestled in the south of Basin's Forest, west of [[Duesternest\|Duesternest]]. It was initially established as a logging community but has since grown to include a diverse population of hunters, craftsmen, and even some undead members known as the [[Defilers\|Defilers]]. The town's economy primarily depends on logging and hunting, with occasional trade from passing merchants. Falk is also known for its weekly competitions that attract travelers from far and wide.
 
-![[Pasted image 20230331000035.png\|Pasted image 20230331000035.png]]
+![Falk.png](/img/user/Pictures/Falk.png)
 ## Notable Locations:
 - [[Tavern to the Screaming Banshee\|Tavern to the Screaming Banshee]]: A popular gathering place for locals and visitors alike that magically changes its interior every time someone enters.
 - [[🌐Worldbuilding/Material Plane/🏞️The Basin/Regions/Falk/Gargula\|Gargula]]'s Trinket Shop: A mysterious shop owned by an enigmatic old lady who sells magical trinkets and reads omens.
