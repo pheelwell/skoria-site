@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/lar/","noteIcon":"Deity","created":"2023-05-24T23:19:26.583+02:00","updated":"2023-05-24T23:20:46.042+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/nether-plane/gods/lar/","noteIcon":"Deity","created":"2023-06-06T00:07:03.460+02:00","updated":"2023-06-06T00:07:57.984+02:00"}
 ---
 
 ### Lar
