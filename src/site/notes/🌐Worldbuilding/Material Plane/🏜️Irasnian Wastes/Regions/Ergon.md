@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/irasnian-wastes/regions/ergon/","noteIcon":"Settlement","created":"2023-06-06T00:07:09.985+02:00","updated":"2023-06-06T00:12:24.929+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/irasnian-wastes/regions/ergon/","noteIcon":"Settlement","created":"2023-06-06T00:07:09.985+02:00","updated":"2023-06-06T00:14:46.869+02:00"}
 ---
 
 
@@ -12,7 +12,7 @@ Ergon, the City of [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Zar
 # Notable Locations
 
 ### [[The Helix Plaza\|The Helix Plaza]]
-
+![Ergon Helix Plasa.png](/img/user/Pictures/Ergon%20Helix%20Plasa.png)
 Located at the heart of Ergon, the Helix Plaza serves as the city's main trading hub and gathering place. The plaza is a vibrant and bustling marketplace, where merchants from all across the [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes\|Irasnian Wastes]] come to sell their exotic goods, ranging from precious metals to rare spices and fabrics.
 
 ### [[The Sunspire\|The Sunspire]]
@@ -110,7 +110,6 @@ Located within the harsh [[🌐Worldbuilding/Material Plane/🏜️Irasnian Wast
 
 
 
-expand on Culture and Religion:
 
 
 
