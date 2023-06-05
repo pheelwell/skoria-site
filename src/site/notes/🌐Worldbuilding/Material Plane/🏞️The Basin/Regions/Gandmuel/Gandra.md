@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/gandra/","title":"Gandra","noteIcon":"SideNPC","created":"2023-05-24T23:19:19.858+02:00","updated":"2023-05-24T23:21:45.577+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/gandra/","title":"Gandra","noteIcon":"SideNPC","created":"2023-06-06T00:07:03.425+02:00","updated":"2023-06-06T00:08:08.428+02:00"}
 ---
 
 **Elf - Baker**
