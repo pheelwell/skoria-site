@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/zercil-berwood/","title":"Zercil Berwood","noteIcon":"SideNPC","created":"2023-05-24T23:19:19.870+02:00","updated":"2023-05-24T23:21:41.811+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/the-basin/regions/gandmuel/zercil-berwood/","title":"Zercil Berwood","noteIcon":"SideNPC","created":"2023-06-06T00:07:03.434+02:00","updated":"2023-06-06T00:08:07.236+02:00"}
 ---
 
 
