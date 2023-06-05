@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/worldbuilding/material-plane/echon/regions/echo-isles/echo-isles/","title":"Ancient Events","noteIcon":"Region","created":"2023-05-24T23:19:19.834+02:00","updated":"2023-05-24T23:21:44.135+02:00"}
+{"dg-publish":true,"permalink":"/worldbuilding/material-plane/echon/regions/echo-isles/echo-isles/","title":"Ancient Events","noteIcon":"Region","created":"2023-06-06T00:07:03.377+02:00","updated":"2023-06-06T00:08:12.493+02:00"}
 ---
 
 - Isles in the South of Echon inhabited mostly by Trolls
