@@ -1,6 +1,6 @@
 ---
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
 eleventyNavigation:
   key: Leptys
@@ -37,21 +37,21 @@ type: Deity
 
 ## Worshipers
 
-Priests and Paladins arround Skoria worship to Leptys. For them he brings Life and Fertility to the people. They pray for a Long Life, for Health or assistance.
+Priests and Paladins arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) worship to Leptys. For them he brings Life and Fertility to the people. They pray for a Long Life, for Health or assistance.
 
 His direct subordinates are called the Ascendents Of Life. He gives them orders to fullfill his will.
 
 ## Temples
 
-There are many Temples for Leptys arround Skoria. He is one of the most worshipped Gods, for his origin and abilities.
+There are many Temples for Leptys arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). He is one of the most worshipped Gods, for his origin and abilities.
 
 # Lore
 
 ## The Cycle of Life and Death
 
-Leptys can give Life, create Life, let Skoria bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
+Leptys can give Life, create Life, let [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
 
-They both need each other to fullfill a working life - death balance in Skoria. 
+They both need each other to fullfill a working life - death balance in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). 
 
 # Roleplaying
 ## Goals and Motivations

@@ -1,6 +1,6 @@
 ---
 date created: Friday, October 6th 2023, 6:33:43 pm
-date modified: Monday, December 11th 2023, 5:54:51 pm
+date modified: Thursday, December 14th 2023, 12:21:53 am
 eleventyNavigation:
   key: Irasnian Wastes Oneshot
   parent: Adventuring
@@ -250,7 +250,6 @@ Players can question Karach directly or subtly probe for information among thems
 
 Depending on players' choices:
 
-  
 - If siding with Karach: They feel a twinge of unease but also curiosity about what fortunes might be gained from this caper.
   
 - If skeptical: They sense duplicity in his demeanor and begin to piece together that they may have been unwilling pawns in his scheme thus far.
@@ -278,8 +277,6 @@ Just as patrons begin to show signs of alarm, Barmaid Enra steps briskly over to
 	- They can attack (AC 10) or try to trap it (Sleight of Hand AC 10) 
 
  If they are going for the door: Suddenly, the entire tavern lurches as if shaken by an unseen giant. From above, a voice echoes down—a smooth contralto attempting reassurance amidst confused murmurs:
-
-  
 
   “Apologies for the disturbance... Just a minor adjustment to our course. Please return to your revelries.”
 
@@ -321,7 +318,6 @@ The creatures are now close enough for details to be seen; gleaming segments int
 ##### As Players Prepare:
 - If they ready weapons or spells: They feel a surge of adrenaline knowing that a trial by combat is imminent.
 - If they seek shelter or make strategic moves: They realize that understanding this environment will be key to survival—not just now but for whatever lies ahead on this journey through shifting sands.
-  
 
 Just before steel meets chitin or spells illuminate the desert air, another gentle shudder passes underfoot, reminding all aboard that no battleground remains static when perched atop a colossus made for traversing these ancient dunes.
 
@@ -358,7 +354,6 @@ They will try to seek the adventure with:
 - **Armor Class** 13 (Natural Armor)
 - **Hit Points** 9 (2d8)
 - **Speed** 10 ft., fly 40 ft.
-  
 
 | STR | DEX | CON | INT | WIS | CHA |
 | --- | --- | --- | --- | --- | --- |
@@ -372,7 +367,6 @@ They will try to seek the adventure with:
 
 **Challenge** 1/4 (50 XP)
 
-  
 ### Actions
 
 ***Claw Attack.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* (1d6 +1) slashing damage.
@@ -513,7 +507,6 @@ As players prepare for confrontation, both Karach and his tiefling ally begin to
 
 **Challenge** Reduced to fit level 1 party
 
-  
 ### Actions
 
 ***Bite (Wolf or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* (1d6 +2) piercing damage.
@@ -565,7 +558,6 @@ As they recount the tale of Karach's treachery and the battle that ensued, Rinda
 
 ##### Skill Checks
 - **Charisma (Persuasion) Check**: Convince Rindal to offer them a reward for their loyalty and bravery.
-  
 
 Upon hearing their request for compensation, she responds:
 
@@ -581,7 +573,6 @@ Descending into the belly of the crawler, they are met with an overwhelming caco
 
 ##### Enchantment Ritual
 - **Objective**: Receive a minor enchantment on one item.
-  
 
 Rindal approaches a workbench cluttered with tools and strange components. She gestures toward their weapons or equipment:
 

@@ -1,20 +1,18 @@
 ---
 banner: /static/Quorritset.png
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Quorritset
   parent: Irasnian Wastes
 herocolor0: 43
 herocolor1: 84
-herocolor2: 45
+herocolor2: 41
 layout: base.njk
 title: Quorritset
 ---
 
 Nestled in the heart of the vast and unforgiving 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes lies the city of Quorritset, an oasis of life and activity amidst the endless dunes. The city is primarily inhabited by two races: the small, reptilian [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri), for which the city is named, and the [Solith](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Solith), a hardy people who have adapted to life in the desert.
-
-
 
 ## Geography
 

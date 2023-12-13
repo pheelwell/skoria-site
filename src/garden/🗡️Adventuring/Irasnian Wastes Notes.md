@@ -1,6 +1,6 @@
 ---
 date created: Sunday, November 12th 2023, 1:21:36 pm
-date modified: Monday, December 11th 2023, 5:54:51 pm
+date modified: Thursday, December 14th 2023, 12:21:53 am
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring

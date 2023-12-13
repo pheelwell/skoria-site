@@ -2,13 +2,13 @@
 banner: /static/Demons.png
 banner_y: 0.332
 date created: Monday, December 11th 2023, 1:18:30 pm
-date modified: Tuesday, December 12th 2023, 7:02:14 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Demons
   parent: Nether Plane
 herocolor0: 260
-herocolor1: 288
-herocolor2: 339
+herocolor1: 289
+herocolor2: 340
 layout: base.njk
 title: Demons
 type: Meta
@@ -31,17 +31,17 @@ Amidst the chaos of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%
 
 ![](/static/Leviathans.png)
 
-[Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/Leviathans) are colossal creatures, often resembling the most terrifying aspects of sea monsters and other behemoths of legend. These titanic demons embody the existential horror of the unknown—emerging from places where light fears to tread, their very presence is enough to overwhelm the senses with crippling dread. They are not just physical entities; they represent a primal fear deeply rooted in every living being—the fear of being insignificant in the face of boundless, indifferent forces. [Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/Leviathans) rarely interact directly with mortals, yet their influence extends across realms, manifesting as crushing despair or an oppressive sense that one's demise could be lurking just beneath the surface of reality.
+[Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Leviathans) are colossal creatures, often resembling the most terrifying aspects of sea monsters and other behemoths of legend. These titanic demons embody the existential horror of the unknown—emerging from places where light fears to tread, their very presence is enough to overwhelm the senses with crippling dread. They are not just physical entities; they represent a primal fear deeply rooted in every living being—the fear of being insignificant in the face of boundless, indifferent forces. [Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Leviathans) rarely interact directly with mortals, yet their influence extends across realms, manifesting as crushing despair or an oppressive sense that one's demise could be lurking just beneath the surface of reality.
 
 ### Lurkers
 
 Lurkers are insidious demons that exist on the fringes of awareness, always seeming to disappear when directly observed. They are masters of psychological terror, exploiting the innate human fear of what cannot be seen or understood. These creatures weave themselves into the fabric of their victim's reality, distorting perception until trust in one's own senses is eroded. They are shapeshifters and manipulators who delight in stalking their prey from within shadows or creeping through reflections. The primary weapon of a Lurker is its ability to induce paralyzing fear by suggesting a presence that is always near yet never fully revealed.
 
-### [Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/Infernals)
+### [Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Infernals)
 
 ![](/static/Infernals.png)
 
-[Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/Infernals) are chaotic entities that embody destruction and wrath. Appearing as fearsome beings wreathed in flames or forged from molten rock and ash, they are often depicted with horns or wings—iconography associated with devilish lore across countless cultures. [Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/Infernals) thrive on conflict and upheaval; they savor the scent of burning empires as much as a wildfire’s roar through ancient woodlands. To conjure an Infernal is to invite catastrophe: they will turn order into disorder with an explosive temper that can shatter cities and scorch earth. Their influence spreads far beyond physical devastation; they ignite tempers and fan the embers of hatred within communities.
+[Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Infernals) are chaotic entities that embody destruction and wrath. Appearing as fearsome beings wreathed in flames or forged from molten rock and ash, they are often depicted with horns or wings—iconography associated with devilish lore across countless cultures. [Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Infernals) thrive on conflict and upheaval; they savor the scent of burning empires as much as a wildfire’s roar through ancient woodlands. To conjure an Infernal is to invite catastrophe: they will turn order into disorder with an explosive temper that can shatter cities and scorch earth. Their influence spreads far beyond physical devastation; they ignite tempers and fan the embers of hatred within communities.
 
 ### Enigmas
 

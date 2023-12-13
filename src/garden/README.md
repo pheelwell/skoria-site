@@ -1,6 +1,6 @@
 ---
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: README
 layout: base.njk
@@ -50,7 +50,7 @@ Just write Articles according to the [Note Structure Guidelines](/garden/Meta/No
 The `Main` branch is protected, so you won't be able to add to it. To add your own changes to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) World Lore repository, you'll need to create a new branch and submit a pull request. Here's how to do it:
 
 1. Open GitHub Desktop.
-2. In the list of repositories, select `[[skoria]]`.
+2. In the list of repositories, select `skoria`.
 3. At the top of GitHub Desktop, click on the `Current Branch` dropdown menu.
 4. Click on `New Branch` and give it a descriptive name (e.g., "new-location-lore").
 5. Make sure the new branch is based on the `main` branch.

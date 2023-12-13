@@ -59,13 +59,13 @@ Together, [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ar
 
 Together, [Asmadan](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Asmadan) and [Drinera](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Drinera) maintain a balance between extreme heat and cold in the world's climates as well as the emotional spectrum within mortal beings.
 
-## Twins of Wild Whims: [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis), [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nefaris)
+## Twins of Wild Whims: [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis), [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/Nefaris)
 
 [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis) is the deity of artistry and creativity. They govern over Inspiration within various forms such as music or painting as well as promoting self-expression through artistic endeavors that reflect one's soul or innermost desires. [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis) encourages mortals to explore their talents while appreciating beauty found within creative works or natural wonders alike.
 
-[Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nefaris) represents mischief but also spontaneity in life's unexpected twists and turns. They embody unpredictability, reveling in the chaos that comes from sudden changes or surprises while enjoying the thrill of uncertainty itself. [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nefaris) encourages mortals to embrace life's whimsical nature and to adapt to whatever challenges may arise.
+[Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/Nefaris) represents mischief but also spontaneity in life's unexpected twists and turns. They embody unpredictability, reveling in the chaos that comes from sudden changes or surprises while enjoying the thrill of uncertainty itself. [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/Nefaris) encourages mortals to embrace life's whimsical nature and to adapt to whatever challenges may arise.
 
-Together, [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis) and [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nefaris) represent a balance between artistic expression and embracing the unpredictable nature of life itself.
+Together, [Narkis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Narkis) and [Nefaris](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/Nefaris) represent a balance between artistic expression and embracing the unpredictable nature of life itself.
 
 ## Twins of the Cycle: [Leptys](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Leptys), [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn)
 

@@ -1,6 +1,6 @@
 ---
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Ritter der Dämmerung
   parent: Gundras
@@ -30,7 +30,7 @@ Rituale und Bräuche
 
 Die Ritter der Dämmerung haben einige besondere Bräuche und Traditionen:
 
-1. Nebelstahlschmieden: Bei diesem Ritual wird das rohe Nebelstahl unter Anrufung des Gottes [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) verarbeitet. Es soll die Gottheit gnädig stimmen, damit sie den Schmieden hilft, das Beste aus dem Material herauszuholen und dieses mit seiner Macht zu
+1. Nebelstahlschmieden: Bei diesem Ritual wird das rohe Nebelstahl unter Anrufung des Gottes [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) verarbeitet. Es soll die Gottheit gnädig stimmen, damit sie den Schmieden hilft, das Beste aus dem Material herauszuholen und dieses mit seiner Macht zu segnen. 
 2. Schwur der Treue: Jedes Mitglied der Ritter der Dämmerung legt einen Schwur ab, Erenos zu beschützen und zu verteidigen sowie sein Leben für das Land und seine Bewohner einzusetzen.
 
 In der heutigen Zeit

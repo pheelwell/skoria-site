@@ -1,6 +1,6 @@
 ---
-date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Monday, December 11th 2023, 5:54:51 pm
+date created: Thursday, December 14th 2023, 12:07:12 am
+date modified: Thursday, December 14th 2023, 12:21:53 am
 eleventyNavigation:
   key: Curse of the Maelstrom JOURNAL
   parent: Adventuring
@@ -28,7 +28,7 @@ title: Curse of the Maelstrom JOURNAL
 - They learn the essentials, but when Rinera should show them some Scrying with a magic ball she gets posessed by an unknown force, preaching a dark prophecy:
 Erlischt das glühen am Tor des Lichtes, wird es fallen
 Die Götter werden sich nehmen was ihnen gehört
-Ihr Zorn wird auf ewig die Welt von Skoria umkrallen
+Ihr Zorn wird auf ewig die Welt von [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) umkrallen
 Das Ende aller Zeiten kommt, diese Welt wird zerstört
 - Rinera should go to the Principal the next day.
 - It was uncommon that Gil was not there, therefore he is never late for class.

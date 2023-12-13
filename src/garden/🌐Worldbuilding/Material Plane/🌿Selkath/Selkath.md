@@ -1,7 +1,7 @@
 ---
 banner: /static/ViewOverSelkath.png
-date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date created: Thursday, December 14th 2023, 12:02:12 am
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Selkath
   parent: Material Plane
@@ -10,9 +10,15 @@ herocolor1: 19
 herocolor2: 32
 layout: base.njk
 title: Selkath
-type: continent
 ---
 
+---
+title: Selkath
+date created: Wednesday, October 18th 2023, 10:23:59 pm
+date modified: Monday, December 11th 2023, 5:54:52 pm
+type: continent
+banner: "![](/static/ViewOverSelkath.png)"
+---
 ## Notable Settlements:
 - Alzivar: A Mage Tower, located more far from the rest of Selkath. 
 - Diamoure: The Capital of Selkath. 
@@ -20,7 +26,6 @@ type: continent
 - Selkath: 
 - Selkath: 
 - 
-
 
 ## Scenery and Climate:
 

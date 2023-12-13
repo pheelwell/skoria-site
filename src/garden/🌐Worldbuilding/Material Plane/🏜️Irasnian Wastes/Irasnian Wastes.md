@@ -2,7 +2,7 @@
 banner: /static/Irasnian Wastes.png
 banner_y: 0.692
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
 eleventyNavigation:
   key: Irasnian Wastes

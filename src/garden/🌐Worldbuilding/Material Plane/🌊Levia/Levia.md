@@ -1,7 +1,7 @@
 ---
 banner: /static/Levia-Atmosphere.png
-date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Monday, December 11th 2023, 5:54:52 pm
+date created: Thursday, December 14th 2023, 12:02:12 am
+date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Levia
   parent: Material Plane
@@ -10,9 +10,15 @@ herocolor1: 191
 herocolor2: 183
 layout: base.njk
 title: Levia
-type: continent
 ---
 
+---
+title: Levia
+date created: Wednesday, October 18th 2023, 10:23:59 pm
+date modified: Monday, December 11th 2023, 5:54:52 pm
+type: continent
+banner: "![](/static/Levia-Atmosphere.png)"
+---
 # Geography
 ## Notable Settlements:
 - The Watergates: Giant gates to control water traffic.
@@ -46,7 +52,7 @@ They pray especially for [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Pl
 
 ## Politics and Economy:
 
-The Leaders of Levia controll the water Traffic in Skoria and control the biggest hanseatic harbour in Skoria. They play a big Role on the global market in Skoria. Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and also 
+The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and also 
 
 ## History and Origin:
 
