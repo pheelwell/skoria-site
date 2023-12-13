@@ -69,7 +69,6 @@ class ObsidianToeleventy:
         post = frontmatter.loads(text)
         post['layout'] = "base.njk"
 
-
         # if there is a "banner" key in the frontmatter, add it to the post
         if "banner" in post.keys():
             # extract the colors from the copied image
