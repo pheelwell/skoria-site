@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <script src="https://unpkg.com/swup@4"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap">
+  </head>
+  <body>
+    <div class="background">
+      <div class="center">
+        {% include 'components/navbar.njk' %}
+        <main class="transition-main" id="swup" role="main">
+          {% if banner %}
+            <img src="{{ banner }}" class="banner"/>
+          {% endif %}
+          <div class="content">
+            <div class="title">{{ title }}</div>
+            <div class="md-container">
+              {{ content | safe }}
+            </div>
+            <div class="next">
+              {%- if collections.posts %}
+                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+                {%- set nextPost = collections.posts | getNextCollectionItem %}
+                {%- if nextPost or previousPost %}
+                  <ul class="links-nextprev">
+                    {%- if previousPost %}
+                      <li>Previous:
+                        <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                      </li>
+                    {% endif %}
+                    {%- if nextPost %}
+                      <li>Next:
+                        <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                      </li>
+                    {% endif %}
+                  </ul>
+                {%- endif %}
+              {%- endif %}
+            </div>
+          </div>
+          {% include 'css.njk' %}
+        </main>
+      </div>
+    </div>
+    {% include 'helper/blur.njk' %}
+    <script></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+---
+permalink: /nav.json
+eleventyExcludeFromCollections: true
+---
+{% set navPages = collections.all | eleventyNavigation %}
+{{ navPages | jsonify }}

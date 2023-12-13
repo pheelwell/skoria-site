@@ -1,0 +1,165 @@
+<style > 
+@font-face {
+    font-family: 'LucideIcons';
+    src: url('https://unpkg.com/lucide-static@latest/font/Lucide.ttf') format('truetype');
+}
+:root {
+    --main-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 60%, 5%); /*rgba(9, 27, 38, 1);*/
+    --secondary-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 40%, 10%);
+    --tertiary-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 62%, 15%);
+    --border-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 40%, 20%);
+    --text-color: #fff; /* Set a default text color */
+    --link-color: #3498db; /* Set a default link color */
+    --link-color-hover: #2980b9; /* Set a default link color on hover */
+    --link-color-visited: #3498db; /* Set a default link color on visited */
+    /* color and icon URL for the callout */
+    --callout-tip-color: #3498db;
+    --callout-tip-icon: "/assets/images/callout-tip.svg";
+}
+.background {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+@media(max-width: 991px) {
+    .background {
+        max-width: 100%;
+        margin: 40px 0;
+        padding: 0 20px;
+    }
+}
+.center {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    flex-direction: column;
+}
+.banner {
+    aspect-ratio: 2.63;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+@media(max-width: 991px) {
+    .img {
+        max-width: 100%;
+    }
+}
+.content {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--secondary-background-color);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 80px;
+}
+@media(max-width: 991px) {
+    .content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+.title {
+    color: #ededed;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    max-width: 1378px;
+    font: 200 50px Libre Caslon Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media(max-width: 991px) {
+    .title {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+.markdown-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+}
+body {
+    background-color: var(--main-background-color); /* Set the background color to the variable we defined above */
+    color: white; /* Set text color to white */
+    font-family: Libre Caslon Display; /* Use a sans-serif font */
+    margin: 0; /* Remove default body margin */
+}
+h1 {
+    font-size: 3rem; /* Adjust h1 font size */
+    font-weight: bold; /* Make h1 text bold */
+    margin-bottom: 16px; /* Add some bottom margin for spacing */
+}
+h2 {
+    font-size: 2rem; /* Adjust h2 font size */
+    font-weight: bold; /* Make h2 text bold */
+    margin-bottom: 12px; /* Add some bottom margin for spacing */
+}
+h3 {
+    font-size: 1.5rem; /* Adjust h3 font size */
+    font-weight: bold; /* Make h3 text bold */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+p {
+    font-size: 1.3rem; /* Adjust paragraph font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+a {
+    color: var(--link-color); /* Set link color to the variable we defined above */
+    text-decoration: none; /* Remove default underline styles */
+}
+a:hover {
+    color: var(--link-color-hover); /* Set link color on hover to the variable we defined above */
+    text-decoration: underline; /* Add underline on hover */
+}
+a:visited {
+    color: var(--link-color-visited); /* Set link color on visited to the variable we defined above */
+}
+/* Callout container styles */
+.callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 8px solid #3498db;
+}
+/* Callout title styles */
+.callout-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+/* Callout content styles */
+.callout-content {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+img {
+    /* make sure the blurred image is visible behind the content */
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.transition-main {
+    opacity: 1;
+    transition: 200ms;
+}
+html.is-animating .transition-main {
+    opacity: 0;
+}
+
+</style>

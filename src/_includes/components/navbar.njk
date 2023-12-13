@@ -1,0 +1,187 @@
+<div class="navbar">
+    <div class="categories">
+        <div class="categorycolums">
+            {% for nav in ["Adventuring","Worldbuilding","Bestiary"] %}
+            <div class="categorycolumn">
+                <div class="category">{{ nav }}</div>
+                <div class="dropdown-content">
+                    {{ collections.all | eleventyNavigation(nav) | eleventyNavigationToHtml | safe }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logolist">
+            <div class="logolistimage">
+                <div class="logo-image">K</div>
+            </div>
+            <div class="logolisttext">
+                <div class="skoria-text">Skoria</div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    /* Hide the dropdown content by default */
+    .dropdown-content {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        align-self: center;
+        top: 100%; /* Position the dropdown content just below the header */
+        z-index: 1; /* Ensure the dropdown is above other content */
+        background-color: var(--secondary-background-color);
+        border: 2px solid var(--border-color);
+        border-radius: 0 0 15px 15px;
+        width: auto;
+        max-height: 0px;
+        height: auto;
+        overflow-y: hidden;
+        margin: 2px;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    /* Show the dropdown content when the dropdown is active */
+    .categorycolumn:hover .dropdown-content {
+        display: block;
+        max-height: 3000%;
+    }
+    .navbar {
+        border-radius: 15px 15px 0 0;
+        border: 2px solid var(--border-color);
+        background-color: var(--secondary-background-color);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 2px 0;
+    }
+    @media(max-width: 991px) {
+        .navbar {
+            max-width: 100%;
+            flex-wrap: wrap;
+            padding-left: 20px;
+        }
+    }
+    .categories {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        flex-grow: 1;
+        height: auto;
+        align-self: stretch;
+    }
+    .categorycolums {
+        flex-grow: 1;
+        gap: 10px;
+        display: flex;
+    }
+    @media(max-width: 991px) {
+        .categorycolums {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
+        }
+    }
+    .categorycolumn {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 33%;
+        margin-left: 0;
+    }
+    @media(max-width: 991px) {
+        .column {
+            width: 100%;
+        }
+    }
+    .category {
+        color: #ededed;
+        align-self: center;
+        white-space: nowrap;
+        margin: auto;
+        font: 100 24px Jacques Francois, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    @media(max-width: 991px) {
+        .div-3 {
+            font-size: 20px;
+            white-space: initial;
+        }
+    }
+    .logo {
+        border-radius: 30px 15px 0 0;
+        background-color: var(--tertiary-background-color);
+        align-self: stretch;
+        height: auto;
+        margin: -2px 0;
+        padding: 10px 30px;
+    }
+    @media(max-width: 991px) {
+        .logo {
+            max-width: 100%;
+            padding: 0 10px;
+        }
+    }
+    .logolist {
+        gap: 10px;
+        display: flex;
+    }
+    @media(max-width: 991px) {
+        .logolist {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
+        }
+    }
+    .logolistimage {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 32%;
+        margin-left: 0;
+    }
+    @media(max-width: 991px) {
+        .logolistimage {
+            width: 100%;
+        }
+    }
+    .logo-image {
+        color: #b3a87c;
+        margin-top: 8px;
+        white-space: nowrap;
+        font: 200 30px Kolker Brush, sans-serif;
+    }
+    @media(max-width: 991px) {
+        .logo-image {
+            margin-top: 40px;
+            font-size: 40px;
+            white-space: initial;
+        }
+    }
+    .logolisttext {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 68%;
+        margin-left: 20px;
+    }
+    @media(max-width: 991px) {
+        .logolisttext {
+            width: 100%;
+        }
+    }
+    .skoria-text {
+        color: #ededed;
+        margin: auto 0;
+        font: 200 30px Libre Caslon Text, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    @media(max-width: 991px) {
+        .skoria {
+            margin-top: 40px;
+            font-size: 40px;
+        }
+    }
+</style>

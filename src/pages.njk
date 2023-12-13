@@ -1,0 +1,8 @@
+---
+permalink: /pages.json
+eleventyExcludeFromCollections: true
+---
+
+{%- for post in collections.all -%}
+{{ post.page | jsonify | safe}}
+{%- endfor -%}

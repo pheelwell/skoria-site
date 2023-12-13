@@ -1,0 +1,18 @@
+---
+date created: Friday, October 6th 2023, 6:38:58 pm
+date modified: Monday, December 11th 2023, 5:54:52 pm
+dg-publish: true
+eleventyNavigation:
+  key: Aurora
+  parent: Gods
+layout: base.njk
+sum:
+- 'Domain: Time'
+- 'Associated Element: Wonder'
+title: Aurora
+type: Deity
+---
+
+### Aurora
+- Domain: Time
+- Associated Element: Wonder
