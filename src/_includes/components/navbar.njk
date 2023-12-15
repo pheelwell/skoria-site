@@ -12,14 +12,17 @@
         </div>
     </div>
     <div class="logo">
+        <a href="/">
         <div class="logolist">
             <div class="logolistimage">
-                <div class="logo-image">K</div>
+                <div class="logo-image">
+                    <img src="/static/Skoria Emblem.png" alt="Skoria Logo" width="30" height="40">
+                </div>
             </div>
             <div class="logolisttext">
                 <div class="skoria-text">Skoria</div>
             </div>
-        </div>
+        </div></a>
     </div>
 </div>
 <style>
@@ -57,13 +60,6 @@
         gap: 10px;
         padding: 2px 0;
     }
-    @media(max-width: 991px) {
-        .navbar {
-            max-width: 100%;
-            flex-wrap: wrap;
-            padding-left: 20px;
-        }
-    }
     .categories {
         position: relative;
         display: flex;
@@ -79,13 +75,6 @@
         gap: 10px;
         display: flex;
     }
-    @media(max-width: 991px) {
-        .categorycolums {
-            flex-direction: column;
-            align-items: stretch;
-            gap: 0;
-        }
-    }
     .categorycolumn {
         display: flex;
         flex-direction: column;
@@ -93,23 +82,12 @@
         width: 33%;
         margin-left: 0;
     }
-    @media(max-width: 991px) {
-        .column {
-            width: 100%;
-        }
-    }
     .category {
         color: #ededed;
         align-self: center;
         white-space: nowrap;
         margin: auto;
         font: 100 24px Jacques Francois, -apple-system, Roboto, Helvetica, sans-serif;
-    }
-    @media(max-width: 991px) {
-        .div-3 {
-            font-size: 20px;
-            white-space: initial;
-        }
     }
     .logo {
         border-radius: 30px 15px 0 0;
@@ -119,22 +97,9 @@
         margin: -2px 0;
         padding: 10px 30px;
     }
-    @media(max-width: 991px) {
-        .logo {
-            max-width: 100%;
-            padding: 0 10px;
-        }
-    }
     .logolist {
         gap: 10px;
         display: flex;
-    }
-    @media(max-width: 991px) {
-        .logolist {
-            flex-direction: column;
-            align-items: stretch;
-            gap: 0;
-        }
     }
     .logolistimage {
         display: flex;
@@ -143,23 +108,11 @@
         width: 32%;
         margin-left: 0;
     }
-    @media(max-width: 991px) {
-        .logolistimage {
-            width: 100%;
-        }
-    }
     .logo-image {
         color: #b3a87c;
         margin-top: 8px;
         white-space: nowrap;
         font: 200 30px Kolker Brush, sans-serif;
-    }
-    @media(max-width: 991px) {
-        .logo-image {
-            margin-top: 40px;
-            font-size: 40px;
-            white-space: initial;
-        }
     }
     .logolisttext {
         display: flex;
@@ -167,11 +120,6 @@
         line-height: normal;
         width: 68%;
         margin-left: 20px;
-    }
-    @media(max-width: 991px) {
-        .logolisttext {
-            width: 100%;
-        }
     }
     .skoria-text {
         color: #ededed;

@@ -1,10 +1,15 @@
 ---
+banner: /static/Naga02.png
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Naga
   parent: Levia
+herocolor0: 184
+herocolor1: 173
+herocolor2: 147
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
 title: Naga
 ---
 
@@ -43,3 +48,5 @@ The Naga are a sinister and enigmatic humanoid species distinguished by their sn
 	- Naga have a longer lifespan than many other humanoid species, typically living for 100 to 200 years. This extended lifespan allows them to amass knowledge and power over time.
 
 The Naga are a mysterious and ominous addition to any fantasy world, known for their snake-like lower bodies, dark magic, and ruthless ambition. Their presence often adds an element of intrigue and danger to the lands they inhabit.
+
+reformat markdown

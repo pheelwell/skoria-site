@@ -8,7 +8,11 @@ from urllib.parse import quote , unquote
 import frontmatter
 from Pylette import extract_colors
 from cleantext import clean
+import logging
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format="%(levelname)s - [%(funcName)s] - %(message)s")
+logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser()
 
 
@@ -69,21 +73,12 @@ class ObsidianToeleventy:
         post = frontmatter.loads(text)
         post['layout'] = "base.njk"
 
-        # if there is a "banner" key in the frontmatter, add it to the post
-        if "banner" in post.keys():
-            # extract the colors from the copied image
-            #weird filehandling here because we already replaced to wikilinks, sry for that
-            banner = unquote(post['banner'].replace("![](/static/","").replace(")",""))
-            colors = extract_colors(f"{self.eleventy_static_dir}/{banner}", palette_size=3)
-            post['banner'] = f"/static/{banner}"
-            post['herocolor0'] = int(colors[0].hsv[0]*360)
-            post['herocolor1'] = int(colors[1].hsv[0]*360)
-            post['herocolor2'] = int(colors[2].hsv[0]*360)
             
         # use "title" to add:
         #eleventyNavigation:
         #  key: {title}
         #  parent: {parent}
+
         # for parent choose the parent folder of the file (if the parent folder contains a {parent}.md file})
         post['eleventyNavigation'] = {}
         post['eleventyNavigation']['key'] = post['title']
@@ -96,39 +91,94 @@ class ObsidianToeleventy:
         if any(f == f"{parent_folder_name}.md" for f in os.listdir(root)):
             if parent_folder_name != post['title']:
                 post['eleventyNavigation']['parent'] = parent_folder_name
-                #print(f"       !!!{parent_folder_name} is the parent of {post['title']}")
+                post['parentpath'] = f"/garden/{os.path.relpath(root, self.eleventy_content_dir)}/{parent_folder_name}.md"
+                
             else:
                 search_deeper = True
-                #print(f"       {post['title']} is the same as the folder {parent_folder_name}")
         else:
             search_deeper = True
             name = f"{parent_folder_name}.md"
-            #print(f"       file '{name}'  not in {[f for f in os.listdir(root)]}")
         while not any(f == f"{parent_folder_name}.md" for f in os.listdir(root)) or search_deeper:
-            
             # check if we are in the root folder
             if root == self.eleventy_content_dir or root == os.path.dirname(self.eleventy_content_dir):
                 parent_folder_name = ""
-                #print("      breaking because we are in the root folder")
                 break
             # go one folder up
             if search_deeper:
-                print(f"      searching deeper in {root}")
+                logger.info(f"searching deeper in {root}")
                 search_deeper = False
-            #else:
-                #print(f"      going one folder up from {root}")
             root = os.path.dirname(root)
             parent_folder_name = clean(os.path.basename(root), no_emoji=True,lower=False)
         if parent_folder_name == "":
-            #print(f"           Root File! (.md file not found in imported Content)")
             pass
         elif parent_folder_name != post['title']:
             post['eleventyNavigation']['parent'] = parent_folder_name
-            #print(f"       !!!{parent_folder_name} is the parent of {post['title']}")
-        #else:
-            #print(f"           Root File: {parent_folder_name}.md (is the same as the title)")
-        # dump 
+            post['parentpath'] = f"{root}/{parent_folder_name}.md"
+        
+        # if there is a "banner" key in the frontmatter, add it to the post
+        if "banner" in post.keys():
+            # extract the colors from the copied image
+            #weird filehandling here because we already replaced to wikilinks, sry for that
+            banner = unquote(post['banner'].replace("![](/static/","").replace(")",""))
+            colors = extract_colors(f"{self.eleventy_static_dir}/{banner}", palette_size=3)
+            post['banner'] = f"/static/{banner}"
+            post['herocolor0'] = int(colors[0].hsv[0]*360)
+            post['herocolor1'] = int(colors[1].hsv[0]*360)
+            post['herocolor2'] = int(colors[2].hsv[0]*360)
+
         return frontmatter.dumps(post)
+
+    def add_colors(self,text: str,root) -> str:
+        """
+        This function adds a custom colorscheme from the frontmatter banner
+        it uses the set eleventyNavigation to get the colorscheme from the parent folder if there is no banner set
+        """
+        # get the colors from the frontmatter
+        post = frontmatter.loads(text)
+        if "banner" in post.keys():
+            # extract the colors from the copied image
+            #weird filehandling here because we already replaced to wikilinks, sry for that
+            banner = unquote(post['banner'].replace("![](/static/","").replace(")",""))
+            logger.info(f"extracting colors from {banner}")
+            colors = extract_colors(f"src/{banner}", palette_size=3)
+            post['herocolor0'] = int(colors[0].hsv[0]*360)
+            post['herocolor1'] = int(colors[1].hsv[0]*360)
+            post['herocolor2'] = int(colors[2].hsv[0]*360)
+        else:
+            logger.info(f"adding colors from parent")
+            if "parentpath" in post.keys():
+                current_parent = post['parentpath']
+                search_further = True
+                while search_further:
+                    logger.info(f"searching deeper in {current_parent}")
+                    # load the parent file
+                    with open(current_parent, "r", encoding="utf-8") as f:
+                        parent = f.read()
+                    parent = frontmatter.loads(parent)
+                    if "banner" in parent.keys():
+                        # check for possible hero colors
+                        if "herocolor0" in parent.keys():
+                            post['herocolor0'] = parent['herocolor0']
+                            post['herocolor1'] = parent['herocolor1']
+                            post['herocolor2'] = parent['herocolor2']
+                        else:
+                            # extract the colors from the copied image
+                            #weird filehandling here because we already replaced to wikilinks, sry for that
+                            banner = unquote(parent['banner'].replace("![](/static/","").replace(")",""))
+                            colors = extract_colors(f"{self.eleventy_static_dir}/{banner}", palette_size=3)
+                            post['herocolor0'] = int(colors[0].hsv[0]*360)
+                            post['herocolor1'] = int(colors[1].hsv[0]*360)
+                            post['herocolor2'] = int(colors[2].hsv[0]*360)
+                            # we could save the computed to save some cpu but im too lazy
+                        search_further = False
+                    else:
+                        if "parentpath" in parent.keys():
+                            current_parent = parent['parentpath']
+                            logger.info(f"found parent {parent['parentpath']}")
+                        else:  
+                            search_further = False
+        return frontmatter.dumps(post)
+
 
 
     def get_wiki_links(self,text: str) -> List[WikiLink]:
@@ -220,7 +270,7 @@ class ObsidianToeleventy:
                     has_image = True
                     break
             if not has_image:
-                print(f"           WARNING: The image {image} does not exist. Replacing the link with a Placeholder")
+                logger.info(f"WARNING: The image {image} does not exist. Replacing the link with a Placeholder")
                 eleventy_image = "![](/static/Placeholder.png)"
                 text = text.replace(image, eleventy_image)
         return text
@@ -252,14 +302,14 @@ class ObsidianToeleventy:
         for image in image_path_list:
             origin = os.path.join(image[0],image[1])
             destination = os.path.join(self.eleventy_static_dir,image[1])
-            print(f"copying {origin} to {destination}")
+            logger.info(f"copying {origin} to {destination}")
             copyfile(origin,destination)
         # also copy markdown but keep the directory structure
         for markdown in markdown_path_list:
             origin = os.path.join(markdown[0],markdown[1])
             relative_path = os.path.relpath(markdown[0], self.obsidian_vault_dir)
             destination = os.path.join(self.eleventy_content_dir, relative_path, markdown[1])
-            print(f"copying {origin} to {destination}")
+            logger.info(f"copying {origin} to {destination}")
             # create folder if it does not exist
             os.makedirs(os.path.join(self.eleventy_content_dir, relative_path), exist_ok=True)
             copyfile(origin,destination)
@@ -282,16 +332,15 @@ class ObsidianToeleventy:
         for root, dirs, files in os.walk(self.eleventy_content_dir):
             for file in files:
                 if file.endswith(".md"):
-                    print(f"writing to {os.path.join(root, file)}")
+                    logger.info(f"writing to {os.path.join(root, file)}")
                     with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                         content = f.read()
                     added = self.replace_wiki_links(content)
                     replaced = self.replace_wiki_images(added)
                     replaced = self.add_frontmatter(replaced,root)
+                    colored = self.add_colors(replaced,root)
                     with open(os.path.join(root, file), "w", encoding="utf-8") as f:
-                        f.write(replaced)
-        for image in self.image_list:
-            print(f"{image[1]}, {image[0]}")
+                        f.write(colored)
 
 def main() -> None:
     """

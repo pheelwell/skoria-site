@@ -5,5 +5,6 @@ eleventyNavigation:
   key: General
   parent: Worldbuilding
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding/Worldbuilding.md
 title: General
 ---

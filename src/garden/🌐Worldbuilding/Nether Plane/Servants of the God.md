@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Servants of the God
   parent: Nether Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 title: Servants of the God
 ---
 

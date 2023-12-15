@@ -6,6 +6,7 @@ eleventyNavigation:
   key: League of Arathor
   parent: The Basin
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 sum:
 - The League of Arathor is a coalition of mostly humans to fight back against the
   Defilers

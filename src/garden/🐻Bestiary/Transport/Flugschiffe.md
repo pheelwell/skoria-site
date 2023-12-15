@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Flugschiffe
   parent: Bestiary
 layout: base.njk
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 title: Flugschiffe
 ---
 

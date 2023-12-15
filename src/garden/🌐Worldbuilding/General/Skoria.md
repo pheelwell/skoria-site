@@ -1,10 +1,11 @@
 ---
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:19 pm
 eleventyNavigation:
   key: Skoria
   parent: General
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\General/General.md
 title: Skoria
 ---
 
@@ -25,7 +26,7 @@ In the wake of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Pla
 
 As threats from both within and beyond Skoria began to grow more frequent, different races and kingdoms started forming alliances for mutual protection and cooperation.
 
-# Exploring Skoria
+## Exploring Skoria
 
 Skoria is home to diverse landscapes teeming with unique creatures and civilizations. From ancient forests to sprawling cities, each region has its own distinct characteristics that set it apart from others. Let's delve into some notable locations within this fantastical world.
 
@@ -48,7 +49,7 @@ Some of the most powerful arcane knowledge in Skoria can be found within its mag
 > [!seed] Adventure Hook
 > A mysterious artifact has been discovered deep within an ancient forest, setting off a race between different factions vying for control over its immense power.
 
-# [Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History) And Its Influence on Skoria
+## [Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History) And Its Influence on Skoria
 
 With divine forces finding ways to infiltrate Skoria once again, the world began experiencing an increase in otherworldly encounters. As gods sought to influence mortals through various means, societies adapted and evolved in response to these divine interventions.
 
@@ -57,6 +58,6 @@ The presence of divine forces has also led to the rise of religious orders and c
 > [!warning] Caution
 > Divine influences can sometimes lead characters down dangerous paths or into conflicts with powerful beings beyond their comprehension. Tread carefully when dealing with matters involving gods or other supernatural entities.
 
-# Conclusion
+## Conclusion
 
 Skoria is a land shaped by divine intervention and cataclysmic events that have left their mark on its inhabitants. As you explore this rich world filled with secrets, history, and wonder, remember that every step you take could lead to untold adventures and challenges. Embrace the unknown and forge your own path through the mystical world of Skoria.

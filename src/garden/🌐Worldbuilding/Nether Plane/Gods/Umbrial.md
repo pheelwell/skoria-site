@@ -1,6 +1,6 @@
 ---
 date created: Friday, October 6th 2023, 6:38:58 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
 eleventyNavigation:
   key: Umbrial
@@ -9,6 +9,7 @@ layout: base.njk
 ownership:
 - 'corellion: role in shattering'
 - 'pheelwell: result of shattering (specificly regarding Arathor)'
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 status: sprout
 sum:
 - 'Domain: Discord and Chaos'
@@ -42,26 +43,26 @@ Once a powerful and enigmatic God of Discord and Chaos, Umbrial now remains as a
 >-  **History**: Banished by other gods, killed during the Shattering, no current influence on the world.
 >- **Roleplaying Tips**: Umbrial's essence can be used as an inspiration for characters that thrive in chaos or work to disrupt order.
 
-# Religion
+## Religion
 
 Since Umbrial's demise during the Shattering and banishment by other gods, there is no formal religion associated with him. His former ideals of chaos, deception, and discord have been absorbed into various aspects of other deities' domains.
 
-# Lore
+## Lore
 
-## History
+### History
 
 Umbrial was once a feared and revered deity embodying chaos and unpredictability. His domain encompassed secrets hidden within shadows where darkness thrived on every level - from personal deceit to mysteries of the universe that remain unexplained. He sought to change the status quo and bring about upheaval wherever possible. However, Umbrial was eventually banished by the other gods and met his end during the Shattering.
 
-## The Shattering and Umbrial's Legacy
+### The Shattering and Umbrial's Legacy
 
 The catastrophic event known as the Shattering saw the death of Umbrial, and with it, his influence over the world vanished. With no cults or followers to worship him, the knowledge of Umbrial has been kept in check by other gods. His domain of chaos and discord was distributed among the rest of the Divine Pantheon, leading to Arathor circling around other gods to maintain balance.
 
-# Roleplaying
+## Roleplaying
 
 Although Umbrial's influence is gone from the world, his essence can still be drawn upon for inspiration when roleplaying characters who thrive in chaos or work to disrupt order. As a deity of chaos, deception, and discord, those who seek to unsettle established systems may find solace in what little remains of Umbrial's legacy.
 
 > [!warning] Remember that while drawing inspiration from the essence of Umbrial can provide interesting character traits or motivations, he is a long-forgotten deity with no direct influence on the world.
 
-# Trivia
+## Trivia
 - While there are no known symbols associated with Umbrial due to his banishment and lack of followers, creative players may invent their own symbols or relics tied to this enigmatic god.
 - Some speculate that remnants of Umbrial's chaotic energy may still linger in dark corners of the world.

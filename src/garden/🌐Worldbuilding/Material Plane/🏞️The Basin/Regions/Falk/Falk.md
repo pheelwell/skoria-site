@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Falk
   parent: The Basin
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 sum:
 - Falk is a small town located in Basin's Forest, west of Düsternest
 - Established as a logging community, now has diverse population including hunters,
@@ -23,7 +24,7 @@ title: Falk
 type: Settlement
 ---
 
-Falk is a small, remote town nestled in the south of Basin's Forest, west of Duesternest. It was initially established as a logging community but has since grown to include a diverse population of hunters, craftsmen, and even some undead members known as the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers). The town's economy primarily depends on logging and hunting, with occasional trade from passing merchants. Falk is also known for its weekly competitions that attract travelers from far and wide.
+Falk is a small, remote town nestled in the south of Basin's Forest, west of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest). It was initially established as a logging community but has since grown to include a diverse population of hunters, craftsmen, and even some undead members known as the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers). The town's economy primarily depends on logging and hunting, with occasional trade from passing merchants. Falk is also known for its weekly competitions that attract travelers from far and wide.
 
 ![](/static/Falk.png)
 

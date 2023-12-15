@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Arcane Union Of Magic Knowledge
   parent: Material Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 title: Arcane Union Of Magic Knowledge
 ---
 

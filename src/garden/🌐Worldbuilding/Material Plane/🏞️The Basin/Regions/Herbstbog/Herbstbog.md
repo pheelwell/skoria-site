@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
 eleventyNavigation:
   key: Herbstbog
   parent: The Basin
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 title: Herbstbog
 type: Settlement
 ---
@@ -18,36 +19,36 @@ Herbstbog is a thriving city with a population of around 23,000 inhabitants. It 
 
 ![](/static/Herbstbog_map.png)
 
-# Notable Locations:
+## Notable Locations:
 - Arcane Top: A district dedicated to academia and magic research.
 - Mages Gardens: A residential area filled with beautiful gardens that separate Arcane Top from Harbor.
 - Russeling Harbor: A busy hub for water trade due to its connection with the Stillfluss river.
 
-# Notable Figures:
+## Notable Figures:
 - The Triad: The ruling political force in Herbstbog.
 - Karl has one of his shops here
 
-# Politics and Economy:
+## Politics and Economy:
 
 Herbstbog is governed by The Triad, which oversees all aspects of life within its walls. Its economy thrives on water trade through its well-connected harbor as well as on magical research conducted at the prestigious University.
 
-# History:
+## History:
 
 Herbstbog has grown over centuries into a center for both arcane knowledge and commerce due to its strategic location near Stillfluss river. Its history has seen many influential figures come and go, leaving behind secrets waiting to be discovered.
 
-# Culture and Religion:
+## Culture and Religion:
 
 The city's culture is deeply rooted in the pursuit of magical knowledge, with citizens taking great pride in their city's educational prowess. Religion plays a lesser role in everyday life, although various faiths can be found throughout Herbstbog.
 
-# Threats and Rumors:
+## Threats and Rumors:
 
 Rumors abound of hidden secrets, arcane experiments, and powerful artifacts within Herbstbog. The city's defenses stand strong against potential threats, but intrigue and danger lurk in the shadows.
 
-# Campain Connections:
+## Campain Connections:
 - Players may be drawn to Herbstbog to study magic or research at the University.
 - A mysterious artifact could be hidden within the depths of the Great Library.
 - The Gardens hold an ancient elven cemetery rumored to have a ritual capable of opening portals to other realms.
 
-# Geography and Climate:
+## Geography and Climate:
 
 Herbstbog is nestled next to a sidearm of the Stillfluss river, which provides access to water trade routes. The city enjoys a mild climate with autumnal trees that never change color, creating a picturesque backdrop for its architecture.

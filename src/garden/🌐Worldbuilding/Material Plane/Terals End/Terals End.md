@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Terals End
   parent: Material Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 title: Terals End
 type: Continent
 ---

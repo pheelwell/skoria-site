@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Exalos
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - 'Domain: Lightning'
 - 'Associated Element: Strength'

@@ -1,11 +1,12 @@
 ---
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
 eleventyNavigation:
   key: Arathor
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - Arathor, god of justice, order, and righteousness
 - Known as the Radiant Judge
@@ -41,48 +42,48 @@ Arathor is known as the Radiant Judge due to their role in maintaining justice t
 >-  **History**: Ascended to godhood after overcoming numerous trials; unwavering belief in justice and order.
 >- **Roleplaying Tips**: Emphasize adherence to rules while striving for fairness; seek to bring order to chaotic situations.
 
-# Religion
-## Ideals
+## Religion
+### Ideals
 
 Arathor's teachings stress the significance of law and order within society. His followers are urged to exemplify these values through their actions and choices. They must pursue justice while maintaining empathy for those who have strayed from the path.
 
-## Worshipers
+### Worshipers
 
 The [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) are fervent followers of Arathor who dedicate their lives to propagating his message of justice and righteousness. As champions of order, they often clash with the forces of evil and chaos, employing their exceptional combat prowess to shield the innocent. Their mediation skills are frequently sought to resolve disputes and ensure that justice prevails.
 
-# Lore
-## History
+## Lore
+### History
 
 Arathor's ascent to godhood is a testament to his unwavering resolve and fortitude. He faced innumerable trials and challenges, yet his steadfast devotion to justice and order propelled him into divine status. His tale serves as an inspiration for his followers who aspire to embody his unyielding commitment to righteousness.
 
-## Temples
+### Temples
 
 Temples dedicated to Arathor are often constructed atop elevated hills or mountains, ensuring they stand as bastions of justice in the world below. These sacred places act as gathering points for the faithful who seek counsel and strength from their god through daily meditation and prayer.
 
-# Roleplaying
-## Goals and Motivations
+## Roleplaying
+### Goals and Motivations
 
 Arathor strives to uphold righteousness in the world by fostering law and order within society. He tirelessly endeavors toward this aim by guiding his followers in meting out justice fairly while granting redemption to those who have lost their way.
 
 A distinguishing facet of Arathor's followers is their unwavering allegiance to the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor). This loyalty transcends any other earthly bond, rendering them formidable allies and fearsome foes.
 
-## Appearance and Visions
+### Appearance and Visions
 
 Arathor is commonly portrayed as a tall, imposing figure garbed in resplendent armor. His eyes blaze with fierce intensity, while his presence commands respect and reverence. When he speaks, his voice reverberates like thunder.
 
-## Personality Traits
+### Personality Traits
 
 Arathor personifies righteousness, order, and justice in every aspect of his existence. He is fair-minded when delivering judgment but remains unyielding towards those who perpetrate evil acts. Followers should aim to emulate these qualities while acknowledging the significance of redemption.
 
-## Roleplaying Guide
+### Roleplaying Guide
 
 When roleplaying as a follower of Arathor, emphasize your character's commitment to upholding the law and seeking justice for all. Display courage in the face of adversity while maintaining compassion for those who have made mistakes.
 
-# Trivia
+## Trivia
 - Arathor's temples are often adorned with intricate mosaics chronicling his rise to godhood.
 - The most devout of Arathor's followers may embark on a pilgrimage to visit each of his temples, pursuing enlightenment throughout the journey.
 
-# Summary
+## Summary
 - Arathor is the god of righteousness, order, and justice.
 - He is known as the righteous Judge and passes judgment on those who break his laws.
 - Followers are called Champions of Justice who uphold his teachings and combat evil.

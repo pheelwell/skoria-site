@@ -6,8 +6,9 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
 eleventyNavigation:
   key: Fer
-  parent: The Basin
+  parent: Gandmuel
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Gandmuel/Gandmuel.md
 title: Fer
 type: SideNPC
 ---

@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
 eleventyNavigation:
   key: Silent River
   parent: The Basin
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 sum:
 - Giant River spans 20 miles, flows through Basin from north-west to south-east
 - Source of water and transportation
@@ -19,13 +20,13 @@ type: Region
 
 This Giant River Flows through the entire Basin and is the main source of water. It flows very slowly and spans up to 20 miles at times. Water mainly comes from the Mountains in the north-west but also from smaller siderivers.
 
-# Flow
+## Flow
 
-This river flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) from north-west to south-east. It passes Trollbans Hold in the north-west flowing south-east it then divides near to Lichtachte flowing on both sides of the elevated highlands of Edschmied.
+This river flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) from north-west to south-east. It passes Trollbans Hold in the north-west flowing south-east it then divides near to [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) flowing on both sides of the elevated highlands of Edschmied.
 
-At the hight of Duesternest in the south-east it comes back together flowing east for a bit. After that it flows down south where it leaves [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) and north up to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog). 
+At the hight of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest) in the south-east it comes back together flowing east for a bit. After that it flows down south where it leaves [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) and north up to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog). 
 
-# Importance
+## Importance
 
 The river is of immense importance for the people in [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). It is a source of life and prosperity, providing them with water for crops, livestock, and drinking. It also serves as a natural border and protects them from unwanted intruders. The river is also the main source of transportation in this part of the world. Boats are used to transport people and goods along its length, while bridges allow easier access to different parts of [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).
 

@@ -4,7 +4,11 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Demon Plane
   parent: Demons
+herocolor0: 260
+herocolor1: 288
+herocolor2: 340
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Demons/Demons.md
 title: Demon Plane
 ---
 

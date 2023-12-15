@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Carillea
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - 'Title: Princess of Winds'
 - 'Domain: Wind'

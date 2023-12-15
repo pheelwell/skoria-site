@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Darkspear Trolls
   parent: Echon
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌴Echon/Echon.md
 status: seed
 title: Darkspear Trolls
 type: Faction

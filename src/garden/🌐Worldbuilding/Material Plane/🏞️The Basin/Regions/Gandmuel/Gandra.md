@@ -2,12 +2,13 @@
 alias:
 - Gandra
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Friday, December 15th 2023, 1:08:23 pm
 dg-publish: true
 eleventyNavigation:
   key: Gandra
-  parent: The Basin
+  parent: Gandmuel
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Gandmuel/Gandmuel.md
 title: Gandra
 type: SideNPC
 ---
@@ -21,6 +22,6 @@ Gandra is a kind woman who only wants what's best for the town. She's also very 
 |       |                                                                                                   |
 | -- | - |
 | Ideal | I love to help others, even if it isn't for my benefit.                                           |
-| Bond  | The town of[Gandmuehl](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuehl). I want to do what's best for the town, even if it means my own destruction. |
+| Bond  | The town of[Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel). I want to do what's best for the town, even if it means my own destruction. |
 | Flaw  | My Naivete. I trust people too easily and this led me into this situation.                        |
 | Quirk | Gives people nicknames.                                                                           |

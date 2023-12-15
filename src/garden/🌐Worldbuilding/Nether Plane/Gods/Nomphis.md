@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Nomphis
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - 'Domain: King of Earth'
 - 'Associated Element: Beauty, Perfectionism'

@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Curse of the Maelstrom JOURNAL
   parent: Adventuring
 layout: base.njk
+parentpath: src/garden\🗡️Adventuring/Adventuring.md
 title: Curse of the Maelstrom JOURNAL
 ---
 

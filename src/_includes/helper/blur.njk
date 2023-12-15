@@ -2,7 +2,7 @@
     console.log('swup init');
     const swup = new Swup();
     var overlayInit = function () { // Get all img elements in content
-        var originalImages = document.querySelectorAll('img');
+        var originalImages = document.querySelectorAll('img:not(.logo-image img)');
         // Iterate through each original image
         originalImages.forEach(function (image) { // Create a new image element for the overlay
             var overlayImage = new Image();
@@ -42,6 +42,7 @@
     .center > img.overlay-image {
         /* position the blurred image on top of the original image */
         width: 50%;
-        /* insane contrast to make the overlay image visible */
+
+        
     }
 </style>

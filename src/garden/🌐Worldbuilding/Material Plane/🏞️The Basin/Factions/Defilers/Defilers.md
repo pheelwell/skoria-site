@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
 eleventyNavigation:
   key: Defilers
   parent: The Basin
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 sum:
 - The Defilers are a faction of undead
 - Led by General Malachi, a powerful undead sorcerer
@@ -16,7 +17,7 @@ title: Defilers
 type: Faction
 ---
 
-The Defilers were formed in the wake of a great tragedy, when a powerful necromancer named Malachi was exiled from her home in Lichtachte. Desperate and alone, Malachi was determined to make a new life for herself, free from persecution. To that end, she traveled to [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) and set up camp with her loyal followers, who had also been exiled from their homes.
+The Defilers were formed in the wake of a great tragedy, when a powerful necromancer named Malachi was exiled from her home in [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte). Desperate and alone, Malachi was determined to make a new life for herself, free from persecution. To that end, she traveled to [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) and set up camp with her loyal followers, who had also been exiled from their homes.
 
 ![](/static/Placeholder.png)
 
@@ -30,9 +31,9 @@ No matter what odds they faced or how much opposition they encountered along the
 
 Eventually, more and more people began to embrace the Defilers as part of their own nation, rather than an enemy to be vanquished. Many former members of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) joined their ranks, embracing their cause and fighting alongside them for what they believed in. With their combined forces, the Defilers launched several successful campaigns against the forces of darkness that plagued [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).
 
-Even those in Lichtachte, who had once exiled Malachi for her necromancy, eventually acknowledged her leadership and strength - if not her methods - and welcomed the Defilers into their cities as honorable allies. In time, Malachi’s vision became a reality: The Defilers were no longer viewed as monsters or enemy forces but as valuable members of society whom brought peace to [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).  
+Even those in [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte), who had once exiled Malachi for her necromancy, eventually acknowledged her leadership and strength - if not her methods - and welcomed the Defilers into their cities as honorable allies. In time, Malachi’s vision became a reality: The Defilers were no longer viewed as monsters or enemy forces but as valuable members of society whom brought peace to [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).  
 
-# Organization Structure
+## Organization Structure
 
 The Defilers have an organized and disciplined structure, with [General Malachi](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/General%20Malachi) as their leader and Grushnak, the orc chieftain, as her second-in-command. All of their members are expected to be loyal and follow orders without question. 
 

@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Servants of the cold sun.
   parent: Gundras
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰Gundras/Gundras.md
 title: Servants of the cold sun.
 ---
 

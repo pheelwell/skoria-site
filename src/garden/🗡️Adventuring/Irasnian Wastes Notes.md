@@ -1,14 +1,15 @@
 ---
 date created: Sunday, November 12th 2023, 1:21:36 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring
 layout: base.njk
+parentpath: src/garden\🗡️Adventuring/Adventuring.md
 title: Irasnian Wastes Notes
 ---
 
-# Behind the Scenes
+## Behind the Scenes
 - Spieler sind auf Rücken eines Crawlers, eines Irasnischen Konstrukts das die Wüste durchquert
 	- großer (orientalischer stil) Außenposten auf 4 Tierbeinen.
 	- Beherbergt 50 Menschen
@@ -18,7 +19,7 @@ title: Irasnian Wastes Notes
 	- Karach ist ein Gnom (Der Goats, Werwolf) der das Artifakt klauen möchte. Wenn die Reise vorbei ist
 	- 
 
-# Räume Des Crawlers:
+## Räume Des Crawlers:
 
  - Steuerkammer: Hier befindet sich die Kontrollkonsole des Crawlers, von der aus der Fahrer das riesige Konstrukt lenkt. Die Wände sind mit Schaltern, Hebeln und Bildschirmen bedeckt, die alle mit verschiedenen Funktionen des Crawlers verbunden sind. Der Raum ist relativ klein und eng, aber gut beleuchtet.
 
@@ -50,16 +51,16 @@ Random Table für Intro:
 9. Rindal entdeckt im Sicherheitsraum eine geheime Tür, die zu einem verborgenen Raum führt, in dem weitere Artefakte aufbewahrt werden.
 10. 
 
-# Plot Twist:
+## Plot Twist:
 
 1. Der Crawler wird von einer rivalisierenden Gruppe angegriffen
 2. 
 
-# Oneshot
+## Oneshot
 
 Spieler Wachen auf in Taverne  
 
-# Mysteries
+## Mysteries
 
 **Zarineshs Artifact** Traders want to steal it, Priestress wants to keep it
 
@@ -67,7 +68,7 @@ Spieler Wachen auf in Taverne
 
 - Escape: Motherswarm
 	- Flee to Oasis Santrum
-# Mysteries
+## Mysteries
 
 **Zarineshs Artifact** Traders want to steal it, Priestress wants to keep it
 
@@ -85,7 +86,7 @@ generate a compact markdown statblock for a cr 1/8 locusts suited for a lvl 1 4 
 
 include aspects: swarm, mana stealing, 
 
-## Giant Locust
+### Giant Locust
 
 *Small beast, unaligned*
 
@@ -111,7 +112,7 @@ include aspects: swarm, mana stealing,
 
 ***Swarm.*** The locust can occupy another creature's space and vice versa, and the locust can move through any opening large enough for a Tiny insect.    
 
-### Actions
+#### Actions
 
 ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
@@ -119,13 +120,13 @@ include aspects: swarm, mana stealing,
 
 ***Mana Stealing.*** When a giant locust hits a creature with its bite attack, it can attempt to drain some of their mana. The target must make a DC 12 Constitution saving throw. On a failed save, the target loses 1d4 mana points.23ws The giant locust gains temporary hit points equal to the amount of mana stolen.
 
-# Notes From First Session
+## Notes From First Session
 
 Players:
 
 Malia: Elf
 
-## Brummelchen
+### Brummelchen
 
 Dwarf Warrior
 
@@ -137,7 +138,7 @@ Dwarf Warrior
 
 **Flaws**: I have little respect for anyone who is not a proven warrior.
 
-## Liaphine Gavonn ()
+### Liaphine Gavonn ()
 
 Wood Elf Sourcerer 
 
@@ -149,7 +150,7 @@ Wood Elf Sourcerer
 
 **Flaws**: I am easily distracted by the promise of information. I speak without really thinking through my words, invariably insulting others.
 
-## Malia Obama (Philip)
+### Malia Obama (Philip)
 
 Eldarin Elf Bard
 
@@ -161,7 +162,7 @@ Eldarin Elf Bard
 
 **Flaws**: There’s no room for caution in a life lived to the fullest.
 
-## Teru Mishi
+### Teru Mishi
 
 Tortle Monk
 
@@ -173,7 +174,7 @@ Tortle Monk
 
 **Flaws**: My piety sometimes leads me to blindly trust those that profess faith in my god.
 
-# NPCs
+## NPCs
 
 Karach:
 
@@ -191,7 +192,7 @@ Barmaid (Enra)
 
 Knows about 
 
-# Journal
+## Journal
 - Players woke up in Tavern Room of Crawler not knowing how they got there
 	- Karach told them they plan to Steal Artifact
 	- (DM Info,Players don't Know: short term Amnesia, Karach wanted to drug Priestes but didn't succeed)
@@ -214,23 +215,23 @@ I want:
 - Some interesting random encounters that could change the Narative
 - A table of funny magic items they can find
 
-# Session 2 Outline
+## Session 2 Outline
 
-## Introduction
+### Introduction
 - Recap of previous session
 	- Players wake up to find themselves in the tavern room of the Crawler, with no memory of how they got there. They see Rindal, the priestess, leaving the room.
 
-## Scene 1: Thankful Passengers
+### Scene 1: Thankful Passengers
 - Indal (Lionkin) thanks
 	- Malia -> Today Crystal Forest drop
 		- Liaphine -> Int
 
-## Scene 2: Exposing Karach's Plans
-### Option 1: Confront Karach
+### Scene 2: Exposing Karach's Plans
+#### Option 1: Confront Karach
 - The players can choose to confront Karach directly about his plans to steal the artifact. This could lead to a tense conversation or even a fight if Karach feels threatened.
 - Karach may try to convince the players that stealing the artifact is for a greater cause or that it will benefit everyone on the Crawler.
 
-### Option 2: Gather Evidence
+#### Option 2: Gather Evidence
 - The players can search for evidence or talk to other passengers in order to gather proof of Karach's intentions. They can find clues in various rooms or overhear conversations that hint at Karach's true motives.
 	 - Players can search Karach's belongings for any documents or notes that may reveal his plans.
 	- They can eavesdrop on conversations between Karach and other passengers.
@@ -238,23 +239,23 @@ I want:
 	- Players can talk to other passengers who may have overheard or witnessed suspicious behavior from Karach.
 	- They can confront Rindal, the priestess, and ask her about her relationship with Karach and if she knows anything about his plans.
 
-## Scene 3: Random Encounters
+### Scene 3: Random Encounters
 - As the players move through different areas of the Crawler, they may encounter various random events that could change the narrative or provide additional challenges.
 	1. **Mechanical Malfunction**: A sudden malfunction in one of the crawler's legs causes it to stumble and shake violently. The players must find a way to stabilize it before it collapses.
 	2. **Sandstorm**: A sandstorm approaches, obscuring vision and making it difficult to navigate. The players must find shelter or risk getting lost in the desert.
 	3. **Mysterious Stranger**: The players encounter a mysterious stranger who seems to know more about the artifact and Karach's plans than they should. They can choose to trust or confront this stranger.
 
-## Scene 4: Confrontation with Karach
+### Scene 4: Confrontation with Karach
 - Regardless of how the players gather evidence, they will eventually have a confrontation with Karach to expose his plans.
 - Depending on their actions and the evidence they have, this confrontation could be peaceful or turn into a fight.
 - The outcome of this confrontation will determine the next steps for the players and potentially impact the fate of the artifact.
 
-## Conclusion
+### Conclusion
 - Wrap up the session by discussing the consequences of the players' actions and setting up for future sessions.
 - If Karach is exposed, it could lead to a new conflict or alliance with other factions on the Crawler.
 - If Karach succeeds in stealing the artifact, it could lead to a chase or rescue mission in [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon).
 
-# Magic Items Table
+## Magic Items Table
 
 You can use this table to generate funny and interesting magic items that the players can find during their journey on the Crawler.
 
@@ -291,7 +292,7 @@ Generate a 3 Werewolf encounter for a 4 player lvl 1 Party, they get help from t
 
 Statblock must be toned down for lvl 1 (new players):
 
-## Werewolf Pack
+### Werewolf Pack
 
 *Medium humanoid (human, shapechanger), chaotic evil*
 
@@ -317,7 +318,7 @@ Statblock must be toned down for lvl 1 (new players):
 
 ***Keen Hearing and Smell.*** The werewolf has advantage on Wisdom (Perception).md) checks that rely on hearing or smell.
 
-### Actions
+#### Actions
 
 ***Multiattack (Humanoid Form Only).*** The werewolf makes two attacks: one with its bite and one with its claws or shortsword.
 
@@ -377,7 +378,7 @@ modifiers
 
 "  "
 
-# Notes from Session 2
+## Notes from Session 2
 - Priestes is a bit crazy
 - Players rolled Wisdom save to remember last "Drunk Night" and found out that they did not know Krach before yesterday 
 - in secrete Krach yesterday tried to drug the priestes but accidently drugged everyone else

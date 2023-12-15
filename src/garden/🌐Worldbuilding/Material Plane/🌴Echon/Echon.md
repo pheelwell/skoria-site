@@ -5,5 +5,6 @@ eleventyNavigation:
   key: Echon
   parent: Material Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 title: Echon
 ---

@@ -1,10 +1,15 @@
 ---
+banner: /static/StormElf01.png
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Storm Elves
   parent: Levia
+herocolor0: 210
+herocolor1: 202
+herocolor2: 197
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
 title: Storm Elves
 ---
 

@@ -10,6 +10,7 @@ herocolor0: 200
 herocolor1: 192
 herocolor2: 185
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Demons/Demons.md
 title: Leviathans
 ---
 

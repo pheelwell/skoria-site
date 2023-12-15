@@ -1,40 +1,41 @@
 ---
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Friday, December 15th 2023, 1:08:23 pm
 eleventyNavigation:
   key: Ritter der Dämmerung
   parent: Gundras
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰Gundras/Gundras.md
 title: Ritter der Dämmerung
 ---
 
-Die Ritter der Dämmerung sind eine Vereinigung von Schmieden und Rittern. Unter ihnen sind sehr viele Anhänger der Fogweaver.
+The Knights of Twilight are an association of smiths and knights. Among them are many followers of Fogweaver.
 
-Sie haben ihre Fertigkeiten verfeinert und ihren Ruf als unerschütterliche Verteidiger Erenos' gefestigt. Sie sind bekannt für ihre Tapferkeit, ihr Pflichtbewusstsein und ihre Loyalität gegenüber dem Land und seinen Bewohnern.
+They have refined their skills and solidified their reputation as unwavering defenders of Erenos. They are known for their bravery, sense of duty, and loyalty to the land and its inhabitants.
 
-Hierarchie und Struktur
+Hierarchy and Structure
 
-Die Ritter der Dämmerung sind in zwei Hauptgruppen unterteilt: die Schmiede und die Kämpfer. Die Schmiede sind für das Sammeln von Nebelstahl sowie dessen Verarbeitung in Rüstungen, Waffen und anderen Gegenständen zuständig. Die Kämpfer sind ausgebildete Ritter, die diese Ausrüstung verwenden, um Erenos vor Bedrohungen zu beschützen.
+The Knights of Twilight are divided into two main groups: the smiths and the fighters. The smiths are responsible for gathering Miststeel and processing it into armor, weapons, and other items. The fighters are trained knights who use this equipment to protect Erenos from threats.
 
-Innerhalb dieser Gruppen gibt es verschiedene Ränge:
+Within these groups there are various ranks:
 
-- Nebelschmiede: Die erfahrensten Schmiede mit den besten Fähigkeiten im Umgang mit Nebelstahl. Es gibt nur sehr wenige dieser Meister.
-- Gesellen: Mittlere Schmiede, die bereits Erfahrung haben, aber noch nicht den höchsten Stand erreicht haben.
-- Lehrlinge: Junge Schmiede, die gerade erst anfangen, die Kunst des Schmiedens zu erlernen.
+- Mistforgers: The most experienced smiths with the best skills in handling Miststeel. There are only a few of these masters.
+- Journeymen: Intermediate-level smiths who already have experience but have not yet reached the highest status.
+- Apprentices: Young smiths who are just beginning to learn the art of blacksmithing.
 
-- Ritter der Dämmerung: Die erfahrensten und talentiertesten Kämpfer mit Führungspositionen innerhalb der Ritter.
-- Nebel Ritter: Voll ausgebildete Kämpfer, die Erenos verteidigen.
-- Ritter des Tau: Junge Kämpfer, die in der Ausbildung sind und einem Ritter als Helfer dienen.
+- Knights of Twilight: The most experienced and talented fighters with leadership positions within the knights.
+- Knights of Mist: Fully trained fighters who defend Erenos.
+- Knights of Dew: Young fighters in training who serve a knight as an aide.
 
-Rituale und Bräuche
+Rituals and Customs
 
-Die Ritter der Dämmerung haben einige besondere Bräuche und Traditionen:
+The Knights of Twilight have some special customs and traditions:
 
-1. Nebelstahlschmieden: Bei diesem Ritual wird das rohe Nebelstahl unter Anrufung des Gottes [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) verarbeitet. Es soll die Gottheit gnädig stimmen, damit sie den Schmieden hilft, das Beste aus dem Material herauszuholen und dieses mit seiner Macht zu segnen. 
-2. Schwur der Treue: Jedes Mitglied der Ritter der Dämmerung legt einen Schwur ab, Erenos zu beschützen und zu verteidigen sowie sein Leben für das Land und seine Bewohner einzusetzen.
+1. Miststeel Forging: In this ritual, raw Miststeel is processed while invoking the god Luniam. It is meant to appease the deity so that they help the smiths to get the best out of the material and bless it with its power.
+2. Oath of Allegiance: Every member of the Knights of Twilight takes an oath to protect and defend Erenos as well as to dedicate their life for the land and its inhabitants.
 
-In der heutigen Zeit
+In Present Day
 
-Die Ritter der Dämmerung sind nach wie vor eine angesehene und wichtige Vereinigung in Erenos. Sie bieten Schutz vor Bedrohungen, unterstützen die lokalen Verteidigungskräfte und sind für ihre herausragenden Schmiedekünste bekannt. Ihr Einfluss hat sich auf benachbarte Länder ausgeweitet, und manchmal werden die Ritter der Dämmerung um Hilfe gebeten, wenn es um Nebelstahl oder andere schmiederelevanten Angelegenheiten geht.
+The Knights of Twilight continue to be a respected and important association in Erenos. They provide protection against threats, support local defense forces, and are known for their outstanding blacksmithing skills. Their influence has spread to neighboring countries, and sometimes the Knights of Twilight are asked for assistance when it comes to Miststeel or other blacksmith-related matters.
 
-Trotz ihrer Bekanntheit bleiben sie jedoch bescheiden und ihrer Gottheit Fogweaver treu ergeben, die ihnen hilft, ihre Fähigkeiten zu meistern und Erenos zu beschützen.
+Despite their renown, they remain humble and devotedly loyal to their deity Fogweaver, who helps them master their skills and protects Erenos.

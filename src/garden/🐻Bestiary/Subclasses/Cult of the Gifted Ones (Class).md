@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
 eleventyNavigation:
   key: Cult of the Gifted Ones (Class)
   parent: Bestiary
 layout: base.njk
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 title: Cult of the Gifted Ones (Class)
 type: Meta
 ---
@@ -16,27 +17,27 @@ Some believe that Naruun is a malevolent god, while others believe that he is si
 
 The Gifted ones are people who have been blessed by Naruun. Those Gifts could bring many forms, but almost always originate in the deep desires of the Gifted. If you open your mind to Naruun he will soothe your despair, and will help you bring it on the people opposing you.
 
-#### Psycic Transmutation
+## Psycic Transmutation
 
 At 1st level, all your radiant damage will get converted into psychic damage.
 
-#### Naruun's False Promise
+## Naruun's False Promise
 
 Starting at 2nd level, you can bring despair to others. As a bonus action, you can target a creature within 30 feet of you that you can see. The next time the target makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-#### Chanel Divinity: Naruun's Blessing
+## Chanel Divinity: Naruun's Blessing
 
 Starting at 2nd level, you can use your Channel Divinity to offer a creature Naruun's Blessing. As an action, you present your holy symbol and speak a prayer to Naruun, begging for his gift. Choose a creature within 30 feet of you that you can see. That creature gains temporary hit points equal to double your cleric level + your Wisdom modifier.
 
-#### Naruun's Gift
+## Naruun's Gift
 
 Starting at 6th level, as a Ritual you can offer a creature one of Naruun's gifts. The creature must be willing, and for the Gift to transpire you have to know what the deepest desires of the creatures are. The creature must make a Charisma check against your cleric spell save DC. On a failed check, the creature gains a random gift from Naruun. These gifts can be anything from a new ability, to a great power, or even a curse.
 
-#### Naruun's Gaze
+## Naruun's Gaze
 
 Starting at 8th level, you can use your Channel Divinity to unleash Naruun's Gaze of Despair. As an action, you present your holy symbol and stare into the eyes of a creature within 30 feet of you that you can see. The creature must make a Wisdom saving throw against your cleric spell save DC. On a failed save, the creature is filled with despair and is stunned until the end of your next turn.
 
-#### Naruun's Avatar
+## Naruun's Avatar
 
 Starting at 17th level, you can channel the power of Naruun into yourself. As an action, you present your holy symbol and speak a prayer to Naruun, begging for his gift. For the next minute, you are under the effects of the following benefits:
 

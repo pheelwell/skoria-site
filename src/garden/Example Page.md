@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Example Page
 herocolor0: 212
 herocolor1: 187
-herocolor2: 180
+herocolor2: 179
 layout: base.njk
 title: Example Page
 ---

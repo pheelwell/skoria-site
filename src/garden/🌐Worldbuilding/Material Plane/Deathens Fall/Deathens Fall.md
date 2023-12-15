@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Deathens Fall
   parent: Material Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 title: Deathens Fall
 type: Continent
 ---

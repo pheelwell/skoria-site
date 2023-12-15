@@ -5,5 +5,6 @@ eleventyNavigation:
   key: Material Plane
   parent: Worldbuilding
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding/Worldbuilding.md
 title: Material Plane
 ---

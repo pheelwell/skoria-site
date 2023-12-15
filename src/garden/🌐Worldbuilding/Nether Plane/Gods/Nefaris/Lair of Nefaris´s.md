@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Lair of Nefaris´s
   parent: Nefaris
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods\Nefaris/Nefaris.md
 title: Lair of Nefaris´s
 ---
 

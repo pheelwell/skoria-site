@@ -1,35 +1,42 @@
 ---
+banner: /static/Great Vault.png
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Friday, December 15th 2023, 1:22:33 pm
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
   key: Welcome to Skoria
+herocolor0: 214
+herocolor1: 208
+herocolor2: 198
 layout: base.njk
 permalink: /
 title: Welcome to Skoria
 type: Meta
 ---
 
-Welcome to the Digital Garden of [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) Lore
+![](/static/Skoria%20Emblem.png)
 
-Delve into the mystical world of [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria), a land filled with secrets, history, and wonder. Within this digital garden, you'll uncover knowledge about:
+Greetings, intrepid scholar,
 
-- The mysterious [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane)
-- The rich [Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History) of gods and deities
-- The captivating cities and cultures within [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)
-- The city of [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) in the [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes) 
-- The mysterious water prison in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)
+You have crossed the threshold into the hallowed halls of the Great Vault Library, the grand repository of all knowledge pertaining to the enigmatic realm of [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). Here, amidst the silence punctuated by the soft rustle of ancient pages, I—your devoted arcane librarian—shall serve as your guide through the chronicles and arcana that have been meticulously preserved within these walls.
 
-Explore unique subclasses such as:
+Prepare your mind to knowledge about many subjects in Skoria as:
 
-- The enigmatic [Shadow Hunter](/garden/%F0%9F%90%BBBestiary%5CSubclasses/Shadow%20Hunter)
-- The powerful Cult of the Gifted Ones (Class).md)
+- The divine depths of the **[Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane)**, where reality weaves into unfathomable patterns and abstruse energies.
+- The storied annals of **[Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History)**, chronicling an ageless saga of deities and divine machinations that shaped our very cosmos.
+- The tapestry of cultures that make up our resplendent land—each city a jewel in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)'s crown—with particular attention to the resilient bastion known as **[Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon)**, nestled within the desolate beauty of the **[Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes)**.
+- The haunting tales surrounding **[Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)'s** submerged prison, where secrets are kept under lock and tide, waiting for a daring soul to uncover them.
+- 
 
-Before you begin your journey, please familiarize yourself with the [Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines) and our helpful 🌐Skoria/README.
+Moreover, you shall have access to rare manuscripts outlining esoteric subclasses known only to a select few:
 
-Let the adventure begin!
+- Unearth forbidden texts regarding a most potent faction—the [Cult of the Gifted Ones (Class)](/garden/%F0%9F%90%BBBestiary%5CSubclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29) whose members wield powers that blur the boundary between miracle and menace.
 
-![Changelog]
+Before you immerse yourself in these ancient scripts and scrolls, I implore you to acquaint yourself with our **[Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines)**, for they are essential in navigating through our labyrinthine compilation. 
 
-For any updates or changes made to this digital garden, please refer to our ![](/static/Placeholder.png)
+With quill poised and candle flickering against encroaching shadows, let us embark on this scholarly odyssey into [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)'s heart. Welcome once more to our Great Vault—may your thirst for knowledge be unending!
+
+Yours in wisdom,
+
+The Arcane Librarian

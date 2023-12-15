@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Arcane Magic
   parent: General
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\General/General.md
 title: Arcane Magic
 type: Thing
 ---

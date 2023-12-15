@@ -9,6 +9,7 @@ layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'
 - 'corellion: every other motherfoka'
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 status: Sprout
 sum:
 - 'Twins of Luminance: Sori (sun, warmth, life) and Luniam (moon, dreams, intuition)'

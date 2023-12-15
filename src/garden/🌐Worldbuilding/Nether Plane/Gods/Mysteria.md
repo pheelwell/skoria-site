@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Mysteria
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - 'Domain: Power'
 - 'Associated Element: Output'

@@ -10,6 +10,7 @@ herocolor0: 105
 herocolor1: 195
 herocolor2: 196
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌴Echon/Echon.md
 status: seed
 title: Echo Isles
 type: Region

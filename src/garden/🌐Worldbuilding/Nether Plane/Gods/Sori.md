@@ -1,11 +1,12 @@
 ---
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
 eleventyNavigation:
   key: Sori
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 sum:
 - 'Domain: Sun'
 - 'Associated Element: Nature'
@@ -41,30 +42,30 @@ Sori, the deity of the sun and nature, embodies the virtue of morality. This ben
 >-  **History**: 
 >- **Roleplaying Tips**: Emphasize kindness and empathy while striving to maintain balance in nature.
 
-# Religion
-## Ideals
+## Religion
+### Ideals
 
-## Worshippers
+### Worshippers
 
-## Temples
+### Temples
 
 There is only one true temple for Sori. That is her tree. Its floating above the green plains and is reserved only for Sori´s true followers. The tree of Sori is protected by half gods empowered by Sori herself.
 
-# Lore
-## History
+## Lore
+### History
 
-## The Glowing
+### The Glowing
 
 A unique event known as the Glowing occurs in once every 4000 years. During this time, the tree of Sori shines with a golden hue that imbues healing properties upon the land and its inhabitants. It can heal the ground below and restore it to a green plain. 
 
 > [!quote] "Sori brings the sun? Sori is the Sun!"
 
-# Roleplaying
-## Goals and Motivations
+## Roleplaying
+### Goals and Motivations
 
-## Appearance and Visions
+### Appearance and Visions
 
-## Personality Traits
+### Personality Traits
 
 Sori is a compassionate deity who values empathy and kindness above all else. 
 
@@ -72,9 +73,9 @@ Sori is a compassionate deity who values empathy and kindness above all else.
 - **Bonds**: Connection to nature; desire to promote goodness.
 - **Flaws**: Can be overly protective of nature; may struggle when faced with morally ambiguous situations.
 
-## Roleplaying Guide
+### Roleplaying Guide
 
-# Trivia
+## Trivia
 - During the Glowing event, it is said that those who bask in the golden light of Sori can heal physical wounds and cleanse emotional burdens.
 - Many farmers pray to Sori for bountiful harvests and protection against natural disasters.
 - Some worshipers wear sunflower-inspired jewelry or clothing as a symbol of their devotion to Sori.

@@ -1,16 +1,19 @@
 ---
+banner: /static/Cepha.png
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Cepha
   parent: Levia
+herocolor0: 200
+herocolor1: 194
+herocolor2: 166
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
 title: Cepha
 ---
 
 The Cepha are a unique and mystical fantasy species known for their humanoid appearance and remarkable psychic abilities. They possess distinctive features that set them apart from other creatures in the fantastical world. 
-
-![](/static/Cepha.png)
 
 1. Appearance:
 	

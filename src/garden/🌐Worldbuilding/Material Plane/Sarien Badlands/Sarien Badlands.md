@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Sarien Badlands
   parent: Material Plane
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 title: Sarien Badlands
 type: Continent
 ---

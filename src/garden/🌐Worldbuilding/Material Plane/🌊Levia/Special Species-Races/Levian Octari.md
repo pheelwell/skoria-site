@@ -4,7 +4,11 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Levian Octari
   parent: Levia
+herocolor0: 180
+herocolor1: 191
+herocolor2: 183
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
 title: Levian Octari
 ---
 

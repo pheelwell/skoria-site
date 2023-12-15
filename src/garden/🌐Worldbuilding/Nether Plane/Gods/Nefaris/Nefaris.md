@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 6:38:58 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
 eleventyNavigation:
   key: Nefaris
   parent: Gods
 layout: base.njk
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 status: sprout
 sum:
 - Nefaris is the Archdevil God.
@@ -28,13 +29,13 @@ type: NPC
 
 >[!info](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria), Nefaris is the embodiment of order and hierarchy—a master of infernal contracts and soul-bound deals. He ensures that every diabolical agreement is backed by stringent terms and conditions.
 
-### Overview
+## Overview
 
 In the foreboding plane Axirex in the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane), Nefaris presides with an iron fist over a vast labyrinthine bureaucracy. Likened to an immense corporate entity, this domain operates with legions of devils vying for supremacy within their ranks, each motivated by the unyielding desire to ascend the infernal hierarchy.
 
 Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) is partitioned into seven specialized divisions. Each one adept in distinct facets of contractual subterfuge and manipulation—overseen by formidable lieutenants who answer only to the Archdevil himself.
 
-### The Seven Divisions
+## The Seven Divisions
 1. **Division of Souls**: Masters at procuring mortal souls through intricate bargains, this division crafts seductive contracts designed to prey upon individual desires or fears.
    
 2. **Division of Loopholes**: Practitioners of legal deception, their contracts are laced with ensnaring clauses—near impossible for mortals to honor without succumbing to cleverly disguised pitfalls.
@@ -49,7 +50,7 @@ Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGen
    
 7. **Division of Esoteric Knowledge**: Guardians of a vast repository containing all past contracts, they provide consultations on historical precedents and possess potent secrets that can turn the tide in contract negotiations.
 
-### Role within [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)
+## Role within [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)
 
 Nefaris stands as a figure both revered and feared within his dominion—an Archdevil who prizes dutifulness and cunning but displays no mercy for failure or defiance. His subjects operate knowing that ascension could mean substantial power gains while demotion spells out aeons in monotonous servitude—or far worse fates.
 

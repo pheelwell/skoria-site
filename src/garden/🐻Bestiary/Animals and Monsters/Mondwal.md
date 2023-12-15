@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Mondwal
   parent: Bestiary
 layout: base.njk
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 title: Mondwal
 ---
 

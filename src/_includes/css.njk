@@ -24,13 +24,6 @@
     align-items: center;
     padding-top: 100px;
 }
-@media(max-width: 991px) {
-    .background {
-        max-width: 100%;
-        margin: 40px 0;
-        padding: 0 20px;
-    }
-}
 .center {
     display: flex;
     width: 1200px;
@@ -46,10 +39,13 @@
     overflow: hidden;
 }
 
-@media(max-width: 991px) {
-    .img {
-        max-width: 100%;
-    }
+/* have a placeholder background color while the banner is loading */
+.banner::before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 38.5%;
+    background-color: var(--main-background-color);
 }
 .content {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
@@ -60,12 +56,6 @@
     align-items: center;
     padding: 50px 80px;
 }
-@media(max-width: 991px) {
-    .content {
-        max-width: 100%;
-        padding: 0 20px;
-    }
-}
 .title {
     color: #ededed;
     text-align: center;
@@ -73,12 +63,6 @@
     margin-bottom: 20px;
     max-width: 1378px;
     font: 200 50px Libre Caslon Display, -apple-system, Roboto, Helvetica, sans-serif;
-}
-@media(max-width: 991px) {
-    .title {
-        max-width: 100%;
-        font-size: 40px;
-    }
 }
 .markdown-container {
     display: flex;
@@ -98,10 +82,17 @@ h1 {
     font-weight: bold; /* Make h1 text bold */
     margin-bottom: 16px; /* Add some bottom margin for spacing */
 }
+/* center the h2 text and underline */
 h2 {
     font-size: 2rem; /* Adjust h2 font size */
     font-weight: bold; /* Make h2 text bold */
-    margin-bottom: 12px; /* Add some bottom margin for spacing */
+    margin: 20px; /* Add some bottom margin for spacing */
+    text-align: center; /* Center the text */
+    text-decoration: underline; /* Add an underline */
+    text-decoration-color: var(--border-color); /* Set the underline color to the variable we defined above */
+    text-decoration-thickness: 2px; /* Set the underline thickness */
+    text-underline-offset: 4px; /* Offset the underline a bit */
+
 }
 h3 {
     font-size: 1.5rem; /* Adjust h3 font size */
@@ -112,7 +103,14 @@ p {
     font-size: 1.3rem; /* Adjust paragraph font size */
     line-height: 1.5; /* Set the line height for better readability */
     margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-align: justify; /* Justify the text */
 }
+/* p and ul should look the same */
+ul, ol {
+    font-size: 1.3rem; /* Adjust list font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+} 
 a {
     color: var(--link-color); /* Set link color to the variable we defined above */
     text-decoration: none; /* Remove default underline styles */
@@ -147,11 +145,31 @@ a:visited {
 img {
     /* make sure the blurred image is visible behind the content */
     position: relative;
-    width: 100%;
     object-fit: cover;
     object-position: center;
-    overflow: hidden;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    max-width: 100%;
+    max-height: 1000px;
+    align: center;
+}
+.image-container {
+    text-align: center;
+
+}
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid var(--border-color);
+}
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .transition-main {

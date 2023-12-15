@@ -1,11 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
 eleventyNavigation:
   key: Shadow Hunter
   parent: Bestiary
 layout: base.njk
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 title: Shadow Hunter
 type: Meta
 ---
@@ -16,7 +17,7 @@ Shadow hunters are masters of voodoo and shadow magic and were once the highest 
 
 The Shaddow Hunters worship one of the major Loas. They do this by making Deals with them and following their ideals. The relationship between a Shaddow Hunter and his Loa differs from a Acolyte and his God. Loas are more seen as mentors and elders, it is not uncommon that Shaddow Hunters bicker and argue with their Loas. This leeds to Shaddow Hunters often temporarily falling out of Faith of the Loas. This can be made good with offerengs and deeds devoted to the Loa.
 
-#### Connections to the Loas
+## Connections to the Loas
 
 When you choose this archetype at 3rd level, you can choose how your connections to the different Loas are.
 
@@ -45,7 +46,7 @@ Pick 1 Loa that you have a Deal with, needing to be resolved.
 | Hethiss    | Hethriss is the Loa of deception and plotting. Hethiss is the snake loa, and is said to be the lord of lies. He is a deceptive and cunning loa, and is said to be the enemy of all truth.                                                              |
 | Bwomsamdi  | Bwomsamdi is the loa of death and the afterlife. He is a dark and mysterious loa, and is said to be the guardian of the dead. He is a feared and respected loa, and is said to be a trickster.                                                         |
 
-##### Building a Connection
+### Building a Connection
 
 If a Loa is not interested in you, you can wake its interest by doing something reflecting the virtues of the Loa.
 
@@ -67,7 +68,7 @@ If a Loa is not interested in you, you can wake its interest by doing something 
 | Hethiss    | Hethiss forbids his followers from speaking the truth.                       |
 | Bwomsamdi  | Bwomsamdi forbids his followers from disrespecting the dead.                 |
 
-#### Loas Favor
+## Loas Favor
 
 Starting at 3rd level, you gain the ability to earn favors by the loas worshiped by your tribe.
 
@@ -75,35 +76,35 @@ You can prepare favors of the Loas as a ritual cast. You can prepare two favors,
 
 Favors of Loas are expended as a bonus action.
 
-##### Shadra
+### Shadra
 
 You channel the energy of the gruesome Spider Loa Shadra into your Weapon. For the next minute the next time you hit a creature with the enchanted weapon the creature gets spun up in a web.
 
 A creature restrained by the web can use its Actions to make a Strength check against your spell save DC. If it succeeds, it is no longer Restrained.
 
-##### Shirvallah
+### Shirvallah
 
 You channel the energy of the proud Tiger Loah Shirvallah into your Weapon. You channel a mighty Roar of the Loa. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become Frightened for the Duration.
 
 While Frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a Location where it doesn't have Line of Sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.
 
-##### Bethekk
+### Bethekk
 
 You channel the energy of the rightious Panther Loa Bethekk. A jade mist flows around you, heavily obscuring your position. The smoke dissapates after the end of your current turn and you turn invisible until the end of your next Turn. Anything the you are wearing or carrying is Invisible as long as it is on you. The invisibility ends when you attack or cast a spell.
 
-##### Hir'eek
+### Hir'eek
 
 You channel the energy of the greedy Bat Loa Hir'eek into your Weapon. You gain hitpoints equal to the next damage you do with your next weapon attack.
 
-##### Hethiss
+### Hethiss
 
 You can add 1d6 to the next insight, deception or persuation check
 
-##### Bwonsamdi
+### Bwonsamdi
 
 You channel the energy of the loah of death Bwonsamdi into your Weapon. An aura of Death surrounds you. When you hit a creature with your weapon the creature must make a Constitution saving throw. The creature takes 1d4 necrotic damage on a failed save, or half as much damage on a successful one. The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4) and 17th level (4d4).
 
-#### Mojo
+## Mojo
 
 When you reach 9th level, you can create a Brew of Mojo on a long rest.
 
@@ -122,7 +123,7 @@ You can create this brew once per long rest and you can uphold only one potion a
 
 The effect of these potions last until the start of your next long rest.
 
-#### Unfavorable Deal
+## Unfavorable Deal
 
 Starting at 13rd level, you can accept a unfavorable Deal with one of your Loas. After accepting an unfavorable deal with the Loa you are in dept to the chosen Loa. The Loa choses his part of the deal according to his values and desires. Those types of deals are a last resort offer and should not be taken lightly.
 
@@ -130,7 +131,7 @@ The Deal blocks you from using any powers of that Loa until the Loa considers yo
 
 You regain your use of this feature when you resolve your Deal.
 
-##### Shadra: Biting Fever
+### Shadra: Biting Fever
 
 Making a Unfavorable Deal with Shadra, you are surrounded by a glowing outline of spiderlegs from your back and you are overcome with a desire for cruelty.
 
@@ -142,7 +143,7 @@ While in the state of desire, you gain the following benefits:
 
 The state of desire lasts for 1 minute. If there are no Hostile to attack, you proceed to try to attack the weakest creature to you. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't damaged a creature since your last turn or taken damage since then.
 
-##### Shirvallah: Rampage
+### Shirvallah: Rampage
 
 Making a Unfavorable Deal with Shirvallah, your hands are surrounded by a glowing outline of tiger claws and you fall into a Rage.
 
@@ -156,7 +157,7 @@ If you are able to cast Spells, you can't cast them or concentrate on them while
 
 Your rage lasts for 1 minute. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't attacked a Hostile creature since your last turn or taken damage since then. You can also end your rage on Your Turn as a bonus Action.
 
-##### Bethekk: Shaddow Furry
+### Bethekk: Shaddow Furry
 
 Making a unfavorable Deal with Bethekk, you enter in a state of calmness.You channel the energy of the rightious Panther Loa Bethekk. While calm you gain the following benefits:
 
@@ -166,7 +167,7 @@ Making a unfavorable Deal with Bethekk, you enter in a state of calmness.You cha
 
 The state of calmness lasts for one minute.
 
-##### Hir'eek: Bloodlust
+### Hir'eek: Bloodlust
 
 Making a Unfavorable Deal with Hir'eek, you grow a glowing outline of sharp tooths and you are become bloodthirsty.
 
@@ -178,17 +179,17 @@ While bloodthirsty, you gain the following benefits:
 
 The state of bloodthirst lasts for 1 minute. If there are no Hostile to attack, you proceed to try to attack the creature with the seemingly lowest Armor next to you. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't attacked a creature since your last turn or taken damage since then.
 
-##### Hethiss: Informant
+### Hethiss: Informant
 
 Making a Unfavorable Deal with Hethiss, he can give you information about a person, place or thing. Hethiss can give you a vision of the person's immediate future. The vision will last for 1 minute. While in the vision, you are incapacitated and cant move or take Actions.
 
 The vision reveals information as if you cast the scrying spell. Hethiss can show you whatever he chooses, but the spell wards him against any attempt to exploit what you learn of the future. Hethiss chooses with whom you will pass the information.
 
-##### Bwomsamdi: Life Drain
+### Bwomsamdi: Life Drain
 
 Making a Unfavorable Deal with Bwomsamdi, you can choose one creature within 5 feet of you and drain its life force to heal your own wounds. The creature must make a Constitution Saving Throw against your spell save DC. A creature takes 2d6 necrotic damage on a failed save, or half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. You regain hit points equal to the necrotic damage dealt. If the creature fails its save, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature’s hit point maximum to return to normal before that time passes.
 
-#### Ceremonial Mask
+## Ceremonial Mask
 
 Starting at 17th level, you can choose a ceremonial Mask as a focus for your Loa. The Mask is made of wood or clay. You can use this mask to channel your Loas.
 
