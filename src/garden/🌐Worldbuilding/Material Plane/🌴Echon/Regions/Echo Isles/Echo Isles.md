@@ -7,7 +7,7 @@ dg-publish: true
 eleventyNavigation:
   key: Echo Isles
   parent: Echon
-herocolor0: 105
+herocolor0: 99
 herocolor1: 195
 herocolor2: 196
 layout: base.njk

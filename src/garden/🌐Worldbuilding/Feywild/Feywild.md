@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Feywild
   parent: Worldbuilding
 herocolor0: 242
-herocolor1: 226
+herocolor1: 227
 herocolor2: 184
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding/Worldbuilding.md"

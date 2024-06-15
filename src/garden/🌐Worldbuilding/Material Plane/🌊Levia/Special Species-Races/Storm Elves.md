@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Storm Elves
   parent: Levia
 herocolor0: 210
-herocolor1: 202
+herocolor1: 201
 herocolor2: 197
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"

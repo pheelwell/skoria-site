@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Levia
 herocolor0: 180
 herocolor1: 191
-herocolor2: 180
+herocolor2: 183
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Levian%20Octari/

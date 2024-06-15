@@ -19,10 +19,9 @@ sum:
   - "Ascension within Nefaris' ranks leads to power gains; demotion results in severe punishment or servitude."
   - Influence from Nefaris and his minions spreads beyond Hell into mortal realms, securing key positions through unbreakable deals.
 status: sprout
-status: sprout
 title: Nefaris
 date created: Thursday, December 14th 2023, 12:07:01 am
-date modified: Saturday, June 15th 2024, 11:07:25 pm
+date modified: Sunday, June 16th 2024, 1:05:00 am
 ---
 
 - Domain: Contracts
