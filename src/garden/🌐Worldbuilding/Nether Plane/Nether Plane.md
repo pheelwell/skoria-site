@@ -1,14 +1,7 @@
 ---
+title: Nether Plane
 date created: Wednesday, December 27th 2023, 5:41:03 pm
 date modified: Wednesday, December 27th 2023, 10:03:43 pm
-eleventyNavigation:
-  key: Nether Plane
-  parent: Worldbuilding
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding/Worldbuilding.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/
-plane: Nether Plane
-title: Nether Plane
 ---
 
 In the cosmos of this realm, the gods hold sway over the forces that govern the world. These divine beings exist in pairs, each representing opposing forces, and they maintain a cosmic balance that allows life to flourish. As an adventurer in this world, understanding the rules and axioms that govern these gods will be crucial to your journey.
@@ -21,11 +14,11 @@ These divine beings are not at war with each other but have entered into a peace
 
 ## Divine Realms and Limitations
 
-The twin gods reside in a plane called the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) where they cannot directly interact with mortal affairs. Each deity has their own realm within this plane, filled with celestial creatures and divine beings who serve them.
+The twin gods reside in a plane called the [[Nether Plane]] where they cannot directly interact with mortal affairs. Each deity has their own realm within this plane, filled with celestial creatures and divine beings who serve them.
 
 At the center of their demiplane is a celestial home where all gods can gather together or visit other realms belonging to different deities. Orbiting around this home are a sun and moon symbolizing their eternal balance.
 
-Despite their immense power, since [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) gods are unable to enter the mortal world directly or harm one another due to their peace treaty.
+Despite their immense power, since [[The Shattering]] gods are unable to enter the mortal world directly or harm one another due to their peace treaty.
 
 ## Worshippers and Divine Influence
 

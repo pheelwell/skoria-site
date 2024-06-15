@@ -1,13 +1,7 @@
 ---
+title: Demons
 date created: Thursday, December 14th 2023, 12:05:23 am
 date modified: Thursday, December 14th 2023, 12:21:53 am
-eleventyNavigation:
-  key: Demons
-  parent: Bestiary
-layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
-path: /garden%5C%F0%9F%90%BBBestiary%5CAnimals%20and%20Monsters/Demons/
-title: Demons
 ---
 
 Living in the void between the nether and the other planes. 

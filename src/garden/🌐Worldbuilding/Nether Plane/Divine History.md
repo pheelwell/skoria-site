@@ -1,19 +1,12 @@
 ---
-date created: Friday, October 6th 2023, 6:38:50 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
-eleventyNavigation:
-  key: Divine History
-  parent: Nether Plane
-layout: base.njk
+type: Meta
 ownership:
-- 'pheelwell: Aftermath of the Shattering'
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History/
-plane: Nether Plane
+- "pheelwell: Aftermath of the Shattering"
 status: seed
 title: Divine History
-type: Meta
+date created: Friday, October 6th 2023, 6:38:50 pm
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 ---
 
 ## History
@@ -38,7 +31,7 @@ This period marks the birth of mortal civilizations, as gods began to create var
 
 During this time, mortal civilizations thrived under the guidance and protection of their patron gods.
 
-## [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering)
+## [[The Shattering]]
 
 ## Epoch of Rebirth
 
@@ -50,8 +43,8 @@ As mortal civilizations grew more powerful, conflicts between them increased, le
 
 ## Epoch of Change
 
-With the barrier between [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) in place, divine forces began to find ways to access [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
+With the barrier between [[Skoria]] and the [[Nether Plane]] in place, divine forces began to find ways to access [[Skoria]] again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
 
 ## Epoch of Unity
 
-In response to the growing threats from both within and beyond [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria), different races and kingdoms began forming alliances for mutual protection and cooperation.
+In response to the growing threats from both within and beyond [[Skoria]], different races and kingdoms began forming alliances for mutual protection and cooperation.

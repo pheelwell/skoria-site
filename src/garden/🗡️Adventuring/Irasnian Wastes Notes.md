@@ -1,36 +1,29 @@
 ---
+title: Irasnian Wastes Notes
 date created: Sunday, November 12th 2023, 1:21:36 pm
 date modified: Saturday, June 15th 2024, 11:08:29 pm
-eleventyNavigation:
-  key: Irasnian Wastes Notes
-  parent: Adventuring
-layout: base.njk
-parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
-path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Notes/
-title: Irasnian Wastes Notes
 ---
-
 ## Behind the Scenes
 - Spieler sind auf Rücken eines Crawlers, eines Irasnischen Konstrukts das die Wüste durchquert
 	- großer (orientalischer stil) Außenposten auf 4 Tierbeinen.
 	- Beherbergt 50 Menschen
 	- Hören nur wie es sich manchmal bewegt
-- Crawler ist auf den Weg nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) 
-	- Rindal ist eine Priesterin des [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) dem Gott der Veränderung und Snytetik. (silberne verschnörkelte Ornamente, religion wurf) Hat Artefakt das nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) muss in einen Tempel 
-	- Karach ist ein Gnom (Der Goats, Werwolf) der das Artifakt klauen möchte. Wenn die Reise vorbei ist
+- Crawler ist auf den Weg nach [[Ergon]] 
+	- Rindal ist eine Priesterin des [[Zarinesh]] dem Gott der Veränderung und Snytetik. (silberne verschnörkelte Ornamente, religion wurf) Hat Artefakt das nach [[Ergon]] muss in einen Tempel 
+	- Karach ist ein Gnom (Der [[The Goats.md|Goats]], Werwolf) der das Artifakt klauen möchte. Wenn die Reise vorbei ist
 ## Räume Des Crawlers:
 
  - Steuerkammer: Hier befindet sich die Kontrollkonsole des Crawlers, von der aus der Fahrer das riesige Konstrukt lenkt. Die Wände sind mit Schaltern, Hebeln und Bildschirmen bedeckt, die alle mit verschiedenen Funktionen des Crawlers verbunden sind. Der Raum ist relativ klein und eng, aber gut beleuchtet.
 
-![](/static/Placeholder.png)
+![[Pasted image 20231022134558.png]]
 
 - Schlafquartiere: Dieser Raum ist in mehrere Schlafkabinen unterteilt, in denen die Passagiere während der langen Reise schlafen können. Jede Kabine bietet Platz für zwei Personen und verfügt über ein kleines Bett, einen Schrank und eine Nachttischlampe. Die Wände sind dünn und man kann leise Geräusche von den anderen Kabinen hören.
 
 - Gemeinschaftsraum: Hier können sich die Passagiere entspannen, miteinander reden oder Spiele spielen. Es gibt bequeme Sofas und Stühle sowie einen großen Tisch in der Mitte des Raumes. An den Wänden hängen Gemälde und Poster von verschiedenen Landschaften.
 
-![](/static/Placeholder.png)
+![[Pasted image 20231022140235.png]]
 
-![](/static/Placeholder.png)
+![[Pasted image 20231022135123.png]]
 
 - Maschinenraum: Hier befinden sich die riesigen Maschinen, die den Crawler antreiben. Es ist ein lauter und staubiger Raum voller Rohre, Ventile und Schalttafeln. Nur Fachleute sollten diesen Raum betreten, da er gefährlich sein kann.
 
@@ -40,9 +33,9 @@ Random Table für Intro:
 
 - Der Crawler macht plötzlich eine unvorhergesehene Bewegung und alle Passagiere müssen sich festhalten, um nicht hinunterzufallen.
 
-2. Rindal betritt den Tempelraum und betrachtet das Artefakt, das sie sicher nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) bringen soll. Sie fühlt die Präsenz des Gottes [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) um sich herum.
+2. Rindal betritt den Tempelraum und betrachtet das Artefakt, das sie sicher nach [[Ergon]] bringen soll. Sie fühlt die Präsenz des Gottes [[Zarinesh]] um sich herum.
 3. Bert schleicht sich in den Maschinenraum und versucht, Informationen über den Crawler und seine Funktionsweise zu sammeln.
-4. Die Passagiere sitzen im Gemeinschaftsraum und unterhalten sich angeregt über ihre Gründe für die Reise nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon).
+4. Die Passagiere sitzen im Gemeinschaftsraum und unterhalten sich angeregt über ihre Gründe für die Reise nach [[Ergon]].
 5. Ein lautes Quietschen ertönt aus dem Lager, als ein Regal mit Vorräten umkippt und alles durcheinander bringt.
 6. Der Fahrer in der Steuerkammer bemerkt auf dem Monitor einen Sandsturm, der sich schnell auf den Crawler zubewegt.
 7. In der Bibliothek findet einer der Passagiere ein altes Buch über die Geschichte der Irasnischen Wüste und beginnt darin zu lesen.
@@ -50,7 +43,7 @@ Random Table für Intro:
 9. Rindal entdeckt im Sicherheitsraum eine geheime Tür, die zu einem verborgenen Raum führt, in dem weitere Artefakte aufbewahrt werden.
 10. 
 
-## Plot Twist:
+## [[Plot]] Twist:
 
 1. Der Crawler wird von einer rivalisierenden Gruppe angegriffen
 2. 
@@ -115,9 +108,9 @@ include aspects: swarm, mana stealing,
 
 ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
-***Locust Cloud (Recharge after a Short or Long Rest).*** The locust releases a cloud of frenzied insects in a 20-foot radius centered on itself. Each creature in that area must make a DC 11 Dexterity saving throw, taking 4 (1d8) piercing damage on a failed save, or half as much damage on a successful one.
+***Locust Cloud (Recharge after a Short or Long Rest).*** The locust releases a cloud of frenzied insects in a 20-foot radius centered on itself. Each creature in that area must make a DC 11 Dexterity [[Saving Throws.md|saving throw]], taking 4 (1d8) piercing damage on a failed save, or half as much damage on a successful one.
 
-***Mana Stealing.*** When a giant locust hits a creature with its bite attack, it can attempt to drain some of their mana. The target must make a DC 12 Constitution saving throw. On a failed save, the target loses 1d4 mana points.23ws The giant locust gains temporary hit points equal to the amount of mana stolen.
+***Mana Stealing.*** When a giant locust hits a creature with its bite attack, it can attempt to drain some of their mana. The target must make a DC 12 Constitution [[Saving Throws.md|saving throw]]. On a failed save, the target loses 1d4 mana points.23ws The giant locust gains temporary hit points equal to the amount of mana stolen.
 
 ## Notes From First Session
 
@@ -177,7 +170,7 @@ Tortle Monk
 
 Karach:
 
-Leader of Goats Assasination Troop
+Leader of [[The Goats.md|Goats]] Assasination Troop
 
 - Plans to steal Artifact
 
@@ -204,7 +197,7 @@ This is what happened so far, we played 2,5h.
 
 I want to have another session that goes 2x 2,5h.
 
-Structure the next Session with concrete material i can use that helps the priestes x Karach [plot]([Plot) line.
+Structure the next Session with concrete material i can use that helps the priestes x Karach [[pl|[pl]]ot]([Plot) line.
 
 I want:
 
@@ -220,12 +213,12 @@ I want:
 - Recap of previous session
 	- Players wake up to find themselves in the tavern room of the Crawler, with no memory of how they got there. They see Rindal, the priestess, leaving the room.
 
-### Scene 1: Thankful Passengers
+### [[Scene]] 1: Thankful Passengers
 - Indal (Lionkin) thanks
 	- Malia -> Today Crystal Forest drop
 		- Liaphine -> Int
 
-### Scene 2: Exposing Karach's Plans
+### [[Scene]] 2: Exposing Karach's Plans
 #### Option 1: Confront Karach
 - The players can choose to confront Karach directly about his plans to steal the artifact. This could lead to a tense conversation or even a fight if Karach feels threatened.
 - Karach may try to convince the players that stealing the artifact is for a greater cause or that it will benefit everyone on the Crawler.
@@ -238,13 +231,13 @@ I want:
 	- Players can talk to other passengers who may have overheard or witnessed suspicious behavior from Karach.
 	- They can confront Rindal, the priestess, and ask her about her relationship with Karach and if she knows anything about his plans.
 
-### Scene 3: Random Encounters
+### [[Scene]] 3: Random Encounters
 - As the players move through different areas of the Crawler, they may encounter various random events that could change the narrative or provide additional challenges.
 	1. **Mechanical Malfunction**: A sudden malfunction in one of the crawler's legs causes it to stumble and shake violently. The players must find a way to stabilize it before it collapses.
 	2. **Sandstorm**: A sandstorm approaches, obscuring vision and making it difficult to navigate. The players must find shelter or risk getting lost in the desert.
 	3. **Mysterious Stranger**: The players encounter a mysterious stranger who seems to know more about the artifact and Karach's plans than they should. They can choose to trust or confront this stranger.
 
-### Scene 4: Confrontation with Karach
+### [[Scene]] 4: Confrontation with Karach
 - Regardless of how the players gather evidence, they will eventually have a confrontation with Karach to expose his plans.
 - Depending on their actions and the evidence they have, this confrontation could be peaceful or turn into a fight.
 - The outcome of this confrontation will determine the next steps for the players and potentially impact the fate of the artifact.
@@ -252,7 +245,7 @@ I want:
 ### Conclusion
 - Wrap up the session by discussing the consequences of the players' actions and setting up for future sessions.
 - If Karach is exposed, it could lead to a new conflict or alliance with other factions on the Crawler.
-- If Karach succeeds in stealing the artifact, it could lead to a chase or rescue mission in [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon).
+- If Karach succeeds in stealing the artifact, it could lead to a chase or rescue mission in [[Ergon]].
 
 ## Magic Items Table
 
@@ -315,13 +308,13 @@ Statblock must be toned down for lvl 1 (new players):
 
 ***Shapechanger.*** The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC and hit points, are the same in each form. Any equipment it is wearing or carrying isn't transformed.
 
-***Keen Hearing and Smell.*** The werewolf has advantage on Wisdom (Perception).md) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The werewolf has advantage on [[Perception)](Wisdom (Perception|Wisdom (Perception)]].md) checks that rely on hearing or smell.
 
 #### Actions
 
 ***Multiattack (Humanoid Form Only).*** The werewolf makes two attacks: one with its bite and one with its claws or shortsword.
 
-***Bite (Wolf or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
+***Bite (Wolf or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution [[Saving Throws.md|saving throw]] or be cursed with werewolf lycanthropy.
 
 ***Claws (Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (2d4 + 1) slashing damage.
 
@@ -384,10 +377,10 @@ modifiers
 - players stepped into their room and confronted fought and won
 - players didn't remember there were 3 members
 - Priestes found it interesting that they wanted to steal artifact
-- Krach was from the Goats and was hired to steal artifact, then redirect crawler to crystal Forrest to deliver the Artifact to the [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri) who claim ownership of the Artifact (old relict)
-- Artifact is used by [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) Priests to reconfigure matter in a new form
+- Krach was from the [[The Goats.md|Goats]] and was hired to steal artifact, then redirect crawler to [[crystal Forrest]] to deliver the Artifact to the [[Quorri]] who claim ownership of the Artifact (old relict)
+- Artifact is used by [[Zarinesh]] Priests to reconfigure matter in a new form
 - last werwolf (twin of the other werwolf in tiefling) was in controll room they needed the puzzle to solve
-- werwolf was killed but he stirred party to [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri) ambush, who are surrounding the crawler
+- werwolf was killed but he stirred party to [[Quorri]] ambush, who are surrounding the crawler
 - Priestes used artifact to modify crawler and players have to decide on what to change about the crawler and what part they now want to controll. ends in a big "Kaiju battle" between the crawler and the Quorri Ambush
 - Players are deciding to: add a railgun, add a moving shield, add sword arms and more jump power
 

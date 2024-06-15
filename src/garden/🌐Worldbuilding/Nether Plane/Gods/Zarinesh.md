@@ -1,24 +1,16 @@
 ---
-continent: Gods
-date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
-dg-publish: true
-eleventyNavigation:
-  key: Zarinesh
-  parent: Gods
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh/
-plane: Nether Plane
+type: Deity
 sum:
 - Domain Synthetics
 - Associated Element Manipulation
 - Virtue Research
+dg-publish: true
 title: Zarinesh
-type: Deity
+date created: Wednesday, October 18th 2023, 10:19:51 pm
+date modified: Thursday, December 14th 2023, 1:41:26 pm
 ---
 
-![](/static/Depiction%20of%20Zarinesh.png)
+![[Depiction of Zarinesh.png]]
 
 - Domain: Synthetics
 - Associated Element: Manipulation
@@ -34,7 +26,7 @@ Zarinesh, the deity of synthetics and manipulation, is a highly enigmatic figure
 
 ### Appearance
 
-Zarinesh is often depicted with an ethereal, otherworldly beauty that seems both organic and synthetic at the same time. Their form is fluid, constantly shifting between different shapes and configurations as if to highlight their mastery over matter itself. One particularly striking feature is their left hand which appears to be missing; it is said that Zarinesh lost it during a great cataclysm known as [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering).
+Zarinesh is often depicted with an ethereal, otherworldly beauty that seems both organic and synthetic at the same time. Their form is fluid, constantly shifting between different shapes and configurations as if to highlight their mastery over matter itself. One particularly striking feature is their left hand which appears to be missing; it is said that Zarinesh lost it during a great cataclysm known as [[The Shattering]].
 
 ### Worship and Followers
 
@@ -60,4 +52,4 @@ The central chamber of the temple is often home to a grand altar dedicated to Za
 
 In addition to serving as places of worship, the temples of Zarinesh also function as centers for learning and advancement. They house extensive libraries filled with scrolls, books, and digital archives containing vast amounts of knowledge across various disciplines. Workshops outfitted with state-of-the-art equipment provide spaces for hands-on experimentation and collaboration among followers.
 
-As Zarinesh embodies the combination of organic and synthetic elements, the image should depict their ethereal beauty and fluid form.
+As Zarinesh embodies the combination of organic and synthetic elements, the image should depict their ethereal beauty and fluid form. 

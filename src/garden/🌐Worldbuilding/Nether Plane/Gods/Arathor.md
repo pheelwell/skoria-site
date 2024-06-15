@@ -1,25 +1,16 @@
 ---
-continent: Gods
+type: Deity
+dg-publish: true
+sum:
+  - Arathor, god of justice, order, and righteousness
+  - Known as the Radiant Judge
+  - Followers called League of Arathor uphold teachings and combat evil
+  - Symbol is a radiant sun; temples built to catch sunlight
+  - Ascended to godhood through unwavering determination and belief in justice
+title: Arathor
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Thursday, December 14th 2023, 1:41:27 pm
-dg-publish: true
-eleventyNavigation:
-  key: Arathor
-  parent: Gods
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor/
-plane: Nether Plane
-sum:
-- Arathor, god of justice, order, and righteousness
-- Known as the Radiant Judge
-- Followers called League of Arathor uphold teachings and combat evil
-- Symbol is a radiant sun; temples built to catch sunlight
-- Ascended to godhood through unwavering determination and belief in justice
-title: Arathor
-type: Deity
 ---
-
 - Domain: Justice
 - Associated Element: Light
 - Virtue: Justice
@@ -31,7 +22,7 @@ type: Deity
 Arathor is known as the Radiant Judge due to their role in maintaining justice throughout mortal societies. As a deity of orderliness they represent fairness in judgment while ruling over concepts such as lawfulness or stability within society itself. Arathor is also associated with protection and safety, ensuring that all creatures can exist without fear of harm.
 
 > [!TIP] Quick Reference
-> ![](/static/Arathor.png) 
+> ![[Arathor.png|300]] 
 > **Arathor** 
 >  God of Righteousness, Order, and Justice
 >- **Domains**: Righteousness, Order, Justice
@@ -52,7 +43,7 @@ Arathor's teachings stress the significance of law and order within society. His
 
 ### Worshipers
 
-The [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) are fervent followers of Arathor who dedicate their lives to propagating his message of justice and righteousness. As champions of order, they often clash with the forces of evil and chaos, employing their exceptional combat prowess to shield the innocent. Their mediation skills are frequently sought to resolve disputes and ensure that justice prevails.
+The [[League of Arathor]] are fervent followers of Arathor who dedicate their lives to propagating his message of justice and righteousness. As champions of order, they often clash with the forces of evil and chaos, employing their exceptional combat prowess to shield the innocent. Their mediation skills are frequently sought to resolve disputes and ensure that justice prevails.
 
 ## Lore
 ### History
@@ -68,7 +59,7 @@ Temples dedicated to Arathor are often constructed atop elevated hills or mounta
 
 Arathor strives to uphold righteousness in the world by fostering law and order within society. He tirelessly endeavors toward this aim by guiding his followers in meting out justice fairly while granting redemption to those who have lost their way.
 
-A distinguishing facet of Arathor's followers is their unwavering allegiance to the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor). This loyalty transcends any other earthly bond, rendering them formidable allies and fearsome foes.
+A distinguishing facet of Arathor's followers is their unwavering allegiance to the [[League of Arathor]]. This loyalty transcends any other earthly bond, rendering them formidable allies and fearsome foes.
 
 ### Appearance and Visions
 

@@ -1,18 +1,10 @@
 ---
-continent: Things
+title: Prophecy of Shadows
 date created: Friday, October 6th 2023, 6:38:50 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
-eleventyNavigation:
-  key: Prophecy of Shadows
-  parent: Nether Plane
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CThings/Prophecy%20of%20Shadows/
-plane: Nether Plane
-title: Prophecy of Shadows
 ---
 
-The Prophecy of Shadows is a ancient Prophecy of another Cataclysmic event resembling [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering)
+The Prophecy of Shadows is a ancient Prophecy of another Cataclysmic event resembling [[The Shattering]]
 
 ## The Prophecy
 

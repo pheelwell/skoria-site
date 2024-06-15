@@ -6,9 +6,9 @@ dg-publish: true
 eleventyNavigation:
   key: Darkspear Trolls
   parent: Echon
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
+herocolor0: 91
+herocolor1: 100
+herocolor2: 63
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F334Echon/Echon.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%B4Echon%5CFactions%5CDarkspear%20Trolls/

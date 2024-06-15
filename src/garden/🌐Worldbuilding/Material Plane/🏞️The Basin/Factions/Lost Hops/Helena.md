@@ -1,31 +1,18 @@
 ---
-continent: The Basin
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Sunday, June 16th 2024, 12:39:56 am
 dg-publish: true
-eleventyNavigation:
-  key: Helena
-  parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/Helena/
-plane: Material Plane
 sum:
 - Helena is a Changeling Rogue and skilled brewer
 - Kind and caring, but also fierce and dangerous
 - Known as Grandma inside the Lost Hops
-- 'Ideal: People are more important than gold'
-- 'Bond: Family is most important thing to them'
-- 'Flaw: Gambling problem'
+- "Ideal: People are more important than gold"
+- "Bond: Family is most important thing to them"
+- "Flaw: Gambling problem"
 title: Helena
 type: NPC
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Sunday, June 16th 2024, 12:39:56 am
 ---
-
-![Elderly Kind-Looking Woman](fantasy_portrait_of_a_elderly_kind_looking_woman_hap.png)
+![Elderly Kind-Looking Woman](_Helena.png)
 
 _"If you want something done right, you have to do it yourself."_
 

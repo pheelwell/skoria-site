@@ -1,20 +1,5 @@
 ---
-continent: The Basin
-date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
-eleventyNavigation:
-  key: Melmorwich
-  parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CMelmorwich/
-plane: Material Plane
-status: Seed
 sum:
 - Melmorwich is a city founded many years ago by a necromancer who was killed in battle.
 - The city is inhabited by undead creatures and humans who have either been turned
@@ -27,6 +12,9 @@ sum:
     Ghosts which help to keep the city running smoothly.
 title: Melmorwich
 type: Settlement
+status: Seed
+date created: Friday, October 6th 2023, 7:41:44 pm
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 ---
 
 The chilling wind whistles through the decaying streets of Melmorwich, a city of darkness and death that teems with unsettling activity. Undead creatures roam the alleys, mingling with humans who have either been turned into zombies or serve their undead masters. It's a place where the living and the dead coexist in an unnatural harmony, bound together by the iron grip of their enigmatic ruler.
@@ -38,12 +26,12 @@ Melmorwich is a city founded many years ago by a necromancer who was killed in b
 Nestled atop a hill and surrounded by castle walls, Melmorwich's inner city is rundown and rancid - perfect for its undead inhabitants. The outer city is more pleasant, with better living conditions for its denizens. Multiple temples and shrines dedicated to the god of undeath can be found throughout the area.
 
 ## Notable Locations:
-- Necromancer's Tower: This tower serves as both the city center and tomb of Melmorwich's founder.
-- Thriving Market: A bustling marketplace where undead merchants trade goods and services.
+- [[Necromancer's Tower]]: This tower serves as both the city center and tomb of Melmorwich's founder.
+- [[Thriving Market]]: A bustling marketplace where undead merchants trade goods and services.
  
 ## Notable Figures:
-- The Necromancer: The enigmatic ruler of Melmorwich whose resurrection brought forth this city of death.
-- High Council Members: Powerful undead creatures who make important decisions regarding Melmorwich's governance.
+- [[The Necromancer]]: The enigmatic ruler of Melmorwich whose resurrection brought forth this city of death.
+- [[High Council Members]]: Powerful undead creatures who make important decisions regarding Melmorwich's governance.
 
 ## Politics and Economy:
 
@@ -70,4 +58,4 @@ Players may be drawn to Melmorwich by tales of powerful artifacts hidden within 
 Melmorwich is perched atop a hill with castle walls protecting it from outside threats. The climate is cold and dreary, perfect for its ghastly inhabitants.
 
 > [!info] Info
-> Players can find Hemet Nesingwary in the tavern to kick off the We go on a Dragon Hunt Plot
+> Players can find [[Hemet Nesingwary]] in the tavern to kick off the [[We go on a Dragon Hunt Plot]]

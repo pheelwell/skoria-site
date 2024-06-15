@@ -1,21 +1,13 @@
 ---
-continent: Gods
+type: Deity
+sum:
+- "Domain: Ice"
+- "Associated Element: Distance"
+- "Virtue: Calmness, Peacefullness"
+dg-publish: true
+title: Drinera
 date created: Friday, October 6th 2023, 6:38:58 pm
 date modified: Thursday, December 14th 2023, 1:41:27 pm
-dg-publish: true
-eleventyNavigation:
-  key: Drinera
-  parent: Gods
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Drinera/
-plane: Nether Plane
-sum:
-- 'Domain: Ice'
-- 'Associated Element: Distance'
-- 'Virtue: Calmness, Peacefullness'
-title: Drinera
-type: Deity
 ---
 
 - Domain: Ice
@@ -29,7 +21,7 @@ type: Deity
 Drinera, the deity of ice, brings calmness and peace to those who worship her. Her domain is centered around ice, with a strong connection to distance as well. The tranquility she embodies is shaped by the icy landscapes.
 
 > [!TIP] Quick Reference
-> ![](/static/Placeholder.png) 
+> ![[Drinera.png|200]] 
 > **Drinera** 
 >  Deity of Ice and Calmness
 >- **Domains**: Ice, Distance
@@ -63,7 +55,7 @@ The history of Drinera is shrouded in mystery.
 
 ### The Path of the Forsaken
 
-Drinera's followers are known to walk a unique spiritual path called "The Forsaken Path." This practice involves embracing and overcoming a unique path through the wastes of [Deathens Fall](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CDeathens%20Fall/Deathens%20Fall). You will succeed if your belief in Drinera is big enough, she will guide you.
+Drinera's followers are known to walk a unique spiritual path called "The Forsaken Path." This practice involves embracing and overcoming a unique path through the wastes of [[Deathens Fall]]. You will succeed if your belief in Drinera is big enough, she will guide you.
 
 ## Roleplaying
 ### Goals and Motivations

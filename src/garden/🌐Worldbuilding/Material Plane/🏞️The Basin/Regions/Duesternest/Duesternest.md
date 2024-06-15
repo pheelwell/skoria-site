@@ -1,19 +1,5 @@
 ---
-continent: The Basin
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Friday, December 15th 2023, 1:08:23 pm
 dg-publish: true
-eleventyNavigation:
-  key: Duesternest
-  parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/
-plane: Material Plane
 sum:
 - Located in the south of the Silent River
 - Mostly composed of artisans
@@ -25,23 +11,25 @@ sum:
 - Militia to defend the city and its inhabitants
 title: Duesternest
 type: Settlement
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Friday, December 15th 2023, 1:08:23 pm
 ---
 
 > [!quote] Ah, Duesternest, a city of culture and fine craftsmanship! I can't wait to visit the Rising Phenix, I heard it's quite the experience!" - A traveling merchant
 
 ## Overview
 
-Perched on a cliff by the southern banks of the [Silent River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) lies Duesternest, a bustling settlement known for its skilled artisans and rich culture. The city is protected by imposing walls and a castle that overlooks its people with a watchful eye. Lord Ander, a fair and just ruler, governs the city with wisdom and a strong affinity for the arts.
+Perched on a cliff by the southern banks of the [[Silent River]] lies Duesternest, a bustling settlement known for its skilled artisans and rich culture. The city is protected by imposing walls and a castle that overlooks its people with a watchful eye. Lord Ander, a fair and just ruler, governs the city with wisdom and a strong affinity for the arts.
 
 Duesternest enjoys a prosperous economy thanks to its talented artisans who create masterful works of art and craftsmanship. The city is also renowned for its high-quality food and drink, which attracts visitors from far and wide. Although mostly populated by humans, Duesternest is also home to dwarves, elves, halflings, and other races who contribute to its diverse citizenry.
 
 ## Notable Locations:
-- Duesternest Castle: Perched atop the cliff, this castle serves as both a symbol of power and protection for the city.
-- [The Rising Phenix](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/The%20Rising%20Phenix): A popular establishment in Duesternest known for its exceptional food, drink, and entertainment.
+- [[Duesternest Castle]]: Perched atop the cliff, this castle serves as both a symbol of power and protection for the city.
+- [[The Rising Phenix]]: A popular establishment in Duesternest known for its exceptional food, drink, and entertainment.
 
 ## Notable Figures:
-- Lord Ander: The fair and just ruler of Duesternest who supports arts and culture within his city.
-- Artisans' Council: A group of skilled artisans who advise Lord Ander on matters related to their crafts.
+- [[Lord Ander]]: The fair and just ruler of Duesternest who supports arts and culture within his city.
+- [[Artisans' Council]]: A group of skilled artisans who advise Lord Ander on matters related to their crafts.
 
 ## Politics and Economy:
 
@@ -61,4 +49,4 @@ While Duesternest is relatively safe, crime does occasionally rear its ugly head
 
 ## Geography and Climate:
 
-Located along the lush banks of the [Silent River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River), Duesternest enjoys a mild climate with fertile soil that supports an abundance of agriculture. The mountains to the northwest offer some natural protection from harsher weather.
+Located along the lush banks of the [[Silent River]], Duesternest enjoys a mild climate with fertile soil that supports an abundance of agriculture. The mountains to the northwest offer some natural protection from harsher weather.

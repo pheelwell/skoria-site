@@ -1,43 +1,31 @@
 ---
-continent: The Basin
-date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
-eleventyNavigation:
-  key: Herbstbog
-  parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
-layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/
-plane: Material Plane
 title: Herbstbog
 type: Settlement
+date created: Friday, October 6th 2023, 7:41:44 pm
+date modified: Thursday, December 14th 2023, 1:41:27 pm
 ---
 
 *The city of Herbstbog, a beacon of magical knowledge and trade, stands proud with its autumnal trees that never change color. Its streets descend towards the bustling harbor, where the echoes of sailors and merchants fill the air. The city holds many secrets, some sought by those who wish to uncover the truth or gain power, others hidden away to protect the innocent.*
 
 ## Overview
 
-Herbstbog is a thriving city with a population of around 23,000 inhabitants. It is renowned for its high academic research in magic and bustling water trade. Located next to a branch of the Stillfluss river, it connects the transport route from the Mines of Torrar to other cities by water. The city is divided into three main districts: Arcane Top, Gardens, and Harbor.
+Herbstbog is a thriving city with a population of around 23,000 inhabitants. It is renowned for its high academic research in magic and bustling water trade. Located next to a branch of the Stillfluss river, it connects the transport route from the [[Mines of Torrar]] to other cities by water. The city is divided into three main districts: Arcane Top, Gardens, and Harbor.
 
-![](/static/Herbstbog_map.png)
+![[Herbstbog_map.png]]
 
 ## Notable Locations:
-- Arcane Top: A district dedicated to academia and magic research.
-- Mages Gardens: A residential area filled with beautiful gardens that separate Arcane Top from Harbor.
-- Russeling Harbor: A busy hub for water trade due to its connection with the Stillfluss river.
+- [[Arcane Top]]: A district dedicated to academia and magic research.
+- [[Mages Gardens]]: A residential area filled with beautiful gardens that separate Arcane Top from Harbor.
+- [[Russeling Harbor]]: A busy hub for water trade due to its connection with the Stillfluss river.
 
 ## Notable Figures:
-- The Triad: The ruling political force in Herbstbog.
-- Karl has one of his shops here
+- [[The Triad]]: The ruling political force in Herbstbog.
+- [[Uncle.md|Karl]] has one of his shops here
 
 ## Politics and Economy:
 
-Herbstbog is governed by The Triad, which oversees all aspects of life within its walls. Its economy thrives on water trade through its well-connected harbor as well as on magical research conducted at the prestigious University.
+Herbstbog is governed by [[The Triad]], which oversees all aspects of life within its walls. Its economy thrives on water trade through its well-connected harbor as well as on magical research conducted at the prestigious University.
 
 ## History:
 
