@@ -6,8 +6,8 @@ eleventyNavigation:
   key: Arcane Union Of Magic Knowledge
   parent: Material Plane
 herocolor0: 214
-herocolor1: 205
-herocolor2: 184
+herocolor1: 207
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%80Skoria%20wide%20Factions/Arcane%20Union%20Of%20Magic%20Knowledge/

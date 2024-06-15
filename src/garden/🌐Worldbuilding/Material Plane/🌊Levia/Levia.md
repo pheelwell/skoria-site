@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Material Plane
 herocolor0: 180
 herocolor1: 191
-herocolor2: 183
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia/

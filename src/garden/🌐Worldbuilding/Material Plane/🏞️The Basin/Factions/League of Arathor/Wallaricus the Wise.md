@@ -1,14 +1,14 @@
 ---
 continent: The Basin
 date created: Friday, October 6th 2023, 6:39:54 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Sunday, June 16th 2024, 12:33:39 am
 dg-publish: true
 eleventyNavigation:
   key: Wallaricus the Wise
   parent: League of Arathor
 herocolor0: 214
-herocolor1: 205
-herocolor2: 184
+herocolor1: 207
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Factions\\League
   of Arathor/League of Arathor.md"
@@ -71,5 +71,4 @@ When roleplaying Wallaricus, emphasize his wisdom and experience while also port
 
 - Wallaricus is an expert in ancient languages and texts, making him a valuable resource for deciphering mysterious artifacts or uncovering long-lost knowledge.
 - He is known to have connections with various factions throughout [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), which he uses to gather information and forge alliances.
-- Wallaricus has recently discovered an ancient prophecy that may be connected to Naruun's manipulation of the war within [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). He is seeking more information before revealing his findings.
 - The Library of Echoes: A hidden library within [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) that houses Wallaricus' extensive collection of books, scrolls, and artifacts.

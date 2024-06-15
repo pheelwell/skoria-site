@@ -1,7 +1,7 @@
 ---
 banner: /static/Great Vault.png
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Friday, December 15th 2023, 1:33:41 pm
+date modified: Sunday, June 16th 2024, 12:30:12 am
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
@@ -16,11 +16,11 @@ title: Welcome to Skoria
 type: Meta
 ---
 
-![](/static/Skoria%20Emblem.png)
-
 Greetings, intrepid scholar,
 
-You have crossed the threshold into the hallowed halls of the Great Vault Library, the grand repository of all knowledge pertaining to the enigmatic realm of [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). Here, amidst the silence punctuated by the soft rustle of ancient pages, I—your devoted arcane librarian—shall serve as your guide through the chronicles and arcana that have been meticulously preserved within these walls.
+	You have crossed the threshold into the hallowed halls of the Great Vault Library, the grand repository of all knowledge pertaining to the enigmatic realm of [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). Here, amidst the silence punctuated by the soft rustle of ancient pages, I—your devoted arcane librarian—shall serve as your guide through the chronicles and arcana that have been meticulously preserved within these walls.
+
+![](/static/Skoria%20Emblem.png)
 
 Prepare your mind to knowledge about many subjects in Skoria as:
 

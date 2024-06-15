@@ -8,8 +8,8 @@ eleventyNavigation:
   key: General Malachi
   parent: Defilers
 herocolor0: 214
-herocolor1: 205
-herocolor2: 184
+herocolor1: 207
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Factions\\Defilers/Defilers.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/General%20Malachi/

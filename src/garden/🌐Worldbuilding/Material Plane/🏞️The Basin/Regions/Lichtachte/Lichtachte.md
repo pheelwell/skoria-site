@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Lichtachte
   parent: The Basin
 herocolor0: 214
-herocolor1: 205
-herocolor2: 184
+herocolor1: 207
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
   Basin.md"
@@ -33,7 +33,7 @@ type: Settlement
 
 ## Overview
 
-Lichtachte is a bastion of light in the otherwise dark and troubled lands of [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). The city is ruled by the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor), led by High Paladin Erathenar. It stands as a symbol of hope against the forces of darkness, particularly those commanded by General Malachi and her undead army, known as the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers). The city itself is known for its impressive Cathedral of Light, which houses the powerful Artifact called Sundawn.
+Lichtachte is a bastion of light in the otherwise dark and troubled lands of [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). The city is ruled by the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor), led by High Paladin [Erathenar](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/High%20Paladin%20Erathenar). It stands as a symbol of hope against the forces of darkness, particularly those commanded by General Malachi and her undead army, known as the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers). The city itself is known for its impressive Cathedral of Light, which houses the powerful Artifact called Sundawn.
 
 ## Geography
 
@@ -48,7 +48,7 @@ Nearby Trollbans Hold also relies on Lichtachte for support and protection from 
 
 ## Notable Figures
 
-- *High Paladin Erathenar*: The leader of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor), known for his dedication to justice and honor. He is well-respected by the people of Lichtachte and has led his forces to many victories against General Malachi's [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers).
+- *High Paladin [Erathenar](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/High%20Paladin%20Erathenar)*: The leader of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor), known for his dedication to justice and honor. He is well-respected by the people of Lichtachte and has led his forces to many victories against General Malachi's [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers).
 - [Wallaricus the Wise](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/Wallaricus%20the%20Wise): Ransden
 
 ## Factions

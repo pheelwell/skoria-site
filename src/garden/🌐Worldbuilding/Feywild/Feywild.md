@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Worldbuilding
 herocolor0: 242
 herocolor1: 226
-herocolor2: 180
+herocolor2: 184
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding/Worldbuilding.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CFeywild/

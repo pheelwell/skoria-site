@@ -8,10 +8,6 @@ path: /garden%5CMeta/Note%20Structure%20Guidelines/
 title: Note Structure Guidelines
 ---
 
----
-type: Meta
-dg-publish: true
----
 ## Folder Structure
 
 Obsidian notes in this Repo are structured this way:

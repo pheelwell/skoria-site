@@ -7,7 +7,7 @@ date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Demons
   parent: Nether Plane
-herocolor0: 260
+herocolor0: 261
 herocolor1: 288
 herocolor2: 339
 layout: base.njk

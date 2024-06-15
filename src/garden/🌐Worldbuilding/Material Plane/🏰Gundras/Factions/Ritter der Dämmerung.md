@@ -6,8 +6,8 @@ eleventyNavigation:
   key: Ritter der Dämmerung
   parent: Gundras
 herocolor0: 214
-herocolor1: 205
-herocolor2: 184
+herocolor1: 207
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3F0Gundras/Gundras.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0Gundras%5CFactions/Ritter%20der%20D%C3%A4mmerung/

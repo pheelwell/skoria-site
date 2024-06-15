@@ -47,10 +47,10 @@ title: Promisses of Victory Journal
 - In [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel), Semloh Kolrehs fails to rescue his mother from flames caused by their encounter with Hemmet
 - Semloh carries his mother into the forest where he sees a person in bright light telling him everything will be alright
 
-### Chapter 9: The Lost Hops and [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) Cathedral Heist
-- In [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest), they meet Izen who tries to get in contact with The Lost Hops
-- The party gets robbed by The Daughters (burglars crew) and are abducted to The Lost Hops Headquarters. 
-- The Lost Hops invite them to a competition of robbing the Cathedral of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) 
+### Chapter 9: [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops) and [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) Cathedral Heist
+- In [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest), they meet Izen who tries to get in contact with [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops)
+- The party gets robbed by [The Daughters (burglars crew)](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Daughters%20%28burglars%20crew%29) and are abducted to [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops) Headquarters. 
+- [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops) invite them to a competition of robbing the Cathedral of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) 
 
 ### Chapter 10: [Falk](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CFalk/Falk) Ambush
 - The party travels further to [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers) Lumbermills and takes a rest halfway in the forest

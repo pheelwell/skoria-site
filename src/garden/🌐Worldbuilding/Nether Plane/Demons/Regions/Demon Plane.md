@@ -5,7 +5,7 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Demon Plane
   parent: Demons
-herocolor0: 260
+herocolor0: 261
 herocolor1: 288
 herocolor2: 339
 layout: base.njk
