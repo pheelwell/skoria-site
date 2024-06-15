@@ -1,29 +1,38 @@
 ---
-type: Deity
-dg-publish: true
-sum:
-  - "Domain: Discord and Chaos"
-  - "Associated Element: Chaos"
-  - "Virtue: Deception" 
-  - Banished by other gods, least known by mortals
-  - Killed during the Shattering, no influence on the world
-  - No cults or followers
-  - Domain distributed among other gods in Divine Pantheon
-ownership:
-- "corellion: role in shattering"
-- "pheelwell: result of shattering (specificly regarding Arathor)"
-status: sprout
-title: Umbrial
+continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
+dg-publish: true
+eleventyNavigation:
+  key: Umbrial
+  parent: Gods
+layout: base.njk
+ownership:
+- 'corellion: role in shattering'
+- 'pheelwell: result of shattering (specificly regarding Arathor)'
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial/
+plane: Nether Plane
+status: sprout
+sum:
+- 'Domain: Discord and Chaos'
+- 'Associated Element: Chaos'
+- 'Virtue: Deception'
+- Banished by other gods, least known by mortals
+- Killed during the Shattering, no influence on the world
+- No cults or followers
+- Domain distributed among other gods in Divine Pantheon
+title: Umbrial
+type: Deity
 ---
+
 > [!quote] Umbrial's laughter echoes through the shadows, bringing chaos and discord to all who hear it. Yet, his influence has waned, and now he is but a whisper in the darkness.
 ## Overview
 
 Once a powerful and enigmatic God of Discord and Chaos, Umbrial now remains as a barely known figure in the mortal realm. Banished by other gods and killed during the Shattering, his influence has vanished from the world. With no cults or followers to carry on his legacy, his domain has been distributed among the other gods in the Divine Pantheon.
 
 > [!TIP] Quick Reference
-> ![[🌐Skoria/Pictures/Umbrial.png| 300]]
+> ![](/static/Placeholder.png)
 > **Umbrial** 
 > God of Discord and Chaos (deceased)
 >- **Domains**: Discord, Chaos

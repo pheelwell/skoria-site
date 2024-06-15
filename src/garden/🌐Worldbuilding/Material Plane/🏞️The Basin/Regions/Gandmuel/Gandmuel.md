@@ -1,17 +1,30 @@
 ---
-type: Settlement
-dg-publish: true
-sum:
-  - Gandmühl is a small town with predominantly elven population of approximately 2000 residents.
-  - Town is divided into two factions, Chuckers (lumber trade) and Reformers (tourism).
-  - Governed by an elven council with equal representation from both factions.
-  - Notable locations include lumber mills (east) and harbor (west).
-  - Famous for its bakery producing delicious bread, attracting tourists.
-  - Located next to a river, surrounded by forest and fields.
-status: tree
-title: Gandmuel
+continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Friday, December 15th 2023, 1:08:23 pm
+dg-publish: true
+eleventyNavigation:
+  key: Gandmuel
+  parent: The Basin
+herocolor0: 214
+herocolor1: 206
+herocolor2: 180
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/
+plane: Material Plane
+status: tree
+sum:
+- Gandmühl is a small town with predominantly elven population of approximately 2000
+  residents.
+- Town is divided into two factions, Chuckers (lumber trade) and Reformers (tourism).
+- Governed by an elven council with equal representation from both factions.
+- Notable locations include lumber mills (east) and harbor (west).
+- Famous for its bakery producing delicious bread, attracting tourists.
+- Located next to a river, surrounded by forest and fields.
+title: Gandmuel
+type: Settlement
 ---
 
 The sun sets over the small town of Gandmühl, casting a warm glow on the elven faces that bustle through the streets. The scent of freshly baked bread fills the air, drawing travelers from far and wide to taste its legendary flavor. But beneath this idyllic surface, tensions simmer between those who wish to preserve the town's heritage and those who seek progress through tourism.
@@ -27,8 +40,8 @@ Nestled beside a river and surrounded by forest and fields, Gandmühl's landscap
 - **Harbor**: Found on the west side; used by both factions for transportation and tourism.
 
 ## Notable Figures:
-- [[Tarwin Althammer]]: A former Paladin with connections to Gandmühl; his tragic story is known among commoners.
-- [[The Fulfiller]]: Mysterious figure responsible for giving bad advice in [[Gandmuehl Bread Plot]].
+- Tarwin Althammer: A former Paladin with connections to Gandmühl; his tragic story is known among commoners.
+- The Fulfiller: Mysterious figure responsible for giving bad advice in Gandmuehl Bread Plot.
 
 ## Politics and Economy:
 
@@ -43,11 +56,11 @@ The town of Gandmühl was once a peaceful community focused on lumber trading. H
 Gandmühl is predominantly composed of elves with deep roots in their lumber trading heritage. Their culture is now shifting as tourism gains prominence in the town's economy.
 
 ## Threats and Rumors:
-- Lumberjacks overhear mages discussing "magic masking" wood being sold to [[Herbstbog]].
+- Lumberjacks overhear mages discussing "magic masking" wood being sold to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog).
 
 ## Campaign Connections:
-- In the [[Murder of Reyala Althammer Plot]], players can learn about [[Tarwin Althammer]]'s tragic past involving his deceased wife and child in Gandmühl.
-- Players can travel from Gandmühl to [[Herbstbog]] by boat, taking approximately three days.
+- In the Murder of Reyala Althammer Plot, players can learn about Tarwin Althammer's tragic past involving his deceased wife and child in Gandmühl.
+- Players can travel from Gandmühl to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog) by boat, taking approximately three days.
 
 ## Geography and Climate:
 

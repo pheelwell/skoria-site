@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Material Plane
   parent: Worldbuilding
 herocolor0: 214
-herocolor1: 207
+herocolor1: 206
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding/Worldbuilding.md"

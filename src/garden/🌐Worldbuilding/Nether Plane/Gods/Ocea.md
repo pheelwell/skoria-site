@@ -1,14 +1,22 @@
 ---
-type: Deity
-sum:
-- "Title: Sister of Oceans"
-- "Domain: Water" 
-- "Associated Element: Energy" 
-- "Virtue: Temperament"
-dg-publish: true
-title: Ocea
+continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
+dg-publish: true
+eleventyNavigation:
+  key: Ocea
+  parent: Gods
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ocea/
+plane: Nether Plane
+sum:
+- 'Title: Sister of Oceans'
+- 'Domain: Water'
+- 'Associated Element: Energy'
+- 'Virtue: Temperament'
+title: Ocea
+type: Deity
 ---
 
 - Title: Sister of Oceans 
@@ -20,10 +28,10 @@ date modified: Thursday, December 14th 2023, 1:41:26 pm
 
 ## Overview
 
-Ocea, known as the Sister of Oceans, the sister of [[Geran]], is a deity who embodies the serene waters. With a domain in water and an associated element of energy, Ocea stands as a 
+Ocea, known as the Sister of Oceans, the sister of [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Geran), is a deity who embodies the serene waters. With a domain in water and an associated element of energy, Ocea stands as a 
 
 > [!TIP] Quick Reference
-> ![[Ocea.png|300]]
+> ![](/static/Ocea.png)
 > **Ocea
 >  Deity of stormy waters and energy
 >- **Domains**: Water, Energy

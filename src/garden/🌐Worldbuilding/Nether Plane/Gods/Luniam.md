@@ -1,12 +1,20 @@
 ---
-type: Deity
-sum:
-  - Domain Moon
-  - Associated Element Stars
-dg-publish: true
-title: Luniam
+continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
+dg-publish: true
+eleventyNavigation:
+  key: Luniam
+  parent: Gods
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam/
+plane: Nether Plane
+sum:
+- Domain Moon
+- Associated Element Stars
+title: Luniam
+type: Deity
 ---
 
 - Domain: Moon
@@ -20,7 +28,7 @@ date modified: Thursday, December 14th 2023, 1:41:26 pm
 Luniam, the enigmatic deity of the Moon, casts a watchful eye over the world as night falls. Associated with the element of Stars, this celestial god weaves a tapestry of secrets and mysteries that only the most devoted followers can hope to unravel.
 
 > [!TIP] Quick Reference
-> ![[Luniam.png| 300]] 
+> ![](/static/Luniam.png) 
 > **Luniam** 
 > The Enigmatic Deity of the Moon
 >- **Domains**: Moon, Stars

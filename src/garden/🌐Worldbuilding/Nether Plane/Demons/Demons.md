@@ -1,43 +1,54 @@
 ---
-title: Demons
-type: Meta
+banner: /static/Demons.png
+banner_y: 0.332
+continent: Demons
 date created: Monday, December 11th 2023, 1:18:30 pm
 date modified: Thursday, December 14th 2023, 1:41:27 pm
-banner: "![[Demons.png]]"
-banner_y: 0.332
-sum:
-  - Demons emerged from divine energy remnants during The Shattering.
-  - They are incarnations of profound horrors and not just conventional villains.
-  - Demons reflect dark aspects of their progenitor gods, having unpredictable structures.
-  - They organize into Families within the Nether Plane, with shared horror themes.
-  - Leviathans represent existential horror and influence realms by instilling despair.
-  - Lurkers are shapeshifters inducing fear by remaining unseen and distorting reality.
-  - Infernals personify destruction, thrive on conflict, and embody chaotic wrath.
-  - Enigmas have forms that defy logic, causing mental breakdowns in their victims.
-  - Corruptors symbolize aggressive decay, bringing rot and disease wherever they go.
-  - Tormentors extract pleasure from inflicting physical and emotional pain on others.
-  - Devourers embody insatiable gluttony, consuming everything indiscriminately.
+eleventyNavigation:
+  key: Demons
+  parent: Nether Plane
+herocolor0: 261
+herocolor1: 288
+herocolor2: 339
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/
+plane: Nether Plane
 status: sprout
+sum:
+- Demons emerged from divine energy remnants during The Shattering.
+- They are incarnations of profound horrors and not just conventional villains.
+- Demons reflect dark aspects of their progenitor gods, having unpredictable structures.
+- They organize into Families within the Nether Plane, with shared horror themes.
+- Leviathans represent existential horror and influence realms by instilling despair.
+- Lurkers are shapeshifters inducing fear by remaining unseen and distorting reality.
+- Infernals personify destruction, thrive on conflict, and embody chaotic wrath.
+- Enigmas have forms that defy logic, causing mental breakdowns in their victims.
+- Corruptors symbolize aggressive decay, bringing rot and disease wherever they go.
+- Tormentors extract pleasure from inflicting physical and emotional pain on others.
+- Devourers embody insatiable gluttony, consuming everything indiscriminately.
+title: Demons
+type: Meta
 ---
 
-Amidst the chaos of [[The Shattering]] the very fabric of divinity was rent asunder. From the remnants of this divine energy, a new, sinister lifeform emerged: demons. These entities are not mere villains to be vanquished; they are incarnations of the most profound horrors imaginable.
+Amidst the chaos of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) the very fabric of divinity was rent asunder. From the remnants of this divine energy, a new, sinister lifeform emerged: demons. These entities are not mere villains to be vanquished; they are incarnations of the most profound horrors imaginable.
 
 >[!tip] 
->As you navigate your players through a world where these demonic forces lurk, remember that their origins are deeply tied to the divine beings that fell during [[The Shattering]]. This connection can lead to intriguing plot points and complex character interactions.
+>As you navigate your players through a world where these demonic forces lurk, remember that their origins are deeply tied to the divine beings that fell during [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering). This connection can lead to intriguing plot points and complex character interactions.
 
 ## Quick Reference:
-- **Origins**: Demons formed during [[The Shattering]] from leftover divine energy.
+- **Origins**: Demons formed during [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) from leftover divine energy.
 - **Nature**: Embodiments of horror concepts.
 - **Structure**: Unpredictable, sometimes reflecting dark aspects of their progenitor gods.
-- **Organization**: Divided into "Families" with shared themes; breed within the [[Nether Plane]].
+- **Organization**: Divided into "Families" with shared themes; breed within the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane).
 
 ## Demon Types:
 
 ### Leviathans
 
-![[Leviathans.png]]
+![](/static/Leviathans.png)
 
-[[Leviathans]] are colossal creatures, often resembling the most terrifying aspects of sea monsters and other behemoths of legend. These titanic demons embody the existential horror of the unknown—emerging from places where light fears to tread, their very presence is enough to overwhelm the senses with crippling dread. They are not just physical entities; they represent a primal fear deeply rooted in every living being—the fear of being insignificant in the face of boundless, indifferent forces. [[Leviathans]] rarely interact directly with mortals, yet their influence extends across realms, manifesting as crushing despair or an oppressive sense that one's demise could be lurking just beneath the surface of reality.
+[Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Leviathans) are colossal creatures, often resembling the most terrifying aspects of sea monsters and other behemoths of legend. These titanic demons embody the existential horror of the unknown—emerging from places where light fears to tread, their very presence is enough to overwhelm the senses with crippling dread. They are not just physical entities; they represent a primal fear deeply rooted in every living being—the fear of being insignificant in the face of boundless, indifferent forces. [Leviathans](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Leviathans) rarely interact directly with mortals, yet their influence extends across realms, manifesting as crushing despair or an oppressive sense that one's demise could be lurking just beneath the surface of reality.
 
 ### Lurkers
 
@@ -45,9 +56,9 @@ Lurkers are insidious demons that exist on the fringes of awareness, always seem
 
 ### Infernals
 
-![[Infernals.png]]
+![](/static/Infernals.png)
 
-[[Infernals]] are chaotic entities that embody destruction and wrath. Appearing as fearsome beings wreathed in flames or forged from molten rock and ash, they are often depicted with horns or wings—iconography associated with devilish lore across countless cultures. [[Infernals]] thrive on conflict and upheaval; they savor the scent of burning empires as much as a wildfire’s roar through ancient woodlands. To conjure an Infernal is to invite catastrophe: they will turn order into disorder with an explosive temper that can shatter cities and scorch earth. Their influence spreads far beyond physical devastation; they ignite tempers and fan the embers of hatred within communities.
+[Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Infernals) are chaotic entities that embody destruction and wrath. Appearing as fearsome beings wreathed in flames or forged from molten rock and ash, they are often depicted with horns or wings—iconography associated with devilish lore across countless cultures. [Infernals](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CFactions/Infernals) thrive on conflict and upheaval; they savor the scent of burning empires as much as a wildfire’s roar through ancient woodlands. To conjure an Infernal is to invite catastrophe: they will turn order into disorder with an explosive temper that can shatter cities and scorch earth. Their influence spreads far beyond physical devastation; they ignite tempers and fan the embers of hatred within communities.
 
 ### Enigmas
 
@@ -70,4 +81,4 @@ Devourers personify gluttony unchecked—a relentless pursuit to consume without
 
 - Origin of Demons is not really known to Mortals, but it is one of the key reasons the Gods do not fight each other or intervein in the Mortal realm
 - Demons are formed from the battles between Gods during the Shattering, where through the suffered Wounds their Essence leaked into the Nether. these cancerous Nexuses of energy were lost In-between the voids of the Netherplane
--  For example [[Asmadan]] Anger spawned the beeings of into the Infernals
+-  For example [Asmadan](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Asmadan) Anger spawned the beeings of into the Infernals

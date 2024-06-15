@@ -1,13 +1,21 @@
 ---
-type: Deity
-sum:
-  - "Domain: Sun"
-  - "Associated Element: Nature"
-  - "Virtue: Morality"
-dg-publish: true
-title: Sori
+continent: Gods
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
+dg-publish: true
+eleventyNavigation:
+  key: Sori
+  parent: Gods
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Sori/
+plane: Nether Plane
+sum:
+- 'Domain: Sun'
+- 'Associated Element: Nature'
+- 'Virtue: Morality'
+title: Sori
+type: Deity
 ---
 
 - Domain: Sun
@@ -21,7 +29,7 @@ date modified: Thursday, December 14th 2023, 1:41:26 pm
 Sori, the deity of the sun and nature, embodies the virtue of morality. This benevolent being is a beacon of hope for those who walk in their radiant light, guiding them towards a righteous path. Followers of Sori strive to uphold their deity's ideals and live a life filled with goodness and compassion.
 
 > [!TIP] Quick Reference
-> ![[Sori.png|300]]
+> ![](/static/Sori.png)
 > 
 >  
 > **Sori** 

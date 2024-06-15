@@ -1,15 +1,26 @@
 ---
 alias: Tren
-dg-publish: true
-title: Tren Brattingham
-type: NPC
+continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
 date modified: Friday, December 15th 2023, 1:08:23 pm
+dg-publish: true
+eleventyNavigation:
+  key: Tren Brattingham
+  parent: Duesternest
+herocolor0: 214
+herocolor1: 206
+herocolor2: 180
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Regions\\Duesternest/Duesternest.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Tren%20Brattingham/
+plane: Material Plane
+title: Tren Brattingham
+type: NPC
 ---
 
 **Human - Private Investigator**
 
-![[male_fantasy_detective_portrait_facing_camera_seriou.png]]
+![](/static/Placeholder.png)
 
 **Tren Brattingham, Human Private Investigator**
 

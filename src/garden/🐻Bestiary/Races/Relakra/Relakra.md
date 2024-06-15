@@ -1,15 +1,22 @@
 ---
-title: Relakra
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Saturday, June 15th 2024, 11:17:32 pm
+eleventyNavigation:
+  key: Relakra
+  parent: Bestiary
+layout: base.njk
+parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+path: /garden%5C%F0%9F%90%BBBestiary%5CRaces%5CRelakra/
+title: Relakra
 ---
+
 ## Introduction
 
 Relakra is a humanoid, nomadic race distinguishable by their unique ability to sense and feed on the emotions of other races and the glowing orb in place of their heart. This orb changes form based on the emotions they feed on, visual indicators of their emotional state. They do not cause any harm or loss of emotion to others, but they cannot thrive on their own kind's emotions, leading them to lead solitary lives or integrate into other societies. 
 
 Relakras age rapidly but feeding on emotions can prolong their lifespan, with most Relakras living up to 30 years if they consistently nourish on emotions.
 
-![[Curious Relakra 1.png]]
+![](/static/Curious%20Relakra%201.png)
 
 ## Physical Description
 
@@ -47,7 +54,7 @@ There are several subraces of Relakra determined by their most frequently absorb
 
 The choice of emotional preference occurs organically over time as the Relakra 'tastes' different feelings thereby influencing its yearning for specific types.
 
-  ![[Fearful Relakra.png]]
+  ![](/static/Fearful%20Relakra.png)
 
 ## Lore and History
 

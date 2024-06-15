@@ -1,7 +1,19 @@
 ---
+Ideals: Justice, honor, loyalty, courage, integrity
 alias: Erathenar
+continent: The Basin
+date created: Friday, October 6th 2023, 7:41:44 pm
+date modified: Sunday, June 16th 2024, 12:32:09 am
 dg-publish: true
-sum: 
+eleventyNavigation:
+  key: High Paladin Erathenar
+  parent: League of Arathor
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Factions\\League
+  of Arathor/League of Arathor.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/High%20Paladin%20Erathenar/
+plane: Material Plane
+sum:
 - Erathenar is the leader of the League of Arathor and High Paladin of Lichtachte.
 - He is a skilled warrior and powerful paladin.
 - He was born a commoner in Trollbans Hold, Lichtachte.
@@ -11,15 +23,12 @@ sum:
 - He is remembered for his courage and unwavering faith in justice and honor.
 title: High Paladin Erathenar
 type: NPC
-Ideals: Justice, honor, loyalty, courage, integrity
-date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Sunday, June 16th 2024, 12:32:09 am
 ---
 
-Erathenar is the leader of the [[League of Arathor]] and the High Paladin of [[Lichtachte]]. He is a just and honorable man, and he will stop at nothing to protect his people. He is a skilled warrior and a powerful paladin, and he has led the League to many victories against the [[Defilers]].
+Erathenar is the leader of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) and the High Paladin of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte). He is a just and honorable man, and he will stop at nothing to protect his people. He is a skilled warrior and a powerful paladin, and he has led the League to many victories against the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers).
 
 > [!TIP] Quick Reference
-> ![[paladin_commander_portrait_golden_white_ornamentalvi.png| 300]] 
+> ![](/static/Placeholder.png) 
 > **High Paladin Erathenar** _Human Paladin_ 
 >  The courageous and honorable leader of the League of Arathor and High Paladin of Lichtachte.
 >- **Motivation**: Protecting his people, eradicating Defilers, upholding justice and honor

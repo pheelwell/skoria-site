@@ -1,13 +1,25 @@
 ---
+continent: The Basin
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Sunday, June 16th 2024, 12:41:33 am
 dg-publish: true
+eleventyNavigation:
+  key: Mom
+  parent: The Basin
+herocolor0: 214
+herocolor1: 206
+herocolor2: 180
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/Mom/
+plane: Material Plane
 sum:
 - fire genasi artificer
 - captain of the Lost Hops Logistics
 - skilled artificer
 title: Mom
 type: NPC
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Sunday, June 16th 2024, 12:41:33 am
 ---
 
 ![Fire Genasi Artificer](_Mom.png)

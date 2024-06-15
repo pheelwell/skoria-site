@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Sarien Badlands
   parent: Material Plane
 herocolor0: 214
-herocolor1: 207
+herocolor1: 206
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"

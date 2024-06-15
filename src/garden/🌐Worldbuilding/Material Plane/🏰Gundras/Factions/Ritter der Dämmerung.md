@@ -1,7 +1,18 @@
 ---
-title: Ritter der Dämmerung
+continent: Gundras
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Sunday, December 17th 2023, 7:31:18 pm
+eleventyNavigation:
+  key: Ritter der Dämmerung
+  parent: Gundras
+herocolor0: 214
+herocolor1: 206
+herocolor2: 180
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3F0Gundras/Gundras.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0Gundras%5CFactions/Ritter%20der%20D%C3%A4mmerung/
+plane: Material Plane
+title: Ritter der Dämmerung
 ---
 
 The Knights of Twilight are an association of smiths and knights. Among them are many followers of Fogweaver.

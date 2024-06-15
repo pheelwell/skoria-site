@@ -1,9 +1,15 @@
 ---
-dg-publish: true
-title: Shadow Hunter
-type: Meta
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
+dg-publish: true
+eleventyNavigation:
+  key: Shadow Hunter
+  parent: Bestiary
+layout: base.njk
+parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+path: /garden%5C%F0%9F%90%BBBestiary%5CSubclasses/Shadow%20Hunter/
+title: Shadow Hunter
+type: Meta
 ---
 
 You can choose the **Shadow Hunter** subclass for the **Rogue** class. 

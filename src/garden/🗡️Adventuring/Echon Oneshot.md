@@ -1,7 +1,13 @@
 ---
-title: Echon Oneshot
 date created: Monday, April 22nd 2024, 12:23:42 am
 date modified: Saturday, June 15th 2024, 11:07:56 pm
+eleventyNavigation:
+  key: Echon Oneshot
+  parent: Adventuring
+layout: base.njk
+parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Echon%20Oneshot/
+title: Echon Oneshot
 ---
 
 Spieler:

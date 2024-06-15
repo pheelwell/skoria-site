@@ -1,15 +1,26 @@
 ---
-title: The Sunkeepers
+continent: Gundras
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Friday, December 15th 2023, 1:08:23 pm
+eleventyNavigation:
+  key: The Sunkeepers
+  parent: Gundras
+herocolor0: 214
+herocolor1: 206
+herocolor2: 180
+layout: base.njk
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3F0Gundras/Gundras.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0Gundras%5CFactions/The%20Sunkeepers/
+plane: Material Plane
+title: The Sunkeepers
 ---
 
-![[Sunkeepers Crest.png|300]]
+![](/static/Sunkeepers%20Crest.png)
 
 ## Sunkeeper Traits and Facets
 
 - Sunkeepers are known to have a strong connection with nature, especially the sun and the sunlight.
-- It is believed that the most powerful Sunkeepers can harness solar energy to create a very secret technique of [[Sun Magic - Lunar Magic]].
+- It is believed that the most powerful Sunkeepers can harness solar energy to create a very secret technique of Sun Magic - Lunar Magic.
 
 ## New Places, Locations, Regions
 
