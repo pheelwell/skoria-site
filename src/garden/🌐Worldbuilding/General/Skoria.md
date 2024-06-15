@@ -5,7 +5,9 @@ eleventyNavigation:
   key: Skoria
   parent: General
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\General/General.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\General/General.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria/
+plane: General
 title: Skoria
 ---
 
@@ -17,7 +19,7 @@ Welcome, traveler, to the mystical world of Skoria. This land is full of secrets
 
 ## The Aftermath of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering)
 
-[The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) was a cataclysmic event that resulted from a dispute between two groups of gods. The conflict caused devastation on a massive scale, wiping out 85% of Skoria's population and resetting the entire civilization. Many species were forever lost as a result of this apocalyptic event.
+[The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) was a cataclysmic event that resulted from a dispute between two groups of [Gods](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Gods). The conflict caused devastation on a massive scale, wiping out 85% of Skoria's population and resetting the entire civilization. Many species were forever lost as a result of this apocalyptic event.
 
 In the wake of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering), the god [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor) built a barrier between Skoria and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) with the help of [Lar](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Lar). They used the remains of Umbrial to create this barrier, preventing any further direct interference from divine beings in Skoria.
 
@@ -51,12 +53,12 @@ Some of the most powerful arcane knowledge in Skoria can be found within its mag
 
 ## [Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History) And Its Influence on Skoria
 
-With divine forces finding ways to infiltrate Skoria once again, the world began experiencing an increase in otherworldly encounters. As gods sought to influence mortals through various means, societies adapted and evolved in response to these divine interventions.
+With divine forces finding ways to infiltrate Skoria once again, the world began experiencing an increase in otherworldly encounters. As [Gods](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Gods) sought to influence mortals through various means, societies adapted and evolved in response to these divine interventions.
 
 The presence of divine forces has also led to the rise of religious orders and cults dedicated to serving specific deities or pantheons. This further complicates the relationships between different races and kingdoms, as religious beliefs often clash with political agendas.
 
 > [!warning] Caution
-> Divine influences can sometimes lead characters down dangerous paths or into conflicts with powerful beings beyond their comprehension. Tread carefully when dealing with matters involving gods or other supernatural entities.
+> Divine influences can sometimes lead characters down dangerous paths or into conflicts with powerful beings beyond their comprehension. Tread carefully when dealing with matters involving [Gods](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Gods) or other supernatural entities.
 
 ## Conclusion
 

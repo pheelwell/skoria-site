@@ -1,11 +1,12 @@
 ---
 date created: Sunday, November 12th 2023, 1:21:36 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, June 15th 2024, 11:08:29 pm
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring
 layout: base.njk
-parentpath: src/garden\🗡️Adventuring/Adventuring.md
+parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Notes/
 title: Irasnian Wastes Notes
 ---
 
@@ -17,8 +18,6 @@ title: Irasnian Wastes Notes
 - Crawler ist auf den Weg nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) 
 	- Rindal ist eine Priesterin des [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) dem Gott der Veränderung und Snytetik. (silberne verschnörkelte Ornamente, religion wurf) Hat Artefakt das nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) muss in einen Tempel 
 	- Karach ist ein Gnom (Der Goats, Werwolf) der das Artifakt klauen möchte. Wenn die Reise vorbei ist
-	- 
-
 ## Räume Des Crawlers:
 
  - Steuerkammer: Hier befindet sich die Kontrollkonsole des Crawlers, von der aus der Fahrer das riesige Konstrukt lenkt. Die Wände sind mit Schaltern, Hebeln und Bildschirmen bedeckt, die alle mit verschiedenen Funktionen des Crawlers verbunden sind. Der Raum ist relativ klein und eng, aber gut beleuchtet.

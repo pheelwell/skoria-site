@@ -1,11 +1,17 @@
 ---
+continent: Gundras
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Friday, December 15th 2023, 1:08:23 pm
 eleventyNavigation:
   key: The Sunkeepers
   parent: Gundras
+herocolor0: 214
+herocolor1: 205
+herocolor2: 184
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰Gundras/Gundras.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3F0Gundras/Gundras.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0Gundras%5CFactions/The%20Sunkeepers/
+plane: Material Plane
 title: The Sunkeepers
 ---
 

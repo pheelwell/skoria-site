@@ -1,4 +1,5 @@
 ---
+continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
@@ -9,7 +10,9 @@ layout: base.njk
 ownership:
 - 'corellion: role in shattering'
 - 'pheelwell: result of shattering (specificly regarding Arathor)'
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial/
+plane: Nether Plane
 status: sprout
 sum:
 - 'Domain: Discord and Chaos'

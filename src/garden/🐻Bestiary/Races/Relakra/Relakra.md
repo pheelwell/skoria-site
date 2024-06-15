@@ -1,11 +1,12 @@
 ---
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Saturday, June 15th 2024, 11:17:32 pm
 eleventyNavigation:
   key: Relakra
   parent: Bestiary
 layout: base.njk
-parentpath: src/garden\🐻Bestiary/Bestiary.md
+parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+path: /garden%5C%F0%9F%90%BBBestiary%5CRaces%5CRelakra/
 title: Relakra
 ---
 

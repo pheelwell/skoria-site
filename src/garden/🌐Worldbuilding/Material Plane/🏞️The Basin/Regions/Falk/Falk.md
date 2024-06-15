@@ -1,12 +1,19 @@
 ---
+continent: The Basin
 date created: Friday, October 6th 2023, 6:39:54 pm
 date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
 eleventyNavigation:
   key: Falk
   parent: The Basin
+herocolor0: 214
+herocolor1: 205
+herocolor2: 184
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CFalk/
+plane: Material Plane
 sum:
 - Falk is a small town located in Basin's Forest, west of Düsternest
 - Established as a logging community, now has diverse population including hunters,

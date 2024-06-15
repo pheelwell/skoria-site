@@ -8,7 +8,9 @@ eleventyNavigation:
 layout: base.njk
 ownership:
 - 'pheelwell: Aftermath of the Shattering'
-parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History/
+plane: Nether Plane
 status: seed
 title: Divine History
 type: Meta

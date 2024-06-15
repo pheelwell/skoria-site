@@ -5,7 +5,9 @@ eleventyNavigation:
   key: The Shattering
   parent: Nether Plane
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering/
+plane: Nether Plane
 title: The Shattering
 ---
 

@@ -1,7 +1,7 @@
 ---
 banner: /static/Great Vault.png
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Friday, December 15th 2023, 1:22:33 pm
+date modified: Friday, December 15th 2023, 1:33:41 pm
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
@@ -10,6 +10,7 @@ herocolor0: 214
 herocolor1: 208
 herocolor2: 198
 layout: base.njk
+path: /garden/Welcome%20to%20Skoria/
 permalink: /
 title: Welcome to Skoria
 type: Meta
@@ -23,7 +24,7 @@ You have crossed the threshold into the hallowed halls of the Great Vault Librar
 
 Prepare your mind to knowledge about many subjects in Skoria as:
 
-- The divine depths of the **[Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane)**, where reality weaves into unfathomable patterns and abstruse energies.
+- The divine depths of the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane), where reality weaves into unfathomable patterns and abstruse energies.
 - The storied annals of **[Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History)**, chronicling an ageless saga of deities and divine machinations that shaped our very cosmos.
 - The tapestry of cultures that make up our resplendent land—each city a jewel in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria)'s crown—with particular attention to the resilient bastion known as **[Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon)**, nestled within the desolate beauty of the **[Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes)**.
 - The haunting tales surrounding **[Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)'s** submerged prison, where secrets are kept under lock and tide, waiting for a daring soul to uncover them.

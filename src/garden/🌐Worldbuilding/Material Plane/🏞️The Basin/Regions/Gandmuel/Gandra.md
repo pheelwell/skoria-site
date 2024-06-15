@@ -1,14 +1,20 @@
 ---
 alias:
 - Gandra
+continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Friday, December 15th 2023, 1:08:23 pm
 dg-publish: true
 eleventyNavigation:
   key: Gandra
   parent: Gandmuel
+herocolor0: 214
+herocolor1: 205
+herocolor2: 184
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Gandmuel/Gandmuel.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Regions\\Gandmuel/Gandmuel.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandra/
+plane: Material Plane
 title: Gandra
 type: SideNPC
 ---

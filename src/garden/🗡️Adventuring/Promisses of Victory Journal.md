@@ -5,7 +5,8 @@ eleventyNavigation:
   key: Promisses of Victory Journal
   parent: Adventuring
 layout: base.njk
-parentpath: src/garden\🗡️Adventuring/Adventuring.md
+parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Promisses%20of%20Victory%20Journal/
 title: Promisses of Victory Journal
 ---
 

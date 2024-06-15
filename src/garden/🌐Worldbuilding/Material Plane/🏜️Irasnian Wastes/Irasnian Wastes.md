@@ -1,6 +1,7 @@
 ---
 banner: /static/Irasnian Wastes.png
 banner_y: 0.692
+continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Thursday, December 14th 2023, 1:41:27 pm
 dg-publish: true
@@ -9,9 +10,11 @@ eleventyNavigation:
   parent: Material Plane
 herocolor0: 10
 herocolor1: 15
-herocolor2: 30
+herocolor2: 29
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes/
+plane: Material Plane
 status: sprout
 sum:
 - Isranian Wastes is a harsh desert region below The Basin

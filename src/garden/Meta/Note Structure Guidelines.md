@@ -4,6 +4,7 @@ date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Note Structure Guidelines
 layout: base.njk
+path: /garden%5CMeta/Note%20Structure%20Guidelines/
 title: Note Structure Guidelines
 ---
 

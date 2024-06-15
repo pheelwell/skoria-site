@@ -4,6 +4,7 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Säule des Lebens
 layout: base.njk
+path: /garden%5CPictures/S%C3%A4ule%20des%20Lebens/
 title: Säule des Lebens
 ---
 

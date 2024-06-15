@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Todo Kanban
 kanban-plugin: basic
 layout: base.njk
+path: /garden/Todo%20Kanban/
 title: Todo Kanban
 ---
 
@@ -12,15 +13,18 @@ title: Todo Kanban
 
 - [ ] Chore: Go through all Images and check if they are there
 - [ ] Chore: Add good Metadata
+- [ ] Add sizes for h4-h6
+- [ ] add callout icons
 
-## In Progress
 
 ## Done
 
-%% kanban:settings
 
+
+
+
+%% kanban:settings
 ```
 {"kanban-plugin":"basic"}
 ```
-
 %%

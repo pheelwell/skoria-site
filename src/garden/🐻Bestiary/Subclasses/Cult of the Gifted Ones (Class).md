@@ -6,7 +6,8 @@ eleventyNavigation:
   key: Cult of the Gifted Ones (Class)
   parent: Bestiary
 layout: base.njk
-parentpath: src/garden\🐻Bestiary/Bestiary.md
+parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+path: /garden%5C%F0%9F%90%BBBestiary%5CSubclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29/
 title: Cult of the Gifted Ones (Class)
 type: Meta
 ---

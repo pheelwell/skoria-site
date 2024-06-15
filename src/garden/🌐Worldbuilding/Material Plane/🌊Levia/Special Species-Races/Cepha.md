@@ -1,5 +1,6 @@
 ---
 banner: /static/Cepha.png
+continent: Levia
 date created: Thursday, December 14th 2023, 12:05:23 am
 date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
@@ -9,7 +10,9 @@ herocolor0: 200
 herocolor1: 194
 herocolor2: 166
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Cepha/
+plane: Material Plane
 title: Cepha
 ---
 

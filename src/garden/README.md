@@ -4,6 +4,7 @@ date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: README
 layout: base.njk
+path: /garden/README/
 title: README
 ---
 

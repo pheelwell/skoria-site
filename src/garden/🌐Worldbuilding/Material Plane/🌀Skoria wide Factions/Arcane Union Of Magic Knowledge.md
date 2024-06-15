@@ -1,11 +1,17 @@
 ---
+continent: Skoria wide Factions
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Arcane Union Of Magic Knowledge
   parent: Material Plane
+herocolor0: 214
+herocolor1: 205
+herocolor2: 184
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%80Skoria%20wide%20Factions/Arcane%20Union%20Of%20Magic%20Knowledge/
+plane: Material Plane
 title: Arcane Union Of Magic Knowledge
 ---
 

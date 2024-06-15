@@ -1,5 +1,6 @@
 ---
 banner: /static/Echon Isles.png
+continent: Echon
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
@@ -10,7 +11,9 @@ herocolor0: 105
 herocolor1: 195
 herocolor2: 196
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌴Echon/Echon.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F334Echon/Echon.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%B4Echon%5CRegions%5CEcho%20Isles/
+plane: Material Plane
 status: seed
 title: Echo Isles
 type: Region

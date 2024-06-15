@@ -1,50 +1,55 @@
-<div class="navbar">
-    <div class="categories">
-        <div class="categorycolums">
-            {% for nav in ["Adventuring","Worldbuilding","Bestiary"] %}
-            <div class="categorycolumn">
-                <div class="category">{{ nav }}</div>
-                <div class="dropdown-content">
-                    {{ collections.all | eleventyNavigation(nav) | eleventyNavigationToHtml | safe }}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <div class="logo">
-        <a href="/">
-        <div class="logolist">
-            <div class="logolistimage">
-                <div class="logo-image">
-                    <img src="/static/Skoria Emblem.png" alt="Skoria Logo" width="30" height="40">
-                </div>
-            </div>
-            <div class="logolisttext">
-                <div class="skoria-text">Skoria</div>
-            </div>
-        </div></a>
-    </div>
-</div>
 <style>
+    .filterbox {
+        border-radius: 15px;
+        border: 2px solid var(--border-color);
+        background-color: var(--secondary-background-color);
+        background-size: cover;
+        backdrop-filter: blur(5px);
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 2px 0;
+        width: 100px;
+    }
+    .plane,
+    .continent,
+    .type {
+        cursor: pointer;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .active {
+        border: 1px solid #ccc;
+    }
+    .gray {
+        /* grayscale filter */
+        filter: grayscale(100%);
+    }
+    .articles {
+        display: none;
+    }
+    .list-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
     /* Hide the dropdown content by default */
     .dropdown-content {
         display: block;
         padding: 10px;
         position: absolute;
         align-self: center;
-        top: 100%; /* Position the dropdown content just below the header */
-        z-index: 1; /* Ensure the dropdown is above other content */
+        top: 100%;
+        z-index: 1;
         background-color: var(--secondary-background-color);
         border: 2px solid var(--border-color);
         border-radius: 0 0 15px 15px;
         width: auto;
-        max-height: 0px;
+        max-height: 0;
         height: auto;
         overflow-y: hidden;
         margin: 2px;
         transition: max-height 0.3s ease-in-out;
     }
-
     /* Show the dropdown content when the dropdown is active */
     .categorycolumn:hover .dropdown-content {
         display: block;
@@ -79,7 +84,7 @@
         display: flex;
         flex-direction: column;
         line-height: normal;
-        width: 33%;
+        width: 100%;
         margin-left: 0;
     }
     .category {
@@ -126,10 +131,321 @@
         margin: auto 0;
         font: 200 30px Libre Caslon Text, -apple-system, Roboto, Helvetica, sans-serif;
     }
+    /* arrange articles as a flexbox */
+    .articleList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    /* style each article */
+    .article {
+        border-radius: 15px;
+        border: 2px solid var(--border-color);
+        background-color: var(--secondary-background-color);
+        padding: 10px;
+        margin-bottom: 10px;
+    }
     @media(max-width: 991px) {
         .skoria {
             margin-top: 40px;
             font-size: 40px;
         }
     }
+    /* Custom styles for dropdown */
+    .filter-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .filter-column {
+        flex-basis: 30%;
+    }
+    .continent-column {
+        flex-basis: 60%;
+    }
+    .list-group {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 10px;
+    }
+    .list-group div {
+        flex: 1 0 100px;
+        height: 50px;
+        margin: 0;
+    }
+    .article-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .article-group div {
+        flex: 1 0 100px;
+        margin: 0;
+    }
 </style>
+<body>
+    <div class="navbar">
+        <div class="categories">
+            <div class="categorycolumn">
+                <div class="category">Articles</div>
+                <div class="dropdown-content">
+                    <div class="filter-container">
+                        <div class="filter-column">
+                            <h3>Planes</h3>
+                            <div
+                                id="planeList" class="list-group"><!-- Populate planes dynamically using JavaScript -->
+                            </div>
+                        </div>
+                        <div class="continent-column">
+                            <h3>Continents</h3>
+                            <div
+                                id="continentList" class="list-group"><!-- Populate continents dynamically using JavaScript -->
+                            </div>
+                        </div>
+                        <div class="filter-column">
+                            <h3>Types</h3>
+                            <div
+                                id="typeList" class="article-group"><!-- Populate types dynamically using JavaScript -->
+                            </div>
+                        </div>
+                        <div class="continent-column">
+                            <h3>Articles</h3>
+                            <div
+                                id="articleList" class="article-group"><!-- Display articles dynamically using JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="/">
+                <div class="logolist">
+                    <div class="logolistimage">
+                        <div class="logo-image">
+                            <img src="/static/Skoria Emblem.png" alt="Skoria Logo" width="30" height="40"></div>
+                        </div>
+                        <div class="logolisttext">
+                            <div class="skoria-text">Skoria</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        {% set navPages = collections.all | eleventyNavigation %}
+        const navbar = {{ navPages | dump | safe }}
+        // Initialize filter selections as null (no filter by default)
+        let selectedPlane = null;
+        let selectedContinent = null;
+        let selectedType = null;
+        // Fetch JSON data
+        fetch('/static/metadata.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                populateFilters(jsonData);
+                populateArticles(jsonData);
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+        // Function to populate filters based on jsonData
+        function populateFilters(jsonData) {
+            const planelist = new Set();
+            const continentlist = new Set();
+            const typelist = new Set();
+            // Object to hold banners for planes and continents
+            const planeBanners = {};
+            const continentBanners = {};
+            Object.keys(jsonData).forEach(key => {
+                const item = jsonData[key];
+                planelist.add(item.plane);
+                continentlist.add(item.continent);
+                typelist.add(item.type);
+            });
+            // Populate planeBanners
+            planelist.forEach(plane => {
+                Object.keys(jsonData).forEach(key => {
+                    const item = jsonData[key];
+                    if (item.title === plane && item.banner) {
+                        planeBanners[plane] = item.banner;
+                    }
+                });
+            });
+            // Populate continentBanners
+            continentlist.forEach(continent => {
+                Object.keys(jsonData).forEach(key => {
+                    const item = jsonData[key];
+                    if (item.title === continent && item.banner) {
+                        continentBanners[continent] = item.banner;
+                    }
+                });
+            });
+            // Populate planes with banners
+            document.getElementById("planeList").innerHTML = Array
+                .from(planelist)
+                .map(
+                    plane => `<div class="plane filterbox" style="background-image: url(${
+                        (planeBanners[plane] || '').replace(/ /g, '%20')
+                    })">${plane}</div>`
+                )
+                .join('');
+            // Populate continents with banners
+            document.getElementById("continentList").innerHTML = Array
+                .from(continentlist)
+                .map(
+                    continent => `<div class="continent filterbox" style="background-image: url(${
+                        (continentBanners[continent] || '').replace(/ /g, '%20')
+                    })">${continent}</div>`
+                )
+                .join('');
+            // Populate types without banners
+            document.getElementById("typeList").innerHTML = Array
+                .from(typelist)
+                .map(
+                    type => `<div class="type filterbox">${type}</div>`
+                )
+                .join('');
+        }
+        function populateArticles(jsonData) {
+            document.getElementById("articleList").innerHTML = Object
+                .values(jsonData)
+                .map(article => `<a href="${
+                    article.path
+                }">
+                                <div class="article list-group-item" data-plane="${
+                    article.plane
+                }" data-continent="${
+                    article.continent
+                }" data-type="${
+                    article.type
+                }">
+                                    ${
+                    article.title
+                }
+                                </div>
+                            </a>`)
+                .join('');
+            // Reapply any existing filters after population
+            if (selectedPlane || selectedContinent || selectedType) {
+                filterArticles();
+                updateFilterDisplays();
+            }
+        }
+        // Add event listeners to planes, continents, and types
+        document.addEventListener('click', function (e) {
+            if (e
+                    .target
+                    .classList
+                    .contains('plane')) {
+                toggleFilter(e.target, 'plane');
+            }
+            if (e
+                    .target
+                    .classList
+                    .contains('continent')) {
+                toggleFilter(e.target, 'continent');
+            }
+            if (e
+                    .target
+                    .classList
+                    .contains('type')) {
+                toggleFilter(e.target, 'type');
+            }
+        });
+        function toggleFilter(targetElement, filterType) { // remove active class from all not clicked elements
+            if (targetElement.classList.contains('active')) {
+                targetElement.classList.remove('active');
+                switch (filterType) {
+                    case 'plane': selectedPlane = null;
+                        break;
+                    case 'continent': selectedContinent = null;
+                        break;
+                    case 'type': selectedType = null;
+                        break;
+                }
+            } else {
+                document.querySelectorAll('.' + filterType).forEach(element => element.classList.remove('active'));
+                targetElement.classList.add('active');
+                switch (filterType) {
+                    case 'plane': selectedPlane = targetElement.innerText.trim();
+                        break;
+                    case 'continent': selectedContinent = targetElement.innerText.trim();
+                        break;
+                    case 'type': selectedType = targetElement.innerText.trim();
+                }
+            } filterArticles();
+            updateFilterDisplays();
+            grayOutIrrelevantFilters();
+        }
+        function updateFilterDisplays() {
+            document.querySelectorAll('.plane').forEach(plane => {
+                if (plane.innerText.trim() === selectedPlane) {
+                    plane.classList.add('active');
+                } else {
+                    plane.classList.remove('active');
+                }
+            });
+            document.querySelectorAll('.continent').forEach(continent => {
+                if (continent.innerText.trim() === selectedContinent) {
+                    continent.classList.add('active');
+                } else {
+                    continent.classList.remove('active');
+                }
+            });
+            document.querySelectorAll('.type').forEach(type => {
+                if (type.innerText.trim() === selectedType) {
+                    type.classList.add('active');
+                } else {
+                    type.classList.remove('active');
+                }
+            });
+        }
+        function filterArticles() {
+            document.querySelectorAll('.article').forEach(article => {
+                article.style.display = (! selectedPlane || article.dataset.plane === selectedPlane) && (! selectedContinent || article.dataset.continent === selectedContinent) && (! selectedType || article.dataset.type === selectedType)
+                    ? 'block'
+                    : 'none';
+            });
+        }
+        function grayOutIrrelevantFilters() {
+            const articleElements = document.querySelectorAll('.article');
+            const validPlanes = new Set();
+            const validContinents = new Set();
+            const validTypes = new Set();
+            articleElements.forEach(article => {
+                if (article.style.display === 'block') {
+                    validPlanes.add(article.dataset.plane);
+                    validContinents.add(article.dataset.continent);
+                    validTypes.add(article.dataset.type);
+                }
+            });
+            document.querySelectorAll('.plane').forEach(plane => {
+                if (! validPlanes.has(plane.innerText.trim())) {
+                    plane.style.opacity = '0.15';
+                    plane.style.pointerEvents = 'none';
+                } else {
+                    plane.style.opacity = '1';
+                    plane.style.pointerEvents = 'auto';
+                }
+            });
+            document.querySelectorAll('.continent').forEach(continent => {
+                if (! validContinents.has(continent.innerText.trim())) {
+                    continent.style.opacity = '0.15';
+                    continent.style.pointerEvents = 'none';
+                } else {
+                    continent.style.opacity = '1';
+                    continent.style.pointerEvents = 'auto';
+                }
+            });
+            document.querySelectorAll('.type').forEach(type => {
+                if (! validTypes.has(type.innerText.trim())) {
+                    type.style.opacity = '0.15';
+                    type.style.pointerEvents = 'none';
+                } else {
+                    type.style.opacity = '1';
+                    type.style.pointerEvents = 'auto';
+                }
+            });
+        }
+    </script>
+</body>

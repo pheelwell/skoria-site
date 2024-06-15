@@ -1,15 +1,18 @@
 ---
 banner: /static/Naga02.png
+continent: Levia
 date created: Thursday, December 14th 2023, 12:05:23 am
 date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Naga
   parent: Levia
 herocolor0: 184
-herocolor1: 173
-herocolor2: 147
+herocolor1: 171
+herocolor2: 146
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Naga/
+plane: Material Plane
 title: Naga
 ---
 

@@ -1,5 +1,6 @@
 ---
 banner: /static/Levia-Atmosphere.png
+continent: Levia
 date created: Thursday, December 14th 2023, 12:02:12 am
 date modified: Friday, December 15th 2023, 1:08:23 pm
 eleventyNavigation:
@@ -9,7 +10,9 @@ herocolor0: 180
 herocolor1: 191
 herocolor2: 183
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia/
+plane: Material Plane
 title: Levia
 ---
 

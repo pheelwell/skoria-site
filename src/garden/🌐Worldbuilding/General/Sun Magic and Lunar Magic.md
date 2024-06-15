@@ -6,7 +6,9 @@ eleventyNavigation:
   key: Sun Magic and Lunar Magic
   parent: General
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\General/General.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\General/General.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CGeneral/Sun%20Magic%20and%20Lunar%20Magic/
+plane: General
 sum:
 - Sun Magic pulls its power from the sun and a big magic node in Gundras
 - Lunar Magic pulls its power from the moon and a big magic node in Gundras

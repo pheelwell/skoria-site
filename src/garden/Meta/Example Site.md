@@ -9,6 +9,7 @@ herocolor0: 67
 herocolor1: 42
 herocolor2: 53
 layout: base.njk
+path: /garden%5CMeta/Example%20Site/
 title: Example Site
 type: Meta
 ---

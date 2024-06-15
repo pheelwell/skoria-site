@@ -1,4 +1,5 @@
 ---
+continent: Gods
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Thursday, December 14th 2023, 1:41:26 pm
 dg-publish: true
@@ -6,7 +7,9 @@ eleventyNavigation:
   key: Zarinesh
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh/
+plane: Nether Plane
 sum:
 - Domain Synthetics
 - Associated Element Manipulation
@@ -14,6 +17,8 @@ sum:
 title: Zarinesh
 type: Deity
 ---
+
+![](/static/Depiction%20of%20Zarinesh.png)
 
 - Domain: Synthetics
 - Associated Element: Manipulation

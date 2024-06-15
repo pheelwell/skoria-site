@@ -1,5 +1,6 @@
 ---
 banner: /static/ViewOverSelkath.png
+continent: Selkath
 date created: Thursday, December 14th 2023, 12:02:12 am
 date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
@@ -9,7 +10,9 @@ herocolor0: 28
 herocolor1: 19
 herocolor2: 32
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%BFSelkath/Selkath/
+plane: Material Plane
 title: Selkath
 ---
 

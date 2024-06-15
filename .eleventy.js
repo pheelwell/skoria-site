@@ -9,10 +9,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/static");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  eleventyConfig.addFilter("jsonify", function (variable) {
-    console.log(JSON.stringify(variable, null, 1));
-    return JSON.stringify(variable);
-  });
 
   let markdownLib = markdownIt({
     breaks: true,

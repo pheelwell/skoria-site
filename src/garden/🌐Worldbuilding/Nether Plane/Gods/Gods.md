@@ -1,4 +1,5 @@
 ---
+continent: Gods
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Monday, December 11th 2023, 6:19:10 pm
 dg-publish: true
@@ -9,7 +10,9 @@ layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'
 - 'corellion: every other motherfoka'
-parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
+parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/
+plane: Nether Plane
 status: Sprout
 sum:
 - 'Twins of Luminance: Sori (sun, warmth, life) and Luniam (moon, dreams, intuition)'
