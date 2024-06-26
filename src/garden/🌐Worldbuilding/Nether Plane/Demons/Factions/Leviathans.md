@@ -7,8 +7,8 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 eleventyNavigation:
   key: Leviathans
   parent: Demons
-herocolor0: 202
-herocolor1: 192
+herocolor0: 199
+herocolor1: 193
 herocolor2: 185
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Demons/Demons.md"

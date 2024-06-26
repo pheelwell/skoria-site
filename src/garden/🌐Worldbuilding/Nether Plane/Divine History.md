@@ -50,8 +50,8 @@ As mortal civilizations grew more powerful, conflicts between them increased, le
 
 ## Epoch of Change
 
-With the barrier between [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) in place, divine forces began to find ways to access [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
+With the barrier between [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) in place, divine forces began to find ways to access [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
 
 ## Epoch of Unity
 
-In response to the growing threats from both within and beyond [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria), different races and kingdoms began forming alliances for mutual protection and cooperation.
+In response to the growing threats from both within and beyond [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria), different races and kingdoms began forming alliances for mutual protection and cooperation.

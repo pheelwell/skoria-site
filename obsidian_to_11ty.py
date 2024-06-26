@@ -67,7 +67,7 @@ class ObsidianToeleventy:
         self.process_content()
 
 
-    def add_frontmatter(self,text: str,root) -> str:
+    def add_frontmatter(self,text: str,root,filename) -> str:
         """
         adds some frontmatter to the file
         """
@@ -83,8 +83,14 @@ class ObsidianToeleventy:
         # for parent choose the parent folder of the file (if the parent folder contains a {parent}.md file})
         post['eleventyNavigation'] = {}
         
+        # guard for post not having a title
+        if "title" not in post.keys():
+            logger.error(f"ERROR: The file {root}/{filename} does not have a title set. Please set it manually in the frontmatter.")
+            
         post['eleventyNavigation']['key'] = post['title']
-        
+            
+            
+            
         # add own path to the frontmatter
         if root == "":
             post['path'] = quote(f"/garden/{post['title']}")
@@ -399,7 +405,8 @@ class ObsidianToeleventy:
                         content = f.read()
                     added = self.replace_wiki_links(content)
                     replaced = self.replace_wiki_images(added)
-                    replaced = self.add_frontmatter(replaced,root)
+                    
+                    replaced = self.add_frontmatter(replaced,root,file)
                     colored = self.add_colors(replaced,root)
                     with open(os.path.join(root, file), "w", encoding="utf-8") as f:
                         f.write(colored)

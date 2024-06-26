@@ -3,13 +3,13 @@ banner: /static/Demons.png
 banner_y: 0.332
 continent: Demons
 date created: Monday, December 11th 2023, 1:18:30 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Thursday, June 27th 2024, 1:20:14 am
 eleventyNavigation:
   key: Demons
   parent: Nether Plane
 herocolor0: 261
 herocolor1: 288
-herocolor2: 339
+herocolor2: 340
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/
@@ -75,7 +75,6 @@ Tormentors revel in pain—not merely physical but emotional anguish too profoun
 ### Devourers
 
 Devourers personify gluttony unchecked—a relentless pursuit to consume without end nor satisfaction ever attained. Often depicted as gaping maws surrounded by writhing tentacles or masses engulfing everything around them without prejudice—flesh, bone, stone—all dissolve equally within ravenous voids that serve as bodies for these demons.
-
 
 ## Origin
 

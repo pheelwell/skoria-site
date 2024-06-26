@@ -1,13 +1,13 @@
 ---
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Sunday, June 16th 2024, 12:41:33 am
+date modified: Thursday, June 27th 2024, 1:20:15 am
 dg-publish: true
 eleventyNavigation:
   key: Mom
   parent: The Basin
 herocolor0: 214
-herocolor1: 206
+herocolor1: 207
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The

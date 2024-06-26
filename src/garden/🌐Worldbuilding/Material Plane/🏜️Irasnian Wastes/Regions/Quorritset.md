@@ -2,13 +2,13 @@
 banner: /static/Quorritset.png
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Thursday, June 27th 2024, 1:20:15 am
 eleventyNavigation:
   key: Quorritset
   parent: Irasnian Wastes
-herocolor0: 43
-herocolor1: 84
-herocolor2: 45
+herocolor0: 41
+herocolor1: 86
+herocolor2: 41
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DC️Irasnian
   Wastes/Irasnian Wastes.md"

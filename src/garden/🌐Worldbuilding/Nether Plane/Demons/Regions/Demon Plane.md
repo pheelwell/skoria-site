@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Demons
 herocolor0: 261
 herocolor1: 288
-herocolor2: 339
+herocolor2: 340
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Demons/Demons.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons%5CRegions/Demon%20Plane/

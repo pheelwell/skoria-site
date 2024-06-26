@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Arcane Union Of Magic Knowledge
   parent: Material Plane
 herocolor0: 214
-herocolor1: 206
+herocolor1: 207
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
@@ -17,7 +17,7 @@ title: Arcane Union Of Magic Knowledge
 
 Umgangssprachlich auch nur Arcane Union oder Union genannt. 
 
-Ein Zusammenschluß der verschiedenen Akademien und Universitäten in ganz [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). 
+Ein Zusammenschluß der verschiedenen Akademien und Universitäten in ganz [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). 
 
 Das Bündnis stärkt die Zusammenarbeit verschiedener Bildungsarbeiten über den ganzen Kontinent. 
 

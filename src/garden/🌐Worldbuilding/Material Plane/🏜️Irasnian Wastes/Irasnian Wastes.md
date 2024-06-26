@@ -3,14 +3,14 @@ banner: /static/Irasnian Wastes.png
 banner_y: 0.692
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Thursday, June 27th 2024, 1:31:39 am
 dg-publish: true
 eleventyNavigation:
   key: Irasnian Wastes
   parent: Material Plane
 herocolor0: 10
 herocolor1: 15
-herocolor2: 29
+herocolor2: 30
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes/
@@ -39,13 +39,13 @@ The Isranian Wastes is a vast and unforgiving desert region filled with mystery,
 
 ## Geography
 ### Notable Settlements:
-- [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon): A major trade hub built on [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarinesh%27s%20Hand).
+- [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon): A major trade hub built on [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand).
 - [Grediran Karawan](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Grediran%20Karawan): Scattered throughout the wastes; fiercely guarded and serve as rest stops for travelers.
 - [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset): A Oasis Settlement with Ancient History
 
 ### Scenery and Climate:
 
-The Isranian Wastes stretch below [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), a seemingly endless expanse of sand dunes broken only by jagged rock formations. In the eastern regions of this desolate landscape lies [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarinesh%27s%20Hand) - an enormous stone hand that serves as both a geographical wonder and a divine symbol. The [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River) flows from this colossal monument towards the Cold Sea in the south, providing much-needed water for those who dwell nearby.
+The Isranian Wastes stretch below [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), a seemingly endless expanse of sand dunes broken only by jagged rock formations. In the eastern regions of this desolate landscape lies [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) - an enormous stone hand that serves as both a geographical wonder and a divine symbol. The [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River) flows from this colossal monument towards the Cold Sea in the south, providing much-needed water for those who dwell nearby.
 
 Central regions of Isranian Wastes are dominated by The Salt Flats - vast areas of cracked earth covered in salt deposits. These lands are rumored to be cursed and haunted by restless spirits which only adds to their eerie atmosphere.
 
@@ -53,7 +53,7 @@ The climate is one of extremes: scorching days give way to freezing nights where
 
 ### Flora and Fauna:
 
-Despite its desolate appearance, the Isranian Wastes are home to a diverse range of flora and fauna. Along the [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River), hardy vegetation thrives, fed by the precious water that flows from [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarinesh%27s%20Hand). The delta where the river meets the Cold Sea is lush and green, a stark contrast to the barren wasteland that surrounds it.
+Despite its desolate appearance, the Isranian Wastes are home to a diverse range of flora and fauna. Along the [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River), hardy vegetation thrives, fed by the precious water that flows from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand). The delta where the river meets the Cold Sea is lush and green, a stark contrast to the barren wasteland that surrounds it.
 
 Many dangerous creatures have adapted to life in this harsh environment, such as giant scorpions, sand worms, and desert drakes. These formidable beasts pose a significant threat to travelers who dare to venture into their territories without proper precautions.
 
@@ -92,7 +92,7 @@ Pirate syndicates operating in the delta regions near the Cold Sea pose a signif
 
 ### History and Origin:
 
-The Isranian Wastes' history is shrouded in mystery with tales of hidden cities, ancient civilizations, and divine battles shaping the landscape. The massive monument of [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarinesh%27s%20Hand) serves as a constant reminder of the deity who lost it during [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering), an event that has left its mark on both the land and its inhabitants.
+The Isranian Wastes' history is shrouded in mystery with tales of hidden cities, ancient civilizations, and divine battles shaping the landscape. The massive monument of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) serves as a constant reminder of the deity who lost it during [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering), an event that has left its mark on both the land and its inhabitants.
 
 It is believed that an underground network connecting key locations within Isranian Wastes exists, hinting at a deeper connection between the scattered settlements and nomadic tribes that dwell within this desolate land.
 

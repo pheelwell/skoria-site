@@ -2,13 +2,13 @@
 banner: /static/Levia-Atmosphere.png
 continent: Levia
 date created: Thursday, December 14th 2023, 12:02:12 am
-date modified: Friday, December 15th 2023, 1:08:23 pm
+date modified: Thursday, June 27th 2024, 1:20:15 am
 eleventyNavigation:
   key: Levia
   parent: Material Plane
 herocolor0: 180
 herocolor1: 191
-herocolor2: 183
+herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia/
@@ -46,7 +46,7 @@ They pray especially for [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Pl
 
 ### Politics and Economy:
 
-The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and also 
+The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and also 
 
 ### History and Origin:
 

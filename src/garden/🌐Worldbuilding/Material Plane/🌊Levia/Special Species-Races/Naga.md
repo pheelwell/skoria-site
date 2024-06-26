@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Naga
   parent: Levia
 herocolor0: 184
-herocolor1: 173
+herocolor1: 171
 herocolor2: 146
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"

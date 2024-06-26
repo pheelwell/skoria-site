@@ -2,12 +2,12 @@
 banner: /static/Echon Isles.png
 continent: Echon
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Thursday, December 14th 2023, 12:21:54 am
+date modified: Thursday, June 27th 2024, 1:20:15 am
 dg-publish: true
 eleventyNavigation:
   key: Echo Isles
   parent: Echon
-herocolor0: 103
+herocolor0: 105
 herocolor1: 195
 herocolor2: 196
 layout: base.njk

@@ -6,9 +6,9 @@ date modified: Sunday, June 16th 2024, 1:01:21 am
 eleventyNavigation:
   key: Nosaia
   parent: Material Plane
-herocolor0: 120
-herocolor1: 188
-herocolor2: 126
+herocolor0: 118
+herocolor1: 189
+herocolor2: 128
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CNosaia/

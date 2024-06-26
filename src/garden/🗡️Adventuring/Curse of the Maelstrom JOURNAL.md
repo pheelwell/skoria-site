@@ -30,7 +30,7 @@ title: Curse of the Maelstrom JOURNAL
 - They learn the essentials, but when Rinera should show them some Scrying with a magic ball she gets posessed by an unknown force, preaching a dark prophecy:
 Erlischt das glühen am Tor des Lichtes, wird es fallen
 Die Götter werden sich nehmen was ihnen gehört
-Ihr Zorn wird auf ewig die Welt von [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) umkrallen
+Ihr Zorn wird auf ewig die Welt von [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) umkrallen
 Das Ende aller Zeiten kommt, diese Welt wird zerstört
 - Rinera should go to the Principal the next day.
 - It was uncommon that Gil was not there, therefore he is never late for class.

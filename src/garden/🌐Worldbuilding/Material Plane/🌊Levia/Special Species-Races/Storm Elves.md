@@ -37,7 +37,7 @@ The Storm Elves are a distinctive elven tribe commonly found around [Levia](/gar
 4. Society and Culture:
 	
 	- Tribal Communities: Storm Elves live in tight-knit tribal communities that value cooperation, shared responsibilities, and a deep respect for the sea. Each tribe has a unique totem or symbol representing their connection to the ocean.
-	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria) live.
+	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) live.
 
 5. Relationships with Other Species:
 	

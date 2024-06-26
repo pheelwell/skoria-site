@@ -6,7 +6,7 @@ date modified: Thursday, December 14th 2023, 1:41:27 pm
 eleventyNavigation:
   key: Selkath
   parent: Material Plane
-herocolor0: 26
+herocolor0: 28
 herocolor1: 19
 herocolor2: 32
 layout: base.njk

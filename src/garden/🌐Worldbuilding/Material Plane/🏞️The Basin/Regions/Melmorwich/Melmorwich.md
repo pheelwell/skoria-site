@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Melmorwich
   parent: The Basin
 herocolor0: 214
-herocolor1: 206
+herocolor1: 207
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The

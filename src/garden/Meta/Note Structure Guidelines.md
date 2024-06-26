@@ -1,6 +1,6 @@
 ---
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Thursday, June 27th 2024, 1:20:15 am
 eleventyNavigation:
   key: Note Structure Guidelines
 layout: base.njk
