@@ -1,11 +1,11 @@
 ---
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Friday, December 15th 2023, 1:08:22 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 eleventyNavigation:
   key: Promisses of Victory Journal
   parent: Adventuring
 layout: base.njk
-parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
+parentpath: src/garden\🗡️Adventuring/Adventuring.md
 path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Promisses%20of%20Victory%20Journal/
 title: Promisses of Victory Journal
 ---

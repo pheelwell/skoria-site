@@ -1,6 +1,6 @@
 ---
 date created: Thursday, June 27th 2024, 1:15:43 am
-date modified: Thursday, June 27th 2024, 1:17:08 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
@@ -20,7 +20,7 @@ Delve into the mystical world of [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skor
 - The captivating cities and cultures within [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria)
 - The city of [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) in the [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes) 
 - The mysterious water prison in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)
-- The dark secrets of [Gundras](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0Gundras/Gundras)
+- The dark secrets of [Gundras](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0%20Gundras/Gundras)
 
 Explore unique subclasses such as:
 

@@ -2,17 +2,16 @@
 banner: /static/Placeholder.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Sunday, June 16th 2024, 12:43:30 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: The Lost Hops
   parent: The Basin
 herocolor0: 67
 herocolor1: 43
-herocolor2: 55
+herocolor2: 53
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops/
 plane: Material Plane
 sum:

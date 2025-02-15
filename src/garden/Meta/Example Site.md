@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Example Site
 herocolor0: 67
 herocolor1: 43
-herocolor2: 55
+herocolor2: 53
 layout: base.njk
 path: /garden%5CMeta/Example%20Site/
 title: Example Site

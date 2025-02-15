@@ -1,11 +1,11 @@
 ---
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Saturday, June 15th 2024, 11:17:32 pm
+date modified: Saturday, September 28th 2024, 5:52:43 pm
 eleventyNavigation:
   key: Relakra
   parent: Bestiary
 layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 path: /garden%5C%F0%9F%90%BBBestiary%5CRaces%5CRelakra/
 title: Relakra
 ---
@@ -61,3 +61,105 @@ The choice of emotional preference occurs organically over time as the Relakra '
 Relakras are believed to have originated from an ancient lineage of elf-like beings that had a deep connection with the emotional realm. This connection evolved over time into their present form - humanoid beings capable of sensing and feeding off other creatures' emotions while bearing an emotion-infused orb within them.
 
 Due to this unique feeding habit wherein each absorbed emotion could potentially alter the course of their lives by changing their subrace affinity, each individual's life journey is filled with richly diverse experiences creating vivid tales full of emotional dynamism - stories relished by other races creating unique bonds between the otherwise solitary Relakras and those around them.
+
+Write dnd 5e Race descriptions for a Relakra.
+
+### Relakra
+
+**Ability Score Increase:** Your Charisma score increases by 2.
+
+**Age:** Relakra mature quickly, reaching adulthood by the age of 10. If they consistently feed on emotions, they can live up to 30 years.
+
+**Alignment:** Relakra alignments vary based on their experiences and the emotions they feed on. They can be found across the entire spectrum of alignments, though their nomadic nature leans them towards neutrality.
+
+**Size:** Relakra are similar in size to humans, standing between 5 and 6 feet tall and weighing between 110 to 230 pounds. Your size is Medium.
+
+**Speed:** Your base walking speed is 30 feet.
+
+**Emotion Sense:** You can detect the presence of strong emotions within 30 feet. As an action, you can focus on a creature within range and determine its predominant emotional state (such as joy, anger, sorrow, etc.).
+
+**Empathic Feeding:** You gain sustenance by absorbing the emotions of others. As an action, you can touch a willing creature and feed off its emotions. You gain temporary hit points equal to your level + your Charisma modifier. Once you use this feature, you can't use it again until you finish a short or long rest.
+
+**Emotional Resilience:** Due to your exposure to a wide range of emotions, you have advantage on saving throws against being frightened and charmed.
+
+**Subrace:** Based on the predominant emotion you feed on, choose one of the following subraces: Joyous One, Passionate One, Adventurous One, Desolate One, Envious One, Ful One, Surprised One, Curious One, Fearful One.
+
+#### Joyous One
+
+**Ability Score Increase:** Your Wisdom score increases by 1.
+
+**Radiant Euphoria:** You can cast *calm emotions* once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.
+
+**Golden Glow:** Your orb emits a warm golden light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Passionate One
+
+**Ability Score Increase:** Your Strength score increases by 1.
+
+**Fiery Temper:** You have proficiency in Intimidation.
+
+**Blazing Orb:** Your orb emits vibrant red light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Adventurous One
+
+**Ability Score Increase:** Your Dexterity score increases by 1.
+
+**Thrill Seeker:** You have proficiency in Acrobatics.
+
+**Energetic Aura:** Your orb flickers with energetic orange hues in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Desolate One
+
+**Ability Score Increase:** Your Constitution score increases by 1.
+
+**Aura of Melancholy:** You can cast *bane* once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.
+
+**Eerie Light:** Your orb emits a sickly teal light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Envious One
+
+**Ability Score Increase:** Your Intelligence score increases by 1.
+
+**Jealous Insight:** You have proficiency in Insight.
+
+**Vivid Green Glow:** Your orb emits vivid green light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Ful One
+
+**Ability Score Increase:** Your Wisdom score increases by 1.
+
+**Tranquil Presence:** You can cast *sanctuary* once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.
+
+**Soothing Blue Light:** Your orb emits calming blue light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Surprised One
+
+**Ability Score Increase:** Your Dexterity score increases by 1.
+
+**Alert Reflexes:** You have proficiency in Perception.
+
+**Bright Yellow Flash:** Your orb flashes with bright yellow light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Curious One
+
+**Ability Score Increase:** Your Intelligence score increases by 1.
+
+**Inquisitive Mind:** You have proficiency in Investigation.
+
+**Lively Purple Light:** Your orb shimmers with lively purple hues in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+#### Fearful One
+
+**Ability Score Increase:** Your Constitution score increases by 1.
+
+**Aura of Dread:** You can cast *cause fear* once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.
+
+**Icy Blue Glow:** Your orb emits an unsettling icy blue or ghostly white light in a 10-foot radius and dim light for an additional 10 feet. You can suppress or activate this light as a bonus action.
+
+### Languages
+
+You can speak, read, and write Common and one extra language of your choice based on the region where you spend most of your time.
+
+### Optional Feature: Emotional Adaptation
+
+At DM's discretion, Relakra characters may adapt their subrace if they consistently feed on different emotions over time (at least one year). This change reflects their evolving nature and preference shift towards different emotional sustenance.

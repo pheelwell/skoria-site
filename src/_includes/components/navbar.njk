@@ -2,7 +2,7 @@
     .filterbox {
         border-radius: 15px;
         border: 2px solid var(--border-color);
-        background-color: var(--secondary-background-color);
+        background-color: rgba(0, 0, 0, 0.4);
         background-size: cover;
         backdrop-filter: blur(5px);
         display: flex;
@@ -10,10 +10,30 @@
         gap: 10px;
         padding: 2px 0;
         width: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    .filterbox::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(5px);
+        transform: scale(1);
+        z-index: -1;
+        transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    .filterbox:hover::before {
+        filter: blur(0px);
+        transform: scale(1.1);
     }
     .plane,
-    .continent,
-    .type {
+    .continent {
         cursor: pointer;
         padding: 10px;
         margin-bottom: 10px;
@@ -92,7 +112,7 @@
         align-self: center;
         white-space: nowrap;
         margin: auto;
-        font: 100 24px Jacques Francois, -apple-system, Roboto, Helvetica, sans-serif;
+        font: 100 24px Grenze Gotisch, sans-serif;
     }
     .logo {
         border-radius: 30px 15px 0 0;
@@ -129,7 +149,7 @@
     .skoria-text {
         color: #ededed;
         margin: auto 0;
-        font: 200 30px Libre Caslon Text, -apple-system, Roboto, Helvetica, sans-serif;
+        font: 200 30px Grenze Gotisch, sans-serif;
     }
     /* arrange articles as a flexbox */
     .articleList {
@@ -143,7 +163,34 @@
         border: 2px solid var(--border-color);
         background-color: var(--secondary-background-color);
         padding: 10px;
-        margin-bottom: 10px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    .article-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        filter: blur(10px);
+        transform: scale(1.1);
+        z-index: -1;
+        transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    .article:hover .article-bg {
+        filter: blur(0px);
+        transform: scale(1.2);
+    }
+    title{
+        font : 200 24px Grenze Gotisch, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .article-title {
+        position: relative;
+        z-index: 1;
     }
     @media(max-width: 991px) {
         .skoria {
@@ -159,6 +206,8 @@
     }
     .filter-column {
         flex-basis: 30%;
+        border-right: 2px solid var(--border-color);
+        padding-right: 10px;
     }
     .continent-column {
         flex-basis: 60%;
@@ -176,11 +225,42 @@
     .article-group {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
     }
     .article-group div {
+        margin: 0;
+    }
+    .type-row {
+        display: flex;
+        margin: 10px 0;
+        padding: 10px;
+        align-items: center;
+        border: 2px solid var(--border-color);
+    }
+    .type-name {
+        width: 200px;
+        font-weight: bold;
+        
+    }
+    .type-articles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-group-item {
         flex: 1 0 100px;
         margin: 0;
+        padding: 10px;
+        border-bottom: 2px solid var(--border-color);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .list-group-item:hover {
+        cursor: pointer;
+        opacity: 0.9;
+        transition: opacity 0.3s ease-in-out;
+    }
+    /* New rule: style links to not be blue and bold */
+    a {
+        color: inherit;
+        font-weight: bold;
     }
 </style>
 <body>
@@ -202,13 +282,7 @@
                                 id="continentList" class="list-group"><!-- Populate continents dynamically using JavaScript -->
                             </div>
                         </div>
-                        <div class="filter-column">
-                            <h3>Types</h3>
-                            <div
-                                id="typeList" class="article-group"><!-- Populate types dynamically using JavaScript -->
-                            </div>
-                        </div>
-                        <div class="continent-column">
+                        <div>
                             <h3>Articles</h3>
                             <div
                                 id="articleList" class="article-group"><!-- Display articles dynamically using JavaScript -->
@@ -239,7 +313,6 @@
         // Initialize filter selections as null (no filter by default)
         let selectedPlane = null;
         let selectedContinent = null;
-        let selectedType = null;
         // Fetch JSON data
         fetch('/static/metadata.json')
             .then(response => response.json())
@@ -252,7 +325,6 @@
         function populateFilters(jsonData) {
             const planelist = new Set();
             const continentlist = new Set();
-            const typelist = new Set();
             // Object to hold banners for planes and continents
             const planeBanners = {};
             const continentBanners = {};
@@ -260,7 +332,6 @@
                 const item = jsonData[key];
                 planelist.add(item.plane);
                 continentlist.add(item.continent);
-                typelist.add(item.type);
             });
             // Populate planeBanners
             planelist.forEach(plane => {
@@ -298,40 +369,42 @@
                     })">${continent}</div>`
                 )
                 .join('');
-            // Populate types without banners
-            document.getElementById("typeList").innerHTML = Array
-                .from(typelist)
-                .map(
-                    type => `<div class="type filterbox">${type}</div>`
-                )
-                .join('');
         }
         function populateArticles(jsonData) {
-            document.getElementById("articleList").innerHTML = Object
-                .values(jsonData)
-                .map(article => `<a href="${
-                    article.path
-                }">
-                                <div class="article list-group-item" data-plane="${
-                    article.plane
-                }" data-continent="${
-                    article.continent
-                }" data-type="${
-                    article.type
-                }">
-                                    ${
-                    article.title
+            const articlesByType = {};
+            Object.values(jsonData).forEach(article => {
+                if(!articlesByType[article.type]) articlesByType[article.type] = [];
+                articlesByType[article.type].push(article);
+            });
+            let output = '';
+            Object.keys(articlesByType).forEach(type => {
+                if (articlesByType[type].length) {
+                    output += `<div class="type-row">`;
+                    output += `<div class="type-name">${type}</div>`;
+                    output += `<div class="type-articles">`;
+                    articlesByType[type].forEach(article => {
+                        if (article.banner) {
+                            output += `<a href="${article.path}" class="article list-group-item" data-path="${article.path}" data-plane="${article.plane}" data-continent="${article.continent}">
+                                <div class="article-bg" style="background-image: url('${article.banner.replace(/ /g, '%20')}')"></div>
+                                <div class="article-title">${article.title}</div>
+                            </a>`;
+                        } else {
+                            output += `<a href="${article.path}" class="article list-group-item" data-path="${article.path}" data-plane="${article.plane}" data-continent="${article.continent}">
+                                ${article.title}
+                            </a>`;
+                        }
+                    });
+                    output += `</div></div>`;
                 }
-                                </div>
-                            </a>`)
-                .join('');
+            });
+            document.getElementById("articleList").innerHTML = output;
             // Reapply any existing filters after population
-            if (selectedPlane || selectedContinent || selectedType) {
+            if (selectedPlane || selectedContinent) {
                 filterArticles();
                 updateFilterDisplays();
             }
         }
-        // Add event listeners to planes, continents, and types
+        // Add event listeners to planes, continents
         document.addEventListener('click', function (e) {
             if (e
                     .target
@@ -345,12 +418,6 @@
                     .contains('continent')) {
                 toggleFilter(e.target, 'continent');
             }
-            if (e
-                    .target
-                    .classList
-                    .contains('type')) {
-                toggleFilter(e.target, 'type');
-            }
         });
         function toggleFilter(targetElement, filterType) { // remove active class from all not clicked elements
             if (targetElement.classList.contains('active')) {
@@ -360,8 +427,6 @@
                         break;
                     case 'continent': selectedContinent = null;
                         break;
-                    case 'type': selectedType = null;
-                        break;
                 }
             } else {
                 document.querySelectorAll('.' + filterType).forEach(element => element.classList.remove('active'));
@@ -370,8 +435,6 @@
                     case 'plane': selectedPlane = targetElement.innerText.trim();
                         break;
                     case 'continent': selectedContinent = targetElement.innerText.trim();
-                        break;
-                    case 'type': selectedType = targetElement.innerText.trim();
                 }
             } filterArticles();
             updateFilterDisplays();
@@ -392,31 +455,30 @@
                     continent.classList.remove('active');
                 }
             });
-            document.querySelectorAll('.type').forEach(type => {
-                if (type.innerText.trim() === selectedType) {
-                    type.classList.add('active');
-                } else {
-                    type.classList.remove('active');
-                }
-            });
         }
         function filterArticles() {
             document.querySelectorAll('.article').forEach(article => {
-                article.style.display = (! selectedPlane || article.dataset.plane === selectedPlane) && (! selectedContinent || article.dataset.continent === selectedContinent) && (! selectedType || article.dataset.type === selectedType)
+                article.style.display = (! selectedPlane || article.dataset.plane === selectedPlane) && (! selectedContinent || article.dataset.continent === selectedContinent)
                     ? 'block'
                     : 'none';
+            });
+            // Hide row if it has no visible articles
+            document.querySelectorAll('.type-row').forEach(row => {
+                let anyVisible = false;
+                row.querySelectorAll('.article').forEach(article => {
+                    if (article.style.display !== 'none') anyVisible = true;
+                });
+                row.style.display = anyVisible ? 'flex' : 'none';
             });
         }
         function grayOutIrrelevantFilters() {
             const articleElements = document.querySelectorAll('.article');
             const validPlanes = new Set();
             const validContinents = new Set();
-            const validTypes = new Set();
             articleElements.forEach(article => {
                 if (article.style.display === 'block') {
                     validPlanes.add(article.dataset.plane);
                     validContinents.add(article.dataset.continent);
-                    validTypes.add(article.dataset.type);
                 }
             });
             document.querySelectorAll('.plane').forEach(plane => {
@@ -435,15 +497,6 @@
                 } else {
                     continent.style.opacity = '1';
                     continent.style.pointerEvents = 'auto';
-                }
-            });
-            document.querySelectorAll('.type').forEach(type => {
-                if (! validTypes.has(type.innerText.trim())) {
-                    type.style.opacity = '0.15';
-                    type.style.pointerEvents = 'none';
-                } else {
-                    type.style.opacity = '1';
-                    type.style.pointerEvents = 'auto';
                 }
             });
         }

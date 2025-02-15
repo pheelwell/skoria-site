@@ -1,16 +1,19 @@
 ---
 continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 dg-publish: true
 eleventyNavigation:
   key: Umbrial
   parent: Gods
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
 ownership:
 - 'corellion: role in shattering'
 - 'pheelwell: result of shattering (specificly regarding Arathor)'
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial/
 plane: Nether Plane
 status: sprout
@@ -32,7 +35,7 @@ type: Deity
 Once a powerful and enigmatic God of Discord and Chaos, Umbrial now remains as a barely known figure in the mortal realm. Banished by other gods and killed during the Shattering, his influence has vanished from the world. With no cults or followers to carry on his legacy, his domain has been distributed among the other gods in the Divine Pantheon.
 
 > [!TIP] Quick Reference
-> ![](/static/Placeholder.png)
+> ![](/static/Umbrial.png)
 > **Umbrial** 
 > God of Discord and Chaos (deceased)
 >- **Domains**: Discord, Chaos

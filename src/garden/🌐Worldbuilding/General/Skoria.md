@@ -3,9 +3,7 @@ date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Thursday, June 27th 2024, 1:20:15 am
 eleventyNavigation:
   key: Skoria
-  parent: General
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\General/General.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CGeneral/Skoria/
 plane: General
 title: Skoria
@@ -13,7 +11,7 @@ title: Skoria
 
 ## Welcome to Skoria
 
-![](/static/Placeholder.png)
+![](/static/Skoria%2C%20the%20world%20beneath%20the%20nether2.0.jpg)
 
 Welcome, traveler, to the mystical world of Skoria. This land is full of secrets, history, and wonder. Within this guide, you'll uncover knowledge about the captivating cities and cultures within Skoria. Prepare yourself for a journey through a land shaped by divine forces and cataclysmic events.
 

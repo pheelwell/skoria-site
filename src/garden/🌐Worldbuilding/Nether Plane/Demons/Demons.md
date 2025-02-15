@@ -3,15 +3,15 @@ banner: /static/Demons.png
 banner_y: 0.332
 continent: Demons
 date created: Monday, December 11th 2023, 1:18:30 pm
-date modified: Thursday, June 27th 2024, 1:20:14 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Demons
   parent: Nether Plane
-herocolor0: 261
-herocolor1: 288
+herocolor0: 260
+herocolor1: 289
 herocolor2: 340
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/
 plane: Nether Plane
 status: sprout

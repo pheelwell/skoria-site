@@ -1,13 +1,13 @@
 ---
 continent: The Basin
 date created: Thursday, June 27th 2024, 1:15:43 am
-date modified: Thursday, June 27th 2024, 1:31:39 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Gandmuehl
   parent: Gandmuel
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin\\Regions\\Gandmuel/Gandmuel.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Gandmuel/Gandmuel.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuehl/
 plane: Material Plane
 status: sprout

@@ -1,12 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 dg-publish: true
 eleventyNavigation:
   key: Cult of the Gifted Ones (Class)
   parent: Bestiary
 layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 path: /garden%5C%F0%9F%90%BBBestiary%5CSubclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29/
 title: Cult of the Gifted Ones (Class)
 type: Meta

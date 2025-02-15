@@ -2,15 +2,15 @@
 banner: /static/StormElf01.png
 continent: Levia
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Storm Elves
   parent: Levia
-herocolor0: 210
+herocolor0: 209
 herocolor1: 202
 herocolor2: 197
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F30ALevia/Levia.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Storm%20Elves/
 plane: Material Plane
 title: Storm Elves

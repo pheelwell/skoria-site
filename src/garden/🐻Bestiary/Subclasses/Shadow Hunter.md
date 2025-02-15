@@ -1,12 +1,12 @@
 ---
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 dg-publish: true
 eleventyNavigation:
   key: Shadow Hunter
   parent: Bestiary
 layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 path: /garden%5C%F0%9F%90%BBBestiary%5CSubclasses/Shadow%20Hunter/
 title: Shadow Hunter
 type: Meta
@@ -38,8 +38,8 @@ Pick 1 Loa that you have angered.
 
 Pick 1 Loa that you have a Deal with, needing to be resolved.
 
-| Loa        | Description                 |
-| - | - |
+| Loa        | Description                                                                                                                                                                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Shirvallah | Shirvallah values strength and heroism. Shirvallah is a powerful jaguar spirit, revered as a goddess by the tribes of the jungle. She is known for her strength, courage and tenacity, and is said to be the protector of the jungle and its children. |
 | Shadra     | As one of the darker loas, Shadra is amased by Cruelty. Shadra is the spider loa, and is said to be the mother of all spiders. She is a cruel and heartless loa, and is said to enjoy the suffering of others.                                         |
 | Bethekk    | Bethekk values rightiousness and justice. Bethekk is the Panther loa, and is said to be the protector of the jungle. He is a rightious and just loa, and is said to be the enemy of all evil.                                                          |

@@ -1,17 +1,16 @@
 ---
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, June 27th 2024, 1:31:39 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Ergon
   parent: Irasnian Wastes
 herocolor0: 10
-herocolor1: 15
-herocolor2: 30
+herocolor1: 16
+herocolor2: 29
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DC️Irasnian
-  Wastes/Irasnian Wastes.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏜️Irasnian Wastes/Irasnian Wastes.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon/
 plane: Material Plane
 status: sprout
@@ -45,7 +44,7 @@ Hidden within a maze-like network of tunnels beneath Ergon lies Master Artificer
 
 ### The Gilded Dune Tavern
 
-A popular watering hole among locals and travelers alike, The Gilded Dune Tavern offers a place to unwind after a long day in the desert heat. Patrons can enjoy local brews made from desert fruits while sharing stories of their adventures or listening to local musicians perform traditional songs.
+A small popular watering hole among locals and travelers alike, The Gilded Dune Tavern offers a place to unwind after a long day in the desert heat. Patrons can enjoy local brews made from desert fruits while sharing stories of their adventures or listening to local musicians perform traditional songs.
 
 > [!seed](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), rumored to lead to a long-lost underground city. Adventurers are sought to explore the depths and uncover the hidden secrets that lie within.
 

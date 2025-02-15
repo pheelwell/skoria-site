@@ -1,14 +1,17 @@
 ---
 date created: Friday, October 6th 2023, 6:38:50 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Divine History
   parent: Nether Plane
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Aftermath of the Shattering'
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History/
 plane: Nether Plane
 status: seed

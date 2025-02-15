@@ -1,12 +1,15 @@
 ---
 continent: Things
 date created: Friday, October 6th 2023, 6:38:50 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 eleventyNavigation:
   key: Prophecy of Shadows
   parent: Nether Plane
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CThings/Prophecy%20of%20Shadows/
 plane: Nether Plane
 title: Prophecy of Shadows

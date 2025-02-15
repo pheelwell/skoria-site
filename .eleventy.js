@@ -60,57 +60,6 @@ module.exports = function (eleventyConfig) {
           const code = token.content.trim();
           return `<div class="transclusion">${md.render(code)}</div>`;
         }
-        if (token.info.startsWith("ad-")) {
-          const code = token.content.trim();
-          const parts = code.split("\n")
-          let titleLine;
-          let collapse;
-          let collapsible = false
-          let collapsed = true
-          let icon;
-          let color;
-          let nbLinesToSkip = 0
-          for (let i = 0; i < 4; i++) {
-            if (parts[i] && parts[i].trim()) {
-              let line = parts[i] && parts[i].trim().toLowerCase()
-              if (line.startsWith("title:")) {
-                titleLine = line.substring(6);
-                nbLinesToSkip++;
-              } else if (line.startsWith("icon:")) {
-                icon = line.substring(5);
-                nbLinesToSkip++;
-              } else if (line.startsWith("collapse:")) {
-                collapsible = true
-                collapse = line.substring(9);
-                if (collapse && collapse.trim().toLowerCase() == 'open') {
-                  collapsed = false
-                }
-                nbLinesToSkip++;
-              } else if (line.startsWith("color:")) {
-                color = line.substring(6);
-                nbLinesToSkip++;
-              }
-            }
-          }
-          const foldDiv = collapsible ? `<div class="callout-fold">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down">
-              <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-          </div>` : "";
-          const titleDiv = titleLine
-            ? `<div class="callout-title"><div class="callout-title-inner">${titleLine}</div>${foldDiv}</div>`
-            : "";
-          let collapseClasses = titleLine && collapsible ? 'is-collapsible' : ''
-          if (collapsible && collapsed) {
-            collapseClasses += " is-collapsed"
-          }
-
-          let res = `<div data-callout-metadata class="callout ${collapseClasses}" data-callout="${token.info.substring(3)
-            }">${titleDiv}\n<div class="callout-content">${md.render(
-              parts.slice(nbLinesToSkip).join("\n")
-            )}</div></div>`;
-          return res
-        }
 
         // Other languages
         return origFenceRule(tokens, idx, options, env, slf);
@@ -205,7 +154,7 @@ module.exports = function (eleventyConfig) {
             isCollapsable = Boolean(collapse);
             isCollapsed = collapse === "-";
             const titleText = title.replace(/(<\/{0,1}\w+>)/, "")
-              ? title
+              ? title.trim()
               : `${callout.charAt(0).toUpperCase()}${callout
                 .substring(1)
                 .toLowerCase()}`;
@@ -213,9 +162,23 @@ module.exports = function (eleventyConfig) {
               ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
               : ``;
 
-            calloutType = callout;
+            calloutType = callout.trim().toLowerCase();
             calloutMetaData = metaData;
-            titleDiv = `<div class="callout-title"><div class="callout-title-inner">${titleText}</div>${fold}</div>`;
+
+            // Determine style based on calloutType mapping
+            const calloutMap = {
+              info:    { color: '#3498db', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/info.svg' },
+              tip:     { color: '#008080', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/flame.svg' },
+              warning: { color: '#FFA500', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/badge-alert.svg' },
+              quote:   { color: '#d3d3d3', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/quote.svg' },
+              read:    { color: '#800080', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/book-open.svg' },
+              seed:    { color: '#008000', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/sprout.svg' },
+              secret:  { color: '#A9A9A9', icon: 'https://raw.githubusercontent.com/lucide-icons/lucide/refs/heads/main/icons/lock.svg' }
+            };
+            const styleData = calloutMap[calloutType] || { color: '', icon: '' };
+            const iconHtml = styleData.icon ? `<img src="${styleData.icon}" alt="${calloutType} icon" class="callout-icon">` : "";
+
+            titleDiv = `<div class="callout-title">${iconHtml}<div class="callout-title-inner">${titleText}</div>${fold}</div>`;
             return "";
           }
         );
@@ -225,6 +188,8 @@ module.exports = function (eleventyConfig) {
         blockquote.classList.add(isCollapsable ? "is-collapsible" : "");
         blockquote.classList.add(isCollapsed ? "is-collapsed" : "");
         blockquote.setAttribute("data-callout", calloutType.toLowerCase());
+        //add a class "callout-calloutType.toLowerCase()" to style via css
+        blockquote.classList.add(calloutType.toLowerCase());
         calloutMetaData && blockquote.setAttribute("data-callout-metadata", calloutMetaData);
         blockquote.innerHTML = `${titleDiv}\n<div class="callout-content">${content}</div>`;
       }

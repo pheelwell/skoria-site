@@ -1,16 +1,16 @@
 ---
-banner: /static/Ral.png
+banner: /static/R_BG.png
 continent: Nosaia
 date created: Saturday, February 3rd 2024, 10:24:28 am
-date modified: Sunday, June 16th 2024, 1:01:21 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Nosaia
   parent: Material Plane
-herocolor0: 118
+herocolor0: 120
 herocolor1: 189
-herocolor2: 128
+herocolor2: 126
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CNosaia/
 plane: Material Plane
 title: Nosaia

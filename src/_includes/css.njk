@@ -7,6 +7,7 @@
     --main-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 60%, 5%); /*rgba(9, 27, 38, 1);*/
     --secondary-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 40%, 10%);
     --tertiary-background-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 62%, 15%);
+    --accent-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 40%, 50%);
     --border-color: hsl({% if herocolor0 %} {{ herocolor0 }} {% else %} 202.4{% endif %}, 40%, 20%);
     --text-color: #fff; /* Set a default text color */
     --link-color: #3498db; /* Set a default link color */
@@ -74,13 +75,18 @@
 body {
     background-color: var(--main-background-color); /* Set the background color to the variable we defined above */
     color: white; /* Set text color to white */
-    font-family: Libre Caslon Display; /* Use a sans-serif font */
+    font-family: 'Ysabeau Infant', sans-serif; /* Updated default text font */
     margin: 0; /* Remove default body margin */
 }
+/* Update bold/heading styles to use Grenze Gotisch */
+.title, 
+h1, 
+h2, 
+h3, 
 h1 {
     font-size: 4rem; /* Adjust h1 font size */
-    font-weight: bold; /* Make h1 text bold */
     margin-bottom: 16px; /* Add some bottom margin for spacing */
+    font-family: 'Grenze Gotisch', sans-serif;
 }
 /* center the h2 text and underline */
 h2 {
@@ -110,7 +116,14 @@ ul, ol, li{
     font-size: 1.5rem; /* Adjust list font size */
     line-height: 1.5; /* Set the line height for better readability */
     margin-bottom: 20px; /* Add some bottom margin for spacing */
-} 
+}
+li {
+    text-align: justify; /* Justify the text */
+}
+li::marker {
+    content: 'ө';
+    color: var(--accent-color); /* Set the list marker color to the variable we defined above */
+}
 a {
     color: var(--link-color); /* Set link color to the variable we defined above */
     text-decoration: none; /* Remove default underline styles */
@@ -125,17 +138,61 @@ a:visited {
 /* Callout container styles */
 .callout {
     margin: 20px 0;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
     border-left: 8px solid #3498db;
 }
+/* Style callout bars by type */
+.callout.info { border-left-color: #3498db; }
+.callout.tip { border-left-color: #008080; }
+.callout.warning { border-left-color: #FFA500; }
+.callout.quote { border-left-color: #d3d3d3; }
+.callout.read { border-left-color: #800080; }
+.callout.seed { border-left-color: #008000; }
+.callout.secret { border-left-color: #090909; }
+
 /* Callout title styles */
 .callout-title {
     margin: 0;
     font-size: 1.25rem;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
+.callout-title .callout-icon {
+    margin-right: 0.5em;
+}
+
+/* Hide duplicate overlay image */
+.callout-title .overlay-image {
+    display: none;
+}
+
+/* Color svg icons using CSS filters */
+.callout.info .callout-icon {
+    filter: invert(51%) sepia(99%) saturate(354%) hue-rotate(161deg) brightness(88%) contrast(95%);
+}
+.callout.tip .callout-icon {
+    filter: invert(34%) sepia(92%) saturate(504%) hue-rotate(133deg) brightness(95%) contrast(101%);
+}
+.callout.warning .callout-icon {
+    filter: invert(75%) sepia(61%) saturate(3894%) hue-rotate(360deg) brightness(103%) contrast(104%);
+}
+.callout.quote .callout-icon {
+    filter: invert(78%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(108%) contrast(94%);
+}
+.callout.read .callout-icon {
+    filter: invert(9%) sepia(96%) saturate(5483%) hue-rotate(296deg) brightness(85%) contrast(126%);
+}
+.callout.seed .callout-icon {
+    filter: invert(20%) sepia(95%) saturate(4205%) hue-rotate(113deg) brightness(94%) contrast(101%);
+}
+.callout.secret .callout-icon {
+    filter: invert(0%) sepia(0%) saturate(5720%) hue-rotate(147deg) brightness(78%) contrast(93%);
+}
+
+.callout.info.div.
 /* Callout content styles */
 .callout-content {
     margin: 0;

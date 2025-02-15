@@ -1,15 +1,18 @@
 ---
 date created: Thursday, June 27th 2024, 1:15:43 am
-date modified: Thursday, June 27th 2024, 1:20:14 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Divine Pantheon
   parent: Nether Plane
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'
 - 'corellion: every other motherfoka'
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20Pantheon/
 plane: Nether Plane
 status: Sprout
@@ -38,13 +41,29 @@ type: Meta
 
 Together, [Sori](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Sori) and 🌐Skoria/🌐Worldbuilding/Nether Plane/Gods/Luniam symbolize harmony between day and night as well as balance between knowledge and intuition.
 
-## Twins of Winds: [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea), [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)
+## Twins of Winds: [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea), [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)
 
-[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea) represents gentle breezes, guiding winds, and whispers in the air. They are associated with guidance, communication, and inspiration. 
+[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea) represents the winds of _change_ and _exploration_, encouraging mortals to embrace curiosity and venture into the unknown. Their domain includes adaptability, the pursuit of discovery, and the restlessness that drives innovation. Carillea is the patron of travelers, explorers, and visionaries who dare to seek out uncharted territories, whether they are physical, intellectual, or emotional.
 
-[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea) promotes understanding between individuals as well as providing direction to those who are lost or seeking a path in life.
+- **Symbolism**: Carillea's winds are said to carry forgotten songs, lost memories, or whispers from distant lands. They are often depicted as a figure clad in flowing garments, blending seamlessly with the horizon.
+- **Virtues**: Courage, curiosity, and the drive to grow beyond one’s current state.
+- **Conflict**: Their influence can sometimes lead to dissatisfaction, restlessness, or a perpetual search for something unattainable.
 
-[Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis) embodies perfectionism within nature's elements such as earth or rock formations but also within mortal societies through humanism ideals. They believe in sacrificing individuals for the greater good if necessary while demanding unwavering devotion from their followers. The conflict between [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea)'s individualism values versus [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)' collective mindset creates a balance that shapes both mortal societies as well as nature itself.
+[Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis), by contrast, embodies the _unmoving rock_ — the steadfast foundation upon which the world finds balance. Their domain involves stability, resilience, and the preservation of ideas, values, and beauty. Nomphis is the anchor when chaos threatens to scatter everything, offering strength and permanence in a world of constant change.
+
+- **Symbolism**: Nomphis is often portrayed as a towering rock or an immovable mountain, standing firm against the winds of time and change. Their presence is felt in the enduring strength of traditions and the quiet resilience of nature.
+- **Virtues**: Patience, clarity, and the ability to provide a firm foundation for growth.
+- **Conflict**: Their insistence on immovability can sometimes clash with the world's need for progress and adaptability, leading to stagnation or resistance to change.
+
+### Dynamic Relationship
+
+Carillea and Nomphis represent a harmonious yet dynamic balance between movement and stillness, action and steadfastness. Together, they shape the cycles of the natural and mortal worlds:
+
+- **Carillea’s breezes** constantly push against **Nomphis’ rock**, symbolizing the tension between motion and stability.
+	
+- Carillea’s winds might herald the dawn, ushering in new opportunities, while Nomphis’ unwavering presence anchors the dusk, providing a space for rest and reflection.
+	
+- Their partnership reflects the journey of mortals: the push to explore new horizons tempered by the need for stability and enduring values.
 
 ## Twins of Order & Chaos: [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor), [Umbrial](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial)
 
@@ -85,5 +104,3 @@ Together, [Leptys](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Lep
 [Lar](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Lar), on the other hand, governs the structured and disciplined aspects of magic. They are associated with the study, mastery, and application of magical knowledge in a controlled and focused manner. As a deity of order within magic, [Lar](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Lar) encourages mortals to seek understanding and mastery over their arcane abilities to harness its potential safely and effectively.
 
 Together, [Mysteria](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Mysteria) and [Lar](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Lar) maintain a balance between the untamed potential of magic and its controlled application in the hands of mortal beings. They ensure that magic remains both a powerful force in the world yet tempered by wisdom and discipline.
-
-come up with a emoji for every pair of Gods:

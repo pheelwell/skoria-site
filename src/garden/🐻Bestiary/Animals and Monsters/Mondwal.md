@@ -1,17 +1,17 @@
 ---
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Saturday, February 15th 2025, 12:14:34 am
 eleventyNavigation:
   key: Mondwal
   parent: Bestiary
 layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 path: /garden%5C%F0%9F%90%BBBestiary%5CAnimals%20and%20Monsters/Mondwal/
 title: Mondwal
 ---
 
-Der Mondwal lebt in den Gewässern in ganz [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Er lebt im Einklang mit der Mondmagie und der Arkanen Energie die überall in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) zu finden ist. Er kann sich im Fall der Fälle sogar von der Arkanen Energie ernähren. Der Mondwal steht für die Magie um uns herum und das erschaffen von etwas neuem durch Magie. [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) hat diese Tiere geschaffen um die Mondmagie zu stärken. 
+The Moon Whale lives in the waters throughout [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). It lives in harmony with moon magic and the arcane energy that can be found everywhere in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). If necessary, it can even feed on the arcane energy. The Moon Whale symbolizes the magic around us and the creation of something new through magic. [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) created these creatures to strengthen moon magic.
 
-Der Mondwal ist ein einzigartiges Tier und nur selten anzutreffen. Er sieht einem gemeinen Blauwal ähnlich, kann sogar größer werden. An seinen Seiten hat er eine besondere einzigartige Musterung. Diese leuchtet in einem angenehmen blau oder lila auf wenn das Tier von magischer Energie jeglicher Art erfüllt wird. 
+The Moon Whale is a unique animal and is rarely encountered. It resembles a common blue whale, but can grow even larger. It has a special, unique pattern on its sides. This pattern glows in a pleasant blue or purple when the creature is filled with magical energy of any kind.
 
 ![](/static/Mondwaal.png)

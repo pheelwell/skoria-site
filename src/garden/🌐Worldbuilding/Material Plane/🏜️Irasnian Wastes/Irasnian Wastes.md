@@ -3,16 +3,16 @@ banner: /static/Irasnian Wastes.png
 banner_y: 0.692
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Thursday, June 27th 2024, 1:31:39 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Irasnian Wastes
   parent: Material Plane
 herocolor0: 10
-herocolor1: 15
-herocolor2: 30
+herocolor1: 16
+herocolor2: 29
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane/Material Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes/
 plane: Material Plane
 status: sprout

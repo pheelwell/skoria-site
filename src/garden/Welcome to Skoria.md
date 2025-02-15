@@ -1,14 +1,14 @@
 ---
 banner: /static/Great Vault.png
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Sunday, June 16th 2024, 12:30:12 am
+date modified: Saturday, February 15th 2025, 12:14:34 am
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
   key: Welcome to Skoria
 herocolor0: 214
-herocolor1: 208
-herocolor2: 198
+herocolor1: 209
+herocolor2: 199
 layout: base.njk
 path: /garden/Welcome%20to%20Skoria/
 permalink: /

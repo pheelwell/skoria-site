@@ -1,17 +1,16 @@
 ---
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
-date modified: Thursday, December 14th 2023, 1:41:27 pm
+date modified: Sunday, February 9th 2025, 10:55:59 am
 dg-publish: true
 eleventyNavigation:
   key: Melmorwich
   parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
+herocolor0: 192
+herocolor1: 149
+herocolor2: 78
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CMelmorwich/
 plane: Material Plane
 status: Seed

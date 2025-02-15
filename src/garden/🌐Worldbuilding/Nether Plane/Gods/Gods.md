@@ -1,16 +1,19 @@
 ---
 continent: Gods
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Monday, December 11th 2023, 6:19:10 pm
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Gods
   parent: Nether Plane
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'
 - 'corellion: every other motherfoka'
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane/Nether Plane.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/
 plane: Nether Plane
 status: Sprout
@@ -39,13 +42,13 @@ type: Meta
 
 Together, [Sori](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Sori) and [Luniam](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Luniam) symbolize harmony between day and night as well as balance between knowledge and intuition.
 
-## Twins of Winds: [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea), [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)
+## Twins of Winds: [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea), [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)
 
-[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea) represents gentle breezes, guiding winds, and whispers in the air. They are associated with guidance, communication, and Inspiration. 
+[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea) represents gentle breezes, guiding winds, and whispers in the air. They are associated with guidance, communication, and Inspiration. 
 
-[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea) promotes understanding between individuals as well as providing direction to those who are lost or seeking a path in life.
+[Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea) promotes understanding between individuals as well as providing direction to those who are lost or seeking a path in life.
 
-[Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis) embodies perfectionism within nature's elements such as earth or rock formations but also within mortal societies through humanism ideals. They believe in sacrificing individuals for the greater good if necessary while demanding unwavering devotion from their followers. The conflict between [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Carillea)'s individualism values versus [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)' collective mindset creates a balance that shapes both mortal societies as well as nature itself.
+[Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis) embodies perfectionism within nature's elements such as earth or rock formations but also within mortal societies through humanism ideals. They believe in sacrificing individuals for the greater good if necessary while demanding unwavering devotion from their followers. The conflict between [Carillea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/Carillea)'s individualism values versus [Nomphis](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Nomphis)' collective mindset creates a balance that shapes both mortal societies as well as nature itself.
 
 ## Twins of Order & Chaos: [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor), [Umbrial](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial)
 

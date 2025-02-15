@@ -1,11 +1,11 @@
 ---
 date created: Friday, October 6th 2023, 6:33:43 pm
-date modified: Thursday, December 14th 2023, 1:41:26 pm
+date modified: Saturday, February 15th 2025, 12:14:34 am
 eleventyNavigation:
   key: Irasnian Wastes Oneshot
   parent: Adventuring
 layout: base.njk
-parentpath: "src/garden\\\U0001F5E1️Adventuring/Adventuring.md"
+parentpath: src/garden\🗡️Adventuring/Adventuring.md
 path: /garden%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Oneshot/
 title: Irasnian Wastes Oneshot
 ---

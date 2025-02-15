@@ -1,17 +1,17 @@
 ---
+banner: /static/Lichtachte.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Thursday, June 27th 2024, 1:20:15 am
+date modified: Saturday, February 15th 2025, 12:14:35 am
 dg-publish: true
 eleventyNavigation:
   key: Lichtachte
   parent: The Basin
-herocolor0: 214
-herocolor1: 207
-herocolor2: 180
+herocolor0: 195
+herocolor1: 193
+herocolor2: 141
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Material Plane\\\U0001F3DE️The Basin/The
-  Basin.md"
+parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/
 plane: Material Plane
 sum:
@@ -59,5 +59,77 @@ Nearby Trollbans Hold also relies on Lichtachte for support and protection from 
 ## Features
 
 - *Sunlit Streets*: The streets of Lichtachte are magically illuminated with a soft, warm light that mimics sunlight, bathing the city in eternal daylight. This feature not only provides a sense of security and comfort for the citizens but also weakens any undead creatures that may venture too close to the city.
-- *Living Murals*: The walls of Lichtachte's**# Unique buildings are adorned with intricate murals that depict historical events, legends, or scenes of everyday life. These murals are magically animated and can be occasionally seen changing or moving as if they were alive.
+- *Living Murals*: The walls of Lichtachte's Unique buildings are adorned with intricate murals that depict historical events, legends, or scenes of everyday life. These murals are magically animated and can be occasionally seen changing or moving as if they were alive.
 - *allowed Grounds*: The soil beneath Lichtachte has been consecrated by generations of faithful followers of Arathor. This sacred connection strengthens the city's defenses against dark forces and allows its citizens to draw upon divine power when needed.
+
+Add a Location description for the Cathedral of Light with intricate details, sections, politics and feels, history. 
+
+	- Lichtachte was rebuilt after big attack, fortified with high walls.
+
+		- Walls have statues of [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor) the god of light and righteousness. It feels towering
+
+		- streets are vibrant with Light and flower bukets on side
+
+		- Small temples of Arathor, name 3 Guilds
+
+	- List Key 5 Key Locations a Librarian would know when he worked there
+
+### Cathedral of Light
+
+#### Overview
+
+The Cathedral of Light stands as the heart and soul of Lichtachte, a monumental structure dedicated to the god Arathor, the deity of light and righteousness. This grand edifice is not only a place of worship but also a fortress and a community center that provides sanctuary and hope to the citizens of Lichtachte. Surrounded by high fortified walls adorned with statues of Arathor, the cathedral exudes an aura of divine protection and grandeur.
+
+#### Architecture & Layout
+
+- **The Outer Walls**: After a devastating attack by General Malachi's forces, Lichtachte was rebuilt with formidable defenses. The cathedral's outer walls are a prime example, soaring high and lined with statues of Arathor in various heroic poses. These statues seem to watch over the city, providing both spiritual and physical protection.
+  
+- **The Grand Courtyard**: Upon entering through the main gates, visitors are greeted by a vast open courtyard filled with vibrant flowers and illuminated by the magical sunlight that bathes the city. This space serves as a gathering area for public ceremonies and festivity.
+
+- **Main Sanctuary**: The centerpiece of the cathedral is its main sanctuary, an awe-inspiring hall filled with rows of pews leading up to an ornate altar dedicated to Arathor. Stained glass windows depict scenes from Arathor's legends, casting colorful light across the hall.
+
+- **Catacombs**: Beneath the cathedral lies an extensive network of catacombs that serve as both a burial ground for honored dead and a stronghold against potential invaders. These catacombs also house secret chambers where artifacts are safeguarded.
+
+- **Bell Tower**: The bell tower reaches towards the heavens, its tolls echoing throughout the city to announce important events or summon the faithful to prayer. The view from the top offers a breathtaking panorama of Lichtachte and its surrounding lands.
+
+#### Sections
+
+1. **Hall of Heroes**: This section is dedicated to memorializing past heroes who have defended Lichtachte. Statues and plaques tell their stories, inspiring new generations.
+2. **Shrine of Reflection**: A serene area for personal meditation and prayer, adorned with tranquil water features and soft lighting.
+3. **Library of Luminescence**: A smaller library compared to the Grand Library but rich in religious texts, historical records, and magical tomes related to light magic.
+4. **Chapel of Healing**: A specialized chapel where clerics and paladins provide healing services using divine magic.
+5. **Council Chambers**: The meeting place for members of the League of Arathor, where strategies are planned and important decisions made.
+
+#### Politics & Influence
+
+The Cathedral of Light is deeply intertwined with the politics of Lichtachte. High Paladin Erathenar holds court here, making crucial decisions that affect not just the city but also its allies in The Basin. The League of Arathor uses this sacred place as their headquarters, making it a hub for planning military campaigns against General Malachi's Defilers.
+
+The cathedral also serves as a diplomatic center where emissaries from neighboring towns like Maerhof, Faern, and Prosnen come to seek aid or form alliances. The influence of the cathedral extends beyond religious matters; it plays a crucial role in the governance and defense of Lichtachte.
+
+#### History
+
+The original structure was built centuries ago but was severely damaged during a massive attack led by General Malachi's forces. The reconstruction effort was monumental, involving many skilled artisans, architects, and laborers from across The Basin. The high fortified walls were added during this period, making it one of the most secure locations in Lichtachte.
+
+The cathedral has been blessed multiple times by high-ranking clerics and paladins, further imbuing it with divine protection. Over time, it has become a symbol not just of faith but also resilience, embodying Lichtachte's spirit against the encroaching darkness.
+
+#### Daily Life & Atmosphere
+
+Walking through Lichtachte towards the Cathedral of Light is an experience in itself. The sunlit streets are lined with colorful flower bouquets that add to the city's vibrant atmosphere. Small temples dedicated to Arathor dot the landscape, including:
+
+1. *Temple of Dawn*: Focused on healing and renewal.
+2. *Temple of Radiance*: Dedicated to teaching light magic.
+3. *Temple of Valor*: Honoring warriors who fight in Arathor's name.
+
+Inside the cathedral, one can find bustling activity at almost any hour—whether it's clerics attending to their duties, paladins training for their next mission, or citizens coming in for prayer and sanctuary.
+
+### Key Locations Known by Librarians
+
+A librarian familiar with both the Grand Library and the Cathedral of Light would be well-versed with these key locations:
+
+1. **Library of Luminescence**: A crucial repository for texts related to Arathor and light magic.
+2. **Hall of Heroes**: Important for historical research on past defenders of Lichtachte.
+3. **Council Chambers**: Where significant decisions are made that could influence future records.
+4. **Catacombs**: Contains ancient scrolls and hidden artifacts like Sundawn.
+5. **Chapel of Healing**: Often visited for texts on divine healing practices.
+
+These locations are vital for anyone delving into the rich history and ongoing legacy of Lichtachte and its fight against darkness.

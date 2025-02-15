@@ -1,11 +1,11 @@
 ---
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Thursday, December 14th 2023, 12:21:53 am
+date modified: Saturday, February 15th 2025, 12:14:34 am
 eleventyNavigation:
   key: Devils
   parent: Bestiary
 layout: base.njk
-parentpath: "src/garden\\\U0001F43BBestiary/Bestiary.md"
+parentpath: src/garden\🐻Bestiary/Bestiary.md
 path: /garden%5C%F0%9F%90%BBBestiary%5CAnimals%20and%20Monsters/Devils/
 title: Devils
 ---

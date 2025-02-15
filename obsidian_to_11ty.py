@@ -5,7 +5,7 @@ import re
 import argparse
 import os
 from urllib.parse import quote , unquote
-import frontmatter
+from frontmatter import loads, dumps
 from Pylette import extract_colors
 from cleantext import clean
 import logging
@@ -71,7 +71,7 @@ class ObsidianToeleventy:
         """
         adds some frontmatter to the file
         """
-        post = frontmatter.loads(text)
+        post = loads(text)
         post['layout'] = "base.njk"
 
             
@@ -88,8 +88,7 @@ class ObsidianToeleventy:
             logger.error(f"ERROR: The file {root}/{filename} does not have a title set. Please set it manually in the frontmatter.")
             
         post['eleventyNavigation']['key'] = post['title']
-            
-            
+
             
         # add own path to the frontmatter
         if root == "":
@@ -101,7 +100,7 @@ class ObsidianToeleventy:
             post['path'] = quote(f"/garden{root.replace(self.eleventy_content_dir,'')}/{post['title']}/")
 
         # remove all emojis when using parent as filename
-        parent_folder_name = clean(os.path.basename(root), no_emoji=True,lower=False)
+        parent_folder_name = clean(os.path.basename(root), lower=False, no_emoji=True)
 
         search_deeper = False
         deeproot = root
@@ -170,7 +169,7 @@ class ObsidianToeleventy:
             logger.warning(f"WARNING: The file {regex_root} does not have a continent set. Please set it manually in the frontmatter.")
 
 
-        return frontmatter.dumps(post)
+        return dumps(post)
 
     def add_colors(self,text: str,root) -> str:
         """
@@ -178,7 +177,7 @@ class ObsidianToeleventy:
         it uses the set eleventyNavigation to get the colorscheme from the parent folder if there is no banner set
         """
         # get the colors from the frontmatter
-        post = frontmatter.loads(text)
+        post = loads(text)
         if "banner" in post.keys():
             # extract the colors from the copied image
             #weird filehandling here because we already replaced to wikilinks, sry for that
@@ -198,7 +197,7 @@ class ObsidianToeleventy:
                     # load the parent file
                     with open(current_parent, "r", encoding="utf-8") as f:
                         parent = f.read()
-                    parent = frontmatter.loads(parent)
+                    parent = loads(parent)
                     if "banner" in parent.keys():
                         # check for possible hero colors
                         if "herocolor0" in parent.keys():
@@ -208,7 +207,11 @@ class ObsidianToeleventy:
                         else:
                             # extract the colors from the copied image
                             #weird filehandling here because we already replaced to wikilinks, sry for that
-                            banner = unquote(parent['banner'].replace("![](/static/","").replace(")",""))
+                            print(f"extracting colors from {parent['banner']}")
+                            # it holds it like this: ![[R_BG.png]]
+                            # so we need to strip ![[ ]] to get the filename
+                            temp_banner = parent['banner'].replace("![[","").replace("]]","")
+                            banner = unquote(temp_banner.replace("![](/static/","").replace(")",""))
                             colors = extract_colors(f"{self.eleventy_static_dir}/{banner}", palette_size=3)
                             post['herocolor0'] = int(colors[0].hsv[0]*360)
                             post['herocolor1'] = int(colors[1].hsv[0]*360)
@@ -221,7 +224,7 @@ class ObsidianToeleventy:
                             logger.debug(f"found parent {parent['parentpath']}")
                         else:  
                             search_further = False
-        return frontmatter.dumps(post)
+        return dumps(post)
     def export_site_metadata(self) -> None:
         """
         Export the site metadata from the frontmatter from every page and dumps it as a json into static.
@@ -233,7 +236,7 @@ class ObsidianToeleventy:
                     logger.debug(f"writing to {os.path.join(root, file)}")
                     with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                         content = f.read()
-                    post = frontmatter.loads(content)
+                    post = loads(content)
                     if "title" in post.keys():
                         metadata[post['title']] = {}
                         # dump the metadata into the dict
@@ -318,7 +321,6 @@ class ObsidianToeleventy:
     def replace_wiki_images(self,text: str) -> str:
         """
         Replace all wiki image links in the given text with eleventy image links.
-        
         """
         # build a list of all wiki_images
         wiki_images = self.get_wiki_images(text)
@@ -336,7 +338,7 @@ class ObsidianToeleventy:
                     has_image = True
                     break
             if not has_image:
-                logger.warning(f"WARNING: The image {image} does not exist. Replacing the link with a Placeholder")
+                logger.warning(f"WARNING: The image {image} ({wiki_image_name}) does not exist. Replacing the link with a Placeholder")
                 eleventy_image = "![](/static/Placeholder.png)"
                 text = text.replace(image, eleventy_image)
         return text
@@ -395,7 +397,7 @@ class ObsidianToeleventy:
                 if file.endswith(".md"):
                     # move root to content dir path because mdlinks are relative to the content directory
                     self.filename_list.append((os.path.relpath(root, self.obsidian_vault_dir),file.replace(".md", "")))
-                elif file.endswith(".png"):
+                elif file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg"):
                     self.image_list.append((root,file))
         for root, dirs, files in os.walk(self.eleventy_content_dir):
             for file in files:

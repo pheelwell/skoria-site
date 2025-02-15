@@ -1,13 +1,16 @@
 ---
 continent: Gods
 date created: Thursday, December 14th 2023, 12:07:01 am
-date modified: Thursday, June 27th 2024, 1:35:16 am
+date modified: Saturday, September 28th 2024, 5:40:01 pm
 dg-publish: true
 eleventyNavigation:
   key: Nefaris
   parent: Gods
+herocolor0: 29
+herocolor1: 21
+herocolor2: 62
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\Nether Plane\\Gods/Gods.md"
+parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/
 plane: Nether Plane
 status: sprout

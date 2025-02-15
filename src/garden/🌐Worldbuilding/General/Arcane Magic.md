@@ -4,9 +4,7 @@ date modified: Thursday, December 14th 2023, 12:21:54 am
 dg-publish: true
 eleventyNavigation:
   key: Arcane Magic
-  parent: General
 layout: base.njk
-parentpath: "src/garden\\\U0001F310Worldbuilding\\General/General.md"
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CGeneral/Arcane%20Magic/
 plane: General
 title: Arcane Magic
