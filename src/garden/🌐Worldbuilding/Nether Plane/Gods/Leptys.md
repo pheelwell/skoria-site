@@ -38,7 +38,7 @@ type: Deity
 > ____
 >- **Alignment**: on the edge to chaotic
 >- **Allies**: 
->- **Enemies**: [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn)
+>- **Enemies**: [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn)
 >____
 >-  **History**: Leptys the God of Life, thinks he created everything. He created every life form. But the creation of the world is another topic. His arrogant Beeing is known among the other gods. 
 
@@ -56,16 +56,16 @@ There are many Temples for Leptys arround [Skoria](/garden/%F0%9F%8C%90Worldbuil
 
 ### The Cycle of Life and Death
 
-Leptys can give Life, create Life, let [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
+Leptys can give Life, create Life, let [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
 
 They both need each other to fullfill a working life - death balance in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). 
 
 ## Roleplaying
 ### Goals and Motivations
 
-Leptys hates [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn) and everything whats connected with the Afterlife. He is so arrogant that he thinks he created everything in the universe and he should be the master of everyone. He treats himself like a King, when there is no real hierarchy between the gods.
+Leptys hates [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn) and everything whats connected with the Afterlife. He is so arrogant that he thinks he created everything in the universe and he should be the master of everyone. He treats himself like a King, when there is no real hierarchy between the gods.
 
-He wants to Destroy everything whats created by [Varuún](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn). He hates Undead.
+He wants to Destroy everything whats created by [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn). He hates Undead.
 
 ### Appearance and Visions
 

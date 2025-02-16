@@ -28,7 +28,7 @@ type: Deity
 
 ## Overview!
 
-Geran, known as the Brother of Oceans, the brother of [Ocea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ocea), is a deity who embodies the serene waters. With a domain in water and an associated element of calmness, Geran stands as a beacon of support for those who travel the seas. 
+Geran, known as the Brother of Oceans, the brother of [Ocea](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Ocea), is a deity who embodies the serene waters. With a domain in water and an associated element of calmness, Geran stands as a beacon of support for those who travel the seas. 
 
 > [!TIP] Quick Reference
 > ![](/static/Geran.png) 

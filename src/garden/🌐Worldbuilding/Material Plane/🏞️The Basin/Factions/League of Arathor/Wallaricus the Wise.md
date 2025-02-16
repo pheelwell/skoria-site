@@ -22,12 +22,12 @@ Have you heard the stories about Wallaricus the Wise?" a young student whispered
 
 ## Overview
 
-Wallaricus was Ransden's first teacher. Rensden only wanted to see the world and get away from his Uncle's court. Wallaricus one of the wisest priests of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) but also a very suspicious person. He taught Rensden the teachings of the priests after toiling as an assistant for two years.
+Wallaricus was Ransden's first teacher. Rensden only wanted to see the world and get away from his Uncle's court. Wallaricus one of the wisest priests of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte) but also a very suspicious person. He taught Rensden the teachings of the priests after toiling as an assistant for two years.
 
 > [!TIP] Quick Reference
 > ![](/static/Wallaricus%20the%20Wise.png) 
 > **Wallaricus the Wise** _Human Priest_ 
->  A wise and suspicious High Priest of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte), mentor to Ransden, and ally of Broll Bearmantle.
+>  A wise and suspicious High Priest of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte), mentor to Ransden, and ally of Broll Bearmantle.
 >- **Motivation**: Knowledge, protection of students
 >- **Ideals**: Knowledge is power, teaching others
 >- **Bonds**: Ransden (student), Broll Bearmantle (ally)
@@ -63,12 +63,12 @@ When roleplaying Wallaricus, emphasize his wisdom and experience while also port
 ## Relations
 - Ransden: Wallaricus was Ransden's first teacher and helped him escape from his Uncle's court. They share a bond as student and mentor, despite some tension caused by Wallaricus' suspicious nature.
 - Broll Bearmantle: Wallaricus knows Broll and wants to help him achieve his goals. Their relationship could be built upon during the campaign.
-- [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte): As one of its High Priests, Wallaricus is an important figure within the religious organization of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte).
+- [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte): As one of its High Priests, Wallaricus is an important figure within the religious organization of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte).
 
 ![](/static/Placeholder.png)
 
 ## Trivia
 
 - Wallaricus is an expert in ancient languages and texts, making him a valuable resource for deciphering mysterious artifacts or uncovering long-lost knowledge.
-- He is known to have connections with various factions throughout [The Basin](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), which he uses to gather information and forge alliances.
-- The Library of Echoes: A hidden library within [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte) that houses Wallaricus' extensive collection of books, scrolls, and artifacts.
+- He is known to have connections with various factions throughout [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), which he uses to gather information and forge alliances.
+- The Library of Echoes: A hidden library within [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte) that houses Wallaricus' extensive collection of books, scrolls, and artifacts.

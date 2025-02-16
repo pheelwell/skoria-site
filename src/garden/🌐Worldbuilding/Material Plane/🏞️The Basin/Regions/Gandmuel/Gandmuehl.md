@@ -52,11 +52,11 @@ The town of Gandmühl was once a peaceful community focused on lumber trading. H
 Gandmühl is predominantly composed of elves with deep roots in their lumber trading heritage. Their culture is now shifting as tourism gains prominence in the town's economy.
 
 ## Threats and Rumors:
-- Lumberjacks overhear mages discussing "magic masking" wood being sold to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog).
+- Lumberjacks overhear mages discussing "magic masking" wood being sold to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Herbstbog).
 
 ## Campaign Connections:
 - In the Murder of Reyala Althammer Plot, players can learn about Tarwin Althammer's tragic past involving his deceased wife and child in Gandmühl.
-- Players can travel from Gandmühl to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CHerbstbog/Herbstbog) by boat, taking approximately three days.
+- Players can travel from Gandmühl to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Herbstbog) by boat, taking approximately three days.
 
 ## Geography and Climate:
 

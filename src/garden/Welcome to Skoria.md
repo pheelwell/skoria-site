@@ -24,15 +24,15 @@ Greetings, intrepid scholar,
 
 Prepare your mind to knowledge about many subjects in Skoria as:
 
-- The divine depths of the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane), where reality weaves into unfathomable patterns and abstruse energies.
-- The storied annals of **[Divine History](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Divine%20History)**, chronicling an ageless saga of deities and divine machinations that shaped our very cosmos.
-- The tapestry of cultures that make up our resplendent land—each city a jewel in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria)'s crown—with particular attention to the resilient bastion known as **[Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon)**, nestled within the desolate beauty of the **[Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes)**.
-- The haunting tales surrounding **[Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)'s** submerged prison, where secrets are kept under lock and tide, waiting for a daring soul to uncover them.
+- The divine depths of the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane), where reality weaves into unfathomable patterns and abstruse energies.
+- The storied annals of **[Divine History](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Divine%20History)**, chronicling an ageless saga of deities and divine machinations that shaped our very cosmos.
+- The tapestry of cultures that make up our resplendent land—each city a jewel in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria)'s crown—with particular attention to the resilient bastion known as **[Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon)**, nestled within the desolate beauty of the **[Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes)**.
+- The haunting tales surrounding **[Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia)'s** submerged prison, where secrets are kept under lock and tide, waiting for a daring soul to uncover them.
 - 
 
 Moreover, you shall have access to rare manuscripts outlining esoteric subclasses known only to a select few:
 
-- Unearth forbidden texts regarding a most potent faction—the [Cult of the Gifted Ones (Class)](/garden/%F0%9F%90%BBBestiary%5CSubclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29) whose members wield powers that blur the boundary between miracle and menace.
+- Unearth forbidden texts regarding a most potent faction—the [Cult of the Gifted Ones (Class)](/garden/%F0%9F%90%BBBestiary/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29) whose members wield powers that blur the boundary between miracle and menace.
 
 Before you immerse yourself in these ancient scripts and scrolls, I implore you to acquaint yourself with our **[Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines)**, for they are essential in navigating through our labyrinthine compilation. 
 

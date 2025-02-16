@@ -37,7 +37,7 @@ Zarinesh, the deity of synthetics and manipulation, is a highly enigmatic figure
 
 ### Appearance
 
-Zarinesh is often depicted with an ethereal, otherworldly beauty that seems both organic and synthetic at the same time. Their form is fluid, constantly shifting between different shapes and configurations as if to highlight their mastery over matter itself. One particularly striking feature is their left hand which appears to be missing; it is said that Zarinesh lost it during a great cataclysm known as [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering).
+Zarinesh is often depicted with an ethereal, otherworldly beauty that seems both organic and synthetic at the same time. Their form is fluid, constantly shifting between different shapes and configurations as if to highlight their mastery over matter itself. One particularly striking feature is their left hand which appears to be missing; it is said that Zarinesh lost it during a great cataclysm known as [The Shattering](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering).
 
 ### Worship and Followers
 

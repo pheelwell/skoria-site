@@ -29,10 +29,10 @@ The Levian Octari are a formidable humanoid species with distinctive octopus-lik
 3. Mission and Society:
 	
 	- Guardians of [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria): The Levian Octari are sworn protectors of [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria), and their primary mission is to secure the land from the monstrous creatures imprisoned in the Sea of Beasts. They undertake dangerous expeditions to prevent the creatures from escaping and causing chaos.
-	- Warrior Code: Levian Octari society is built around a strict warrior code that emphasizes honor, duty, and discipline. They have a deep respect for tradition and revere their ancestors, who first locked the beasts away. The pray to [Ocea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ocea) and [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Geran) to aid them in their mission.
+	- Warrior Code: Levian Octari society is built around a strict warrior code that emphasizes honor, duty, and discipline. They have a deep respect for tradition and revere their ancestors, who first locked the beasts away. The pray to [Ocea](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Ocea) and [Geran](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Geran) to aid them in their mission.
 4. Lifestyle:
 	
-	- Settlements: Levian Octari typically live in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia), guarding against potential incursions. Their settlements often feature impressive fortifications and watchtowers build on rafts.
+	- Settlements: Levian Octari typically live in [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia), guarding against potential incursions. Their settlements often feature impressive fortifications and watchtowers build on rafts.
 	- Training: From a young age, Levian Octari are trained in combat and survival skills. They undergo rigorous physical and mental conditioning to prepare for their role as warriors.
 5. Relationships with Other Species:
 	

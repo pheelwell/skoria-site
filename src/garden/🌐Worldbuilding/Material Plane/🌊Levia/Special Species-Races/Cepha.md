@@ -30,7 +30,7 @@ The Cepha are a unique and mystical fantasy species known for their humanoid app
 
 3. Lifestyle:
 	
-	- The Cepha live in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) where they can choose their own lifestyle, underwater or on land. 
+	- The Cepha live in [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) where they can choose their own lifestyle, underwater or on land. 
 
 4. Society and Culture:
 	

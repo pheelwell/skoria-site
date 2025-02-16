@@ -52,5 +52,13 @@
     </div>
     {% include 'helper/blur.njk' %}
     {%include "components/linkPreview.njk"%}
+    <script>
+      document.addEventListener('click', (e) => {
+        if (e.target.closest('.callout-fold, .callout-title')) {
+          const callout = e.target.closest('.callout.is-collapsible');
+          callout && callout.classList.toggle('is-collapsed');
+        }
+      });
+    </script>
   </body>
 </html>

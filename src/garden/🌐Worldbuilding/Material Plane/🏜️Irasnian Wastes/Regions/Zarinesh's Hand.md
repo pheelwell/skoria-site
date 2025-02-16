@@ -30,7 +30,7 @@ As you join a group of pilgrims on their climb up the massive stone fingers of Z
 
 ## Overview
 
-In the heart of the harsh [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes), a colossal stone hand rises from the sands, capturing the wonder and reverence of all who behold it. This magnificent monument, known as [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Zarinesh%27s%20Hand), is believed to be the severed hand of the deity [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh). A symbol of faith and hope, it serves as a beacon for those who dare to call this unforgiving land their home.
+In the heart of the harsh [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes), a colossal stone hand rises from the sands, capturing the wonder and reverence of all who behold it. This magnificent monument, known as [Zarinesh's Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Zarinesh%27s%20Hand), is believed to be the severed hand of the deity [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh). A symbol of faith and hope, it serves as a beacon for those who dare to call this unforgiving land their home.
 
 > [!quickref]
 > *Overview*: Colossal stone hand in Irasnian Wastes believed to belong to deity Zarinesh
@@ -40,14 +40,14 @@ In the heart of the harsh [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding%5C
 
 ## Geography
 ### Notable Settlements:
-- [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon): A city built at the base of Zarinesh's Hand, thriving due to its proximity to the divine monument.
+- [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon): A city built at the base of Zarinesh's Hand, thriving due to its proximity to the divine monument.
 ### Scenery and Climate:
 
 Deep within the desolate landscape of the Irasnian Wastes lies Zarinesh's Hand. This titanic relic stands defiant against a backdrop of sand dunes and extreme temperatures. The climate is harsh and unforgiving, with scorching days followed by freezing nights. Yet despite these inhospitable conditions, life persists in this challenging environment.
 
 The gargantuan hand itself is awe-inspiring in its scale. Its immense stone fingers stretch skyward like towers reaching for divinity. These otherworldly features have become integral to both the landscape and cultural identity of those who reside here.
 
-The region's life-sustaining resource originates from within Zarinesh's Hand itself. The [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River) flows from tiny cracks in the stone monument, bringing nourishment to wildlife and vegetation alike. This verdant aquatic oasis is truly a miraculous sight amidst an otherwise barren land.
+The region's life-sustaining resource originates from within Zarinesh's Hand itself. The [Lifeblood River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Lifeblood%20River) flows from tiny cracks in the stone monument, bringing nourishment to wildlife and vegetation alike. This verdant aquatic oasis is truly a miraculous sight amidst an otherwise barren land.
 
 ### Flora and Fauna:
 

@@ -61,7 +61,7 @@ In the early times Asmadan had the shape of a very sinister and wild beast, wiel
 
 ### The Birth of Fire Magic
 
-It is believed that Asmadan was the first deity to wield fire magic. He created it through some nodes which were powered by [Mysteria](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Mysteria). The existence of this magic lead many magicians and other magical beeings to practise the flame of [Asmadan](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Asmadan).
+It is believed that Asmadan was the first deity to wield fire magic. He created it through some nodes which were powered by [Mysteria](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Mysteria). The existence of this magic lead many magicians and other magical beeings to practise the flame of [Asmadan](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Asmadan).
 
 ## Roleplaying
 ### Goals and Motivations
@@ -86,7 +86,7 @@ When roleplaying as a follower of Asmadan, embrace your character's wrath and ch
 
 ## Trivia
 - Some believe that Asmadan was once a mortal warrior who ascended to godhood after countless victories in battle.
-- Some ancient texts claim that the first fire magic spells were taught to mortals by [Asmadan](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Asmadan) himself.
+- Some ancient texts claim that the first fire magic spells were taught to mortals by [Asmadan](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Asmadan) himself.
 - Domain: Fire
 - Associated Element: Combat
 - Virtue: Wrath

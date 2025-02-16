@@ -15,8 +15,8 @@ title: Irasnian Wastes Notes
 	- großer (orientalischer stil) Außenposten auf 4 Tierbeinen.
 	- Beherbergt 50 Menschen
 	- Hören nur wie es sich manchmal bewegt
-- Crawler ist auf den Weg nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) 
-	- Rindal ist eine Priesterin des [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) dem Gott der Veränderung und Snytetik. (silberne verschnörkelte Ornamente, religion wurf) Hat Artefakt das nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) muss in einen Tempel 
+- Crawler ist auf den Weg nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon) 
+	- Rindal ist eine Priesterin des [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) dem Gott der Veränderung und Snytetik. (silberne verschnörkelte Ornamente, religion wurf) Hat Artefakt das nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon) muss in einen Tempel 
 	- Karach ist ein Gnom (Der Goats, Werwolf) der das Artifakt klauen möchte. Wenn die Reise vorbei ist
 ## Räume Des Crawlers:
 
@@ -40,9 +40,9 @@ Random Table für Intro:
 
 - Der Crawler macht plötzlich eine unvorhergesehene Bewegung und alle Passagiere müssen sich festhalten, um nicht hinunterzufallen.
 
-2. Rindal betritt den Tempelraum und betrachtet das Artefakt, das sie sicher nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon) bringen soll. Sie fühlt die Präsenz des Gottes [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) um sich herum.
+2. Rindal betritt den Tempelraum und betrachtet das Artefakt, das sie sicher nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon) bringen soll. Sie fühlt die Präsenz des Gottes [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) um sich herum.
 3. Bert schleicht sich in den Maschinenraum und versucht, Informationen über den Crawler und seine Funktionsweise zu sammeln.
-4. Die Passagiere sitzen im Gemeinschaftsraum und unterhalten sich angeregt über ihre Gründe für die Reise nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon).
+4. Die Passagiere sitzen im Gemeinschaftsraum und unterhalten sich angeregt über ihre Gründe für die Reise nach [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon).
 5. Ein lautes Quietschen ertönt aus dem Lager, als ein Regal mit Vorräten umkippt und alles durcheinander bringt.
 6. Der Fahrer in der Steuerkammer bemerkt auf dem Monitor einen Sandsturm, der sich schnell auf den Crawler zubewegt.
 7. In der Bibliothek findet einer der Passagiere ein altes Buch über die Geschichte der Irasnischen Wüste und beginnt darin zu lesen.
@@ -252,7 +252,7 @@ I want:
 ### Conclusion
 - Wrap up the session by discussing the consequences of the players' actions and setting up for future sessions.
 - If Karach is exposed, it could lead to a new conflict or alliance with other factions on the Crawler.
-- If Karach succeeds in stealing the artifact, it could lead to a chase or rescue mission in [Ergon](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Ergon).
+- If Karach succeeds in stealing the artifact, it could lead to a chase or rescue mission in [Ergon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Ergon).
 
 ## Magic Items Table
 
@@ -384,10 +384,10 @@ modifiers
 - players stepped into their room and confronted fought and won
 - players didn't remember there were 3 members
 - Priestes found it interesting that they wanted to steal artifact
-- Krach was from the Goats and was hired to steal artifact, then redirect crawler to crystal Forrest to deliver the Artifact to the [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri) who claim ownership of the Artifact (old relict)
-- Artifact is used by [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) Priests to reconfigure matter in a new form
+- Krach was from the Goats and was hired to steal artifact, then redirect crawler to crystal Forrest to deliver the Artifact to the [Quorri](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Quorri) who claim ownership of the Artifact (old relict)
+- Artifact is used by [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) Priests to reconfigure matter in a new form
 - last werwolf (twin of the other werwolf in tiefling) was in controll room they needed the puzzle to solve
-- werwolf was killed but he stirred party to [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri) ambush, who are surrounding the crawler
+- werwolf was killed but he stirred party to [Quorri](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Quorri) ambush, who are surrounding the crawler
 - Priestes used artifact to modify crawler and players have to decide on what to change about the crawler and what part they now want to controll. ends in a big "Kaiju battle" between the crawler and the Quorri Ambush
 - Players are deciding to: add a railgun, add a moving shield, add sword arms and more jump power
 

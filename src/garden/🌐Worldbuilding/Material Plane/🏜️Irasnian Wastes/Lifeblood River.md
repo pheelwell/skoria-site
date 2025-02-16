@@ -15,4 +15,4 @@ plane: Material Plane
 title: Lifeblood River
 ---
 
-River emerging from little cracks in [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand)
+River emerging from little cracks in [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand)

@@ -18,7 +18,7 @@ title: Storm Elves
 
 Storm Elves, also called Sea Elves or Water Elves. 
 
-The Storm Elves are a distinctive elven tribe commonly found around [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and the seas of Skoria. They share many similarities with traditional elves, yet they have adapted body features that enable them to excel in aquatic environments. 
+The Storm Elves are a distinctive elven tribe commonly found around [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) and the seas of Skoria. They share many similarities with traditional elves, yet they have adapted body features that enable them to excel in aquatic environments. 
 
 ![](/static/StormElf01.png)
 
@@ -37,12 +37,12 @@ The Storm Elves are a distinctive elven tribe commonly found around [Levia](/gar
 4. Society and Culture:
 	
 	- Tribal Communities: Storm Elves live in tight-knit tribal communities that value cooperation, shared responsibilities, and a deep respect for the sea. Each tribe has a unique totem or symbol representing their connection to the ocean.
-	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia%5CSpecial%20Species-Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) live.
+	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Special%20Species-Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) live.
 
 5. Relationships with Other Species:
 	
 	- Traders and Allies: Storm Elves frequently interact with other coastal species, forming trade alliances and alliances of mutual benefit. Their navigational expertise is highly sought after by seafaring merchants and explorers.
-	- Cultural Exchange: The presence of Storm Elves near [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) has led to a rich cultural exchange between their tribes and other inhabitants of [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia). They share knowledge of seafaring, navigation, and oceanic mythology.
+	- Cultural Exchange: The presence of Storm Elves near [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) has led to a rich cultural exchange between their tribes and other inhabitants of [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia). They share knowledge of seafaring, navigation, and oceanic mythology.
 6. Naming Conventions:
 	
 	- Storm Elves often have names that reflect the sea, including references to tides, underwater creatures, and oceanic phenomena. Their names may carry a sense of fluidity and motion.

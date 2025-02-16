@@ -41,7 +41,7 @@ This period marks the birth of mortal civilizations, as gods began to create var
 
 During this time, mortal civilizations thrived under the guidance and protection of their patron gods.
 
-## [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering)
+## [The Shattering](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering)
 
 ## Epoch of Rebirth
 
@@ -53,7 +53,7 @@ As mortal civilizations grew more powerful, conflicts between them increased, le
 
 ## Epoch of Change
 
-With the barrier between [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) in place, divine forces began to find ways to access [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
+With the barrier between [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane) in place, divine forces began to find ways to access [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) again through other means, leading to an increase in mysterious events and encounters with supernatural beings and divinity.
 
 ## Epoch of Unity
 

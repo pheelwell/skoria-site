@@ -52,7 +52,7 @@ Arathor's teachings stress the significance of law and order within society. His
 
 ### Worshipers
 
-The [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) are fervent followers of Arathor who dedicate their lives to propagating his message of justice and righteousness. As champions of order, they often clash with the forces of evil and chaos, employing their exceptional combat prowess to shield the innocent. Their mediation skills are frequently sought to resolve disputes and ensure that justice prevails.
+The [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor) are fervent followers of Arathor who dedicate their lives to propagating his message of justice and righteousness. As champions of order, they often clash with the forces of evil and chaos, employing their exceptional combat prowess to shield the innocent. Their mediation skills are frequently sought to resolve disputes and ensure that justice prevails.
 
 ## Lore
 ### History
@@ -68,7 +68,7 @@ Temples dedicated to Arathor are often constructed atop elevated hills or mounta
 
 Arathor strives to uphold righteousness in the world by fostering law and order within society. He tirelessly endeavors toward this aim by guiding his followers in meting out justice fairly while granting redemption to those who have lost their way.
 
-A distinguishing facet of Arathor's followers is their unwavering allegiance to the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor). This loyalty transcends any other earthly bond, rendering them formidable allies and fearsome foes.
+A distinguishing facet of Arathor's followers is their unwavering allegiance to the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor). This loyalty transcends any other earthly bond, rendering them formidable allies and fearsome foes.
 
 ### Appearance and Visions
 

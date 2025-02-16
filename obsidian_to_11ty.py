@@ -92,7 +92,7 @@ class ObsidianToeleventy:
             
         # add own path to the frontmatter
         if root == "":
-            post['path'] = quote(f"/garden/{post['title']}")
+            post['path'] = quote(f"/garden/{post['title']}/")
         #check if title is the same as the folder name
         elif post['title'] == os.path.basename(root):
             post['path'] = quote(f"/garden{root.replace(self.eleventy_content_dir,'')}/")
@@ -287,6 +287,12 @@ class ObsidianToeleventy:
         # need to do this weird because of fstring fucks
         wikilink = wiki_link["link"]
         link = quote(f"/garden/{url}/{wikilink}")
+        link = link.replace("%5C","/")
+        # since this is eleventy, if the it ends with this/is/an/example/example shorten it to this/is/an/example
+        last = link.split("/")[-1]
+        prelast = link.split("/")[-2]
+        if last == prelast:
+            link = "/".join(link.split("/")[:-1])
         eleventy_link = f'[{wiki_link["text"]}]({link})'
         return eleventy_link
 

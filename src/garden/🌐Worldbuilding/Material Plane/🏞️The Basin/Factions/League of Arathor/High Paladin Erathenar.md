@@ -25,7 +25,7 @@ title: High Paladin Erathenar
 type: NPC
 ---
 
-Erathenar is the leader of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/League%20of%20Arathor) and the High Paladin of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte). He is a just and honorable man, and he will stop at nothing to protect his people. He is a skilled warrior and a powerful paladin, and he has led the League to many victories against the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers).
+Erathenar is the leader of the [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor) and the High Paladin of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte). He is a just and honorable man, and he will stop at nothing to protect his people. He is a skilled warrior and a powerful paladin, and he has led the League to many victories against the [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers).
 
 > [!TIP] Quick Reference
 > ![](/static/Placeholder.png) 

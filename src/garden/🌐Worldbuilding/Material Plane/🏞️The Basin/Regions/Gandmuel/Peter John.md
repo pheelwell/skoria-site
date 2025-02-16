@@ -27,6 +27,6 @@ Peter is a very grumpy man who doesn't like people. He's also very stubborn and 
 | | |
 |-|-|
 | Ideal | I want what's best for the town, even if it means going against the wishes of others. |
-| Bond | [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel). I love this town and will do anything to protect it. |
+| Bond | [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel). I love this town and will do anything to protect it. |
 | Flaw | Xenophobia. I don't like people who are different from me |
 |Quirk| Used to be an adventurer|

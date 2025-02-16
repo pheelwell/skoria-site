@@ -20,6 +20,6 @@ type: Region
 ---
 
 - Isles in the South of Echon inhabited mostly by Trolls
-- Governed by [Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%B4Echon%5CFactions%5CDarkspear%20Trolls/Darkspear%20Trolls)
+- Governed by [Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls)
 - Trivia: no money just exchange
 - Inhabitants mostly Worshop Loa Pantheon

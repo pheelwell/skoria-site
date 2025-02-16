@@ -15,7 +15,7 @@ plane: Nether Plane
 title: Prophecy of Shadows
 ---
 
-The Prophecy of Shadows is a ancient Prophecy of another Cataclysmic event resembling [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering)
+The Prophecy of Shadows is a ancient Prophecy of another Cataclysmic event resembling [The Shattering](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering)
 
 ## The Prophecy
 

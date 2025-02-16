@@ -22,7 +22,7 @@ type: Settlement
 
 ## Overview
 
-Ergon, the City of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), stands as a beacon of life and prosperity amidst the harsh 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes. Built within the enigmatic crevices of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), this thriving metropolis offers refuge to weary travelers and merchants alike. Named after the ancient deity [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh), who is believed to have created the land it inhabits, Ergon's unique location has shaped its culture and way of life, attracting adventurers from all corners of the world.
+Ergon, the City of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand), stands as a beacon of life and prosperity amidst the harsh 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes. Built within the enigmatic crevices of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand), this thriving metropolis offers refuge to weary travelers and merchants alike. Named after the ancient deity [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh), who is believed to have created the land it inhabits, Ergon's unique location has shaped its culture and way of life, attracting adventurers from all corners of the world.
 
 ## Notable Locations
 
@@ -36,27 +36,27 @@ A towering structure made of sandstone and glass, the Sunspire is Ergon's most p
 
 ### House of Zarinesh
 
-This ancient temple dedicated to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) stands as a testament to the city's faith in its divine patron. Built into one of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand)'s many crevices, it features intricate carvings depicting scenes from the deity's mythology. Pilgrims from all over the wastes journey here to pay their respects and seek blessings for their travels.
+This ancient temple dedicated to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) stands as a testament to the city's faith in its divine patron. Built into one of [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand)'s many crevices, it features intricate carvings depicting scenes from the deity's mythology. Pilgrims from all over the wastes journey here to pay their respects and seek blessings for their travels.
 
 ### Tornas' Workshop
 
-Hidden within a maze-like network of tunnels beneath Ergon lies Master Artificer Tornas' workshop. Here, he creates intricate mechanical devices and sculptures using salvaged parts from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand). His work is highly sought after by collectors across the wastes, making Tornas one of Ergon's most influential citizens.
+Hidden within a maze-like network of tunnels beneath Ergon lies Master Artificer Tornas' workshop. Here, he creates intricate mechanical devices and sculptures using salvaged parts from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand). His work is highly sought after by collectors across the wastes, making Tornas one of Ergon's most influential citizens.
 
 ### The Gilded Dune Tavern
 
 A small popular watering hole among locals and travelers alike, The Gilded Dune Tavern offers a place to unwind after a long day in the desert heat. Patrons can enjoy local brews made from desert fruits while sharing stories of their adventures or listening to local musicians perform traditional songs.
 
-> [!seed](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), rumored to lead to a long-lost underground city. Adventurers are sought to explore the depths and uncover the hidden secrets that lie within.
+> [!seed](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand), rumored to lead to a long-lost underground city. Adventurers are sought to explore the depths and uncover the hidden secrets that lie within.
 
 ## Notable Figures
 
 ### Master Artificer Tornas
 
-Master Artificer Tornas is an innovative craftsman and a highly respected figure in Ergon. Known for his intricate mechanical devices and sculptures, he uses salvaged parts from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) to create his masterpieces. His work is highly sought after by collectors across the wastes, making Tornas one of Ergon's most influential citizens.
+Master Artificer Tornas is an innovative craftsman and a highly respected figure in Ergon. Known for his intricate mechanical devices and sculptures, he uses salvaged parts from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand) to create his masterpieces. His work is highly sought after by collectors across the wastes, making Tornas one of Ergon's most influential citizens.
 
-### Hara, High Priestess of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh)
+### Hara, High Priestess of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh)
 
-Hara serves as the spiritual leader of Ergon, guiding its citizens in their worship of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) and other animistic beliefs. As High Priestess, she oversees religious ceremonies at the House of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) and provides counsel to those seeking spiritual guidance. Her wisdom is respected by many in Ergon, making her an important figure in both religious and secular matters.
+Hara serves as the spiritual leader of Ergon, guiding its citizens in their worship of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) and other animistic beliefs. As High Priestess, she oversees religious ceremonies at the House of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) and provides counsel to those seeking spiritual guidance. Her wisdom is respected by many in Ergon, making her an important figure in both religious and secular matters.
 
 ### Ishara, Captain of the Oasis Guard
 
@@ -72,7 +72,7 @@ Naleen is a charismatic entrepreneur who owns The Gilded Dune Tavern – one of 
 
 The government of Ergon is an oligarchy, where a council of influential citizens, including Master Artificer Tornas, High Priestess Hara, and Captain Ishara, make decisions for the city's welfare. This council ensures that trade routes remain open and prosperous while maintaining good relations with neighboring settlements and nomadic tribes.
 
-Ergon's economy is primarily centered around trade, as its location within the 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes makes it a vital stopover point for caravans traversing the harsh desert. The city's skilled artisans are known for their craftsmanship in creating unique goods using materials scavenged from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand). These items are highly sought after by merchants and collectors throughout the wastes.
+Ergon's economy is primarily centered around trade, as its location within the 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes makes it a vital stopover point for caravans traversing the harsh desert. The city's skilled artisans are known for their craftsmanship in creating unique goods using materials scavenged from [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand). These items are highly sought after by merchants and collectors throughout the wastes.
 
 Ergon's oasis plays a crucial role in sustaining the city's economy, as it provides precious water to both its inhabitants and traveling merchants. The city has established strict regulations to ensure that the oasis is not over-exploited or polluted.
 
@@ -90,7 +90,7 @@ The ruling council of Ergon places great importance on maintaining good relation
 
 ## Currency and Trade:
 
-Ergon's currency is known as the Sunstone, a valuable gemstone found deep within [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand). These sunstones are used both as currency within the city and as a trade item in wider regional commerce.
+Ergon's currency is known as the Sunstone, a valuable gemstone found deep within [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand). These sunstones are used both as currency within the city and as a trade item in wider regional commerce.
 
 In addition to its unique crafted goods, Ergon also exports resources such as salt, rare metals, and textiles. These materials are traded with other settlements in exchange for food, livestock, and other essential supplies needed to sustain life in the harsh desert climate.
 
@@ -98,7 +98,7 @@ In addition to its unique crafted goods, Ergon also exports resources such as sa
 
 ## History:
 
-The city was founded by resourceful settlers who discovered [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) in their search for water. Over time, the settlement grew into a thriving metropolis as more people sought refuge from the harsh desert environment.
+The city was founded by resourceful settlers who discovered [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand) in their search for water. Over time, the settlement grew into a thriving metropolis as more people sought refuge from the harsh desert environment.
 
 ## Culture and Religion:
 
@@ -106,20 +106,20 @@ Ergon's diverse population has given rise to a vibrant culture that reflects the
 
 Despite their harsh environment, Ergonians are known for their resourcefulness, resilience, and adaptability. This spirit of perseverance is reflected in their craftsmanship and trade skills, as well as their ability to make the most out of limited resources. A strong sense of community is prevalent among Ergonians who rely on one another for survival and support.
 
-Religiously, the city is predominantly devoted to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh), the deity believed to have formed [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) and provided life-sustaining water to the city. The House of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) serves as a central place of worship where citizens gather to pray for protection and blessings from their patron deity.
+Religiously, the city is predominantly devoted to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh), the deity believed to have formed [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand) and provided life-sustaining water to the city. The House of [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) serves as a central place of worship where citizens gather to pray for protection and blessings from their patron deity.
 
-In addition to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) worship, Ergon also embraces animistic beliefs centered around nature spirits that inhabit the desert landscape. These spirits are believed to be responsible for various natural phenomena such as sandstorms or mirages. Some citizens offer prayers or sacrifices to these spirits in hopes of appeasing them or seeking assistance.
+In addition to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) worship, Ergon also embraces animistic beliefs centered around nature spirits that inhabit the desert landscape. These spirits are believed to be responsible for various natural phenomena such as sandstorms or mirages. Some citizens offer prayers or sacrifices to these spirits in hopes of appeasing them or seeking assistance.
 
-> [!seed] [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) is fast approaching, and Ergon's citizens are busy preparing for the festivities. However, mysterious events begin occurring throughout the city that appear to be linked with angered nature spirits. Adventurers are sought to uncover the cause behind these disturbances before it threatens the festival's success.
+> [!seed] [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) is fast approaching, and Ergon's citizens are busy preparing for the festivities. However, mysterious events begin occurring throughout the city that appear to be linked with angered nature spirits. Adventurers are sought to uncover the cause behind these disturbances before it threatens the festival's success.
 
-> !read [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand). The air is filled with the sound of laughter and applause, reflecting the city's indomitable spirit in the face of adversity.
+> !read [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand). The air is filled with the sound of laughter and applause, reflecting the city's indomitable spirit in the face of adversity.
 
 ## Geography and Climate:
 
-Located within the harsh 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes, Ergon faces an unforgiving desert climate with scorching temperatures during the day and freezing nights. The city's unique location within [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand) offers some protection against these harsh conditions, while its oasis provides life-sustaining water for its inhabitants.
+Located within the harsh 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes, Ergon faces an unforgiving desert climate with scorching temperatures during the day and freezing nights. The city's unique location within [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand) offers some protection against these harsh conditions, while its oasis provides life-sustaining water for its inhabitants.
 
-> [!read] [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), drawing curious onlookers and potential buyers alike.
+> [!read] [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand), drawing curious onlookers and potential buyers alike.
 
-> [!seed] [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand), rumored to contain an ancient artifact of immense power. However, the chamber is guarded by deadly traps and creatures. Adventurers are sought to retrieve the artifact and uncover its secrets.
+> [!seed] [Zarineshs Hand](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand), rumored to contain an ancient artifact of immense power. However, the chamber is guarded by deadly traps and creatures. Adventurers are sought to retrieve the artifact and uncover its secrets.
 
 expand on Culture and Religion:

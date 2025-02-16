@@ -36,14 +36,14 @@ type: Faction
 
 ![](/static/Solith.png)
 
-## An Insight into the Solith of [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset)
+## An Insight into the Solith of [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)
 
-Hailing from the unforgiving landscape of 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes, the native insectoid species, the Solith, have evolved to thrive in their harsh desert homeland. They have built a unique society within the city walls of [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset), overcoming significant cultural discrepancies and occasional discord to share their habitat with another race – the reptilian [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri).
+Hailing from the unforgiving landscape of 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes, the native insectoid species, the Solith, have evolved to thrive in their harsh desert homeland. They have built a unique society within the city walls of [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset), overcoming significant cultural discrepancies and occasional discord to share their habitat with another race – the reptilian [Quorri](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Quorri).
 
 The Solith's appearance mirrors their environment; their exoskeletons incorporate various hues of brown and yellow, providing a natural camouflage against the sand dunes. Equipped with multiple limbs and antennae that offer enhanced senses crucial for desert living, they are formidable warriors and industrious workers.
 
 > [!info]
-Contrary to what their physical abilities might suggest, the Solith are not inherently aggressive. They value solidarity, realizing that survival amidst such harsh conditions hinges on mutual cooperation – an ethos that is also evident in their association with [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset)'s [Quorri](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Quorri) inhabitants.
+Contrary to what their physical abilities might suggest, the Solith are not inherently aggressive. They value solidarity, realizing that survival amidst such harsh conditions hinges on mutual cooperation – an ethos that is also evident in their association with [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)'s [Quorri](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Quorri) inhabitants.
 
 ### Culture
 
@@ -51,24 +51,24 @@ Influenced by their surroundings, Solith culture holds nature in high regard and
 
 [!tip] 
 
-Consider involving your players in these storytelling sessions or have them hear some of these ancient narratives from non-player characters (NPCs) during a campaign based on interactions within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset) or with the Solith.
+Consider involving your players in these storytelling sessions or have them hear some of these ancient narratives from non-player characters (NPCs) during a campaign based on interactions within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset) or with the Solith.
 
 ### Society
 
 In Solith society status isn't defined by wealth or lineage but by one's contributions towards community survival. This emphasis on resourcefulness and adaptability is reflected in their decentralized government structure where wise elders or proven leaders make decisions at important community gatherings.
 
-While they generally maintain peaceful relationships with most races willing to reciprocate this sentiment – including humans – there can be occasional conflict due to cultural misunderstandings between them and other races residing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset)’s boundaries.
+While they generally maintain peaceful relationships with most races willing to reciprocate this sentiment – including humans – there can be occasional conflict due to cultural misunderstandings between them and other races residing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)’s boundaries.
 
  [!seed] 
 
-An engaging adventure hook could involve players resolving these conflicts or delving into cryptic power struggles brewing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset)'s diverse community.
+An engaging adventure hook could involve players resolving these conflicts or delving into cryptic power struggles brewing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)'s diverse community.
 
 [!secret]
 
-A clandestine faction exists within both races aiming for racial supremacy over each other – an issue that could escalate into an outright conflict if not addressed discreetly. This secret remains unknown to many residents as well as outsiders visiting [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset).
+A clandestine faction exists within both races aiming for racial supremacy over each other – an issue that could escalate into an outright conflict if not addressed discreetly. This secret remains unknown to many residents as well as outsiders visiting [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset).
 
 ### Conclusion
 
-Understanding the Solith's unique societal structure can enhance adventures set within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset) or any parts of 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes inhabited by these resilient insectoids.
+Understanding the Solith's unique societal structure can enhance adventures set within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset) or any parts of 🌐Skoria/🌐Worldbuilding/Material Plane/🏜️Irasnian Wastes/Irasnian Wastes inhabited by these resilient insectoids.
 
 Whether they become allies or adversaries would depend on how tactfully your party navigates through interactions with this fascinating race - promising a blend of challenges and rewards for those who dare venture into this sandy realm.

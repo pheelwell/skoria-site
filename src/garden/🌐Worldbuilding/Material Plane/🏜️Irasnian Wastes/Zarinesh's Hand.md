@@ -15,4 +15,4 @@ plane: Material Plane
 title: Zarinesh's Hand
 ---
 
-Giant Stone hand of said to belong to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh)
+Giant Stone hand of said to belong to [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh)

@@ -23,11 +23,11 @@ These divine beings are not at war with each other but have entered into a peace
 
 ## Divine Realms and Limitations
 
-The twin gods reside in a plane called the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane) where they cannot directly interact with mortal affairs. Each deity has their own realm within this plane, filled with celestial creatures and divine beings who serve them.
+The twin gods reside in a plane called the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane) where they cannot directly interact with mortal affairs. Each deity has their own realm within this plane, filled with celestial creatures and divine beings who serve them.
 
 At the center of their demiplane is a celestial home where all gods can gather together or visit other realms belonging to different deities. Orbiting around this home are a sun and moon symbolizing their eternal balance.
 
-Despite their immense power, since [The Shattering](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/The%20Shattering) gods are unable to enter the mortal world directly or harm one another due to their peace treaty.
+Despite their immense power, since [The Shattering](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering) gods are unable to enter the mortal world directly or harm one another due to their peace treaty.
 
 ## Worshippers and Divine Influence
 

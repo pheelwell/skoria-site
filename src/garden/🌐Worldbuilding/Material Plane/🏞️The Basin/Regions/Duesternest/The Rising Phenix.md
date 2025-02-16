@@ -19,6 +19,6 @@ type: Locality
 
 ## The Rising Phenix
 
-The Rising Phenix is a recently opened tavern located in the city of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest). It is owned and run by an old man named Brastal.
+The Rising Phenix is a recently opened tavern located in the city of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest). It is owned and run by an old man named Brastal.
 
 The tavern is a big open party location with a stage for shows and events. It is always full of people, and there is always something going on.

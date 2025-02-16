@@ -34,21 +34,21 @@ title: The Basin
 type: Continent
 ---
 
-As twilight descends upon the Ivagur Peaks, casting long shadows across the Basin, a solitary traveler journeys along an ancient path. The [Silent River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) winds gracefully around the hill atop which Edschmied stands sentinel, its waters glimmering like molten silver in the dwindling light. Within this secluded and diverse land, a myriad of tales and mysteries await those bold enough to seek them out.
+As twilight descends upon the Ivagur Peaks, casting long shadows across the Basin, a solitary traveler journeys along an ancient path. The [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) winds gracefully around the hill atop which Edschmied stands sentinel, its waters glimmering like molten silver in the dwindling light. Within this secluded and diverse land, a myriad of tales and mysteries await those bold enough to seek them out.
 
 !Map of the Basin.png
 
 ## Geography
 ### Notable Settlements:
 - Edschmied: A central settlement constructed on a hill overlooking The Basin.
-- Trollbans Hold: A city renowned as the stronghold of [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers) in the northwest.
-- Defiler’s Den: A notorious location nestled in the southeast where [Silent River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) flows out of The Basin.
-- Maerhof: A settlement situated north of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte).
-- [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/Lichtachte): A significant western settlement connecting to [Prosnen](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CProsnen/Prosnen) within Deep Forrest.
+- Trollbans Hold: A city renowned as the stronghold of [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) in the northwest.
+- Defiler’s Den: A notorious location nestled in the southeast where [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) flows out of The Basin.
+- Maerhof: A settlement situated north of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte).
+- [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte): A significant western settlement connecting to [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) within Deep Forrest.
 
 ### Scenery and Climate:
 
-The topography of The Basin is primarily composed of rolling hills, verdant meadows, and expansive grasslands. Boasting a temperate climate that varies from oceanic near Edschmied to arid barrens towards the northeast and dense forests dominating its southwestern region. Travelers can traverse two primary land routes flanking either side of [Silent River](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River)'s divide – granting passage to numerous remarkable locales throughout.
+The topography of The Basin is primarily composed of rolling hills, verdant meadows, and expansive grasslands. Boasting a temperate climate that varies from oceanic near Edschmied to arid barrens towards the northeast and dense forests dominating its southwestern region. Travelers can traverse two primary land routes flanking either side of [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River)'s divide – granting passage to numerous remarkable locales throughout.
 
 ### Flora and Fauna:
 
@@ -61,11 +61,11 @@ In the more secluded depths of the forest lurk perilous beasts – posing a form
 ## Population
 ### Culture and Religion:
 
-The Basin serves as a cultural crucible due in part to its seclusion. A significant portion of its denizens are undead as an aftereffect of The Plague, with most residing in the southeastern region. The predominant faith practiced here is the worship of [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor); however, there has been a surge in popularity for The Gifted who follow Naruun.
+The Basin serves as a cultural crucible due in part to its seclusion. A significant portion of its denizens are undead as an aftereffect of The Plague, with most residing in the southeastern region. The predominant faith practiced here is the worship of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor); however, there has been a surge in popularity for The Gifted who follow Naruun.
 
 ### Politics and Economy:
 
-Politics within The Basin are chiefly influenced by the ongoing conflict between the [Defilers](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/Defilers) and the League of [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor). In contrast, much of the economy is manipulated by The Triad. Edschmied is celebrated for its weaponsmithing expertise while Mines of Torrar yield an abundant supply of precious Stoalium.
+Politics within The Basin are chiefly influenced by the ongoing conflict between the [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) and the League of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor). In contrast, much of the economy is manipulated by The Triad. Edschmied is celebrated for its weaponsmithing expertise while Mines of Torrar yield an abundant supply of precious Stoalium.
 
 ### History and Origin:
 

@@ -80,18 +80,19 @@ body {
 }
 /* Update bold/heading styles to use Grenze Gotisch */
 .title, 
+
 h1, 
 h2, 
-h3, 
-h1 {
+h3,
+h4 {
+    font-weight: normal;
     font-size: 4rem; /* Adjust h1 font size */
     margin-bottom: 16px; /* Add some bottom margin for spacing */
     font-family: 'Grenze Gotisch', sans-serif;
 }
 /* center the h2 text and underline */
 h2 {
-    font-size: 3rem; /* Adjust h2 font size */
-    font-weight: bold; /* Make h2 text bold */
+    font-size: 3rem; /* Adjust h2 font size */  
     margin: 20px; /* Add some bottom margin for spacing */
     text-align: center; /* Center the text */
     text-decoration: underline; /* Add an underline */
@@ -102,7 +103,6 @@ h2 {
 }
 h3 {
     font-size: 2rem; /* Adjust h3 font size */
-    font-weight: bold; /* Make h3 text bold */
     margin-bottom: 10px; /* Add some bottom margin for spacing */
 }
 p {
@@ -156,9 +156,10 @@ a:visited {
 .callout-title {
     margin: 0;
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: normal;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .callout-title .callout-icon {
     margin-right: 0.5em;
@@ -192,13 +193,68 @@ a:visited {
     filter: invert(0%) sepia(0%) saturate(5720%) hue-rotate(147deg) brightness(78%) contrast(93%);
 }
 
-.callout.info.div.
+.callout.secret.is-collapsible .callout-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.callout.secret.is-collapsible:not(.is-collapsed) .callout-content {
+  max-height: 999px;
+}
+
+pre {
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+.callout.is-collapsible .callout-title::after {
+    content: "Click to reveal";
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.9rem;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.callout.is-collapsible.is-collapsed .callout-title::after {
+    content: "Click to reveal";
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.9rem;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
 /* Callout content styles */
 .callout-content {
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox (limited styling) */
+html {
+  scrollbar-width: thin;              /* “auto” or “thin” */
+  scrollbar-color: #888rgb(36, 1, 1);      /* thumb color, track color */
+  overflow-x: hidden;
+}
+
 img {
     /* make sure the blurred image is visible behind the content */
     position: relative;

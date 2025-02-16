@@ -21,4 +21,4 @@ Ein Zusammenschluß der verschiedenen Akademien und Universitäten in ganz [Skor
 
 Das Bündnis stärkt die Zusammenarbeit verschiedener Bildungsarbeiten über den ganzen Kontinent. 
 
-Das Tier auf dem Wappen der Arcane Union ist der [Mondwal](/garden/%F0%9F%90%BBBestiary%5CAnimals%20and%20Monsters/Mondwal) ein Tier welches im Einklang mit der Mondmagie aber auch der Arkanen Energie lebt und sich von ihr ernähren kann.
+Das Tier auf dem Wappen der Arcane Union ist der [Mondwal](/garden/%F0%9F%90%BBBestiary/Animals%20and%20Monsters/Mondwal) ein Tier welches im Einklang mit der Mondmagie aber auch der Arkanen Energie lebt und sich von ihr ernähren kann.

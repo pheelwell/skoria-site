@@ -22,6 +22,6 @@ title: The Daughters (burglars crew)
 type: Faction
 ---
 
-While the Sons specialize in homes and shops the Daughters focus on small pickpocketing and purse snatching. They work in very small teams or even alone to not attract too much attention. The Daughters have a few safe houses around the city of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CDuesternest/Duesternest) where they stash their stolen goods.
+While the Sons specialize in homes and shops the Daughters focus on small pickpocketing and purse snatching. They work in very small teams or even alone to not attract too much attention. The Daughters have a few safe houses around the city of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest) where they stash their stolen goods.
 
 All daughters are named after flowers, such as Rose, Tulip and Daisy.

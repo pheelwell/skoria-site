@@ -16,4 +16,4 @@ Da sie durch ihre Tarnung nur selten auffallen sind viele Wanderer schnell ersch
 
 Sie sind Allesfresser, jagen besonders gerne kleinere Tiere. 
 
-Beheimatet sind einige von ihnen in [Gundras](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0%20Gundras/Gundras) in der Region in der Region Irmo sowie in [Selkath](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%BFSelkath/Selkath).
+Beheimatet sind einige von ihnen in [Gundras](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Gundras) in der Region in der Region Irmo sowie in [Selkath](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%BFSelkath/Selkath).

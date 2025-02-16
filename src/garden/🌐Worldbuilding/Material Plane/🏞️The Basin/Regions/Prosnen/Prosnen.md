@@ -49,12 +49,12 @@ type: Settlement
 
 - **Founding**: Prosnen was founded centuries ago as a peaceful agricultural city.
 - **Malachi’s Attack**: The city was almost destroyed by the Malachi’s undead army. After a brutal battle, the citizens managed to kill Malachi and repelled the undead. They also lost many of them to the Undead. 
-- **Reconstruction**: Following the victory, Prosnen underwent extensive rebuilding, focusing on fortifications and creating specialized forces to prevent future attacks. Holy Symbols of [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor) were build to protect the city.
+- **Reconstruction**: Following the victory, Prosnen underwent extensive rebuilding, focusing on fortifications and creating specialized forces to prevent future attacks. Holy Symbols of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor) were build to protect the city.
 
 ## Culture and Religion:
 
 - **Culture**: Prosnen developed with the early knowledge of Agriculture and created a big fundus of knowledge in cultivating rare herbs and brewing special potions for many uses.
-The culture of Prosnen is heavily influenced by its recent history. There is a strong emphasis on vigilance, community, and remembrance. Festivals commemorating the defeat of Malachi are common. Since the Night of the Necromancer they belief in [Arathor](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Arathor) much more than before.
+The culture of Prosnen is heavily influenced by its recent history. There is a strong emphasis on vigilance, community, and remembrance. Festivals commemorating the defeat of Malachi are common. Since the Night of the Necromancer they belief in [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor) much more than before.
 - **Religion**: The city has a strong religious presence due to its proximity to Lichtachte. The Sanctum of Light in Lichtachte is the primary place of worship, and many citizens participate in pilgrimages.
 
 ## Threats and Rumors:

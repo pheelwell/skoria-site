@@ -60,7 +60,7 @@ type: NPC
 
 ## Overview
 
-In the foreboding plane Axirex in the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Nether%20Plane), Nefaris presides with an iron fist over a vast labyrinthine bureaucracy. Likened to an immense corporate entity, this domain operates with legions of devils vying for supremacy within their ranks, each motivated by the unyielding desire to ascend the infernal hierarchy.
+In the foreboding plane Axirex in the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane), Nefaris presides with an iron fist over a vast labyrinthine bureaucracy. Likened to an immense corporate entity, this domain operates with legions of devils vying for supremacy within their ranks, each motivated by the unyielding desire to ascend the infernal hierarchy.
 
 Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) is partitioned into seven specialized divisions. Each one adept in distinct facets of contractual subterfuge and manipulation—overseen by formidable lieutenants who answer only to the Archdevil himself.
 

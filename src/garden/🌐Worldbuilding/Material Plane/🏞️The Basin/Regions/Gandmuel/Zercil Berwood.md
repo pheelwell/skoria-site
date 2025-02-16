@@ -22,13 +22,13 @@ type: SideNPC
 
 **Elf - Tourist Guide**
 
-_"Welcome, Welcome to [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel), Travelers. Just walk down the road and let the smell of fresh bread guide you"_
+_"Welcome, Welcome to [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel), Travelers. Just walk down the road and let the smell of fresh bread guide you"_
 
-Zercil is a very outgoing man who loves to talk to people. He's also very passionate about his work and wants to make [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel) a tourist destination.
+Zercil is a very outgoing man who loves to talk to people. He's also very passionate about his work and wants to make [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel) a tourist destination.
 
 |       |                                                                                                |
 | -- | - |
-| Ideal | I want to make [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Gandmuel) a tourist destination and bring in more money for the town.            |
+| Ideal | I want to make [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel) a tourist destination and bring in more money for the town.            |
 | Bond  | The Reformers. I believe in what they're doing and want to help them in any way I can.         |
 | Flaw  | Greed. I want to make as much money as possible and will do whatever it takes to achieve that. |
 | Quirk | Wears a necklace with a tree pendant.                                                          |

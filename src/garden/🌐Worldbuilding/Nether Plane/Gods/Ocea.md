@@ -31,7 +31,7 @@ type: Deity
 
 ## Overview
 
-Ocea, known as the Sister of Oceans, the sister of [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Geran), is a deity who embodies the serene waters. With a domain in water and an associated element of energy, Ocea stands as a 
+Ocea, known as the Sister of Oceans, the sister of [Geran](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Geran), is a deity who embodies the serene waters. With a domain in water and an associated element of energy, Ocea stands as a 
 
 > [!TIP] Quick Reference
 > ![](/static/Ocea.png)

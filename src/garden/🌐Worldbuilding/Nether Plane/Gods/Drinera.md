@@ -63,7 +63,7 @@ The history of Drinera is shrouded in mystery.
 
 ### The Path of the Forsaken
 
-Drinera's followers are known to walk a unique spiritual path called "The Forsaken Path." This practice involves embracing and overcoming a unique path through the wastes of [Deathens Fall](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CDeathens%20Fall/Deathens%20Fall). You will succeed if your belief in Drinera is big enough, she will guide you.
+Drinera's followers are known to walk a unique spiritual path called "The Forsaken Path." This practice involves embracing and overcoming a unique path through the wastes of [Deathens Fall](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/Deathens%20Fall). You will succeed if your belief in Drinera is big enough, she will guide you.
 
 ## Roleplaying
 ### Goals and Motivations

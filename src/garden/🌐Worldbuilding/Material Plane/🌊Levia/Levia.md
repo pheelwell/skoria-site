@@ -19,7 +19,7 @@ title: Leviaia
 ## Geography
 ### Notable Settlements:
 - The Watergates: Giant gates to control water traffic.
-- [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia): The Capital of [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia)
+- [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia): The Capital of [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia)
 
 ### Scenery and Climate:
 
@@ -42,11 +42,11 @@ Levia's culture is a rich tapestry woven from the threads of history, ingenuity,
 
 There are two factions inside Levia. The modern People who protect the other countries and support the global market against the traditional People who once lived like nomads in accordance with the sea.
 
-They pray especially for [Geran](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Geran), [Ocea](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ocea), [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Zarinesh) and [Sori](/garden/%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Sori)
+They pray especially for [Geran](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Geran), [Ocea](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Ocea), [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) and [Sori](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Sori)
 
 ### Politics and Economy:
 
-The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia) and also 
+The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) and also 
 
 ### History and Origin:
 
