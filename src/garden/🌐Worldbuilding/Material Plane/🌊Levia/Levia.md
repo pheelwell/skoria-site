@@ -1,19 +1,19 @@
 ---
-banner: /static/Levia-Atmosphere.png
+banner: /static/Placeholder.png
 continent: Levia
 date created: Thursday, December 14th 2023, 12:02:12 am
-date modified: Thursday, June 27th 2024, 1:20:15 am
+date modified: Tuesday, March 18th 2025, 10:33:11 pm
 eleventyNavigation:
-  key: Leviaia
-  parent: Levia
-herocolor0: 180
-herocolor1: 191
-herocolor2: 183
+  key: Levia
+  parent: Material Plane
+herocolor0: 67
+herocolor1: 43
+herocolor2: 53
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌊Levia/Levia.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Leviaia/
+parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
+path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia/
 plane: Material Plane
-title: Leviaia
+title: Levia
 ---
 
 ## Geography

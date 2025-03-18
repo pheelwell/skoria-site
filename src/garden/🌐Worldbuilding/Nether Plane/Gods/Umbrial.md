@@ -1,14 +1,11 @@
 ---
 continent: Gods
 date created: Friday, October 6th 2023, 6:38:58 pm
-date modified: Saturday, February 15th 2025, 12:14:34 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 dg-publish: true
 eleventyNavigation:
   key: Umbrial
   parent: Gods
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 ownership:
 - 'corellion: role in shattering'
@@ -35,7 +32,7 @@ type: Deity
 Once a powerful and enigmatic God of Discord and Chaos, Umbrial now remains as a barely known figure in the mortal realm. Banished by other gods and killed during the Shattering, his influence has vanished from the world. With no cults or followers to carry on his legacy, his domain has been distributed among the other gods in the Divine Pantheon.
 
 > [!TIP] Quick Reference
-> ![](/static/Umbrial.png)
+> ![](/static/Placeholder.png)
 > **Umbrial** 
 > God of Discord and Chaos (deceased)
 >- **Domains**: Discord, Chaos

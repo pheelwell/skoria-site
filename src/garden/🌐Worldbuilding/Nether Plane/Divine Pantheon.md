@@ -5,9 +5,6 @@ dg-publish: true
 eleventyNavigation:
   key: Divine Pantheon
   parent: Nether Plane
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'

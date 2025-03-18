@@ -1,14 +1,11 @@
 ---
 continent: Gods
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 dg-publish: true
 eleventyNavigation:
   key: Gods
   parent: Nether Plane
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Mysteria, Lar, Arathor, Umbrial'

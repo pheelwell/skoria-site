@@ -100,7 +100,7 @@ In crafting these descriptions for Midjourney prompts, you can create a richly d
 
 ![](/static/Seed%20of%20Protection.png)
 
-![](/static/second%20harvest.png)
+![](/static/Placeholder.png)
 
 ![](/static/Rootbound%20Ancient.png)
 
@@ -116,7 +116,7 @@ In crafting these descriptions for Midjourney prompts, you can create a richly d
 
 ![](/static/Orchard%20Channeler.png)
 
-![](/static/Nurtzring%20Stone.png)
+![](/static/Placeholder.png)
 
 ![](/static/Nosaia%27s%20Bounty.png)
 

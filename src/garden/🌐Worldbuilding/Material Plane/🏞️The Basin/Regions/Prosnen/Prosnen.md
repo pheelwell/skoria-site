@@ -1,9 +1,8 @@
 ---
 banner: /static/Prosnen01.png
 continent: The Basin
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
-dg-publish: true
+date created: Tuesday, February 25th 2025, 10:44:22 pm
+date modified: Tuesday, March 18th 2025, 10:33:11 pm
 eleventyNavigation:
   key: Prosnen
   parent: The Basin
@@ -14,16 +13,24 @@ layout: base.njk
 parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CProsnen/
 plane: Material Plane
-sum: []
+title: Prosnen
+---
+
+---
+dg-publish: true
 title: Prosnen
 type: Settlement
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Saturday, February 15th 2025, 12:14:35 am
+sum: []
+banner: "![](/static/Prosnen01.png)"
 ---
 
 ![](/static/Prosnen01.png)
 
 ## Notable Locations:
 
-1. **The Necromancer Memorial**: The big Obelisk located in the center of Prosnen. In rememberance of the fallen and turned People of Prosnen and Lichtachte and the cruel rituals of the Malachi. 
+1. **The Malachi Memorial**: The big Obelisk located in the center of Prosnen. In rememberance of the fallen and turned People of Prosnen and Lichtachte and the cruel rituals of the Malachi. 
 2. **The Sanctum for the living**: A temple dedicated to the gods of light and protection, built to honor those who fell during the Malachis attack.
 3. **The Citadel of Vigilance**: Headquarters of the undead-killing force, heavily fortified and equipped with the latest anti-undead weaponry.
 4. **The Green Market**: A bustling marketplace known for its fresh produce, herbs, and magical items and other essentials.

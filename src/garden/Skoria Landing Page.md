@@ -24,8 +24,8 @@ Delve into the mystical world of [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skor
 
 Explore unique subclasses such as:
 
-- The enigmatic [Shadow Hunter](/garden/%F0%9F%90%BBBestiary/Subclasses/Shadow%20Hunter)
-- The powerful [Cult of the Gifted Ones (Class)](/garden/%F0%9F%90%BBBestiary/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29)
+- The enigmatic [Shadow Hunter](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Subclasses/Shadow%20Hunter)
+- The powerful [Cult of the Gifted Ones (Class)](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29)
 
 Before you begin your journey, please familiarize yourself with the [Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines) and our helpful 🌐Skoria/README.
 

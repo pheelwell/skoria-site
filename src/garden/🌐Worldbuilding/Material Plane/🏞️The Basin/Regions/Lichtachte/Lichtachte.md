@@ -2,7 +2,7 @@
 banner: /static/Lichtachte.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Tuesday, March 18th 2025, 10:33:11 pm
 dg-publish: true
 eleventyNavigation:
   key: Lichtachte
@@ -37,14 +37,15 @@ Lichtachte is a bastion of light in the otherwise dark and troubled lands of [Th
 
 ## Geography
 
-Lichtachte is situated in the northeast of [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). To the north lies Maerhof, while [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) can be found within the Deep Forest to the west. Faern lies to the east and connects Lichtachte to the [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) that flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).
+Lichtachte is situated in the northeast of [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). To the north lies Maerhof, while [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) can be found not far to the west next to the big fields. Faern lies to the east and connects Lichtachte to the [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) that flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).
 
 Nearby Trollbans Hold also relies on Lichtachte for support and protection from potential threats.
 
 ## Key Locations
 
 1. *Cathedral of Light*: This grand cathedral serves as a beacon for those seeking sanctuary from darkness in Lichtachte. It is devoded to [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor) and it houses the powerful artifact Sundawn, which is hidden from plain sight. Located at the heart of Lichtachte, this fortified building also serves as both a stronghold and meeting place for members of [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor).
-2. *Grand Library*: An underground library run by Ransden, who seeks knowledge on how to regain his humanity after being turned into an undead soldier by General Malachi's Plague.
+2. *Grand Library*: A giant library under the big cathedral. It holds books which contain almost every knowledge also forbidden knowledge.
+	The underground library was run by Ransden, who seeks knowledge on how to regain his humanity after being turned into an undead soldier by General Malachi's Plague. (40 years ago)
 
 ## Notable Figures
 
@@ -55,7 +56,7 @@ Nearby Trollbans Hold also relies on Lichtachte for support and protection from 
 
 - *[League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor)*: A group dedicated to upholding justice and protecting the people of Lichtachte from threats such as General Malachi's [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers). They have earned respect throughout [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) for their valor in battle.
 - *The Lost Hops*: A faction of skilled brewers and alchemists who have turned their talents towards creating unique magical potions and elixirs from rare ingredients found in [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). They operate from a hidden brewery within Lichtachte and are known for their exceptional ale, which is rumored to grant temporary magical abilities to those who consume it.
-
+- The people in [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) rely on [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte). They have a trading association. In Prosnen, many edible things are cultivated in the fields while Lichtachte serves in holy requirements and safety for [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen). They have a good relationship.
 ## Features
 
 - *Sunlit Streets*: The streets of Lichtachte are magically illuminated with a soft, warm light that mimics sunlight, bathing the city in eternal daylight. This feature not only provides a sense of security and comfort for the citizens but also weakens any undead creatures that may venture too close to the city.

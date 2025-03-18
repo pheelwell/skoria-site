@@ -1,7 +1,7 @@
 ---
 continent: Gundras
 date created: Thursday, August 1st 2024, 11:12:13 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Tuesday, March 18th 2025, 10:33:11 pm
 eleventyNavigation:
   key: Mai Bos
   parent: Gundras
@@ -33,10 +33,12 @@ The Mai Bos serve as both warriors and healers of the forest. They wear ritual g
 
 Most Mai Bos reside in the nearby city of Gaban, from where they organize their patrols and duties in the forest. The presence of the Mai Bos has transformed Gaban into a center of harmony between humans and nature. The inhabitants respect and support the Mai Bos in their mission, and many young people dream of one day becoming a Mai Bos themselves.
 
-### Bond with Animals
+![](/static/MaiBos-Glove01.png)  ![](/static/MaiBos-Glove02.png)
+
+#### Bond with Animals
 
 Each Mai Bos forms a unique bond with a particular animal of the forest. This connection goes beyond mere friendship and is considered sacred. Through these animals, the Mai Bos gain insights into nature, can detect impending dangers, and communicate with the wilderness. This partnership enables them to effectively protect and nurture the forest.
 
-### Conclusion
+#### Conclusion
 
 The Mai Bos are more than just guardians of the forest; they are the living embodiment of balance and harmony between humans and nature. Their rituals, their bonds with animals, and their code of respect and protection make them a unique and essential force within the Bosque Forest. Under Mai's wise leadership and through their deep connections with their animal partners, the Mai Bos ensure that the Bosque Forest thrives and flourishes while preserving the deep secrets and wonders of nature.

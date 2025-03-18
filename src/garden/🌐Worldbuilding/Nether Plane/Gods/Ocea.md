@@ -6,9 +6,6 @@ dg-publish: true
 eleventyNavigation:
   key: Ocea
   parent: Gods
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Ocea/

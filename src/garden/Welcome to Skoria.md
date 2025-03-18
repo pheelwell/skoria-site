@@ -1,7 +1,7 @@
 ---
 banner: /static/Great Vault.png
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Saturday, February 15th 2025, 12:14:34 am
+date modified: Tuesday, March 18th 2025, 10:31:26 pm
 dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
@@ -32,7 +32,7 @@ Prepare your mind to knowledge about many subjects in Skoria as:
 
 Moreover, you shall have access to rare manuscripts outlining esoteric subclasses known only to a select few:
 
-- Unearth forbidden texts regarding a most potent faction—the [Cult of the Gifted Ones (Class)](/garden/%F0%9F%90%BBBestiary/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29) whose members wield powers that blur the boundary between miracle and menace.
+- Unearth forbidden texts regarding a most potent faction—the [Cult of the Gifted Ones (Class)](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29) whose members wield powers that blur the boundary between miracle and menace.
 
 Before you immerse yourself in these ancient scripts and scrolls, I implore you to acquaint yourself with our **[Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines)**, for they are essential in navigating through our labyrinthine compilation. 
 

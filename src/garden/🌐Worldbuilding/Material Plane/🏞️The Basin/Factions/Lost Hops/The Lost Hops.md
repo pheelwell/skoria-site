@@ -1,9 +1,8 @@
 ---
 banner: /static/Placeholder.png
 continent: The Basin
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
-dg-publish: true
+date created: Tuesday, February 25th 2025, 10:44:22 pm
+date modified: Tuesday, March 18th 2025, 10:33:11 pm
 eleventyNavigation:
   key: The Lost Hops
   parent: The Basin
@@ -14,16 +13,27 @@ layout: base.njk
 parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLost%20Hops/The%20Lost%20Hops/
 plane: Material Plane
+title: The Lost Hops
+---
+
+---
+
+dg-publish: true
+
 sum:
+
 - The Lost Hops is a secret underground smuggling operation
 - Their goal is to steal from the rich and provide contraband to the poor
 - Led by Helena, expert in subterfuge and stealth
 - Pose as traveling brewers, brewing and selling beer as a cover
-- Base of operations is Düsternest, in good faith with city guard
+- "Base of operations is D\xFCsternest, in good faith with city guard"
 - Two groups, each led by Mom and Dad, 40 members in total
 - Members undergo ritual of Name to erase memories of past identity
 title: The Lost Hops
 type: Faction
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Saturday, February 15th 2025, 12:14:35 am
+banner: "![](/static/Placeholder.png)"
 ---
 
 The city of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest)  has a hidden underground smuggling operation called The Lost Hopps.

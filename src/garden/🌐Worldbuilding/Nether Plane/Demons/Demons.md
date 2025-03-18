@@ -3,7 +3,7 @@ banner: /static/Demons.png
 banner_y: 0.332
 continent: Demons
 date created: Monday, December 11th 2023, 1:18:30 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 eleventyNavigation:
   key: Demons
   parent: Nether Plane

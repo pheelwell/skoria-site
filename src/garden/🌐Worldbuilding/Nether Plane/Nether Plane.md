@@ -1,12 +1,8 @@
 ---
-banner: /static/Nether Plane.png
 date created: Wednesday, December 27th 2023, 5:41:03 pm
-date modified: Saturday, February 15th 2025, 2:08:18 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 eleventyNavigation:
   key: Nether Plane
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/
 plane: Nether Plane

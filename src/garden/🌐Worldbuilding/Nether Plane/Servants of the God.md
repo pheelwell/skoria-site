@@ -1,12 +1,9 @@
 ---
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Saturday, February 15th 2025, 12:14:34 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 eleventyNavigation:
   key: Servants of the God
   parent: Nether Plane
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
 path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/Servants%20of%20the%20God/

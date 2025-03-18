@@ -1,13 +1,10 @@
 ---
 date created: Friday, October 6th 2023, 6:38:50 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Tuesday, March 18th 2025, 10:33:12 pm
 dg-publish: true
 eleventyNavigation:
   key: Divine History
   parent: Nether Plane
-herocolor0: 29
-herocolor1: 21
-herocolor2: 62
 layout: base.njk
 ownership:
 - 'pheelwell: Aftermath of the Shattering'
