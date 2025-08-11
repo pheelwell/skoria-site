@@ -112,8 +112,18 @@ function setupSearch() {
 function setupNavAutoClose() {
   const dropdown = document.querySelector('[data-nav]');
   if (!dropdown) return;
+  
+  // Close when clicking outside
   document.addEventListener('click', (e) => {
     if (!dropdown.contains(e.target)) dropdown.open = false;
+  });
+  
+  // Close when clicking on navigation links
+  const navLinks = dropdown.querySelectorAll('a[href]');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      dropdown.open = false;
+    });
   });
 }
 
