@@ -39,6 +39,11 @@
           </div>
         {% endif %}
         <article class="prose">
+          {% if title %}
+            <header class="article-header">
+              <h1 class="article-title">{{ title }}</h1>
+            </header>
+          {% endif %}
           {{ content | safe }}
         </article>
         </div>
