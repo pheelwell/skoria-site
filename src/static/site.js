@@ -173,6 +173,25 @@ function initPageEnhancements(animate = false) {
   setupSearch();
   setupNavAutoClose();
   setupGlowBorders();
+  
+  // Request device orientation permission on mobile
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+      // iOS 13+ requires permission
+      const requestOrientationPermission = () => {
+        DeviceOrientationEvent.requestPermission()
+          .then(permissionState => {
+            if (permissionState === 'granted') {
+              console.log('Device orientation permission granted');
+            }
+          })
+          .catch(console.error);
+      };
+      
+      // Request permission on first user interaction
+      document.addEventListener('touchstart', requestOrientationPermission, { once: true });
+    }
+  }
 }
 
 window.addEventListener("load", () => {
@@ -193,28 +212,123 @@ window.addEventListener("load", () => {
 function setupGlowBorders() {
   const targets = document.querySelectorAll('.dropdown-panel details, .callout, article.prose blockquote');
   const lerp = (a, b, t) => a + (b - a) * t;
+  
+  // Check if device supports orientation
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const supportsOrientation = window.DeviceOrientationEvent && isMobile;
+  
   targets.forEach((el) => {
     let start = 0;
     let raf = 0;
     let active = 0;
+    let touchActive = false;
+    
+    const updateGlow = (angle, intensity = 1) => {
+      if (raf) cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        start = lerp(start, angle, 0.25);
+        el.style.setProperty('--glow-start', String(start));
+        el.style.setProperty('--glow-active', String(intensity));
+      });
+    };
+    
     const onMove = (e) => {
+      if (touchActive) return; // Don't interfere with touch
       const rect = el.getBoundingClientRect();
       const cx = rect.left + rect.width * 0.5;
       const cy = rect.top + rect.height * 0.5;
       const angle = Math.atan2((e.clientY - cy), (e.clientX - cx)) * 180 / Math.PI + 90;
-      if (raf) cancelAnimationFrame(raf);
-      raf = requestAnimationFrame(() => {
-        // ease current start toward target
-        start = lerp(start, angle, 0.25);
-        el.style.setProperty('--glow-start', String(start));
-        el.style.setProperty('--glow-active', '1');
-      });
+      updateGlow(angle, 1);
     };
+    
     const onLeave = () => {
-      el.style.setProperty('--glow-active', '0');
+      if (!touchActive) {
+        updateGlow(start, 0);
+      }
     };
+    
+    // Mouse events (desktop)
     el.addEventListener('pointermove', onMove, { passive: true });
     el.addEventListener('mouseleave', onLeave, { passive: true });
+    
+    // Touch events (mobile)
+    if (isMobile) {
+      let touchStartAngle = 0;
+      let touchStartTime = 0;
+      
+      el.addEventListener('touchstart', (e) => {
+        touchActive = true;
+        const rect = el.getBoundingClientRect();
+        const touch = e.touches[0];
+        const cx = rect.left + rect.width * 0.5;
+        const cy = rect.top + rect.height * 0.5;
+        touchStartAngle = Math.atan2((touch.clientY - cy), (touch.clientX - cx)) * 180 / Math.PI + 90;
+        touchStartTime = Date.now();
+        updateGlow(touchStartAngle, 0.8);
+      }, { passive: true });
+      
+      el.addEventListener('touchmove', (e) => {
+        if (!touchActive) return;
+        const rect = el.getBoundingClientRect();
+        const touch = e.touches[0];
+        const cx = rect.left + rect.width * 0.5;
+        const cy = rect.top + rect.height * 0.5;
+        const angle = Math.atan2((touch.clientY - cy), (touch.clientX - cx)) * 180 / Math.PI + 90;
+        const intensity = Math.min(1, 0.8 + (Date.now() - touchStartTime) / 1000);
+        updateGlow(angle, intensity);
+      }, { passive: true });
+      
+      el.addEventListener('touchend', () => {
+        touchActive = false;
+        updateGlow(start, 0);
+      }, { passive: true });
+    }
+    
+    // Device orientation (mobile)
+    if (supportsOrientation) {
+      let orientationActive = false;
+      let lastBeta = 0;
+      let lastGamma = 0;
+      
+      const onOrientation = (e) => {
+        if (!touchActive && orientationActive) {
+          const beta = e.beta || 0; // -180 to 180 (front/back tilt)
+          const gamma = e.gamma || 0; // -90 to 90 (left/right tilt)
+          
+          // Smooth the orientation values
+          const smoothBeta = lerp(lastBeta, beta, 0.1);
+          const smoothGamma = lerp(lastGamma, gamma, 0.1);
+          
+          // Convert device orientation to glow angle
+          const angle = (smoothGamma * 2) + 90; // Map -90/90 to 0/180
+          const intensity = Math.max(0.3, 1 - Math.abs(smoothBeta) / 90); // Reduce intensity with tilt
+          
+          updateGlow(angle, intensity);
+          
+          lastBeta = smoothBeta;
+          lastGamma = smoothGamma;
+        }
+      };
+      
+      // Enable orientation tracking when element is visible
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            orientationActive = true;
+            if (window.DeviceOrientationEvent) {
+              window.addEventListener('deviceorientation', onOrientation, { passive: true });
+            }
+          } else {
+            orientationActive = false;
+            if (window.DeviceOrientationEvent) {
+              window.removeEventListener('deviceorientation', onOrientation);
+            }
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      observer.observe(el);
+    }
   });
 }
 
