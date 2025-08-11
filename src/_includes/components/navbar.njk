@@ -10,7 +10,7 @@
         <div class="dropdown-panel">
           <div class="planes">
             {% for plane in navigation.planes %}
-              <details style="--nav-hue: {{ plane.hc0 }}; --nav-hue-2: {{ plane.hc1 }}; --nav-hue-3: {{ plane.hc2 }};">
+              <details open style="--nav-hue: {{ plane.hc0 }}; --nav-hue-2: {{ plane.hc1 }}; --nav-hue-3: {{ plane.hc2 }};">
                 <summary>
                   <span class="summary-with-thumb">
                     <span class="thumb" style="background: hsl(var(--nav-hue-2), 35%, 18%);">
