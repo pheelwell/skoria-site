@@ -1,64 +1,54 @@
-<!DOCTYPE html>
-<html>
+{% set hueMain = herocolor0 or 202.4 %}
+{% set hueBg = herocolor2 or hueMain %}
+{% set bannerFinal = banner or (metadata and title and metadata[title] and metadata[title].banner) %}
+<!doctype html>
+<html lang="en" class="no-js">
   <head>
-    <title>{{ title }}</title>
-    <script src="https://unpkg.com/swup@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Ysabeau+Infant&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="/src/_includes/components/scripts/filters.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title or metadata.siteTitle or "Skoria" }}</title>
+    <meta name="theme-color" content="{{ hc0 }}, {{ hc1 }}, {{ hc2 }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/site.css" />
+    <script src="https://unpkg.com/swup@4" defer></script>
   </head>
-  <body>
-    <div class="background">
-      <div class="center">
-        {% include 'components/navbar.njk' %}
-        <main class="transition-main" id="swup" role="main">
-          {% if banner %}
-            <img src="{{ banner }}" class="banner"/>
-          {% endif %}
-          <div class="content">
-            <div class="title">{{ title }}</div>
-            <div class="md-container">
-              {{ content | safe }}
-            </div>
-            <div class="next">
-              {%- if collections.posts %}
-                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-                {%- set nextPost = collections.posts | getNextCollectionItem %}
-                {%- if nextPost or previousPost %}
-                  <ul class="links-nextprev">
-                    {%- if previousPost %}
-                      <li>Previous:
-                        <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
-                      </li>
-                    {% endif %}
-                    {%- if nextPost %}
-                      <li>Next:
-                        <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-                      </li>
-                    {% endif %}
-                  </ul>
-                {%- endif %}
-              {%- endif %}
-            </div>
-          </div>
-          <div>          
-          </div>
-          
-          {% include 'css.njk' %}
-        </main>
+  <body style="
+    /* Background theme derived from hero color 2 (fallback to 0) */
+    --main-background-color: hsl({{ hueBg }}, 60%, 5%);
+    --secondary-background-color: hsl({{ hueBg }}, 40%, 10%);
+    --tertiary-background-color: hsl({{ hueBg }}, 62%, 15%);
+    /* Accent theme derived from primary hero color */
+    --accent-fg: hsl({{ hueMain }}, 70%, 66%);
+    --accent-fg-dim: hsl({{ hueMain }}, 55%, 60%);
+  ">
+    {% include "components/navbar.njk" %}
+
+    <main class="site-main">
+      <!-- hc 0/1/2 hold r g b and drive theme variables -->
+      <div class="aurora">
+        <div class="aurora-layer"></div>
+        <div class="aurora-stars"></div>
+        <div class="aurora-dust"></div>
       </div>
-    </div>
-    {% include 'helper/blur.njk' %}
-    {%include "components/linkPreview.njk"%}
-    <script>
-      document.addEventListener('click', (e) => {
-        if (e.target.closest('.callout-fold, .callout-title')) {
-          const callout = e.target.closest('.callout.is-collapsible');
-          callout && callout.classList.toggle('is-collapsed');
-        }
-      });
-    </script>
+      <div id="swup" class="transition-fade" data-hue-main="{{ hueMain }}" data-hue-bg="{{ hueBg }}">
+        <div class="container">
+        {% if bannerFinal %}
+          <div class="banner">
+            <img src="{{ bannerFinal }}" alt="Banner for {{ title }}" />
+          </div>
+        {% endif %}
+        <article class="prose">
+          {{ content | safe }}
+        </article>
+        </div>
+      </div>
+    </main>
+
+    {% include "components/footer.njk" %}
+
+    <script src="/static/site.js" defer></script>
   </body>
-</html>
+  </html>
+

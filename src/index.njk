@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: Skoria — The Great Vault
+banner: /static/Skoria%20World%20Map.png
+herocolor0: 120
+herocolor1: 160
+herocolor2: 220
+permalink: /home/
+---
+
+<section>
+  <h1>Welcome to Skoria</h1>
+  <p>Explore planes, continents, and chronicles preserved in the Great Vault. Use the Browse menu or search to jump anywhere.</p>
+
+  <div class="grid" id="articleGrid">
+    {% for plane in navigation.planes %}
+      {% for continent in plane.continents | slice(0, 1) %}
+        {% for bucket in continent.types | slice(0, 1) %}
+          {% for item in bucket.items | slice(0, 4) %}
+            <a class="card" href="{{ item.path }}" data-title="{{ item.title }}">
+              <div class="thumb">{% if item.banner %}<img src="{{ item.banner }}" alt="" />{% endif %}</div>
+              <div class="body">
+                <h3 class="title">{{ item.title }}</h3>
+                <div class="meta">{{ plane.title }} • {{ continent.title }} • {{ bucket.type }}</div>
+              </div>
+            </a>
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+

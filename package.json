@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "import": "python ./obsidian_to_11ty.py --obsidian-vault-dir ../promised-victory/🌐Skoria --eleventy-content-dir src/garden --eleventy-static-dir src/static"
+    "import": "python ./obsidian_to_11ty.py --obsidian-vault-dir ../promised-victory/🌐Skoria --eleventy-content-dir src/garden --eleventy-static-dir src/static",
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
