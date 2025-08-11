@@ -104,34 +104,63 @@ html.theme-animate body {
 }
 
 .dropdown-panel {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   right: 0;
-  top: calc(100% + .5rem);
-  width: min(1200px, 96vw);
-  max-height: 70vh;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   overflow: auto;
-  background: color-mix(in oklab, var(--tertiary-background-color) 25%, transparent);
-  backdrop-filter: blur(12px) saturate(110%);
-  border: 1px solid rgba(255, 255, 255, .06);
-  border-radius: 16px;
-  padding: 1rem;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, .5);
+  background: color-mix(in oklab, var(--main-background-color) 95%, rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(20px) saturate(120%);
+  border: none;
+  border-radius: 0;
+  padding: 2rem;
+  box-shadow: none;
   opacity: 0;
-  transform: translateY(-8px) scale(.98) translateX(27%);
-  transition: opacity .25s ease, transform .25s ease, box-shadow .25s ease;
+  transform: translateY(100%);
+  transition: opacity .3s ease, transform .3s ease;
   pointer-events: none;
+  z-index: 1000;
 }
 
 [data-nav][open] .dropdown-panel {
   opacity: 1;
-  transform: translateY(0) scale(1) translateX(27%);
+  transform: translateY(0);
   pointer-events: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background .2s ease, transform .2s ease;
+  z-index: 1001;
+}
+
+.modal-close:hover {
+  background: color-mix(in oklab, var(--tertiary-background-color) 30%, transparent);
+  transform: scale(1.1);
+}
+
+.modal-close svg {
+  display: block;
 }
 
 .planes {
   display: grid;
-  grid-template-columns: repeat(4, minmax(240px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 [data-nav][open] .planes > details { animation: navItemIn .35s ease both; }
@@ -853,5 +882,503 @@ html.is-leaving #swup.transition-fade .prose {
     transition: none;
     filter: none;
     transform: none;
+  }
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+  .container {
+    width: min(95%, calc(100% - 1.5rem));
+  }
+  
+  .dropdown-panel {
+    padding: 1.5rem;
+  }
+  
+  .planes {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+    max-width: 1200px;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .container {
+    width: min(98%, calc(100% - 1rem));
+  }
+  
+  .header-inner {
+    padding: 0.5rem 0;
+  }
+  
+  .brand-text {
+    font-size: 1.1rem;
+  }
+  
+  .brand-mark {
+    height: 24px;
+  }
+  
+  .nav {
+    gap: 0.5rem;
+  }
+  
+  .nav-link {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-panel {
+    padding: 1rem;
+  }
+  
+  .modal-close {
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .planes {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  .planes details {
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .planes details > summary {
+    padding: 0.25rem 0.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .summary-with-thumb .thumb {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .continents details {
+    margin: 0.3rem 0;
+    padding: 0.2rem 0.4rem;
+  }
+  
+  .types {
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+  
+  .type li a {
+    padding: 0.2rem 0.3rem;
+    font-size: 0.85rem;
+  }
+  
+  .type img,
+  .type .box {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .search {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .search-results {
+    width: 95vw;
+    max-height: 40vh;
+  }
+  
+  .search-results .row {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .search-results img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .card .body {
+    padding: 0.75rem;
+  }
+  
+  .card .title {
+    font-size: 1.1rem;
+  }
+  
+  article.prose {
+    font-size: 0.95rem;
+  }
+  
+  article.prose h1 {
+    font-size: 1.8rem;
+  }
+  
+  article.prose h2 {
+    font-size: 1.4rem;
+  }
+  
+  article.prose h3 {
+    font-size: 1.2rem;
+  }
+  
+  article.prose img,
+  article.prose figure,
+  article.prose video,
+  article.prose iframe {
+    max-width: min(100%, 800px);
+  }
+  
+  .footer-inner {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-inner a {
+    margin-left: 0;
+    margin-right: 0.75rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .container {
+    width: calc(100% - 1rem);
+  }
+  
+  .header-inner {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+  }
+  
+  .nav {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .dropdown-panel {
+    padding: 0.75rem;
+  }
+  
+  .modal-close {
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.4rem;
+  }
+  
+  .modal-close svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .planes {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    max-width: 100%;
+  }
+  
+  .planes details {
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .planes details > summary {
+    padding: 0.2rem 0.15rem;
+    font-size: 0.85rem;
+  }
+  
+  .summary-with-thumb {
+    gap: 0.4rem;
+  }
+  
+  .summary-with-thumb .thumb {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .continents details {
+    margin: 0.25rem 0;
+    padding: 0.15rem 0.3rem;
+  }
+  
+  .continents summary {
+    font-size: 0.8rem;
+  }
+  
+  .types {
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+  }
+  
+  .type-name {
+    font-size: 0.8rem;
+  }
+  
+  .type li a {
+    padding: 0.15rem 0.25rem;
+    font-size: 0.8rem;
+    gap: 0.4rem;
+  }
+  
+  .type img,
+  .type .box {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .search {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .search-results {
+    width: 98vw;
+    max-height: 35vh;
+  }
+  
+  .search-results .row {
+    padding: 0.4rem;
+    font-size: 0.85rem;
+  }
+  
+  .search-results img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .card .body {
+    padding: 0.6rem;
+  }
+  
+  .card .title {
+    font-size: 1rem;
+  }
+  
+  .card .meta {
+    font-size: 0.8rem;
+  }
+  
+  article.prose {
+    font-size: 0.9rem;
+  }
+  
+  article.prose h1 {
+    font-size: 1.6rem;
+  }
+  
+  article.prose h2 {
+    font-size: 1.3rem;
+  }
+  
+  article.prose h3 {
+    font-size: 1.1rem;
+  }
+  
+  article.prose img,
+  article.prose figure,
+  article.prose video,
+  article.prose iframe {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .callout,
+  article.prose blockquote {
+    padding: 0.75rem;
+    margin: 1rem 0;
+  }
+  
+  .callout .callout-title {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .callout .callout-content {
+    font-size: 0.85rem;
+  }
+  
+  .footer-inner {
+    padding: 0.75rem 0;
+    font-size: 0.85rem;
+  }
+  
+  .footer-inner a {
+    margin-right: 0.5rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+  .container {
+    width: calc(100% - 0.5rem);
+  }
+  
+  .brand-text {
+    font-size: 1rem;
+  }
+  
+  .brand-mark {
+    height: 20px;
+  }
+  
+  .nav-link {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .dropdown-panel {
+    padding: 0.5rem;
+  }
+  
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.3rem;
+  }
+  
+  .modal-close svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .planes details {
+    padding: 0.25rem 0.4rem;
+  }
+  
+  .planes details > summary {
+    font-size: 0.8rem;
+  }
+  
+  .summary-with-thumb .thumb {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .continents details {
+    padding: 0.1rem 0.25rem;
+  }
+  
+  .continents summary {
+    font-size: 0.75rem;
+  }
+  
+  .type li a {
+    font-size: 0.75rem;
+  }
+  
+  .type img,
+  .type .box {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .search {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  .search-results .row {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+  
+  .search-results img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card .title {
+    font-size: 0.9rem;
+  }
+  
+  .card .meta {
+    font-size: 0.75rem;
+  }
+  
+  article.prose {
+    font-size: 0.85rem;
+  }
+  
+  article.prose h1 {
+    font-size: 1.4rem;
+  }
+  
+  article.prose h2 {
+    font-size: 1.2rem;
+  }
+  
+  article.prose h3 {
+    font-size: 1rem;
+  }
+  
+  .callout,
+  article.prose blockquote {
+    padding: 0.6rem;
+    margin: 0.75rem 0;
+  }
+  
+  .callout .callout-title {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .callout .callout-content {
+    font-size: 0.8rem;
+  }
+  
+  .footer-inner {
+    font-size: 0.8rem;
+    padding: 0.6rem 0;
+  }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .dropdown-panel {
+    padding: 1rem;
+  }
+  
+  .search-results {
+    max-height: 25vh;
+  }
+  
+  .header-inner {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .brand-mark {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+  
+  .summary-with-thumb .thumb img,
+  .type img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
   }
 } 

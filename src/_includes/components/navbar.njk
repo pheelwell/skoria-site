@@ -8,6 +8,12 @@
       <details class="nav-dropdown" data-nav>
         <summary class="nav-link">Browse</summary>
         <div class="dropdown-panel">
+          <button class="modal-close" onclick="document.querySelector('[data-nav]').open = false">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
           <div class="planes">
             {% for plane in navigation.planes %}
               <details open style="--nav-hue: {{ plane.hc0 }}; --nav-hue-2: {{ plane.hc1 }}; --nav-hue-3: {{ plane.hc2 }};">

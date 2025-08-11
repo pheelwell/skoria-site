@@ -125,6 +125,22 @@ function setupNavAutoClose() {
       dropdown.open = false;
     });
   });
+  
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && dropdown.open) {
+      dropdown.open = false;
+    }
+  });
+  
+  // Prevent body scroll when modal is open
+  dropdown.addEventListener('toggle', () => {
+    if (dropdown.open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  });
 }
 
 let __themeTimer = 0;
