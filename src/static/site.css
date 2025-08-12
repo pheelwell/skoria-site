@@ -578,6 +578,26 @@ article.prose {
   padding: 2rem 0 4rem;
 }
 
+.article-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.article-title {
+  font-family: "EB Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, var(--accent-fg), var(--accent-fg-dim));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px color-mix(in oklab, var(--accent-fg) 20%, transparent);
+}
+
 article.prose h1,
 article.prose h2,
 article.prose h3,
@@ -820,6 +840,59 @@ article.prose blockquote { --callout-color: var(--accent-fg, #6aa9ff); }
     linear-gradient(180deg, rgba(255, 255, 255, .04), rgba(255, 255, 255, .02)),
     linear-gradient(180deg, color-mix(in oklab, var(--tertiary-background-color) 20%, transparent), rgba(0, 0, 0, 0));
   box-shadow: 0 10px 40px rgba(0, 0, 0, .35);
+  /* Glow controls */
+  --glow-start: 0;
+  --glow-spread: 70;
+  --glow-active: 0;
+  transition: transform .25s ease, box-shadow .3s ease, border-color .3s ease, background .3s ease;
+}
+
+/* Card entrance animation */
+.card.enter {
+  opacity: 0;
+  transform: translateY(14px) scale(.98);
+  animation: cardIn 420ms cubic-bezier(.2, .8, .2, 1) forwards;
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(14px) scale(.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.enter { animation: none; opacity: 1; transform: none; }
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 120% at 10% 0%, color-mix(in oklab, var(--accent-color, var(--accent-fg, #6aa9ff)) 45%, transparent), transparent 70%),
+    conic-gradient(from calc((var(--glow-start) - var(--glow-spread)) * 1deg),
+      transparent 0deg,
+      color-mix(in oklab, var(--accent-color, var(--accent-fg, #6aa9ff)) 80%, white),
+      transparent calc(var(--glow-spread) * 2deg));
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude; /* show only border */
+  padding: 2.5px; /* border width */
+  opacity: calc(.9 * (var(--glow-active) + .5));
+  filter: saturate(1.35) brightness(1.2)
+    drop-shadow(0 0 22px color-mix(in oklab, var(--accent-color, var(--accent-fg, #6aa9ff)) 60%, transparent))
+    drop-shadow(0 10px 30px rgba(0,0,0,.35));
+  transition: opacity .25s ease, filter .25s ease;
+}
+
+.card:hover,
+.card:focus-within {
+  --glow-active: 1;
+  /* Do not nudge card up on hover or focus */
+  border-color: rgba(255, 255, 255, .18);
+  box-shadow: 0 14px 50px rgba(0, 0, 0, .45), 0 0 0 1px rgba(255,255,255,.02) inset;
 }
 
 .card .thumb {
@@ -1022,6 +1095,10 @@ html.is-leaving #swup.transition-fade .prose {
     font-size: 0.95rem;
   }
   
+  .article-title {
+    font-size: 2rem;
+  }
+  
   article.prose h1 {
     font-size: 1.8rem;
   }
@@ -1183,6 +1260,10 @@ html.is-leaving #swup.transition-fade .prose {
     font-size: 0.9rem;
   }
   
+  .article-title {
+    font-size: 1.8rem;
+  }
+  
   article.prose h1 {
     font-size: 1.6rem;
   }
@@ -1318,6 +1399,10 @@ html.is-leaving #swup.transition-fade .prose {
   
   article.prose {
     font-size: 0.85rem;
+  }
+  
+  .article-title {
+    font-size: 1.5rem;
   }
   
   article.prose h1 {

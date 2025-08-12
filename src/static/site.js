@@ -210,7 +210,7 @@ window.addEventListener("load", () => {
 
 // Lightweight GlowCard-like pointer tracking for nav panels (no React)
 function setupGlowBorders() {
-  const targets = document.querySelectorAll('.dropdown-panel details, .callout, article.prose blockquote');
+  const targets = document.querySelectorAll('.dropdown-panel details, .callout, article.prose blockquote, .card');
   const lerp = (a, b, t) => a + (b - a) * t;
   
   // Check if device supports orientation

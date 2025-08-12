@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktail – Vote</title>
+    <link rel="stylesheet" href="/static/site.css" />
+    <style>
+      :root { --ambient-color: #8a2be2; --accent-color: #4f46e5; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background:#000; color:#e5e7eb; overflow-x:hidden; }
+      .container { max-width: 1100px; margin: 1rem auto; padding: 1rem; }
+      .nav { margin-bottom: 1rem; display: flex; gap: .75rem; }
+      .nav a { color: #9aa0ff; text-decoration: none; }
+      .grid { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+      @media (min-width: 640px){ .grid { gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); } }
+      .card { position: relative; border: 1px solid #333; border-radius: 12px; overflow: hidden; background: #0f0f0f; display:grid; grid-template-rows: auto 1fr; transition: transform .25s ease, opacity .25s ease, border-color .2s ease; }
+      .card.enter { opacity: 0; transform: translateY(8px) scale(.98); }
+      .card.is-locked { outline: 1px dashed #7c2d12; }
+      @keyframes lockPulse { 0%{ box-shadow:0 0 0 0 rgba(239,68,68,.4);} 100%{ box-shadow:0 0 0 12px rgba(239,68,68,0);} }
+      @keyframes unlockFlash { 0%{ filter: saturate(1.2) brightness(1.2);} 100%{ filter: none;} }
+      .card.locked-anim { animation: lockPulse .6s ease; }
+      .card.unlocked-anim { animation: unlockFlash .6s ease; }
+      .thumb { aspect-ratio: 16 / 9; background-size: cover; background-position: center; }
+      /* No color overlay on photos when voting */
+      .overlay { display:none; }
+      .content { padding: 0.75rem 0.75rem 1rem; }
+      h3 { margin: 0.25rem 0 0.5rem; }
+      .center { text-align: center; }
+      .subtitle { color:#9aa0a6; margin:0 0 .25rem; font-size:.95rem; }
+      .card.name-only { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height: 160px; padding:.75rem; }
+      form { display: grid; gap: 0.5rem; }
+      label { font-weight: 600; font-size: 0.95rem; }
+      select, button { width: 100%; padding: .75rem .7rem; border-radius: 10px; border: 1px solid #444; background: #0e0e0e; color: #f2f2f2; }
+      .locked { color:#f59e0b; font-size:.9rem; font-weight:600; }
+      button { background: #4f46e5; border: none; cursor: pointer; font-weight: 700; }
+      button:disabled { opacity: .6; cursor: not-allowed; }
+      .note { color: #9aa0a6; font-size: .9rem; margin-bottom: 1rem; }
+      .status { margin-top: .5rem; min-height: 1.2rem; font-size: .9rem; }
+      .player { display:flex; align-items:center; gap:.5rem; margin:.5rem 0 1rem; }
+      .player label { color:#cbd5e1; }
+      .player input { flex: 1; padding:.55rem .7rem; border-radius:10px; border:1px solid #444; background:#0e0e0e; color:#e5e7eb; }
+      .success { color: #22c55e; }
+      .error { color: #ef4444; }
+      /* Slider (range) styling: simple bar without numbers */
+      .slider { -webkit-appearance: none; appearance: none; width: 100%; height: 10px; border-radius: 999px; background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color) 50%, #2a2a2a 50%); outline: none; border: 1px solid #444; }
+      .slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%; background: #fff; border: 2px solid var(--accent-color); cursor: pointer; }
+      .slider::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: #fff; border: 2px solid var(--accent-color); cursor: pointer; }
+      .slider:disabled { opacity: .5; cursor: not-allowed; filter: grayscale(1); }
+
+      /* Aurora background */
+      .aurora { position: fixed; inset: -20vmax; z-index: -1; pointer-events: none; opacity: 0.55; filter: blur(42px) saturate(1.15);
+        background:
+          radial-gradient(60vmax 60vmax at -10% 50%, var(--accent-color), transparent 60%),
+          radial-gradient(60vmax 60vmax at 110% 50%, var(--accent-color), transparent 60%),
+          conic-gradient(from 180deg at 50% 50%, color-mix(in oklab, var(--ambient-color) 70%, #000 30%) 0 22%, transparent 22% 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true"></div>
+    <div class="container">
+      <div class="nav">
+        <a href="/cocktail/index.html">Submit</a>
+        <span>·</span>
+        <a href="/cocktail/vote.html">Vote</a>
+      </div>
+
+      <h1>Vote on Cocktails</h1>
+      <p class="note">Drag the bars (1–100) for taste, presentation, and performance. Changes save automatically.</p>
+      <div class="player">
+        <label for="player_name">Your name</label>
+        <input id="player_name" placeholder="e.g. Alex" />
+      </div>
+
+      <div id="grid" class="grid"></div>
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- or: <script src="https://unpkg.com/@supabase/supabase-js@2"></script> -->
+    <script src="/static/site.js"></script>
+    <script>
+      // Allow quick override via URL params (?url=...&key=...)
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('url')) localStorage.setItem('SUPABASE_URL', urlParams.get('url'));
+      if (urlParams.get('key')) localStorage.setItem('SUPABASE_ANON_KEY', urlParams.get('key'));
+
+      // Defaults baked in for convenience
+      const DEFAULT_SUPABASE_URL = 'https://kggndnploimgfyakajiv.supabase.co';
+      const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnZ25kbnBsb2ltZ2Z5YWthaml2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwMzEyNjUsImV4cCI6MjA3MDYwNzI2NX0.tGLApiBt6lQSmMkZdGuTNcN7kYrSjaKH4m3RP5-dfhc';
+
+      const SUPABASE_URL = localStorage.getItem('SUPABASE_URL') || DEFAULT_SUPABASE_URL;
+      const SUPABASE_ANON_KEY = localStorage.getItem('SUPABASE_ANON_KEY') || DEFAULT_SUPABASE_ANON_KEY;
+      const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      const grid = document.getElementById('grid');
+      // Initialize glow borders on cards
+      if (typeof setupGlowBorders === 'function') {
+        requestAnimationFrame(setupGlowBorders);
+      }
+      // small debounce helper
+      function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+      const ambientColor = '#8a2be2';
+      const accentColor = '#4f46e5';
+      document.documentElement.style.setProperty('--ambient-color', ambientColor);
+      document.documentElement.style.setProperty('--accent-color', accentColor);
+      // Subscribe to realtime changes to refresh UI automatically (only structural changes)
+      const refresh = debounce(() => load(), 200);
+      supabase
+        .channel('rt-cocktail-vote')
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktails' }, () => refresh())
+        .subscribe();
+      // Player name persistence
+      const playerNameInput = document.getElementById('player_name');
+      const PLAYER_NAME_KEY = 'PLAYER_NAME';
+      playerNameInput.value = localStorage.getItem(PLAYER_NAME_KEY) || '';
+      playerNameInput.addEventListener('input', () => localStorage.setItem(PLAYER_NAME_KEY, playerNameInput.value.trim()));
+
+      // Voter identity used for loading existing values and upserting
+      const voterId = (() => {
+        const k = 'VOTER_ID';
+        let v = localStorage.getItem(k);
+        if (!v) { v = 'v_' + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem(k, v); }
+        return v;
+      })();
+
+      async function loadMyVotesMap() {
+        const map = new Map();
+        const { data, error } = await supabase
+          .from('cocktail_votes')
+          .select('cocktail_id, taste, presentation, performance')
+          .eq('voter_id', voterId);
+        if (!error && Array.isArray(data)) {
+          for (const v of data) map.set(v.cocktail_id, v);
+        }
+        return map;
+      }
+
+      function renderCocktailCard(c, prevLocked, myVote) {
+        const card = document.createElement('div');
+        card.className = 'card enter';
+        card.dataset.cid = c.id;
+        // apply per-card accent color for glow and sliders
+        if (c.accent_color) card.style.setProperty('--accent-color', c.accent_color);
+
+        const thumb = document.createElement('div');
+        thumb.className = 'thumb';
+        thumb.style.backgroundImage = `url(${c.bg_image_url})`;
+        card.appendChild(thumb);
+
+        const overlay = document.createElement('div');
+        overlay.className = 'overlay';
+        overlay.style.background = c.ambient_color || '#000';
+        card.appendChild(overlay);
+
+        const content = document.createElement('div');
+        content.className = 'content';
+        const title = document.createElement('h3');
+        title.className = 'center';
+        title.textContent = c.cocktail_name;
+        content.appendChild(title);
+        const subtitle = document.createElement('p');
+        subtitle.className = 'subtitle center';
+        subtitle.textContent = `by ${c.submitter_name || ''}`;
+        content.appendChild(subtitle);
+
+        const form = document.createElement('form');
+        const status = document.createElement('div');
+        status.className = 'status';
+
+        const fields = [
+          { key: 'taste', label: 'Taste' },
+          { key: 'presentation', label: 'Presentation' },
+          { key: 'performance', label: 'Performance' },
+        ];
+
+        const sliders = [];
+        for (const f of fields) {
+          const wrapper = document.createElement('div');
+          const lab = document.createElement('label'); lab.textContent = f.label; lab.setAttribute('for', `${c.id}-${f.key}`);
+          const range = document.createElement('input');
+          range.type = 'range';
+          range.min = '1';
+          range.max = '100';
+          // initialize with existing vote if present
+          if (myVote && typeof myVote[f.key] !== 'undefined' && myVote[f.key] !== null) {
+            range.value = String(myVote[f.key]);
+          } else {
+            range.value = '50';
+          }
+          range.className = 'slider';
+          range.id = `${c.id}-${f.key}`;
+          range.name = f.key;
+          range.addEventListener('input', () => {
+            const pct = Number(range.value);
+            range.style.background = `linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color) ${pct}%, #2a2a2a ${pct}%)`;
+          });
+          range.dispatchEvent(new Event('input'));
+          sliders.push(range);
+          wrapper.appendChild(lab); wrapper.appendChild(range);
+          form.appendChild(wrapper);
+        }
+
+        form.appendChild(status);
+
+        if (c.votes_locked) {
+          const lockMsg = document.createElement('div');
+          lockMsg.className = 'locked';
+          lockMsg.textContent = 'Voting is locked for this cocktail';
+          content.appendChild(lockMsg);
+          // Disable sliders when locked
+          for (const s of sliders) s.disabled = true;
+          card.classList.add('is-locked');
+        }
+
+        // Lock/unlock animations based on previous state
+        if (typeof prevLocked === 'boolean' && prevLocked !== !!c.votes_locked) {
+          card.classList.add(c.votes_locked ? 'locked-anim' : 'unlocked-anim');
+        }
+
+        // Auto-save votes on slider change (1-100).
+
+        async function saveVote() {
+          if (c.votes_locked) return;
+          status.textContent = '';
+          const taste = Number(form.querySelector('[name="taste"]').value);
+          const presentation = Number(form.querySelector('[name="presentation"]').value);
+          const performance = Number(form.querySelector('[name="performance"]').value);
+          const voter_name = (localStorage.getItem('PLAYER_NAME') || '').trim();
+          try {
+            // First try upsert assuming a voter_id column and unique constraint exists
+            let { error } = await supabase.from('cocktail_votes')
+              .upsert([{ cocktail_id: c.id, voter_id: voterId, voter_name, taste, presentation, performance }], { onConflict: 'cocktail_id,voter_id' });
+            if (error) {
+              // Fallback path: update latest row for this cocktail, else insert new
+              const { data: existing, error: selErr } = await supabase
+                .from('cocktail_votes')
+                .select('id')
+                .eq('cocktail_id', c.id)
+                .order('created_at', { ascending: false })
+                .limit(1);
+              if (selErr) throw selErr;
+              if (existing && existing.length) {
+                const { error: upErr } = await supabase
+                  .from('cocktail_votes')
+                  .update({ voter_name, taste, presentation, performance })
+                  .eq('id', existing[0].id);
+                if (upErr) throw upErr;
+              } else {
+                const { error: insErr } = await supabase
+                  .from('cocktail_votes')
+                  .insert([{ cocktail_id: c.id, voter_name, taste, presentation, performance }]);
+                if (insErr) throw insErr;
+              }
+            }
+            status.textContent = 'Saved';
+            status.className = 'status success';
+          } catch (err) {
+            status.textContent = 'Error: ' + (err?.message || 'Unknown');
+            status.className = 'status error';
+          }
+        }
+
+        let saveDebounce;
+        for (const s of sliders) {
+          s.addEventListener('input', () => {
+            clearTimeout(saveDebounce);
+            saveDebounce = setTimeout(saveVote, 150);
+          });
+          s.addEventListener('change', saveVote);
+        }
+
+        content.appendChild(form);
+        card.appendChild(content);
+        requestAnimationFrame(() => card.classList.remove('enter'));
+        return card;
+      }
+
+      function renderNameOnlyCard(c) {
+        const card = document.createElement('div');
+        card.className = 'card name-only';
+        const title = document.createElement('h3');
+        title.className = 'center';
+        title.style.margin = '0';
+        title.textContent = c.cocktail_name || 'Untitled';
+        const subtitle = document.createElement('p');
+        subtitle.className = 'subtitle center';
+        subtitle.textContent = `by ${c.submitter_name || ''}`;
+        card.appendChild(title);
+        card.appendChild(subtitle);
+        return card;
+      }
+
+      async function load() {
+        let data, error;
+        // Always fetch current values including flags
+        ({ data, error } = await supabase
+          .from('cocktails')
+          .select('id, submitter_name, cocktail_name, bg_image_url, ambient_color, accent_color, is_unlocked, votes_locked')
+          .order('created_at', { ascending: false }));
+        if (error) {
+          grid.innerHTML = `<p class="error">Failed to load: ${error.message}</p>`;
+          return;
+        }
+        const myVotes = await loadMyVotesMap();
+        // capture previous lock states for animations
+        const prev = new Map();
+        for (const el of Array.from(grid.children)) {
+          const id = el.dataset?.cid; const locked = el.classList.contains('is-locked');
+          if (id) prev.set(id, locked);
+        }
+        grid.innerHTML = '';
+        for (const c of data) {
+          if (c.is_unlocked === true) grid.appendChild(renderCocktailCard(c, prev.get(c.id), myVotes.get(c.id)));
+          else grid.appendChild(renderNameOnlyCard(c));
+        }
+      }
+
+      load();
+    </script>
+  </body>
+  </html>
+

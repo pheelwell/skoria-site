@@ -15,9 +15,12 @@ const markdownItMathJax3 = require("markdown-it-mathjax3");
 module.exports = function(eleventyConfig) {
   // Passthrough static assets
   eleventyConfig.addPassthroughCopy({ "src/static": "static" });
+  // Passthrough the standalone cocktail static site
+  eleventyConfig.addPassthroughCopy({ "src/cocktail": "cocktail" });
 
   // Watch
   eleventyConfig.addWatchTarget("src/static/**/*");
+  eleventyConfig.addWatchTarget("src/cocktail/**/*");
 
   // Plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

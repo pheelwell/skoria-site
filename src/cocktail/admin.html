@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktail – Admin</title>
+    <link rel="stylesheet" href="/static/site.css" />
+    <style>
+      :root { --ambient-color: #8a2be2; --accent-color: #4f46e5; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background:#000; color:#e5e7eb; overflow-x:hidden; }
+      .container { max-width: 900px; margin: 1rem auto; padding: 1rem; }
+      .nav { margin-bottom: 1rem; display: flex; gap: .75rem; }
+      .nav a { color: #9aa0ff; text-decoration: none; }
+      .card { background:#0f0f0f; border:1px solid #333; border-radius:12px; padding:1rem; margin-bottom: .75rem; display:grid; gap:.5rem; transition: opacity .25s ease, filter .25s ease, transform .25s ease; }
+      .card.enter { opacity:0; transform: translateY(8px) scale(.98); }
+      .card.is-hidden { opacity:.35; filter: grayscale(60%); }
+      .card.is-locked { outline: 1px dashed #7c2d12; }
+      @keyframes lockPulse { 0%{ box-shadow:0 0 0 0 rgba(239,68,68,.4);} 100%{ box-shadow:0 0 0 12px rgba(239,68,68,0);} }
+      @keyframes unlockFlash { 0%{ filter: saturate(1.2) brightness(1.2);} 100%{ filter: none;} }
+      .card.locked-anim { animation: lockPulse .6s ease; }
+      .card.unlocked-anim { animation: unlockFlash .6s ease; }
+      .row { display:grid; grid-template-columns: 1fr auto; gap:.75rem; align-items:center; }
+      button, select { padding:.6rem .8rem; border-radius:10px; border:1px solid #444; background:#101010; color:#f2f2f2; }
+      button { background:#4f46e5; border:none; font-weight:700; cursor:pointer; }
+      .badge { display:inline-block; padding:.2rem .5rem; border-radius:999px; font-size:.8rem; border:1px solid #444; }
+      .ok { color:#22c55e; border-color:#14532d; }
+      .warn { color:#f59e0b; border-color:#7c2d12; }
+      .err { color:#ef4444; border-color:#7f1d1d; }
+      .grid { display:grid; gap:.75rem; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+      .reports { margin-top: 1.25rem; }
+      .leaderboard { width:100%; border-collapse: collapse; border-spacing:0; }
+      .leaderboard th, .leaderboard td { border:1px solid #2a2a2a; padding:.5rem .6rem; font-size:.95rem; }
+      .leaderboard th { background:#0b0b0b; color:#cbd5e1; text-align:left; }
+      .thumb { aspect-ratio: 4 / 3; background-size: cover; background-position:center; border-radius:10px; border:1px solid #333; }
+      .actions { display:grid; grid-template-columns: 1fr 1fr; gap:.5rem; }
+      .switch { display:inline-grid; grid-template-columns:auto auto; align-items:center; gap:.5rem; cursor:pointer; user-select:none; }
+      .switch .switch-label { font-size:.9rem; color:#cbd5e1; }
+      .switch input { appearance:none; -webkit-appearance:none; width:44px; height:24px; background:#333; border-radius:999px; position:relative; outline:none; border:1px solid #444; transition: background .2s ease; }
+      .switch input::after { content:''; position:absolute; top:1px; left:1px; width:20px; height:20px; border-radius:999px; background:#bbb; transition: transform .2s ease, background .2s ease; }
+      .switch input:checked { background:#22c55e; }
+      .switch input:checked::after { transform: translateX(20px); background:#fff; }
+      .switch.lock input:checked { background:#ef4444; }
+      /* Stats & votes table */
+      .stats { display:grid; grid-template-columns: repeat(4, 1fr); gap:.5rem; margin:.25rem 0 .25rem; }
+      .stat { background:#0b0b0b; border:1px solid #333; border-radius:8px; padding:.5rem .6rem; text-align:center; }
+      .stat .label { color:#9aa0a6; font-size:.8rem; display:block; }
+      .stat .value { font-weight:700; font-size:1rem; }
+      .votes { width:100%; border-collapse: collapse; border-spacing:0; margin-top:.5rem; }
+      .votes th, .votes td { border:1px solid #2a2a2a; padding:.4rem .5rem; font-size:.9rem; }
+      .votes th { background:#0b0b0b; color:#cbd5e1; text-align:left; }
+      .votes td { color:#e5e7eb; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <a href="/cocktail/index.html">Submit</a>
+        <span>·</span>
+        <a href="/cocktail/vote.html">Vote</a>
+        <span>·</span>
+        <a href="/cocktail/admin.html">Admin</a>
+      </div>
+
+      <h1>Admin</h1>
+      <p>Toggle visibility in voting and lock/unlock votes for each cocktail.</p>
+
+      <div id="status"></div>
+      <div id="grid" class="grid"></div>
+      <section class="reports">
+        <h2>Leaderboard</h2>
+        <table id="leaderboard" class="leaderboard"><thead><tr><th>Cocktail</th><th>Submitter</th><th>Taste</th><th>Presentation</th><th>Performance</th><th>Overall</th></tr></thead><tbody></tbody></table>
+        <h2 style="margin-top:1rem">Votes</h2>
+        <div id="votesTables"></div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/static/site.js"></script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('url')) localStorage.setItem('SUPABASE_URL', urlParams.get('url'));
+      if (urlParams.get('key')) localStorage.setItem('SUPABASE_ANON_KEY', urlParams.get('key'));
+
+      const DEFAULT_SUPABASE_URL = 'https://kggndnploimgfyakajiv.supabase.co';
+      const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnZ25kbnBsb2ltZ2Z5YWthaml2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwMzEyNjUsImV4cCI6MjA3MDYwNzI2NX0.tGLApiBt6lQSmMkZdGuTNcN7kYrSjaKH4m3RP5-dfhc';
+      const SUPABASE_URL = localStorage.getItem('SUPABASE_URL') || DEFAULT_SUPABASE_URL;
+      const SUPABASE_ANON_KEY = localStorage.getItem('SUPABASE_ANON_KEY') || DEFAULT_SUPABASE_ANON_KEY;
+      const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      const grid = document.getElementById('grid');
+      const status = document.getElementById('status');
+      function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+      function card(c) {
+        const wrap = document.createElement('div');
+        wrap.className = 'card enter';
+        const thumb = document.createElement('div');
+        thumb.className = 'thumb';
+        thumb.style.backgroundImage = `url(${c.bg_image_url})`;
+        const row = document.createElement('div'); row.className = 'row';
+        const title = document.createElement('div');
+        title.innerHTML = `<strong>${c.cocktail_name}</strong><br/><span style="color:#9aa0a6">by ${c.submitter_name}</span>`;
+        const meta = document.createElement('div');
+        const unlocked = !!c.is_unlocked;
+        const locked = !!c.votes_locked;
+        const vis = document.createElement('span'); vis.className = 'badge ' + (unlocked?'ok':'warn'); vis.textContent = unlocked ? 'Visible in votes' : 'Hidden';
+        const lock = document.createElement('span'); lock.className = 'badge ' + (locked?'warn':'ok'); lock.textContent = locked ? 'Votes locked' : 'Votes open';
+        meta.append(vis, ' ', lock);
+
+        const actions = document.createElement('div'); actions.className = 'actions';
+        // Visible toggle
+        const visLabel = document.createElement('label'); visLabel.className = 'switch';
+        const visInput = document.createElement('input'); visInput.type = 'checkbox'; visInput.checked = unlocked; visInput.ariaLabel = 'Visible in votes';
+        const visText = document.createElement('span'); visText.className = 'switch-label'; visText.textContent = 'Visible';
+        visLabel.append(visInput, visText);
+        // Lock toggle
+        const lockLabel = document.createElement('label'); lockLabel.className = 'switch lock';
+        const lockInput = document.createElement('input'); lockInput.type = 'checkbox'; lockInput.checked = locked; lockInput.ariaLabel = 'Lock votes';
+        const lockText = document.createElement('span'); lockText.className = 'switch-label'; lockText.textContent = 'Locked';
+        lockLabel.append(lockInput, lockText);
+        actions.append(visLabel, lockLabel);
+
+        wrap.append(thumb, row, meta, actions);
+        row.append(title);
+
+        const applyVisualState = () => {
+          wrap.classList.toggle('is-hidden', !visInput.checked);
+          wrap.classList.toggle('is-locked', lockInput.checked);
+          vis.className = 'badge ' + (visInput.checked ? 'ok' : 'warn');
+          vis.textContent = visInput.checked ? 'Visible in votes' : 'Hidden';
+          lock.className = 'badge ' + (lockInput.checked ? 'warn' : 'ok');
+          lock.textContent = lockInput.checked ? 'Votes locked' : 'Votes open';
+        };
+        applyVisualState();
+
+        visInput.addEventListener('change', async () => {
+          visInput.disabled = true; lockInput.disabled = true; applyVisualState();
+          try {
+            let { data, error } = await supabase
+              .from('cocktails')
+              .update({ is_unlocked: visInput.checked })
+              .eq('id', c.id)
+              .select('id,is_unlocked,votes_locked');
+            if (error && /is_unlocked/i.test(error.message || '')) {
+              const { data: d2, error: e2 } = await supabase.rpc('cocktails_toggle_unlocked', { p_id: c.id, p_value: visInput.checked });
+              if (e2) throw e2; data = d2;
+            } else if (error) { throw error; }
+            if (!data || (Array.isArray(data) && data.length === 0)) {
+              status.textContent = 'No rows updated. Check RLS update policy for table "cocktails".';
+            }
+            await load();
+          } catch (err) { status.textContent = 'Error: ' + (err?.message || 'Unknown'); }
+          finally { visInput.disabled = false; lockInput.disabled = false; }
+        });
+
+        lockInput.addEventListener('change', async () => {
+          visInput.disabled = true; lockInput.disabled = true; applyVisualState();
+          try {
+            let { data, error } = await supabase
+              .from('cocktails')
+              .update({ votes_locked: lockInput.checked })
+              .eq('id', c.id)
+              .select('id,is_unlocked,votes_locked');
+            if (error && /votes_locked/i.test(error.message || '')) {
+              const { data: d2, error: e2 } = await supabase.rpc('cocktails_toggle_locked', { p_id: c.id, p_value: lockInput.checked });
+              if (e2) throw e2; data = d2;
+            } else if (error) { throw error; }
+            if (!data || (Array.isArray(data) && data.length === 0)) {
+              status.textContent = 'No rows updated. Check RLS update policy for table "cocktails".';
+            }
+            await load();
+          } catch (err) { status.textContent = 'Error: ' + (err?.message || 'Unknown'); }
+          finally { visInput.disabled = false; lockInput.disabled = false; }
+        });
+
+        requestAnimationFrame(()=>wrap.classList.remove('enter'));
+        return wrap;
+      }
+
+      async function load() {
+        const { data, error } = await supabase.from('cocktails').select('*').order('created_at', { ascending: false });
+        if (error) { status.textContent = 'Error: ' + error.message; return; }
+        grid.innerHTML = '';
+        for (const c of data) grid.appendChild(card(c));
+
+        // Load reports
+        await loadLeaderboard();
+        await loadAllVotes();
+      }
+
+      async function loadLeaderboard() {
+        const { data, error } = await supabase
+          .from('cocktail_votes')
+          .select('cocktail_id, taste, presentation, performance, cocktails:cocktail_id ( id, cocktail_name, submitter_name )');
+        const tbody = document.querySelector('#leaderboard tbody');
+        if (error) { tbody.innerHTML = `<tr><td colspan="6">Failed: ${error.message}</td></tr>`; return; }
+        const byCocktail = new Map();
+        for (const v of data) {
+          const key = v.cocktail_id;
+          if (!byCocktail.has(key)) byCocktail.set(key, { t: [], p: [], r: [], meta: v.cocktails });
+          byCocktail.get(key).t.push(Number(v.taste));
+          byCocktail.get(key).p.push(Number(v.presentation));
+          byCocktail.get(key).r.push(Number(v.performance));
+        }
+        const rows = [];
+        for (const [cid, vals] of byCocktail) {
+          const avg = (arr) => arr.length ? arr.reduce((a,b)=>a+b,0)/arr.length : 0;
+          const t = avg(vals.t), p = avg(vals.p), r = avg(vals.r);
+          const overall = (t + p + r) / 3;
+          const meta = vals.meta || { cocktail_name: cid, submitter_name: '' };
+          rows.push({ name: meta.cocktail_name, submitter: meta.submitter_name, t, p, r, overall });
+        }
+        rows.sort((a,b) => b.overall - a.overall);
+        tbody.innerHTML = rows.map(r => `<tr><td>${r.name || ''}</td><td>${r.submitter || ''}</td><td>${Math.round(r.t)}</td><td>${Math.round(r.p)}</td><td>${Math.round(r.r)}</td><td>${Math.round(r.overall)}</td></tr>`).join('') || '<tr><td colspan="6">No votes yet</td></tr>';
+      }
+
+      async function loadAllVotes() {
+        const container = document.getElementById('votesTables');
+        container.innerHTML = '';
+        const { data, error } = await supabase
+          .from('cocktail_votes')
+          .select('id, voter_id, voter_name, taste, presentation, performance, created_at, cocktails:cocktail_id ( id, cocktail_name )')
+          .order('created_at', { ascending: false });
+        if (error) { container.textContent = 'Failed: ' + error.message; return; }
+        const groups = new Map();
+        for (const v of data) {
+          const key = v.cocktails?.cocktail_name || v.cocktail_id;
+          if (!groups.has(key)) groups.set(key, []);
+          groups.get(key).push(v);
+        }
+        for (const [name, list] of groups) {
+          const table = document.createElement('table');
+          table.className = 'votes';
+          table.innerHTML = `<thead><tr><th>${name}</th><th>Player</th><th>Taste</th><th>Presentation</th><th>Performance</th><th>Overall</th><th>Time</th></tr></thead><tbody></tbody>`;
+          const tbody = table.querySelector('tbody');
+          for (const v of list) {
+            const tr = document.createElement('tr');
+            const player = (v.voter_name && v.voter_name.trim()) || v.voter_id || `anon-${String(v.id).slice(0,8)}`;
+            const ov = Math.round((Number(v.taste)+Number(v.presentation)+Number(v.performance))/3);
+            const t = new Date(v.created_at);
+            const ts = isNaN(t.getTime()) ? '' : t.toLocaleString();
+            tr.innerHTML = `<td></td><td>${player}</td><td>${v.taste ?? ''}</td><td>${v.presentation ?? ''}</td><td>${v.performance ?? ''}</td><td>${ov}</td><td>${ts}</td>`;
+            tbody.appendChild(tr);
+          }
+          container.appendChild(table);
+        }
+      }
+
+      load();
+
+      // Realtime updates: refresh dashboard on changes
+      const refresh = debounce(() => { loadLeaderboard(); loadAllVotes(); }, 200);
+      supabase
+        .channel('rt-cocktail-admin')
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktails' }, () => { load(); })
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktail_votes' }, () => refresh())
+        .subscribe();
+    </script>
+  </body>
+  </html>
+

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktail – Submit</title>
+    <link rel="stylesheet" href="/static/site.css" />
+    <style>
+      :root { --ambient-color: #8a2be2; --accent-color: #4f46e5; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background:#000; color:#e5e7eb; overflow-x:hidden; }
+      .container { max-width: 720px; margin: 2rem auto; padding: 1.25rem; }
+      .card { background: #111; border: 1px solid #333; border-radius: 12px; padding: 1.25rem; }
+      .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      label { font-weight: 600; }
+      input, select, button, textarea { width: 100%; padding: .6rem .75rem; border-radius: 8px; border: 1px solid #444; background: #0e0e0e; color: #f2f2f2; }
+      button { background: #4f46e5; border: none; cursor: pointer; font-weight: 700; }
+      button:disabled { opacity: .6; cursor: not-allowed; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+      .note { color: #9aa0a6; font-size: .9rem; }
+      .nav { margin-bottom: 1rem; display: flex; gap: .75rem; }
+      .nav a { color: #9aa0ff; text-decoration: none; }
+      .success { color: #22c55e; }
+      .error { color: #ef4444; }
+
+      /* Preview */
+      .preview-wrapper { margin-bottom: 1rem; }
+      .preview { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; border: 1px solid #333; display: none; }
+
+      /* JS color picker */
+      .picker { border: 1px solid #333; border-radius: 10px; padding: .75rem; background:#0b0b0b; }
+      .picker .row { grid-template-columns: 1fr; align-items: center; }
+      .swatch { width: 100%; height: 36px; border-radius: 8px; border: 1px solid #444; margin-bottom: .5rem; }
+      .picker label { font-weight: 600; font-size: .9rem; color:#cbd5e1; }
+      .picker .ctl { display: grid; grid-template-columns: auto 1fr auto; gap: .5rem; align-items: center; }
+      .picker input[type="range"] { width: 100%; }
+      .picker .val { width: 3.5rem; text-align: right; color:#9aa0a6; }
+      .picker .controls { display:grid; grid-template-columns: 1fr 1fr; gap:.5rem; }
+      .picker .preview { height: 36px; border-radius:8px; border:1px solid #333; }
+
+      /* Aurora background: split into layers to cross-fade accent */
+      .aurora { position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+      .aurora-layer { position: absolute; inset: -20vmax; filter: blur(48px) saturate(1.15); mix-blend-mode: screen; }
+      .aurora-ambient { opacity: .7; background:
+          /* Ambient: central spot */
+          radial-gradient(32vmax 32vmax at 50% 40%, color-mix(in oklab, var(--ambient-color) 75%, #000 25%) 0 30%, transparent 60%),
+          /* Ambient: downward cone */
+          conic-gradient(from 0deg at 50% 45%,
+            transparent 0 150deg,
+            color-mix(in oklab, var(--ambient-color) 80%, #000 20%) 150deg 210deg,
+            transparent 210deg 360deg);
+      }
+      .aurora-accent { opacity: 1; transition: opacity 5s ease; background:
+          /* Left accent (strong) */
+          radial-gradient(70vmax 70vmax at -12% 50%, color-mix(in oklab, var(--accent-active-color) 85%, #000 15%) 0 35%, transparent 60%),
+          radial-gradient(50vmax 50vmax at 5% 50%, color-mix(in oklab, var(--accent-active-color) 65%, #000 35%) 0 35%, transparent 60%),
+          /* Right accent (strong) */
+          radial-gradient(70vmax 70vmax at 112% 50%, color-mix(in oklab, var(--accent-active-color) 85%, #000 15%) 0 35%, transparent 60%),
+          radial-gradient(50vmax 50vmax at 95% 50%, color-mix(in oklab, var(--accent-active-color) 65%, #000 35%) 0 35%, transparent 60%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true">
+      <div class="aurora-layer aurora-ambient"></div>
+      <div id="accentLayer" class="aurora-layer aurora-accent"></div>
+    </div>
+    <div class="container">
+      <div class="nav">
+        <a href="/cocktail/index.html">Submit</a>
+        <span>·</span>
+        <a href="/cocktail/vote.html">Vote</a>
+      </div>
+
+      <div class="card">
+        <h1>Submit a Cocktail</h1>
+        <p class="note">Provide your info for the cocktail contest. Pick a background image, your name, and a cocktail name — you can always leave your name out if you want to shroud your creation in mystery. Then choose an Ambient color and an Accent color to set the light mood while mixing your cocktail.</p>
+
+        <div class="preview-wrapper">
+          <img id="preview" class="preview" alt="Background preview" />
+        </div>
+
+        <form id="submit-form" class="grid">
+          <div>
+            <label for="submitter_name">Your name</label>
+            <input id="submitter_name" name="submitter_name" placeholder="e.g. Alex" required />
+          </div>
+          <div>
+            <label for="cocktail_name">Cocktail name</label>
+            <input id="cocktail_name" name="cocktail_name" placeholder="e.g. Aurora Spritz" required />
+          </div>
+          <div>
+            <label for="bg_image_url">Background image URL</label>
+            <input id="bg_image_url" name="bg_image_url" type="url" placeholder="https://..." required />
+          </div>
+          <div class="row">
+            <div>
+              <label>Ambient color</label>
+              <div id="ambient_picker" class="picker"></div>
+            </div>
+            <div>
+              <label>Accent color (optional)</label>
+              <div id="accent_picker" class="picker"></div>
+            </div>
+          </div>
+
+          <button id="submit-btn" type="submit">Save</button>
+          <div id="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <details style="margin-top:1rem">
+        <summary>Supabase setup (SQL)</summary>
+      </details>
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- or: <script src="https://unpkg.com/@supabase/supabase-js@2"></script> -->
+    <script src="/static/site.js"></script>
+    <script>
+      // Allow quick override via URL params (?url=...&key=...)
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('url')) localStorage.setItem('SUPABASE_URL', urlParams.get('url'));
+      if (urlParams.get('key')) localStorage.setItem('SUPABASE_ANON_KEY', urlParams.get('key'));
+
+      // Defaults baked in for convenience
+      const DEFAULT_SUPABASE_URL = 'https://kggndnploimgfyakajiv.supabase.co';
+      const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnZ25kbnBsb2ltZ2Z5YWthaml2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwMzEyNjUsImV4cCI6MjA3MDYwNzI2NX0.tGLApiBt6lQSmMkZdGuTNcN7kYrSjaKH4m3RP5-dfhc';
+
+      const SUPABASE_URL = localStorage.getItem('SUPABASE_URL') || DEFAULT_SUPABASE_URL;
+      const SUPABASE_ANON_KEY = localStorage.getItem('SUPABASE_ANON_KEY') || DEFAULT_SUPABASE_ANON_KEY;
+
+      const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+      function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+      const form = document.getElementById('submit-form');
+      const submitBtn = document.getElementById('submit-btn');
+      const statusEl = document.getElementById('status');
+      const preview = document.getElementById('preview');
+      const ambientPicker = document.getElementById('ambient_picker');
+      const accentPicker = document.getElementById('accent_picker');
+      const nameInput = document.getElementById('submitter_name');
+      const cocktailInput = document.getElementById('cocktail_name');
+      const urlInput = document.getElementById('bg_image_url');
+
+      // New color picker: HEX input + hue slider, single lightness control, with preview
+      function makeSimplePicker(el, initial) {
+        el.innerHTML = '';
+        const sw = document.createElement('div'); sw.className = 'swatch preview'; el.appendChild(sw);
+        const controls = document.createElement('div'); controls.className = 'controls'; el.appendChild(controls);
+        const hex = document.createElement('input'); hex.type = 'text'; hex.placeholder = '#8a2be2'; hex.value = '';
+        const hue = document.createElement('input'); hue.type = 'range'; hue.min='0'; hue.max='360'; hue.value='270';
+        const light = document.createElement('input'); light.type = 'range'; light.min='10'; light.max='90'; light.value='55';
+        const hexWrap = document.createElement('div'); hexWrap.style.display='grid'; hexWrap.style.gridTemplateColumns='1fr';
+        const hueWrap = document.createElement('div'); const lightWrap = document.createElement('div');
+        controls.append(hexWrap, hueWrap);
+        const lightLabel = document.createElement('label'); lightLabel.textContent='Lightness'; lightWrap.appendChild(lightLabel); lightWrap.appendChild(light);
+        el.appendChild(lightWrap);
+
+        function hslToHex(h, s, l){ s/=100; l/=100; const c=(1-Math.abs(2*l-1))*s; const x=c*(1-Math.abs((h/60)%2-1)); const m=l-c/2; let r=0,g=0,b=0; if(h<60){r=c;g=x;} else if(h<120){r=x;g=c;} else if(h<180){g=c;b=x;} else if(h<240){g=x;b=c;} else if(h<300){r=x;b=c;} else {r=c;b=x;} const toHex=v=>('0'+Math.round((v+m)*255).toString(16)).slice(-2); return `#${toHex(r)}${toHex(g)}${toHex(b)}`; }
+        function hexToHSL(H){ let r=0,g=0,b=0; H=H.replace('#',''); if(H.length===3){r=parseInt(H[0]+H[0],16);g=parseInt(H[1]+H[1],16);b=parseInt(H[2]+H[2],16);} else if(H.length===6){r=parseInt(H.substring(0,2),16);g=parseInt(H.substring(2,4),16);b=parseInt(H.substring(4,6),16);} r/=255;g/=255;b/=255; const cmin=Math.min(r,g,b), cmax=Math.max(r,g,b), delta=cmax-cmin; let h=0,s=0,l=0; if(delta===0) h=0; else if(cmax===r) h=((g-b)/delta)%6; else if(cmax===g) h=(b-r)/delta+2; else h=(r-g)/delta+4; h=Math.round(h*60); if(h<0) h+=360; l=(cmax+cmin)/2; s=delta===0?0:delta/(1-Math.abs(2*l-1)); s=Math.round(s*100); l=Math.round(l*100); return {h,s,l}; }
+
+        function setFromHSL(h,s,l){ hue.value=String(h); light.value=String(l); const hexVal=hslToHex(h,s,l); hex.value=hexVal; sw.style.background=hexVal; return hexVal; }
+        function setFromHex(v){ const m=v.trim(); if(!/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(m)) return; const {h,s,l}=hexToHSL(m); setFromHSL(h,s,l); }
+        hex.addEventListener('input', ()=> setFromHex(hex.value));
+        hue.addEventListener('input', ()=> setFromHSL(Number(hue.value), 80, Number(light.value)));
+        light.addEventListener('input', ()=> setFromHSL(Number(hue.value), 80, Number(light.value)));
+
+        // initialize
+        if(/^#/.test(initial)) setFromHex(initial); else setFromHSL(270,80,55);
+        hexWrap.appendChild(hex);
+        hueWrap.appendChild(hue);
+
+        return { value: () => hex.value, set: (c) => { if(/^#/.test(c)) setFromHex(c); else sw.style.background=c; hex.value=c; } };
+      }
+      const ambientCtl = makeSimplePicker(ambientPicker, '#8a2be2');
+      const accentCtl = makeSimplePicker(accentPicker, '#4f46e5');
+
+      function updateThemeColors() {
+        const ambient = ambientCtl.value();
+        const accent = accentCtl.value();
+        // update ambient instantly
+        document.documentElement.style.setProperty('--ambient-color', ambient);
+        // cross-fade accent by swapping active var and fading layer
+        const accentLayer = document.getElementById('accentLayer');
+        const prev = getComputedStyle(document.documentElement).getPropertyValue('--accent-active-color') || getComputedStyle(document.documentElement).getPropertyValue('--accent-color');
+        // set base accent to previous to keep background stable
+        document.documentElement.style.setProperty('--accent-color', prev.trim() || accent);
+        // trigger fade: set new active color
+        requestAnimationFrame(() => {
+          accentLayer.style.opacity = '0';
+          document.documentElement.style.setProperty('--accent-active-color', accent);
+          // next frame, fade back in with new color
+          requestAnimationFrame(() => { accentLayer.style.opacity = '1'; });
+        });
+      }
+      ambientPicker.addEventListener('input', updateThemeColors);
+      // debounce accent to allow gradual feel while dragging
+      let accentDebounce;
+      accentPicker.addEventListener('input', () => {
+        clearTimeout(accentDebounce);
+        accentDebounce = setTimeout(updateThemeColors, 50);
+      });
+      updateThemeColors();
+
+      function setPreview(src) {
+        if (src) {
+          preview.src = src;
+          preview.style.display = 'block';
+        } else {
+          preview.removeAttribute('src');
+          preview.style.display = 'none';
+        }
+      }
+
+      urlInput.addEventListener('input', () => setPreview(urlInput.value.trim()));
+
+      // Realtime refresh of form if current row changes (by admin), and to reflect new cocktails
+      const refresh = debounce(async () => { if (myCocktailId) await loadExisting(); }, 200);
+      supabase
+        .channel('rt-cocktail-submit')
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktails' }, (payload) => {
+          if (myCocktailId && payload.new && payload.new.id === myCocktailId) refresh();
+        })
+        .subscribe();
+
+      // Load existing cocktail if saved locally
+      let myCocktailId = localStorage.getItem('MY_COCKTAIL_ID') || '';
+      async function loadExisting() {
+        if (!myCocktailId) return;
+        const { data, error } = await supabase.from('cocktails').select('*').eq('id', myCocktailId).limit(1);
+        if (error) { console.warn('Load existing failed', error); return; }
+        if (!data || !data.length) { localStorage.removeItem('MY_COCKTAIL_ID'); myCocktailId = ''; return; }
+        const c = data[0];
+        nameInput.value = c.submitter_name || '';
+        cocktailInput.value = c.cocktail_name || '';
+        urlInput.value = c.bg_image_url || '';
+        setPreview(c.bg_image_url || '');
+        if (c.ambient_color) ambientCtl.set(c.ambient_color);
+        if (c.accent_color) accentCtl.set(c.accent_color);
+        updateThemeColors();
+      }
+      loadExisting();
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        statusEl.textContent = '';
+        submitBtn.disabled = true;
+
+        const submitter_name = nameInput.value.trim();
+        const cocktail_name = cocktailInput.value.trim();
+        const bg_image_url = urlInput.value.trim();
+        const ambient_color = ambientCtl.value();
+        const accent_color = accentCtl.value();
+
+        try {
+          // If we already have an id, update instead of insert
+          if (myCocktailId) {
+            let { error: upErr } = await supabase
+              .from('cocktails')
+              .update({ submitter_name, cocktail_name, bg_image_url, ambient_color, accent_color })
+              .eq('id', myCocktailId);
+            if (upErr && /accent_color/i.test(upErr.message || '')) {
+              const { error: up2 } = await supabase
+                .from('cocktails')
+                .update({ submitter_name, cocktail_name, bg_image_url, ambient_color })
+                .eq('id', myCocktailId);
+              if (up2) throw up2;
+            } else if (upErr) { throw upErr; }
+            statusEl.textContent = 'Saved!';
+            statusEl.className = 'success';
+          } else {
+            // Try to find existing by submitter_name to prevent duplicates
+            const { data: existingRows, error: findErr } = await supabase
+              .from('cocktails')
+              .select('id')
+              .eq('submitter_name', submitter_name)
+              .limit(1);
+            if (findErr) throw findErr;
+            if (existingRows && existingRows.length) {
+              myCocktailId = existingRows[0].id;
+              localStorage.setItem('MY_COCKTAIL_ID', myCocktailId);
+              let { error: upErr } = await supabase
+                .from('cocktails')
+                .update({ submitter_name, cocktail_name, bg_image_url, ambient_color, accent_color })
+                .eq('id', myCocktailId);
+              if (upErr && /accent_color/i.test(upErr.message || '')) {
+                const { error: up2 } = await supabase
+                  .from('cocktails')
+                  .update({ submitter_name, cocktail_name, bg_image_url, ambient_color })
+                  .eq('id', myCocktailId);
+                if (up2) throw up2;
+              } else if (upErr) { throw upErr; }
+              statusEl.textContent = 'Saved!';
+              statusEl.className = 'success';
+            } else {
+              // Create once, then switch to edit mode going forward
+              let fallbackWithoutAccent = false;
+              let { error } = await supabase
+                .from('cocktails')
+                .insert([{ submitter_name, cocktail_name, bg_image_url, ambient_color, accent_color }])
+                .select('id');
+              if (error && /accent_color/i.test(error.message || '')) {
+                fallbackWithoutAccent = true;
+                const { data: d2, error: e2 } = await supabase
+                  .from('cocktails')
+                  .insert([{ submitter_name, cocktail_name, bg_image_url, ambient_color }])
+                  .select('id');
+                if (e2) throw e2;
+                if (d2 && d2.length) { myCocktailId = d2[0].id; localStorage.setItem('MY_COCKTAIL_ID', myCocktailId); }
+              } else if (error) {
+                throw error;
+              }
+              statusEl.textContent = fallbackWithoutAccent
+                ? 'Saved (without accent color column).'
+                : 'Saved!';
+              statusEl.className = 'success';
+              // Fetch inserted id if returned by select
+              if (!myCocktailId) {
+                // As a fallback, re-query by submitter_name
+                const { data: after, error: afterErr } = await supabase
+                  .from('cocktails').select('id').eq('submitter_name', submitter_name).limit(1);
+                if (!afterErr && after && after.length) {
+                  myCocktailId = after[0].id; localStorage.setItem('MY_COCKTAIL_ID', myCocktailId);
+                }
+              }
+            }
+          }
+        } catch (err) {
+          statusEl.textContent = 'Error: ' + (err?.message || 'Unknown');
+          statusEl.className = 'error';
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    </script>
+  </body>
+  </html>
+
