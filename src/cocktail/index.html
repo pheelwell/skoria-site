@@ -26,16 +26,23 @@
       .preview-wrapper { margin-bottom: 1rem; }
       .preview { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; border: 1px solid #333; display: none; }
 
-      /* JS color picker */
-      .picker { border: 1px solid #333; border-radius: 10px; padding: .75rem; background:#0b0b0b; }
+      /* JS color picker (mobile friendly) */
+      .picker { border: 1px solid #333; border-radius: 12px; padding: .9rem; background:#0b0b0b; }
       .picker .row { grid-template-columns: 1fr; align-items: center; }
-      .swatch { width: 100%; height: 36px; border-radius: 8px; border: 1px solid #444; margin-bottom: .5rem; }
-      .picker label { font-weight: 600; font-size: .9rem; color:#cbd5e1; }
-      .picker .ctl { display: grid; grid-template-columns: auto 1fr auto; gap: .5rem; align-items: center; }
-      .picker input[type="range"] { width: 100%; }
-      .picker .val { width: 3.5rem; text-align: right; color:#9aa0a6; }
-      .picker .controls { display:grid; grid-template-columns: 1fr 1fr; gap:.5rem; }
-      .picker .preview { height: 36px; border-radius:8px; border:1px solid #333; }
+      .swatch { width: 100%; height: 44px; border-radius: 10px; border: 1px solid #444; margin-bottom: .6rem; }
+      .picker label { font-weight: 600; font-size: .95rem; color:#cbd5e1; }
+      .picker .controls { display:grid; grid-template-columns: 1fr 1fr; gap:.6rem; }
+      .picker .preview { height: 44px; border-radius:10px; border:1px solid #333; }
+      .picker input[type="text"] { width: 100%; padding:.7rem .8rem; border-radius:10px; border:1px solid #444; background:#0e0e0e; color:#e5e7eb; font-size:1rem; }
+      .picker input[type="range"] { width: 100%; height: 28px; }
+      .picker input[type="range"]::-webkit-slider-thumb { -webkit-appearance:none; width: 26px; height: 26px; border-radius:50%; background:#fff; border:2px solid #666; }
+      .picker input[type="range"]::-moz-range-thumb { width: 26px; height: 26px; border-radius:50%; background:#fff; border:2px solid #666; }
+      .picker .swatches { display:grid; grid-template-columns: repeat(8, 1fr); gap:.5rem; margin-top:.6rem; }
+      .picker .swatches button { height: 34px; border-radius:8px; border:1px solid #333; padding:0; cursor:pointer; }
+      @media (max-width: 560px){
+        .picker .controls { grid-template-columns: 1fr; }
+        .picker .swatches { grid-template-columns: repeat(6, 1fr); }
+      }
 
       /* Aurora background: split into layers to cross-fade accent */
       .aurora { position: fixed; inset: 0; z-index: -1; pointer-events: none; }
@@ -107,10 +114,6 @@
           <div id="status" aria-live="polite"></div>
         </form>
       </div>
-
-      <details style="margin-top:1rem">
-        <summary>Supabase setup (SQL)</summary>
-      </details>
     </div>
 
     <!-- Supabase CDN -->
@@ -148,7 +151,7 @@
         el.innerHTML = '';
         const sw = document.createElement('div'); sw.className = 'swatch preview'; el.appendChild(sw);
         const controls = document.createElement('div'); controls.className = 'controls'; el.appendChild(controls);
-        const hex = document.createElement('input'); hex.type = 'text'; hex.placeholder = '#8a2be2'; hex.value = '';
+        const hex = document.createElement('input'); hex.type = 'text'; hex.placeholder = '#8a2be2'; hex.autocomplete='off'; hex.inputMode='text'; hex.value = '';
         const hue = document.createElement('input'); hue.type = 'range'; hue.min='0'; hue.max='360'; hue.value='270';
         const light = document.createElement('input'); light.type = 'range'; light.min='10'; light.max='90'; light.value='55';
         const hexWrap = document.createElement('div'); hexWrap.style.display='grid'; hexWrap.style.gridTemplateColumns='1fr';
@@ -170,6 +173,14 @@
         if(/^#/.test(initial)) setFromHex(initial); else setFromHSL(270,80,55);
         hexWrap.appendChild(hex);
         hueWrap.appendChild(hue);
+
+        // quick swatches
+        const swatches = document.createElement('div'); swatches.className = 'swatches';
+        const preset = ['#ef4444','#f97316','#f59e0b','#eab308','#84cc16','#22c55e','#06b6d4','#3b82f6','#6366f1','#a78bfa','#ec4899','#f472b6','#ffffff','#111827'];
+        for (const c of preset) {
+          const b = document.createElement('button'); b.type='button'; b.style.background=c; b.title=c; b.addEventListener('click', ()=>{ hex.value=c; setFromHex(c); }); swatches.appendChild(b);
+        }
+        el.appendChild(swatches);
 
         return { value: () => hex.value, set: (c) => { if(/^#/.test(c)) setFromHex(c); else sw.style.background=c; hex.value=c; } };
       }
