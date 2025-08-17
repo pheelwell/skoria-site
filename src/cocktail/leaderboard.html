@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktail – Leaderboard</title>
+    <link rel="stylesheet" href="/static/site.css" />
+    <style>
+      :root { --ambient-color: #8a2be2; --accent-color: #4f46e5; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background:#000; color:#e5e7eb; overflow-x:hidden; }
+      .container { max-width: 1200px; margin: 1rem auto; padding: 1rem; }
+      .nav { margin-bottom: 1rem; display: flex; gap: .75rem; }
+      .nav a { color: #9aa0ff; text-decoration: none; }
+      
+      /* Podium */
+      .podium { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin: 2rem 0; align-items: end; }
+      .podium-place { text-align: center; }
+      .podium-card { background: #0f0f0f; border: 1px solid #333; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; position: relative; }
+      .podium-card.gold { border-color: #fbbf24; background: linear-gradient(135deg, #1a1a0a 0%, #0f0f0f 100%); }
+      .podium-card.silver { border-color: #9ca3af; background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%); }
+      .podium-card.bronze { border-color: #d97706; background: linear-gradient(135deg, #1a0f0a 0%, #0f0f0f 100%); }
+      .podium-place:nth-child(2) { order: -1; }
+      .podium-place:nth-child(1) .podium-card { transform: scale(1.05); }
+      .podium-place:nth-child(2) .podium-card { transform: scale(1.02); }
+      .medal { font-size: 2rem; margin-bottom: 0.5rem; }
+      .podium-name { font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem; }
+      .podium-submitter { color: #9aa0a6; font-size: 0.9rem; margin-bottom: 0.5rem; }
+      .podium-score { font-size: 1.5rem; font-weight: 700; color: #22c55e; }
+      .podium-thumb { width: 100%; aspect-ratio: 16/9; background-size: cover; background-position: center; border-radius: 8px; margin-bottom: 0.75rem; }
+      
+      /* Full ranking */
+      .ranking { margin: 2rem 0; }
+      .ranking-table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+      .ranking-table th, .ranking-table td { border: 1px solid #2a2a2a; padding: 0.75rem; text-align: left; }
+      .ranking-table th { background: #0b0b0b; color: #cbd5e1; font-weight: 600; }
+      .ranking-table tr:nth-child(even) { background: #0a0a0a; }
+      .ranking-table tr:hover { background: #111; }
+      .rank { font-weight: 700; color: #9aa0a6; width: 60px; }
+      .score { font-weight: 700; color: #22c55e; }
+      .cocktail-name { font-weight: 600; }
+      .submitter-name { color: #9aa0a6; font-size: 0.9rem; }
+      
+      /* Category sections */
+      .categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+      .category { background: #0f0f0f; border: 1px solid #333; border-radius: 12px; padding: 1.25rem; }
+      .category h3 { margin: 0 0 1rem; color: #cbd5e1; }
+      .category-table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+      .category-table th, .category-table td { border: 1px solid #2a2a2a; padding: 0.5rem 0.75rem; text-align: left; font-size: 0.9rem; }
+      .category-table th { background: #0b0b0b; color: #9aa0a6; font-weight: 600; }
+      .category-table tr:nth-child(even) { background: #0a0a0a; }
+      
+      /* Honorable mentions */
+      .honorable { margin: 2rem 0; }
+      .honorable-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+      .honorable-card { background: #0f0f0f; border: 1px solid #333; border-radius: 12px; padding: 1rem; text-align: center; }
+      .honorable-title { font-weight: 700; color: #f59e0b; margin-bottom: 0.5rem; }
+      .honorable-value { font-size: 1.5rem; font-weight: 700; color: #22c55e; margin-bottom: 0.25rem; }
+      .honorable-detail { color: #9aa0a6; font-size: 0.9rem; }
+      
+      /* Aurora background */
+      .aurora { position: fixed; inset: -20vmax; z-index: -1; pointer-events: none; opacity: 0.55; filter: blur(42px) saturate(1.15);
+        background:
+          radial-gradient(60vmax 60vmax at -10% 50%, var(--accent-color), transparent 60%),
+          radial-gradient(60vmax 60vmax at 110% 50%, var(--accent-color), transparent 60%),
+          conic-gradient(from 180deg at 50% 50%, color-mix(in oklab, var(--ambient-color) 70%, #000 30%) 0 22%, transparent 22% 100%);
+      }
+      
+      @media (max-width: 768px) {
+        .podium { grid-template-columns: 1fr; gap: 0.5rem; }
+        .podium-place:nth-child(2) { order: 0; }
+        .podium-place:nth-child(1) .podium-card, .podium-place:nth-child(2) .podium-card { transform: none; }
+        .categories { grid-template-columns: 1fr; }
+        .honorable-grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true"></div>
+    <div class="container">
+      <div class="nav">
+        <a href="/cocktail/index.html">Submit</a>
+        <span>·</span>
+        <a href="/cocktail/vote.html">Vote</a>
+        <span>·</span>
+        <a href="/cocktail/leaderboard.html">Leaderboard</a>
+        <span>·</span>
+        <a href="/cocktail/admin.html">Admin</a>
+      </div>
+
+      <h1>Leaderboard</h1>
+      <p>See how the cocktails rank based on taste, presentation, and performance scores.</p>
+
+      <div id="podium" class="podium"></div>
+      
+      <div class="ranking">
+        <h2>Full Ranking</h2>
+        <table id="ranking-table" class="ranking-table">
+          <thead>
+            <tr>
+              <th class="rank">Rank</th>
+              <th>Cocktail</th>
+              <th>Submitter</th>
+              <th>Taste</th>
+              <th>Presentation</th>
+              <th>Performance</th>
+              <th class="score">Overall</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="categories">
+        <div class="category">
+          <h3>🏆 Taste Champions</h3>
+          <table id="taste-table" class="category-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Cocktail</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        
+        <div class="category">
+          <h3>🎨 Presentation Masters</h3>
+          <table id="presentation-table" class="category-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Cocktail</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        
+        <div class="category">
+          <h3>⚡ Performance Stars</h3>
+          <table id="performance-table" class="category-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Cocktail</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="honorable">
+        <h2>Honorable Mentions</h2>
+        <div id="honorable-grid" class="honorable-grid"></div>
+      </div>
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/static/site.js"></script>
+    <script>
+      // Allow quick override via URL params (?url=...&key=...)
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('url')) localStorage.setItem('SUPABASE_URL', urlParams.get('url'));
+      if (urlParams.get('key')) localStorage.setItem('SUPABASE_ANON_KEY', urlParams.get('key'));
+
+      // Defaults baked in for convenience
+      const DEFAULT_SUPABASE_URL = 'https://kggndnploimgfyakajiv.supabase.co';
+      const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnZ25kbnBsb2ltZ2Z5YWthaml2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwMzEyNjUsImV4cCI6MjA3MDYwNzI2NX0.tGLApiBt6lQSmMkZdGuTNcN7kYrSjaKH4m3RP5-dfhc';
+
+      const SUPABASE_URL = localStorage.getItem('SUPABASE_URL') || DEFAULT_SUPABASE_URL;
+      const SUPABASE_ANON_KEY = localStorage.getItem('SUPABASE_ANON_KEY') || DEFAULT_SUPABASE_ANON_KEY;
+      const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      // Initialize glow borders on cards
+      if (typeof setupGlowBorders === 'function') {
+        requestAnimationFrame(setupGlowBorders);
+      }
+
+      const ambientColor = '#8a2be2';
+      const accentColor = '#4f46e5';
+      document.documentElement.style.setProperty('--ambient-color', ambientColor);
+      document.documentElement.style.setProperty('--accent-color', accentColor);
+
+      function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+      // Subscribe to realtime changes
+      const refresh = debounce(() => load(), 200);
+      supabase
+        .channel('rt-cocktail-leaderboard')
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktails' }, () => refresh())
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'cocktail_votes' }, () => refresh())
+        .subscribe();
+
+      function createPodiumCard(cocktail, rank) {
+        const place = document.createElement('div');
+        place.className = 'podium-place';
+        
+        const card = document.createElement('div');
+        card.className = `podium-card ${rank === 1 ? 'gold' : rank === 2 ? 'silver' : 'bronze'}`;
+        
+        const medal = document.createElement('div');
+        medal.className = 'medal';
+        medal.textContent = rank === 1 ? '🥇' : rank === 2 ? '🥈' : '🥉';
+        
+        const thumb = document.createElement('div');
+        thumb.className = 'podium-thumb';
+        thumb.style.backgroundImage = `url(${cocktail.bg_image_url})`;
+        
+        const name = document.createElement('div');
+        name.className = 'podium-name';
+        name.textContent = cocktail.cocktail_name;
+        
+        const submitter = document.createElement('div');
+        submitter.className = 'podium-submitter';
+        submitter.textContent = `by ${cocktail.submitter_name}`;
+        
+        const score = document.createElement('div');
+        score.className = 'podium-score';
+        score.textContent = Math.round(cocktail.overall);
+        
+        card.append(medal, thumb, name, submitter, score);
+        place.appendChild(card);
+        
+        return place;
+      }
+
+      function populateTable(tableId, data, category = null) {
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        tbody.innerHTML = '';
+        
+        data.forEach((item, index) => {
+          const row = document.createElement('tr');
+          const rank = index + 1;
+          
+          if (category) {
+            // Category tables
+            row.innerHTML = `
+              <td>${rank}</td>
+              <td>
+                <div class="cocktail-name">${item.cocktail_name}</div>
+                <div class="submitter-name">by ${item.submitter_name}</div>
+              </td>
+              <td class="score">${Math.round(item[category])}</td>
+            `;
+          } else {
+            // Main ranking table
+            row.innerHTML = `
+              <td class="rank">${rank}</td>
+              <td>
+                <div class="cocktail-name">${item.cocktail_name}</div>
+                <div class="submitter-name">by ${item.submitter_name}</div>
+              </td>
+              <td>${item.submitter_name}</td>
+              <td>${Math.round(item.taste)}</td>
+              <td>${Math.round(item.presentation)}</td>
+              <td>${Math.round(item.performance)}</td>
+              <td class="score">${Math.round(item.overall)}</td>
+            `;
+          }
+          
+          tbody.appendChild(row);
+        });
+      }
+
+      function createHonorableCard(title, value, detail) {
+        const card = document.createElement('div');
+        card.className = 'honorable-card';
+        
+        card.innerHTML = `
+          <div class="honorable-title">${title}</div>
+          <div class="honorable-value">${value}</div>
+          <div class="honorable-detail">${detail}</div>
+        `;
+        
+        return card;
+      }
+
+      async function load() {
+        try {
+          // Fetch all votes with cocktail data
+          const { data: votes, error: votesError } = await supabase
+            .from('cocktail_votes')
+            .select('cocktail_id, taste, presentation, performance, cocktails:cocktail_id ( id, cocktail_name, submitter_name, bg_image_url )')
+            .not('cocktails.is_unlocked', 'eq', false); // Only show unlocked cocktails
+          
+          if (votesError) throw votesError;
+          
+          // Group votes by cocktail
+          const cocktailStats = new Map();
+          
+          votes.forEach(vote => {
+            const cocktailId = vote.cocktail_id;
+            if (!cocktailStats.has(cocktailId)) {
+              cocktailStats.set(cocktailId, {
+                cocktail_name: vote.cocktails?.cocktail_name || 'Unknown',
+                submitter_name: vote.cocktails?.submitter_name || 'Unknown',
+                bg_image_url: vote.cocktails?.bg_image_url || '',
+                taste: [],
+                presentation: [],
+                performance: []
+              });
+            }
+            
+            const stats = cocktailStats.get(cocktailId);
+            if (vote.taste) stats.taste.push(Number(vote.taste));
+            if (vote.presentation) stats.presentation.push(Number(vote.presentation));
+            if (vote.performance) stats.performance.push(Number(vote.performance));
+          });
+          
+          // Calculate averages and overall scores
+          const rankings = [];
+          for (const [id, stats] of cocktailStats) {
+            const avg = arr => arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+            
+            const taste = avg(stats.taste);
+            const presentation = avg(stats.presentation);
+            const performance = avg(stats.performance);
+            const overall = (taste + presentation + performance) / 3;
+            
+            rankings.push({
+              id,
+              cocktail_name: stats.cocktail_name,
+              submitter_name: stats.submitter_name,
+              bg_image_url: stats.bg_image_url,
+              taste,
+              presentation,
+              performance,
+              overall,
+              voteCount: Math.max(stats.taste.length, stats.presentation.length, stats.performance.length)
+            });
+          }
+          
+          // Sort by overall score
+          rankings.sort((a, b) => b.overall - a.overall);
+          
+          // Populate podium (top 3)
+          const podium = document.getElementById('podium');
+          podium.innerHTML = '';
+          rankings.slice(0, 3).forEach((cocktail, index) => {
+            podium.appendChild(createPodiumCard(cocktail, index + 1));
+          });
+          
+          // Populate main ranking table
+          populateTable('ranking-table', rankings);
+          
+          // Create category rankings
+          const tasteRanking = [...rankings].sort((a, b) => b.taste - a.taste);
+          const presentationRanking = [...rankings].sort((a, b) => b.presentation - a.presentation);
+          const performanceRanking = [...rankings].sort((a, b) => b.performance - a.performance);
+          
+          populateTable('taste-table', tasteRanking.slice(0, 5), 'taste');
+          populateTable('presentation-table', presentationRanking.slice(0, 5), 'presentation');
+          populateTable('performance-table', performanceRanking.slice(0, 5), 'performance');
+          
+          // Calculate honorable mentions
+          const allScores = rankings.flatMap(r => [r.taste, r.presentation, r.performance]).filter(s => s > 0);
+          const avgScore = allScores.length ? allScores.reduce((a, b) => a + b, 0) / allScores.length : 0;
+          
+          const highestAvg = rankings.length ? Math.max(...rankings.map(r => r.overall)) : 0;
+          const lowestAvg = rankings.length ? Math.min(...rankings.map(r => r.overall)) : 0;
+          const highestScore = allScores.length ? Math.max(...allScores) : 0;
+          const lowestScore = allScores.length ? Math.min(...allScores) : 0;
+          
+          const honorableGrid = document.getElementById('honorable-grid');
+          honorableGrid.innerHTML = '';
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Highest Average Score',
+            Math.round(highestAvg),
+            `${rankings.find(r => r.overall === highestAvg)?.cocktail_name || 'Unknown'}`
+          ));
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Lowest Average Score',
+            Math.round(lowestAvg),
+            `${rankings.find(r => r.overall === lowestAvg)?.cocktail_name || 'Unknown'}`
+          ));
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Best Single Score',
+            Math.round(highestScore),
+            'Highest individual rating'
+          ));
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Worst Single Score',
+            Math.round(lowestScore),
+            'Lowest individual rating'
+          ));
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Average Score',
+            Math.round(avgScore),
+            'Across all categories'
+          ));
+          
+          honorableGrid.appendChild(createHonorableCard(
+            'Total Cocktails',
+            rankings.length,
+            'In competition'
+          ));
+          
+        } catch (error) {
+          console.error('Error loading leaderboard:', error);
+          document.body.innerHTML = `<div class="container"><h1>Error</h1><p>Failed to load leaderboard: ${error.message}</p></div>`;
+        }
+      }
+
+      load();
+    </script>
+  </body>
+</html>
