@@ -1,8 +1,19 @@
 ---
-type: ???
-title: Ritter der Dämmerung
+continent: Gundras
 date created: Thursday, August 1st 2024, 11:12:13 pm
 date modified: Sunday, March 23rd 2025, 1:28:32 pm
+eleventyNavigation:
+  key: Ritter der Dämmerung
+  parent: Gundras
+herocolor0: 158
+herocolor1: 57
+herocolor2: 175
+layout: base.njk
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3F0 Gundras/Gundras.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Factions/Ritter%20der%20D%C3%A4mmerung/
+plane: Material Plane
+title: Ritter der Dämmerung
+type: ???
 ---
 
 Die Ritter der Dämmerung sind eine Vereinigung von Schmieden und Rittern. Unter ihnen sind sehr viele Anhänger der Fogweaver.
@@ -27,7 +38,7 @@ Rituale und Bräuche
 
 Die Ritter der Dämmerung haben einige besondere Bräuche und Traditionen:
 
-1. Nebelstahlschmieden: Bei diesem Ritual wird das rohe Nebelstahl unter Anrufung des Gottes [[Luniam]] verarbeitet. Es soll die Gottheit gnädig stimmen, damit sie den Schmieden hilft, das Beste aus dem Material herauszuholen und dieses mit seiner Macht zu segnen. 
+1. Nebelstahlschmieden: Bei diesem Ritual wird das rohe Nebelstahl unter Anrufung des Gottes [Luniam](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Luniam) verarbeitet. Es soll die Gottheit gnädig stimmen, damit sie den Schmieden hilft, das Beste aus dem Material herauszuholen und dieses mit seiner Macht zu segnen. 
 2. Schwur der Treue: Jedes Mitglied der Ritter der Dämmerung legt einen Schwur ab, Erenos zu beschützen und zu verteidigen sowie sein Leben für das Land und seine Bewohner einzusetzen.
 
 In der heutigen Zeit

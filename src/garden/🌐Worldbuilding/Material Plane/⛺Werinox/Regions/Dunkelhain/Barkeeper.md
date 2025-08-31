@@ -1,14 +1,22 @@
 ---
-type: NPC
-title: Barkeeper
-status: seed
+continent: Werinox
 date created: Tuesday, March 18th 2025, 12:28:56 am
 date modified: Sunday, March 30th 2025, 1:14:13 pm
+eleventyNavigation:
+  key: Barkeeper
+  parent: Dunkelhain
+layout: base.njk
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/⛺Werinox/Regions/Dunkelhain/Dunkelhain.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Regions/Dunkelhain/Barkeeper/
+plane: Material Plane
+status: seed
 sum:
 - Worn, wary innkeeper in cursed Dunkelhain; last safe rooms; distrusts outsiders
+title: Barkeeper
+type: NPC
 ---
 
-![[Bolrick_Gastwirt_zum_leisen_Becher.png]]
+![](/static/Bolrick_Gastwirt_zum_leisen_Becher.png)
 
 ## Notes
 - Skeptical, brusque; warns against night travel; offers rooms despite scarcity
@@ -20,4 +28,4 @@ sum:
 - Unravel his past: why stay in madness? family ties? lost promises?
 
 ## Related
-- **[[Dunkelhain]]**, **[[Das gähnende Portal]]**, **[[Fizzwick]]**, **[[Sternlanze]]**
+- **[Dunkelhain](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Regions/Dunkelhain)**, **Das gähnende Portal**, **[Fizzwick](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Factions/Kleine%20Gestalten/Fizzwick)**, **[Sternlanze](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Factions/Kleine%20Gestalten/Sternlanze)**

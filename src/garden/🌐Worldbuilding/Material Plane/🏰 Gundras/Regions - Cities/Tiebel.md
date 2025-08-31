@@ -1,8 +1,19 @@
 ---
-type: ???
-title: Tiebel
+continent: Gundras
 date created: Thursday, August 1st 2024, 11:12:13 pm
 date modified: Sunday, March 23rd 2025, 1:28:32 pm
+eleventyNavigation:
+  key: Tiebel
+  parent: Gundras
+herocolor0: 158
+herocolor1: 57
+herocolor2: 175
+layout: base.njk
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3F0 Gundras/Gundras.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Regions%20-%20Cities/Tiebel/
+plane: Material Plane
+title: Tiebel
+type: ???
 ---
 
 Tiebel ist ein kleines Dorf am Rande einer riesigen Gebirgsformation, der Klingenwand. Das Dorf befindet sich direkt vor einer großen Höhle dieses Gebirges. Die Klingenwand ist berühmt für ihre reichen Erzvorkommen, insbesondere Eisen, Kupfer und seltene Edelsteine. Die Bergarbeiter von Tiebel sind geschickte Handwerker, die das gewonnene Material in hochwertige Waffen, Rüstungen und Schmuckstücke verwandeln können. Das Know-how und die Produkte aus Tiebel sind in der gesamten Region sehr gefragt.
@@ -17,4 +28,4 @@ Jährlich findet in Tiebel ein großes Fest statt, bei dem die Bewohner ihre Arb
 
 In Tiebel herrscht ein rauer, aber herzlicher Umgangston. Die Bewohner sind stolz auf ihre Arbeit und ihr Dorf und heißen Besucher willkommen, solange sie Respekt zeigen.
 
-![[Tiebel.png]]
+![](/static/Tiebel.png)

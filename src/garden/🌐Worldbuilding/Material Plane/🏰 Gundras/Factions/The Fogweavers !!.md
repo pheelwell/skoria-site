@@ -1,18 +1,29 @@
 ---
-type: ???
-title: The Fogweavers !!
+continent: Gundras
 date created: Thursday, August 1st 2024, 11:12:13 pm
 date modified: Sunday, March 23rd 2025, 1:28:32 pm
+eleventyNavigation:
+  key: The Fogweavers !!
+  parent: Gundras
+herocolor0: 158
+herocolor1: 57
+herocolor2: 175
+layout: base.njk
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3F0 Gundras/Gundras.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Factions/The%20Fogweavers%20%21%21/
+plane: Material Plane
+title: The Fogweavers !!
+type: ???
 ---
 
-![[Fogweavers Crest.png|300]]
+![](/static/Fogweavers%20Crest.png)
 
 unfertig 
 
 Fogweaver Traits and Facets
 
 - Sunkeepers are known to have a strong connection with nature, especially the sun and the sunlight.
-- It is believed that the most powerful Sunkeepers can harness solar energy to create a very secret technique of [[Sun Magic - Lunar Magic]].
+- It is believed that the most powerful Sunkeepers can harness solar energy to create a very secret technique of Sun Magic - Lunar Magic.
 
 ## New Places, Locations, Regions !!!!
 
