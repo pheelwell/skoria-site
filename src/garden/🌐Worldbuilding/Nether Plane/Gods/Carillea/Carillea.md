@@ -1,20 +1,24 @@
 ---
 continent: Gods
 date created: Tuesday, February 25th 2025, 11:18:03 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Carillea
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CCarillea/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Carillea/
 plane: Nether Plane
 title: Carillea
+type: ???
 ---
 
 ---
+
 type: Deity
+
 sum:
+
 - "Title: Princess of Winds"
 - "Domain: Wind"
 - "Associated Element: Wisdom"

@@ -1,58 +1,44 @@
 ---
-continent: Yndrah
+type: Region
+title: Yndrah — Undercity
+status: sprout
 date created: Thursday, June 27th 2024, 1:15:43 am
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
-eleventyNavigation:
-  key: Undercity
-  parent: Material Plane
-herocolor0: 214
-herocolor1: 207
-herocolor2: 184
-layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CYndrah/Undercity/
-plane: Material Plane
-title: Undercity
+date modified: Sunday, March 23rd 2025, 1:28:31 pm
+sum:
+- City-within-a-city beneath a mountain on an island in a toxic lake; access by sealed boats
+- Mines/biolabs harvest living crystal “Ilarium”; atmosphere sustained by a green river tied to an artifact
+- Necrotic magepunk aesthetic; Lar-aligned artifact must be “fed” to maintain biosphere
 ---
 
-Zwei Schichten, Stadt unter Stadt 
+# Yndrah — Undercity
 
-Die Stadt ist auf einem Berg auf einer Insel in einem verseuchten See. Um in die Stadt zu gelangen muss man mit einem Boot über den See. Die boote sind abgeschottet um die dämpfe des Sees nicht ins inneres zu lassen. 
+Two-tier metropolis: an upper city above, and an underground Undercity carved into the mountain amid a toxic lake.
 
-![](/static/Undercity_01.png)
+## Overview
+- **Location**: Mountain on an island in a poisonous lake
+- **Access**: Sealed boats cross toxic vapors to reach city
+- **Nature**: Entire Undercity functions as a mine/biolab complex
 
-## Notable Locations:
-Alles ist die Mine, oder auch Unterstadt von Yndrah. 
-- 
+![[Undercity_01.png]]
 
-## Notable Figures:
-- Ilarium. Ilarium ist ein weiches Material das wie Erz abgebaut wird. Es ist von organischer Herkunft und wächst in der Unterstadt, weshalb es immer geerntet werden muss. Es kann Alchemistisch viele Zutaten ersetzen, wie zum Beispiel die seltene Mindflayer Gehirnmasse aus denen verschiedenste Tränke hergestellt werden können (wie zum Beispiel Tränke die die Gedanken beruhigen, Gedanken kontrollieren können, Schmerzmittel oder wie Drogen wirken)
+## Notable Features
+- **Ilarium** — Soft, organically-grown crystal mined continuously; potent alchemical substitute (e.g., Mindflayer brain reagents) used in potions for calm, control, analgesia, and narcotics
+- **Green River** — Atmosphere-sustaining current powered by an artifact that must be regularly “fed” with magical objects
+- **Life Support** — Artifact tied to [[Lar]] creates a breathable microclimate within toxic strata
+- **Tech** — Necrotic magepunk; armored suits allow non-adapted workers to operate safely
 
-## Politics and Economy:
+## Society & Economy
+- Worker strata below; dependency on Ilarium cultivation and artifact maintenance
+- Research culture: scientists and mechanics study crystals, the river, and the habitat
 
-## History:
+## Threats & Rumors
+- Undead bound to the artifact in the lower district; corruption tints the river green
+- Upper and lower cities coexist in tension
 
-## Culture and Religion:
+## Campaign Seeds
+> [!seed] Two-layer city — upper elite vs undercity workers in toxic conditions
+> [!seed] The artifact binds undead; river corruption grows; artifact must be “fed” to prevent collapse
 
-## Threats and Rumors:
-
-## Campaign Connections:
-
-## Geography and Climate:
-
-> [!seed] Seed
-> Zwei Schichten, Stadt unter Stadt 
-Unterschicht, unterirdisch, Arbeiter. 
-Entstehung, giftige Atmosphäre 
-Dort gibt es Kristalle die nur dort wachsen können. 
-Der grüne Fluss braucht die Atmosphäre und Energie eines Artefaktes, dieser gibt leben an die verkommenen die in der unterstadt die Kristalle abbauen und züchten. Der Fluss muss mit magischen Objekten gefüttert werden, um nicht zu versiegen. Der Fluss erzeugt eine Atmosphäre in der Gift Atmosphäre von unterstadt die den Ort Lebens möglich macht. 
-
-> [!seed] Seed
-> Die Untoten sind an ein Artefakt in der unteren Stadt gebunden. 
-Dieses Artefakt corrupted den Fluss (grüne Färbung)
-Die obere und die untere Stadt leben zusammen sind aber auch nicht im besten. 
-Gott: Lar 
-Das Artefakt muss "gefüttert" werden. 
-Naxxramas, necrotic magepunk 
-Dort gibt es viele Wissenschaftler und Mechaniker die an den Kristallen dem Fluss und dem Lebensraum forschen.
-Es gibt "iron man suits " mit denen können Leute die nicht an die Atmosphäre angepasst sind die unterstadt gefahrlos betreten.
+## Related
+- **[[Oberstadt]]** — Upper City
+- **[[Lar]]** — Deity of structured magic 

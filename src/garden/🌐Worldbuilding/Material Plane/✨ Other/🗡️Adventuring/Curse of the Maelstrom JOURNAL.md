@@ -1,18 +1,19 @@
 ---
 continent: Other
 date created: Thursday, December 14th 2023, 12:07:12 am
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Curse of the Maelstrom JOURNAL
   parent: Adventuring
-herocolor0: 37
+herocolor0: 42
 herocolor1: 163
 herocolor2: 79
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\✨ Other\🗡️Adventuring/Adventuring.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Curse%20of%20the%20Maelstrom%20JOURNAL/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Curse%20of%20the%20Maelstrom%20JOURNAL/
 plane: Material Plane
 title: Curse of the Maelstrom JOURNAL
+type: Journal
 ---
 
 ## Chapter 1: New Scholars of Evermore
@@ -35,7 +36,7 @@ title: Curse of the Maelstrom JOURNAL
 - They learn the essentials, but when Rinera should show them some Scrying with a magic ball she gets posessed by an unknown force, preaching a dark prophecy:
 Erlischt das glühen am Tor des Lichtes, wird es fallen
 Die Götter werden sich nehmen was ihnen gehört
-Ihr Zorn wird auf ewig die Welt von [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) umkrallen
+Ihr Zorn wird auf ewig die Welt von [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) umkrallen
 Das Ende aller Zeiten kommt, diese Welt wird zerstört
 - Rinera should go to the Principal the next day.
 - It was uncommon that Gil was not there, therefore he is never late for class.

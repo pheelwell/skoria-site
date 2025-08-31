@@ -8,10 +8,10 @@ eleventyNavigation:
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CFactions/Toothless/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Factions/Toothless/
 plane: Material Plane
 sum:
 - The Toothless is a Mercenary subgroup consisting of 5 members.
@@ -50,4 +50,4 @@ Kix is a [Changeling](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%
 
 ## Recent Activity
 
-During the [Heist on the Castle Never](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Factions/Heist%20on%20the%20Castle%20Never) Kix left the Toothless with the stolen good, because when they were uncovered by a innocents bystanders the troop decided to coldheartedly kill all involved. This led to Kix question the Morals of the Troup.
+During the Heist on the Castle Never Kix left the Toothless with the stolen good, because when they were uncovered by a innocents bystanders the troop decided to coldheartedly kill all involved. This led to Kix question the Morals of the Troup.

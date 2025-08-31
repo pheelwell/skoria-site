@@ -1,18 +1,19 @@
 ---
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: README
 layout: base.njk
 path: /garden/README/
 title: README
+type: ???
 ---
 
-## [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore
+## [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore
 
-Welcome to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore repository!
+Welcome to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore repository!
 
-This repository contains a collection of Markdown files that hold the common lore, history, and knowledge about our roleplay world - [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Our goal is to create a synchronized and unified source of truth for all players and game masters involved in our adventures.
+This repository contains a collection of Markdown files that hold the common lore, history, and knowledge about our roleplay world - [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria). Our goal is to create a synchronized and unified source of truth for all players and game masters involved in our adventures.
 
 By using this repository, you can easily integrate the latest lore updates into your own Obsidian vaults and keep track of any changes made by others. If you're new to using Git or Obsidian, don't worry! This README will guide you through the process step-by-step.
 
@@ -31,7 +32,7 @@ To integrate this repository into your own Obsidian vault, you'll need to use a 
 
 ### Updating Your Vault
 
-Whenever there are new updates or changes made to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore by other collaborators, you'll need to update your own Obsidian vault to stay in sync with the latest information.
+Whenever there are new updates or changes made to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore by other collaborators, you'll need to update your own Obsidian vault to stay in sync with the latest information.
 
 To do this, follow these steps:
 
@@ -40,7 +41,7 @@ To do this, follow these steps:
 3. Click on Fetch `origin` or `Pull` at the top right corner of GitHub Desktop.
 4. If there are any new changes, they will be automatically downloaded and merged with your local files.
 
-And that's it! Your Obsidian vault should now display the latest updates from the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore repository.
+And that's it! Your Obsidian vault should now display the latest updates from the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore repository.
 
 If you have any questions or need assistance, don't hesitate to reach out to *pheelwell* or any other members of our community. Happy roleplaying!
 
@@ -48,7 +49,7 @@ If you have any questions or need assistance, don't hesitate to reach out to *ph
 
 Just write Articles according to the [Note Structure Guidelines](/garden/Meta/Note%20Structure%20Guidelines).
 
-The `Main` branch is protected, so you won't be able to add to it. To add your own changes to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore repository, you'll need to create a new branch and submit a pull request. Here's how to do it:
+The `Main` branch is protected, so you won't be able to add to it. To add your own changes to the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore repository, you'll need to create a new branch and submit a pull request. Here's how to do it:
 
 1. Open GitHub Desktop.
 2. In the list of repositories, select `skoria`.
@@ -76,4 +77,4 @@ Now that you've committed your changes locally, it's time to submit a pull reque
 
 Your pull request will now be submitted for review by other collaborators who can either approve or request further changes before merging it with the main branch.
 
-Please be patient while waiting for feedback and be prepared to make additional adjustments if requested. Once your pull request is approved and merged, your changes will become part of the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) World Lore repository, and everyone else can sync their Obsidian vaults to see your contributions!
+Please be patient while waiting for feedback and be prepared to make additional adjustments if requested. Once your pull request is approved and merged, your changes will become part of the [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) World Lore repository, and everyone else can sync their Obsidian vaults to see your contributions!

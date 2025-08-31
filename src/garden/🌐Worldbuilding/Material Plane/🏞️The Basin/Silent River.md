@@ -7,12 +7,14 @@ eleventyNavigation:
   key: Silent River
   parent: The Basin
 herocolor0: 192
-herocolor1: 149
+herocolor1: 150
 herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River/
 plane: Material Plane
+status: tree
 sum:
 - Giant River spans 20 miles, flows through Basin from north-west to south-east
 - Source of water and transportation
@@ -24,20 +26,72 @@ title: Silent River
 type: Region
 ---
 
-This Giant River Flows through the entire Basin and is the main source of water. It flows very slowly and spans up to 20 miles at times. Water mainly comes from the Mountains in the north-west but also from smaller siderivers.
+# Silent River
 
-## Flow
+A massive 20-mile river that flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin), serving as the primary water source and transportation route for the region.
 
-This river flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) from north-west to south-east. It passes Trollbans Hold in the north-west flowing south-east it then divides near to [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte) flowing on both sides of the elevated highlands of Edschmied.
+## Overview
 
-At the hight of [Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest) in the south-east it comes back together flowing east for a bit. After that it flows down south where it leaves [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) and north up to [Herbstbog](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Herbstbog). 
+The Silent River is the lifeblood of The Basin, flowing slowly from northwest to southeast. It provides water, transportation, and protection while maintaining an air of mystery with its enchanted reputation.
+
+## Geography
+
+### **Flow Path**
+- **Source**: Mountains in the northwest
+- **Route**: Flows through [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin) from northwest to southeast
+- **Width**: Spans up to 20 miles at its widest points
+- **Speed**: Very slow-flowing water
+
+### **Key Locations**
+- **Trollbans Hold** - River passes through in the northwest
+- **[Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte)** - River divides near this settlement
+- **Edschmied** - Flows on both sides of the elevated highlands
+- **[Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest)** - River converges again in the southeast
+- **[Herbstbog](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Herbstbog)** - Final destination to the north
+
+### **Tributaries**
+- **Smaller side rivers** feed into the main flow
+- **Mountain runoff** from the northwest
 
 ## Importance
 
-The river is of immense importance for the people in [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin). It is a source of life and prosperity, providing them with water for crops, livestock, and drinking. It also serves as a natural border and protects them from unwanted intruders. The river is also the main source of transportation in this part of the world. Boats are used to transport people and goods along its length, while bridges allow easier access to different parts of [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin).
+### **Life Source**
+- **Primary water source** for crops, livestock, and drinking
+- **Natural border** protecting inhabitants from intruders
+- **Main transportation route** for the region
 
-The slow-flowing river gives off a silent but strong presence that all must respect. Its mysterious depths draw adventurers from afar in search of forgotten treasures that may be hidden within its depths.
+### **Transportation**
+- **Boat traffic** for people and goods
+- **Bridge crossings** for easier access
+- **Trade routes** along its length
 
-The banks of the river are beautiful to behold and some believe it to be enchanted by magical forces. It is said that if one takes a moment to stop and listen carefully, one can hear faint whispers coming from within the water, warning all who pass by about dangers or secrets hidden beneath the surface. 
+## Mystical Properties
 
-Whether these tales are true or not remain unknown, but one thing is certain - this ancient river has been quietly watching over its inhabitants since long before any living memory can remember.
+### **Enchanted Reputation**
+- **Believed to be magically enhanced**
+- **Faint whispers** heard from within the water
+- **Warnings and secrets** said to emanate from its depths
+
+### **Adventure Potential**
+- **Forgotten treasures** rumored to be hidden in its depths
+- **Mysterious warnings** for travelers
+- **Ancient presence** watching over inhabitants
+
+## Physical Characteristics
+
+### **Appearance**
+- **Beautiful riverbanks** with scenic views
+- **Silent but strong presence** that commands respect
+- **Mysterious depths** drawing adventurers
+
+### **Flow Pattern**
+- **Slow and steady** movement
+- **Divides and converges** around key settlements
+- **Natural protection** for communities
+
+## Related Content
+
+- **[The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin)** - Region through which the river flows
+- **Trollbans Hold** - Settlement along the river
+- **Edschmied** - Central settlement on elevated land
+- **[Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte)** - Western settlement near river division

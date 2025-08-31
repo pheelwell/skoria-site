@@ -149,11 +149,11 @@ class ObsidianToeleventy:
 
         # remove the content dir from the root
         regex_root = root.replace(self.eleventy_content_dir,"")        # Regex pattern for extracting plane
-        plane_pattern = re.compile(r"🌐Worldbuilding\\([^\\]+)")
+        plane_pattern = re.compile(r"🌐Worldbuilding/([^/]+)")
         plane_match = plane_pattern.search(regex_root)
         
         # Regex pattern for extracting continent
-        continent_pattern = re.compile(r"🌐Worldbuilding\\([^\\]+)\\([^\\]+)")
+        continent_pattern = re.compile(r"🌐Worldbuilding/([^/]+)/([^/]+)")
         continent_match = continent_pattern.search(regex_root)
 
         if plane_match:

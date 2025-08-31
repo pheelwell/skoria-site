@@ -1,12 +1,13 @@
 ---
 date created: Wednesday, December 27th 2023, 5:41:03 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Nether Plane
 layout: base.njk
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane/
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/
 plane: Nether Plane
 title: Nether Plane
+type: Plane
 ---
 
 In the cosmos of this realm, the gods hold sway over the forces that govern the world. These divine beings exist in pairs, each representing opposing forces, and they maintain a cosmic balance that allows life to flourish. As an adventurer in this world, understanding the rules and axioms that govern these gods will be crucial to your journey.

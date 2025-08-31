@@ -2,17 +2,17 @@
 alias: Changling
 continent: Other
 date created: Friday, October 6th 2023, 7:01:35 pm
-date modified: Thursday, December 14th 2023, 1:41:28 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 dg-publish: true
 eleventyNavigation:
   key: Changeling
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CRaces/Changeling/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Changeling/
 plane: Material Plane
 sum: Changelings are mysterious shape-shifters with a natural affinity for magic and
   the ability to change their appearance and mimic the form of other races.,They have
@@ -22,7 +22,7 @@ sum: Changelings are mysterious shape-shifters with a natural affinity for magic
   connection to nature, often taking on animalistic features, and respect the arcane
   arts.
 title: Changeling
-type: Thing
+type: Race
 ---
 
 Changelings are mysterious creatures with the ability to change their appearance, mimicking the form of other races. They are thought to be descended from a great and powerful race of shape-shifters, and thus have an affinity for magic. Changelings travel far and wide, never staying in one place for long, but always seeking knowledge to gain an edge over their enemies. They are often viewed with suspicion by other races, as they can blend in anywhere without detection. Despite this, Changelings remain a proud and noble people who strive to protect the innocent from harm.

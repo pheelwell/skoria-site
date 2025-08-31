@@ -46,7 +46,7 @@
 
       /* Aurora background: split into layers to cross-fade accent */
       .aurora { position: fixed; inset: 0; z-index: -1; pointer-events: none; }
-      .aurora-layer { position: absolute; inset: -20vmax; filter: blur(48px) saturate(1.15); mix-blend-mode: screen; }
+      .aurora-layer { position: absolute; inset: -20vmax; mix-blend-mode: screen; }
       .aurora-ambient { opacity: .7; background:
           /* Ambient: central spot */
           radial-gradient(32vmax 32vmax at 50% 40%, color-mix(in oklab, var(--ambient-color) 75%, #000 25%) 0 30%, transparent 60%),

@@ -7,19 +7,29 @@ dg-publish: true
 eleventyNavigation:
   key: Echo Isles
   parent: Echon
-herocolor0: 104
+herocolor0: 105
 herocolor1: 195
 herocolor2: 196
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌴Echon/Echon.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%B4Echon%5CRegions%5CEcho%20Isles/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F334Echon/Echon.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Regions/Echo%20Isles/
 plane: Material Plane
 status: seed
 title: Echo Isles
 type: Region
 ---
 
-- Isles in the South of Echon inhabited mostly by Trolls
-- Governed by [Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls)
-- Trivia: no money just exchange
-- Inhabitants mostly Worshop Loa Pantheon
+# Echo Isles
+
+Tropical islands in the south of [Echon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Echon), inhabited primarily by trolls and governed by the [Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls).
+
+## Overview
+
+- **Culture**: Predominantly troll societies with Loa worship
+- **Economy**: Barter and exchange; minimal coin usage
+- **Government**: Led by the [Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls)
+
+## Related
+
+- **[Echon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Echon)** — Parent region
+- **[Darkspear Trolls](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls)** — Governing faction

@@ -2,7 +2,7 @@
 banner: /static/Placeholder.png
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Quorritset
   parent: Irasnian Wastes
@@ -10,10 +10,12 @@ herocolor0: 67
 herocolor1: 43
 herocolor2: 53
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏜️Irasnian Wastes/Irasnian Wastes.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Quorritset/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
+  Wastes/Irasnian Wastes.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset/
 plane: Material Plane
 title: Quorritset
+type: ???
 ---
 
 Nestled in the heart of the vast and unforgiving [Irasnian Wastes](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Irasnian%20Wastes) lies the city of Quorritset, an oasis of life and activity amidst the endless dunes. The city is primarily inhabited by two races: the small, reptilian [Quorri](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Quorri), for which the city is named, and the [Solith](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Solith), a hardy people who have adapted to life in the desert.

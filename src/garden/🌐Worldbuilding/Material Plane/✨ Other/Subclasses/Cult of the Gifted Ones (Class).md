@@ -8,10 +8,10 @@ eleventyNavigation:
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CSubclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Subclasses/Cult%20of%20the%20Gifted%20Ones%20%28Class%29/
 plane: Material Plane
 title: Cult of the Gifted Ones (Class)
 type: Meta

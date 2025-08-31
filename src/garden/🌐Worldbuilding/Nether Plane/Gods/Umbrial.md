@@ -10,8 +10,8 @@ layout: base.njk
 ownership:
 - 'corellion: role in shattering'
 - 'pheelwell: result of shattering (specificly regarding Arathor)'
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Umbrial/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Umbrial/
 plane: Nether Plane
 status: sprout
 sum:

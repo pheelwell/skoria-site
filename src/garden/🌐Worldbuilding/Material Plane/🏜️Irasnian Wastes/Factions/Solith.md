@@ -1,7 +1,7 @@
 ---
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 dg-publish: true
 eleventyNavigation:
   key: Solith
@@ -10,8 +10,9 @@ herocolor0: 10
 herocolor1: 16
 herocolor2: 29
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏜️Irasnian Wastes/Irasnian Wastes.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CFactions/Solith/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
+  Wastes/Irasnian Wastes.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Solith/
 plane: Material Plane
 status: sprout
 sum:
@@ -49,23 +50,17 @@ Contrary to what their physical abilities might suggest, the Solith are not inhe
 
 Influenced by their surroundings, Solith culture holds nature in high regard and values ecological balance. Their customs revolve around survival and adaptation strategies. Storytelling is a cherished tradition where elders narrate tales enclosing wisdom about survival techniques, moral learnings, historical chronicles, and warnings against looming threats.
 
-[!tip] 
-
-Consider involving your players in these storytelling sessions or have them hear some of these ancient narratives from non-player characters (NPCs) during a campaign based on interactions within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset) or with the Solith.
-
 ### Society
 
 In Solith society status isn't defined by wealth or lineage but by one's contributions towards community survival. This emphasis on resourcefulness and adaptability is reflected in their decentralized government structure where wise elders or proven leaders make decisions at important community gatherings.
 
 While they generally maintain peaceful relationships with most races willing to reciprocate this sentiment – including humans – there can be occasional conflict due to cultural misunderstandings between them and other races residing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)’s boundaries.
 
- [!seed] 
+> [!seed]
+>  An engaging adventure hook could involve players resolving these conflicts or delving into cryptic power struggles brewing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)'s diverse community.
 
-An engaging adventure hook could involve players resolving these conflicts or delving into cryptic power struggles brewing within [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset)'s diverse community.
-
-[!secret]
-
-A clandestine faction exists within both races aiming for racial supremacy over each other – an issue that could escalate into an outright conflict if not addressed discreetly. This secret remains unknown to many residents as well as outsiders visiting [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset).
+> [!secret]
+> A clandestine faction exists within both races aiming for racial supremacy over each other – an issue that could escalate into an outright conflict if not addressed discreetly. This secret remains unknown to many residents as well as outsiders visiting [Quorritset](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Quorritset).
 
 ### Conclusion
 

@@ -6,14 +6,15 @@ date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Storm Elves
   parent: Material Plane
-herocolor0: 209
+herocolor0: 210
 herocolor1: 202
 herocolor2: 197
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CRaces/Storm%20Elves/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Storm%20Elves/
 plane: Material Plane
 title: Storm Elves
+type: Thing
 ---
 
 Storm Elves, also called Sea Elves or Water Elves. 
@@ -37,7 +38,7 @@ The Storm Elves are a distinctive elven tribe commonly found around [Levia](/gar
 4. Society and Culture:
 	
 	- Tribal Communities: Storm Elves live in tight-knit tribal communities that value cooperation, shared responsibilities, and a deep respect for the sea. Each tribe has a unique totem or symbol representing their connection to the ocean.
-	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) live.
+	- Also they live together with the [Levian Octari](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Levian%20Octari) in [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) , where species across [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) live.
 
 5. Relationships with Other Species:
 	

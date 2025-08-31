@@ -2,7 +2,7 @@
 banner: /static/R_BG.png
 continent: Nosaia
 date created: Saturday, February 3rd 2024, 10:24:28 am
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: Nosaia
   parent: Material Plane
@@ -10,10 +10,11 @@ herocolor0: 120
 herocolor1: 189
 herocolor2: 126
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5CNosaia/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/Nosaia/
 plane: Material Plane
 title: Nosaia
+type: ???
 ---
 
 **Nosaia: The Continent of Contrast**

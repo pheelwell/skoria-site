@@ -6,12 +6,9 @@ dg-publish: true
 eleventyNavigation:
   key: Gargula
   parent: Falk
-herocolor0: 192
-herocolor1: 149
-herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Falk/Falk.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CFalk/Gargula/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Falk/Falk.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Falk/Gargula/
 plane: Material Plane
 title: Gargula
 type: NPC

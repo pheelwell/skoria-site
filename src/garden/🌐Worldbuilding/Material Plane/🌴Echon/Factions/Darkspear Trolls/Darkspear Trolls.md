@@ -8,13 +8,29 @@ eleventyNavigation:
   key: Darkspear Trolls
   parent: Echon
 herocolor0: 272
-herocolor1: 259
+herocolor1: 260
 herocolor2: 293
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🌴Echon/Echon.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%B4Echon%5CFactions%5CDarkspear%20Trolls/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F334Echon/Echon.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Factions/Darkspear%20Trolls/
 plane: Material Plane
 status: seed
 title: Darkspear Trolls
 type: Faction
 ---
+
+# Darkspear Trolls
+
+Native troll faction of the [Echo Isles](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Regions/Echo%20Isles) in [Echon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Echon), governing the isles and practicing Loa worship.
+
+## Overview
+
+- **Homeland**: [Echo Isles](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Regions/Echo%20Isles)
+- **Religion**: Loa pantheon worship
+- **Economy**: Predominantly barter-based systems
+- **Leadership**: Tribal governance structures
+
+## Related
+
+- **[Echo Isles](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Regions/Echo%20Isles)** — Region under their control
+- **[Echon](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Echon)** — Parent region

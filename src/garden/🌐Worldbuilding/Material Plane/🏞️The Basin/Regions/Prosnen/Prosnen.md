@@ -1,8 +1,8 @@
 ---
 banner: /static/Prosnen01.png
 continent: The Basin
-date created: Tuesday, February 25th 2025, 10:44:22 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
+date created: Friday, October 6th 2023, 7:41:43 pm
+date modified: Sunday, March 23rd 2025, 9:35:06 pm
 eleventyNavigation:
   key: Prosnen
   parent: The Basin
@@ -10,20 +10,13 @@ herocolor0: 184
 herocolor1: 188
 herocolor2: 197
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CProsnen/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen/
 plane: Material Plane
-title: Prosnen
----
-
----
-dg-publish: true
+sum: []
 title: Prosnen
 type: Settlement
-date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Saturday, February 15th 2025, 12:14:35 am
-sum: []
-banner: "![](/static/Prosnen01.png)"
 ---
 
 ![](/static/Prosnen01.png)

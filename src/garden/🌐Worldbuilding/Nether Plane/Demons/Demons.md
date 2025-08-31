@@ -3,16 +3,16 @@ banner: /static/Demons.png
 banner_y: 0.332
 continent: Demons
 date created: Monday, December 11th 2023, 1:18:30 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Demons
   parent: Nether Plane
-herocolor0: 260
-herocolor1: 289
+herocolor0: 261
+herocolor1: 288
 herocolor2: 340
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane/Nether Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CDemons/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Nether Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Demons/
 plane: Nether Plane
 status: sprout
 sum:
@@ -28,7 +28,7 @@ sum:
 - Tormentors extract pleasure from inflicting physical and emotional pain on others.
 - Devourers embody insatiable gluttony, consuming everything indiscriminately.
 title: Demons
-type: Meta
+type: Race
 ---
 
 Amidst the chaos of [The Shattering](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering) the very fabric of divinity was rent asunder. From the remnants of this divine energy, a new, sinister lifeform emerged: demons. These entities are not mere villains to be vanquished; they are incarnations of the most profound horrors imaginable.

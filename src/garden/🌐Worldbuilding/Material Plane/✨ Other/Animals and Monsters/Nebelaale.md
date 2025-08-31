@@ -1,18 +1,19 @@
 ---
 continent: Other
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Saturday, February 15th 2025, 12:14:34 am
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Nebelaale
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CAnimals%20and%20Monsters/Nebelaale/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Animals%20and%20Monsters/Nebelaale/
 plane: Material Plane
 title: Nebelaale
+type: Thing
 ---
 
 Nebelaale sind überwiegend im Wasser zu finden. Es sind Tiere die eine starke Bindung zu den magic Nodes haben und selbst auch Mana aus den Nodes in sich aufnehmen können. Sie können sich sogar von dem Mana ernähren. 

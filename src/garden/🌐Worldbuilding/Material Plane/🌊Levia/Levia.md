@@ -1,25 +1,16 @@
 ---
-banner: /static/Placeholder.png
-continent: Levia
-date created: Thursday, December 14th 2023, 12:02:12 am
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
-eleventyNavigation:
-  key: Levia
-  parent: Material Plane
-herocolor0: 67
-herocolor1: 43
-herocolor2: 53
-layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%8ALevia/Levia/
-plane: Material Plane
+type: Continent
+banner: "![[Levia-Atmosphere.png]]"
 title: Levia
+status: sprout
+type: Region
+date created: Thursday, December 14th 2023, 12:02:12 am
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 ---
-
 ## Geography
 ### Notable Settlements:
-- The Watergates: Giant gates to control water traffic.
-- [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia): The Capital of [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia)
+- [[🌐Skoria/🌐Worldbuilding/Material Plane/🌊Levia/Regions/The Watergates|The Watergates]] : Giant gates to control water traffic.
+- [[Levia]]: The Capital of [[Levia]]
 
 ### Scenery and Climate:
 
@@ -28,6 +19,8 @@ Levia's scenery is a mesmerizing blend of architectural ingenuity and natural be
 Levia's climate is characterized by a temperate maritime influence due to its proximity to the water. Winters are mild, with gentle breezes and occasional rainfall. Summers are warm, but never scorching, offering perfect conditions for outdoor activities. The city receives its fair share of rainfall, which is collected and utilized for various purposes, making it largely self-sustaining.
 
 ### Flora and Fauna:
+
+The [[Cepha]], [[Levian Octari]], [[Storm Elves]] and [[Naga]] call Levia their homes.
 
 Floating Gardens: Levia boasts a unique ecosystem of floating gardens, where a myriad of plant species thrive. Water lilies, lotus flowers, and reeds grace the surface, creating a picturesque and serene atmosphere. These gardens are also home to various waterfowl, from graceful swans to vibrant kingfishers.
 
@@ -42,11 +35,11 @@ Levia's culture is a rich tapestry woven from the threads of history, ingenuity,
 
 There are two factions inside Levia. The modern People who protect the other countries and support the global market against the traditional People who once lived like nomads in accordance with the sea.
 
-They pray especially for [Geran](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Geran), [Ocea](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Ocea), [Zarinesh](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh) and [Sori](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Sori)
+They pray especially for [[Geran]], [[Ocea]], [[Zarinesh]] and [[Sori]]
 
 ### Politics and Economy:
 
-The Leaders of Levia controll the water Traffic in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) and control the biggest hanseatic harbour in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). They play a big Role on the global market in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). Also the giant Watergates a supposed to protect [Levia](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Levia) and also 
+The Leaders of Levia controll the water Traffic in [[Skoria]] and control the biggest hanseatic harbour in [[Skoria]]. They play a big Role on the global market in [[Skoria]]. Also the giant Watergates a supposed to protect [[Levia]] and also 
 
 ### History and Origin:
 

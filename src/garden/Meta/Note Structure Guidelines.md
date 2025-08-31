@@ -1,14 +1,16 @@
 ---
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, August 31st 2025, 10:12:10 pm
 eleventyNavigation:
   key: Note Structure Guidelines
 layout: base.njk
-path: /garden%5CMeta/Note%20Structure%20Guidelines/
+path: /garden/Meta/Note%20Structure%20Guidelines/
+status: ???
 title: Note Structure Guidelines
+type: null
 ---
 
-## Folder Structure
+# Folder Structure
 
 Obsidian notes in this Repo are structured this way:
 
@@ -43,7 +45,7 @@ Obsidian notes in this Repo are structured this way:
 	 └── ...
 ```
 
-## Frontmatter
+# Frontmatter
 
 Frontmatter helps with the organization and categorization of notes. It should be included at the beginning of each note and follow this general structure:
 
@@ -51,7 +53,7 @@ Frontmatter helps with the organization and categorization of notes. It should b
 ---
 aliases: [alternative name, abbreviation]
 tags: [tag1, tag2]
-type: Region/Settlement, Locality, NPC, SideNPC, Faction, History, Arc, Plot, Scene, Thing, Deity
+type: Region/Settlement, Locality, NPC, SideNPC, Faction, History, Arc, Plot, Scene, Thing, Deity, Race
 sum:
 - summery of the note in bullet points for refference in gpt templates
 - can have multiple bullet points or just one
@@ -74,15 +76,15 @@ Note content goes here.
 - `status`: Indicates the level of completion or development of the note. The categories are:
   - `seed`: A basic idea or concept that needs further development. This topic is up for grabs.
   - `sprout`: A developed concept with some fleshed-out details. Talk to the owner before working on it.
-  - `tree`: A fully developed and detailed note, that is deeply rooted into your campain, many secrets exist under the surface.
+  - `tree`: A fully developed and detailed note, that is deeply rooted into your campaign, many secrets exist under the surface.
   - `willow`: a deprecated note that needs trimming or is outdated.
 
-## Formatting
+# Formatting
 
 It is a good idea to follow this guideline for writing notes:
 
 - Start with a flavor Text
-- Use h1 for chapters- Use h2 for sub-chapters or sections within a chapter
+- Use h1 for chaptersUse h2 for sub-chapters or sections within a chapter
 - Use h3 for sub-sections within a section
 - Use bullet points or numbered lists for organizing information and details
 - Use bold and italic text to emphasize important points or keywords
@@ -91,6 +93,6 @@ It is a good idea to follow this guideline for writing notes:
 
 Example Formatting can be found at [Example Site](/garden/Meta/Example%20Site)
 
-## Images and Media
+# Images and Media
 
 When including Images, include them INSIDE the Repo, otherwise they won't be synced. Please only use selfmade Images that you hold copyright to.

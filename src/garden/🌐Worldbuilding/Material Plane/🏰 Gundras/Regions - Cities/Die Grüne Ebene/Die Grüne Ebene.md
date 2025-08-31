@@ -1,30 +1,19 @@
 ---
-banner: /static/GrüneEbene.png
-continent: Gundras
-date created: Tuesday, February 25th 2025, 10:44:22 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
-eleventyNavigation:
-  key: Die Grüne Ebene
-  parent: Gundras
-herocolor0: 98
-herocolor1: 101
-herocolor2: 107
-layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰 Gundras/Gundras.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0%20Gundras%5CRegions%20-%20Cities%5CDie%20Gr%C3%BCne%20Ebene/
-plane: Material Plane
+type: ???
+banner: "![[GrüneEbene.png]]"
 title: Die Grüne Ebene
+date created: Tuesday, February 25th 2025, 10:44:22 pm
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 ---
-
 ---
-banner: "![](/static/Gr%C3%BCneEbene.png)"
+banner: "![[GrüneEbene.png]]"
 ---
 ---
 dg-publish: true
 title: Die Grüne Ebene
 type: Region
 status: seed
-banner: "![](/static/Placeholder.png)"
+banner: "![[.png]]"
 date created: Monday, July 15th 2024, 8:32:12 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
 ---

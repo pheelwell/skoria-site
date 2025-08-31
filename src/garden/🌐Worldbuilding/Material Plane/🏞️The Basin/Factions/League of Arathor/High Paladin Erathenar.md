@@ -9,9 +9,9 @@ eleventyNavigation:
   key: High Paladin Erathenar
   parent: League of Arathor
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Factions\League of
-  Arathor/League of Arathor.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/High%20Paladin%20Erathenar/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Factions/League
+  of Arathor/League of Arathor.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor/High%20Paladin%20Erathenar/
 plane: Material Plane
 sum:
 - Erathenar is the leader of the League of Arathor and High Paladin of Lichtachte.

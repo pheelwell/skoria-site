@@ -10,11 +10,11 @@ eleventyNavigation:
   key: Zercil Berwood
   parent: Gandmuel
 herocolor0: 192
-herocolor1: 149
+herocolor1: 150
 herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Gandmuel/Gandmuel.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CGandmuel/Zercil%20Berwood/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Gandmuel/Gandmuel.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel/Zercil%20Berwood/
 plane: Material Plane
 title: Zercil Berwood
 type: SideNPC

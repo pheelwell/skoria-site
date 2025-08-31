@@ -2,20 +2,22 @@
 banner: /static/ViewOverSelkath.png
 continent: Selkath
 date created: Thursday, December 14th 2023, 12:02:12 am
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: Selkath
   parent: Material Plane
-herocolor0: 26
-herocolor1: 19
+herocolor0: 27
+herocolor1: 20
 herocolor2: 32
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8C%BFSelkath/Selkath/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%BFSelkath/Selkath/
 plane: Material Plane
 title: Selkath
+type: ???
 ---
 
+![](/static/ViewOverSelkath.png)
 ## Notable Settlements:
 - Alzivar: A Mage Tower, located more far from the rest of Selkath. 
 - Diamoure: The Capital of Selkath. 

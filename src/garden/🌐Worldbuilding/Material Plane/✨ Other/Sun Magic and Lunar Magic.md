@@ -1,17 +1,17 @@
 ---
 continent: Other
 date created: Wednesday, October 18th 2023, 10:23:59 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 dg-publish: true
 eleventyNavigation:
   key: Sun Magic and Lunar Magic
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other/Sun%20Magic%20and%20Lunar%20Magic/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Sun%20Magic%20and%20Lunar%20Magic/
 plane: Material Plane
 sum:
 - Sun Magic pulls its power from the sun and a big magic node in Gundras
@@ -21,8 +21,7 @@ sum:
 - Sun and Lunar Magic can only be used in its full potential in Gundras, where the
   big Magic Nodes are located
 title: Sun Magic and Lunar Magic
-type: Region/Settlement, Locality, NPC, SideNPC, Faction, History, Arc, Plot, Scene,
-  Thing, Deity
+type: Thing
 ---
 
 ## Overview

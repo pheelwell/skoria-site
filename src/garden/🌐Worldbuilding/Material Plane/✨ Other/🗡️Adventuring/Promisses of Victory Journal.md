@@ -1,18 +1,19 @@
 ---
 continent: Other
 date created: Friday, October 6th 2023, 6:38:52 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
+date modified: Sunday, March 23rd 2025, 9:36:20 pm
 eleventyNavigation:
   key: Promisses of Victory Journal
   parent: Adventuring
-herocolor0: 37
+herocolor0: 42
 herocolor1: 163
 herocolor2: 79
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\✨ Other\🗡️Adventuring/Adventuring.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Promisses%20of%20Victory%20Journal/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Promisses%20of%20Victory%20Journal/
 plane: Material Plane
 title: Promisses of Victory Journal
+type: Journal
 ---
 
 ![](/static/povv.png)
@@ -52,7 +53,7 @@ title: Promisses of Victory Journal
 - On their way to [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel), they get ambushed by Hemmet who is turned into a hunter now hunting for human flesh by the Shadowhammer riding corrupted dragon
 - In [Gandmuel](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel), Semloh Kolrehs fails to rescue his mother from flames caused by their encounter with Hemmet
 - Semloh carries his mother into the forest where he sees a person in bright light telling him everything will be reverted
-![](/static/Skelter_D%C3%BCsternest.png)
+![](/static/Placeholder.png)
 ## Chapter 9: [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Lost%20Hops/The%20Lost%20Hops) and [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte) Cathedral Heist
 - In [Duesternest](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Duesternest), they meet Izen who tries to get in contact with [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Lost%20Hops/The%20Lost%20Hops)
 - The party gets robbed by [The Daughters (burglars crew)](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Lost%20Hops/The%20Daughters%20%28burglars%20crew%29) and are abducted to [The Lost Hops](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Lost%20Hops/The%20Lost%20Hops) Headquarters. 

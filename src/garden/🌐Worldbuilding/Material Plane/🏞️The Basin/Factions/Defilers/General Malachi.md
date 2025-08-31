@@ -7,12 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: General Malachi
   parent: Defilers
-herocolor0: 192
-herocolor1: 149
-herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Factions\Defilers/Defilers.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CDefilers/General%20Malachi/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Factions/Defilers/Defilers.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers/General%20Malachi/
 plane: Material Plane
 sum:
 - Malachi is a leader of the Defilers, who was exiled from Lichtachte for practicing

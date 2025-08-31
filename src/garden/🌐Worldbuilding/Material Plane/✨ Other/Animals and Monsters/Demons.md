@@ -1,18 +1,19 @@
 ---
 continent: Other
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Demons
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CAnimals%20and%20Monsters/Demons/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Animals%20and%20Monsters/Demons/
 plane: Material Plane
 title: Demons
+type: Thing
 ---
 
 Living in the void between the nether and the other planes. 

@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Leptys
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Leptys/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Leptys/
 plane: Nether Plane
 sum:
 - 'Title : The Beginning'
@@ -41,21 +41,21 @@ type: Deity
 
 ## Worshipers
 
-Priests and Paladins arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) worship to Leptys. For them he brings Life and Fertility to the people. They pray for a Long Life, for Health or assistance.
+Priests and Paladins arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) worship to Leptys. For them he brings Life and Fertility to the people. They pray for a Long Life, for Health or assistance.
 
 His direct subordinates are called the Ascendents Of Life. He gives them orders to fullfill his will.
 
 ## Temples
 
-There are many Temples for Leptys arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). He is one of the most worshipped Gods, for his origin and abilities.
+There are many Temples for Leptys arround [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria). He is one of the most worshipped Gods, for his origin and abilities.
 
 ## Lore
 
 ### The Cycle of Life and Death
 
-Leptys can give Life, create Life, let [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
+Leptys can give Life, create Life, let [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) bloom in all his beauty. His other Part is [Varuún](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn) the God of Death. He takes the Souls of the Dead and lead them to their afterlife.
 
-They both need each other to fullfill a working life - death balance in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria). 
+They both need each other to fullfill a working life - death balance in [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria). 
 
 ## Roleplaying
 ### Goals and Motivations

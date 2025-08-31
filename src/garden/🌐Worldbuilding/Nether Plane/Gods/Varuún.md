@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Varuún
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Varu%C3%BAn/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Varu%C3%BAn/
 plane: Nether Plane
 sum:
 - 'Title : The Death'
@@ -31,7 +31,7 @@ type: Deity
 Varuún, known as The Death, is a deity of death and undeath, associated with the element of Undeath. Worshipers seek knowledge and wisdom through their connection to this enigmatic deity.
 
 > [!TIP] Quick Reference
-> ![](/static/Var%C3%BAun.png)
+> ![](/static/Placeholder.png)
 > 
 > **Varuún** 
 >  The enigmatic deity of death and undeath

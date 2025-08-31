@@ -1,20 +1,9 @@
 ---
-continent: Gundras
-date created: Thursday, August 1st 2024, 11:12:13 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
-eleventyNavigation:
-  key: Mai Bos
-  parent: Gundras
-herocolor0: 214
-herocolor1: 207
-herocolor2: 184
-layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰 Gundras/Gundras.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0%20Gundras%5CFactions/Mai%20Bos/
-plane: Material Plane
+type: ???
 title: Mai Bos
+date created: Thursday, August 1st 2024, 11:12:13 pm
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 ---
-
 ## The Mai Bos: Guardians of the Bosque Forest
 
 ### General Information
@@ -33,7 +22,7 @@ The Mai Bos serve as both warriors and healers of the forest. They wear ritual g
 
 Most Mai Bos reside in the nearby city of Gaban, from where they organize their patrols and duties in the forest. The presence of the Mai Bos has transformed Gaban into a center of harmony between humans and nature. The inhabitants respect and support the Mai Bos in their mission, and many young people dream of one day becoming a Mai Bos themselves.
 
-![](/static/MaiBos-Glove01.png)  ![](/static/MaiBos-Glove02.png)
+![[MaiBos-Glove01.png|150]]  ![[MaiBos-Glove02.png|150]]
 
 #### Bond with Animals
 

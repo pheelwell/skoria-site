@@ -1,7 +1,7 @@
 ---
 continent: The Basin
 date created: Thursday, June 27th 2024, 1:15:43 am
-date modified: Saturday, February 15th 2025, 12:14:35 am
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Kellin van Grindern
   parent: Prosnen
@@ -9,8 +9,9 @@ herocolor0: 184
 herocolor1: 188
 herocolor2: 197
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Regions\Prosnen/Prosnen.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CProsnen%5CCharacters/Kellin%20van%20Grindern/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Prosnen/Prosnen.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen/Characters/Kellin%20van%20Grindern/
 plane: Material Plane
 title: Kellin van Grindern
+type: ???
 ---

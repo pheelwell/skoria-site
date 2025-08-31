@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Nefaris
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods%5CNefaris/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Nefaris/
 plane: Nether Plane
 status: sprout
 sum:
@@ -53,17 +53,17 @@ type: NPC
 - Domain: Contracts
 - Associated Element: Duty, Work
 
->[!info](/garden/%F0%9F%8C%90Worldbuilding/Skoria), Nefaris is the embodiment of order and hierarchy—a master of infernal contracts and soul-bound deals. He ensures that every diabolical agreement is backed by stringent terms and conditions.
+>[!info](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria), Nefaris is the embodiment of order and hierarchy—a master of infernal contracts and soul-bound deals. He ensures that every diabolical agreement is backed by stringent terms and conditions.
 
 ## Overview
 
 In the foreboding plane Axirex in the [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane), Nefaris presides with an iron fist over a vast labyrinthine bureaucracy. Likened to an immense corporate entity, this domain operates with legions of devils vying for supremacy within their ranks, each motivated by the unyielding desire to ascend the infernal hierarchy.
 
-Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria) is partitioned into seven specialized divisions. Each one adept in distinct facets of contractual subterfuge and manipulation—overseen by formidable lieutenants who answer only to the Archdevil himself.
+Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) is partitioned into seven specialized divisions. Each one adept in distinct facets of contractual subterfuge and manipulation—overseen by formidable lieutenants who answer only to the Archdevil himself.
 
 > [!TIP] Quick Reference
 > ![](/static/Placeholder.png)
->*Nefaris*: Archdevil overseeing infernal contracts within [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria).
+>*Nefaris*: Archdevil overseeing infernal contracts within [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria).
 >*Domain Elements*: Duty & Work associated with contract dealings.
 > *Seven Divisions*: Specialized departments handling various aspects related to soul-binding pacts.
 > *Role*: A paragon of order; ruthless against any dissent.
@@ -84,7 +84,7 @@ Under Nefaris' meticulous gaze, [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skori
    
 7. **Division of Archived Knowledge**: Guardians of a vast repository containing all past contracts, they provide consultations on historical precedents and possess potent secrets that can turn the tide in contract negotiations.
 
-## Role within [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Skoria)
+## Role within [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria)
 
 Nefaris stands as a figure both revered and feared within his dominion—an Archdevil who prizes dutifulness and cunning but displays no mercy for failure or defiance. His subjects operate knowing that ascension could mean substantial power gains while demotion spells out aeons in monotonous servitude—or far worse fates.
 

@@ -10,8 +10,9 @@ herocolor0: 10
 herocolor1: 16
 herocolor2: 29
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏜️Irasnian Wastes/Irasnian Wastes.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes%5CRegions/Zarineshs%20Hand/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
+  Wastes/Irasnian Wastes.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Regions/Zarineshs%20Hand/
 plane: Material Plane
 status: tree
 sum: Zarinesh's Hand is a colossal stone hand in the Irasnian Wastes, believed to

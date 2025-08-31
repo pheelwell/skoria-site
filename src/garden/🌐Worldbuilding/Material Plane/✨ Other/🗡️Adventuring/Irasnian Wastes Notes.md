@@ -1,18 +1,19 @@
 ---
 continent: Other
 date created: Sunday, November 12th 2023, 1:21:36 pm
-date modified: Saturday, February 15th 2025, 12:14:34 am
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring
-herocolor0: 37
+herocolor0: 42
 herocolor1: 163
 herocolor2: 79
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\✨ Other\🗡️Adventuring/Adventuring.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5C%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Notes/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Notes/
 plane: Material Plane
 title: Irasnian Wastes Notes
+type: Journal
 ---
 
 ## Behind the Scenes

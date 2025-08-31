@@ -2,7 +2,7 @@
 banner: /static/Cepha.png
 continent: Other
 date created: Tuesday, February 25th 2025, 10:44:22 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Cepha
   parent: Material Plane
@@ -10,10 +10,11 @@ herocolor0: 200
 herocolor1: 194
 herocolor2: 166
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CRaces/Cepha/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Cepha/
 plane: Material Plane
 title: Cepha
+type: Race
 ---
 
 ---

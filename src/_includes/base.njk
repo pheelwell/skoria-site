@@ -1,5 +1,8 @@
 {% set hueMain = herocolor0 or 202.4 %}
 {% set hueBg = herocolor2 or hueMain %}
+{% set hero0 = herocolor0 or hueMain %}
+{% set hero1 = herocolor1 or hueMain %}
+{% set hero2 = herocolor2 or hueMain %}
 {% set bannerFinal = banner or (metadata and title and metadata[title] and metadata[title].banner) %}
 <!doctype html>
 <html lang="en" class="no-js">
@@ -22,23 +25,47 @@
     /* Accent theme derived from primary hero color */
     --accent-fg: hsl({{ hueMain }}, 70%, 66%);
     --accent-fg-dim: hsl({{ hueMain }}, 55%, 60%);
+    
+    /* Hero color variables with variations */
+    --hero0: hsl({{ hero0 or hueMain }}, 70%, 50%);
+    --hero0-dark: hsl({{ hero0 or hueMain }}, 70%, 30%);
+    --hero0-light: hsl({{ hero0 or hueMain }}, 70%, 70%);
+    --hero0-saturated: hsl({{ hero0 or hueMain }}, 90%, 50%);
+    
+    --hero1: hsl({{ hero1 or hueMain }}, 70%, 50%);
+    --hero1-dark: hsl({{ hero1 or hueMain }}, 70%, 30%);
+    --hero1-light: hsl({{ hero1 or hueMain }}, 70%, 70%);
+    --hero1-saturated: hsl({{ hero1 or hueMain }}, 90%, 50%);
+    
+    --hero2: hsl({{ hero2 or hueBg }}, 70%, 50%);
+    --hero2-dark: hsl({{ hero2 or hueBg }}, 70%, 30%);
+    --hero2-light: hsl({{ hero2 or hueBg }}, 70%, 70%);
+    --hero2-saturated: hsl({{ hero2 or hueBg }}, 90%, 50%);
   ">
     {% include "components/navbar.njk" %}
 
+    <!-- Aurora background - lowest layer, outside swup containers -->
+    <div class="aurora" data-hue-bg="{{ hueBg }}" data-hero0="{{ hero0 }}" data-hero1="{{ hero1 }}" data-hero2="{{ hero2 }}">
+      <div class="aurora-layer"></div>
+      <div class="aurora-stars"></div>
+    </div>
+
+    <!-- Banner layer - middle layer -->
+    <div id="swup-banner" class="swup-container" data-hue-main="{{ hueMain }}" data-hue-bg="{{ hueBg }}" data-hero0="{{ hero0 }}" data-hero1="{{ hero1 }}" data-hero2="{{ hero2 }}">
+      {% if bannerFinal %}
+        <div class="banner">
+          <img src="{{ bannerFinal }}" alt="Banner for {{ title }}" />
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- Content layer - top layer -->
     <main class="site-main">
-      <!-- hc 0/1/2 hold r g b and drive theme variables -->
-      <div class="aurora">
-        <div class="aurora-layer"></div>
-        <div class="aurora-stars"></div>
-      </div>
-      <div id="swup" class="transition-fade" data-hue-main="{{ hueMain }}" data-hue-bg="{{ hueBg }}">
+      <div id="swup" class="transition-fade" data-hue-main="{{ hueMain }}" data-hue-bg="{{ hueBg }}" data-hero0="{{ hero0 }}" data-hero1="{{ hero1 }}" data-hero2="{{ hero2 }}">
         <div class="container">
-        {% if bannerFinal %}
-          <div class="banner">
-            <img src="{{ bannerFinal }}" alt="Banner for {{ title }}" />
-          </div>
-        {% endif %}
-        <article class="prose">
+        <!-- Debug: password={{ password }}, passwordhint={{ passwordhint }} -->
+        <!-- DEBUG: password={{ password }}, passwordhint={{ passwordhint }}, all data: {{ page.data | dump }} -->
+        <article class="prose" data-password="{{ password }}" data-password-hint="{{ passwordhint }}">
           {% if title %}
             <header class="article-header">
               <h1 class="article-title">{{ title }}</h1>
@@ -49,6 +76,16 @@
         </div>
       </div>
     </main>
+
+    <!-- Password protection overlay -->
+    <div class="password-overlay" id="passwordOverlay">
+      <div class="password-form">
+        <p id="passwordHint">This content is protected. Please enter the password to continue.</p>
+        <input type="password" id="passwordInput" class="password-input" placeholder="Enter password..." />
+        <button id="passwordSubmit" class="password-submit">Unlock</button>
+        <div id="passwordError" class="password-error">Incorrect password. Please try again.</div>
+      </div>
+    </div>
 
     {% include "components/footer.njk" %}
 

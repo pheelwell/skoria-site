@@ -18,6 +18,8 @@ body {
   background: var(--main-background-color);
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  position: relative;
+  z-index: -2;
 }
 
 /* Smoothly animate theme CSS variables on navigation */
@@ -31,9 +33,41 @@ html.theme-animate body {
     background-color 10s ease;
 }
 
+/* Aurora transition animation - this is the key one */
+html.theme-animate .aurora-layer {
+  transition: background 10s ease !important;
+}
+
+/* Specific elements that use hero colors and need to transition */
+html.theme-animate .planes details,
+html.theme-animate .continents details,
+html.theme-animate .type li a,
+html.theme-animate .callout,
+html.theme-animate .card,
+html.theme-animate article.prose blockquote {
+  transition: 
+    background 10s ease,
+    background-color 10s ease,
+    border-color 10s ease,
+    box-shadow 10s ease !important;
+}
+
+/* Ensure glow effects also transition */
+html.theme-animate .planes details::after,
+html.theme-animate .continents details::after,
+html.theme-animate .callout::after,
+html.theme-animate .card::after,
+html.theme-animate article.prose blockquote::after {
+  transition: 
+    background 10s ease,
+    opacity 10s ease,
+    filter 10s ease !important;
+}
+
 .container {
-  width: min(1100px, calc(100% - 2rem));
+  width: min(1400px, calc(100% - 2rem));
   margin-inline: auto;
+  margin-top: 0;
 }
 
 .site-header {
@@ -119,15 +153,16 @@ html.theme-animate body {
   padding: 2rem;
   box-shadow: none;
   opacity: 0;
-  transform: translateY(100%);
-  transition: opacity .3s ease, transform .3s ease;
+  transform: translateY(100%) scale(0.95);
+  transition: opacity .4s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform .4s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
   z-index: 1000;
 }
 
 [data-nav][open] .dropdown-panel {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
   pointer-events: auto;
 }
 
@@ -143,6 +178,9 @@ html.theme-animate body {
   border-radius: 8px;
   transition: background .2s ease, transform .2s ease;
   z-index: 1001;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeInScale 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.2s forwards;
 }
 
 .modal-close:hover {
@@ -179,6 +217,18 @@ html.theme-animate body {
 /* Animate articles when continents open */
 .continents details[open] .types .type { animation: navItemIn .2s ease both; }
 .continents details[open] .types .type:nth-child(2) { animation-delay: .05s; }
+
+/* Fade-in scale animation for modal close button */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .continents details[open] .types .type:nth-child(3) { animation-delay: .1s; }
 .continents details[open] .types .type:nth-child(4) { animation-delay: .15s; }
 .continents details[open] .types .type:nth-child(5) { animation-delay: .2s; }
@@ -420,13 +470,30 @@ html.theme-animate body {
 }
 
 .site-main {
-  z-index: 1;
-  min-height: 200vh;
+  position: relative;
+  z-index: 2;
+  min-height: 100vh; /* Reduced from 200vh to reduce excessive space */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 100px;
   margin-top: -100px;
+}
+
+/* Swup containers for different layers */
+.swup-container {
+  position: relative;
+}
+
+/* Banner layer - middle z-index */
+#swup-banner {
+  z-index: -1;
+  position: relative;
+}
+
+/* Content layer - highest z-index */
+#swup {
+  z-index: 2;
 }
 
 .aurora {
@@ -440,32 +507,17 @@ html.theme-animate body {
 .aurora-layer {
   position: absolute;
   inset: -10%;
-  background: radial-gradient(1200px 700px at 20% 10%, color-mix(in oklab, var(--tertiary-background-color) 70%, transparent), transparent 60%),
-    radial-gradient(900px 600px at 80% 0%, color-mix(in oklab, var(--secondary-background-color) 70%, transparent), transparent 60%),
-    conic-gradient(from 180deg at 70% 30%, rgba(255, 255, 255, .05), rgba(255, 255, 255, 0) 70%);
-  filter: blur(40px) saturate(120%);
+  background: radial-gradient(1200px 1700px at 25% 10%, color-mix(in oklab, var(--hero2) 0%, transparent), transparent 40%),
+    radial-gradient(1000px 1000px at 80% 90%, 
+                    color-mix(in oklab, var(--hero1) 30%, transparent),
+                    transparent 100%),
+    conic-gradient(from 160deg at 70% 30%,
+                  color-mix(in oklab, var(--hero0) 0%,transparent),
+                  color-mix(in oklab, var(--hero0) 20%, transparent),
+                   rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 70%);
   will-change: transform;
-  animation: drift 45s ease-in-out infinite alternate;
-}
-
-.aurora-stars{ position: absolute; inset: 0; }
-.aurora-dust{ position: absolute; inset: 0; }
-.aurora-stars::before,
-.aurora-stars::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(1px 1px at 30% 40%, rgba(255, 255, 255, .7) 50%, transparent 61%),
-    radial-gradient(1px 1px at 70% 30%, rgba(255, 255, 255, .6) 50%, transparent 61%),
-    radial-gradient(1px 1px at 80% 70%, rgba(255, 255, 255, .75) 50%, transparent 61%),
-    radial-gradient(1px 1px at 40% 80%, rgba(255, 255, 255, .5) 50%, transparent 61%);
-  opacity: .25;
-}
-
-.aurora-stars::after {
-  transform: scale(1.5);
-  opacity: .15;
+  filter: blur(10px);
+  z-index: -1;
 }
 
 @keyframes drift {
@@ -482,101 +534,84 @@ html.theme-animate body {
   }
 }
 
-/* Twinkly stars and dust */
-.aurora-stars::before,
-.aurora-stars::after {
-  content: "";
-  position: absolute;
-  inset: -20%;
-  background-repeat: repeat;
-  animation: twinkle 6s ease-in-out infinite;
-}
 
-.aurora-stars::before {
-  background-image:
-    radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, .8) 50%, transparent 51%),
-    radial-gradient(1px 1px at 30% 40%, rgba(255, 255, 255, .7) 50%, transparent 51%),
-    radial-gradient(1px 1px at 70% 30%, rgba(255, 255, 255, .6) 50%, transparent 51%),
-    radial-gradient(1px 1px at 80% 70%, rgba(255, 255, 255, .75) 50%, transparent 51%),
-    radial-gradient(1px 1px at 40% 80%, rgba(255, 255, 255, .5) 50%, transparent 51%);
-  opacity: .25;
-}
-
-.aurora-stars::after {
-  transform: scale(1.4);
-  background-image:
-    radial-gradient(0.8px 0.8px at 15% 10%, rgba(255, 255, 255, .7) 50%, transparent 51%),
-    radial-gradient(0.8px 0.8px at 55% 35%, rgba(255, 255, 255, .55) 50%, transparent 51%),
-    radial-gradient(0.8px 0.8px at 75% 65%, rgba(255, 255, 255, .6) 50%, transparent 51%),
-    radial-gradient(0.8px 0.8px at 25% 75%, rgba(255, 255, 255, .45) 50%, transparent 51%),
-    radial-gradient(0.8px 0.8px at 85% 45%, rgba(255, 255, 255, .5) 50%, transparent 51%);
-  opacity: .18;
-}
-
-.aurora-dust::before,
-.aurora-dust::after {
-  content: "";
-  position: absolute;
-  inset: -30%;
-  pointer-events: none;
-  background-image:
-    radial-gradient(2px 2px at 10% 10%, rgba(255, 255, 255, .25) 40%, transparent 41%),
-    radial-gradient(1.5px 1.5px at 30% 60%, rgba(255, 255, 255, .18) 40%, transparent 41%),
-    radial-gradient(1.2px 1.2px at 70% 20%, rgba(255, 255, 255, .20) 40%, transparent 41%),
-    radial-gradient(1px 1px at 85% 75%, rgba(255, 255, 255, .16) 40%, transparent 41%),
-    radial-gradient(1px 1px at 45% 35%, rgba(255, 255, 255, .14) 40%, transparent 41%);
-  background-repeat: repeat;
-  opacity: .22;
-  filter: blur(.2px);
-  animation: dust-float 60s linear infinite;
-}
-
-.aurora-dust::after {
-  transform: scale(1.6);
-  opacity: .12;
-  animation-duration: 80s;
-}
-
-@keyframes twinkle {
-
-  0%,
-  100% {
-    opacity: .2;
-  }
-
-  50% {
-    opacity: .35;
-  }
-}
-
-@keyframes dust-float {
-  from {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-
-  to {
-    transform: translate3d(-8%, -6%, 0) scale(1.02);
-  }
-}
 
 .banner {
-  margin-top: 1rem;
+  margin-top: -10rem;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .08);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, .35);
+  border: none;
   background: var(--main-background-color);
+  position: relative;
+  width: calc(100% + 4rem);
+  height: 800vh;
+  min-height: 300px;
+  max-height: 700px;
 }
 
 .banner img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-article.prose {
-  position: relative;
-  padding: 2rem 0 4rem;
+.banner::after {
+  /*Gradient to background color*/
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--main-background-color));
 }
+
+
+article.prose {
+  background: #f8f5e6;
+  color: #2e3032;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+  margin: 2rem 0;
+  border-radius: 3px;
+  padding: 6rem 10rem 10rem 10rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh; /* Ensure paper has substantial height even with little content */
+}
+
+/* Paper texture overlay with decorative elements */
+article.prose::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    url('data:image/svg+xml;utf8,<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0"/></filter><rect width="200" height="200" filter="url(%23noise)" opacity="0.15"/></svg>'),
+    radial-gradient(40px 40px at 85% 15%, rgba(146, 107, 75, 0.15) 0%, transparent 50%),
+    radial-gradient(30px 30px at 10% 80%, rgba(146, 107, 75, 0.1) 0%, transparent 50%),
+    radial-gradient(25px 25px at 75% 90%, rgba(146, 107, 75, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Subtle grid pattern for paper texture */
+article.prose::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v100H0z" fill="%23f8f5e6"/><path d="M20 20h2v2h-2zm30 0h2v2h-2zm30 0h2v2h-2zM5 35h2v2H5zm30 0h2v2h-2zm30 0h2v2h-2zM20 50h2v2h-2zm30 0h2v2h-2zm30 0h2v2h-2zM5 65h2v2H5zm30 0h2v2h-2zm30 0h2v2h-2zM20 80h2v2h-2zm30 0h2v2h-2zm30 0h2v2h-2z" fill="%23d6ceb9"/></svg>');
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+
 
 .article-header {
   margin-bottom: 2rem;
@@ -587,15 +622,17 @@ article.prose {
   font-family: "EB Garamond", serif;
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--text);
+  color: #2e3032;
   margin: 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--accent-fg), var(--accent-fg-dim));
+  background: linear-gradient(135deg, #926b4b, #7a5a3f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 30px color-mix(in oklab, var(--accent-fg) 20%, transparent);
+  text-shadow: 0 0 30px rgba(146, 107, 75, 0.2);
+  position: relative;
+  z-index: 2;
 }
 
 article.prose h1,
@@ -604,11 +641,14 @@ article.prose h3,
 article.prose h4 {
   font-family: "EB Garamond", serif;
   letter-spacing: .01em;
+  color: #2e3032;
+  position: relative;
+  z-index: 2;
 }
 
 article.prose h1 {
   font-size: clamp(2rem, 2.5vw, 3rem);
-  margin: 1.2em 0 .6em;
+  margin: 0em 0 1em;
 }
 
 article.prose h2 {
@@ -624,21 +664,27 @@ article.prose h3 {
 article.prose p,
 article.prose li {
   line-height: 1.8;
-  color: #e3e3e6;
+  color: #2e3032;
+  position: relative;
+  z-index: 2;
 }
 
 article.prose a {
-  color: color-mix(in oklab, var(--accent-fg) 80%, white);
+  color: #926b4b;
   text-decoration: underline;
   text-underline-offset: 2px;
+  position: relative;
+  z-index: 2;
 }
 
 article.prose blockquote {
   margin: 1rem 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid rgba(255, 255, 255, .15);
-  background: rgba(255, 255, 255, .03);
+  border-left: 3px solid rgba(146, 107, 75, 0.3);
+  background: rgba(146, 107, 75, 0.05);
   border-radius: 8px;
+  position: relative;
+  z-index: 2;
 }
 
 /* Images and media in articles: centered and constrained */
@@ -652,16 +698,20 @@ article.prose a > img {
   object-fit: contain;
   margin: 1rem auto; /* center */
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 article.prose figure {
   margin: 1.25rem auto;
   max-width: 100%;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 article.prose figure img { margin: 0 auto; }
-article.prose figure figcaption { color: var(--muted); font-size: .9rem; margin-top: .5rem; }
+article.prose figure figcaption { color: #6b6b6b; font-size: .9rem; margin-top: .5rem; position: relative; z-index: 2; }
 
 /* Videos / iframes */
 article.prose video,
@@ -696,41 +746,19 @@ article.prose blockquote {
   margin: 1rem 0;
   border-radius: 14px;
   padding: .9rem 1.1rem;
-  background:
-    linear-gradient(180deg,
-      color-mix(in oklab, var(--secondary-background-color) 65%, transparent),
-      color-mix(in oklab, var(--tertiary-background-color) 35%, transparent));
-  border: 1px solid rgba(255, 255, 255, .08);
-  box-shadow:
-    0 8px 30px rgba(0, 0, 0, .35),
-    0 0 0 1px inset rgba(255, 255, 255, .02);
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   --glow-start: 0;
   --glow-spread: 70;
   --glow-active: 0;
 }
 
+/* Remove glow effects for light theme callouts */
 .callout::after,
 article.prose blockquote::after {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: inherit;
-  pointer-events: none;
-  background:
-    radial-gradient(60% 120% at 10% 0%, color-mix(in oklab, var(--callout-color) 30%, transparent), transparent 70%),
-    conic-gradient(from calc((var(--glow-start) - var(--glow-spread)) * 1deg),
-      transparent 0deg,
-      color-mix(in oklab, var(--callout-color) 80%, white),
-      transparent calc(var(--glow-spread) * 2deg));
-  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  /* show only border */
-  padding: 1.5px;
-  opacity: calc(.5 * (var(--glow-active) + .4));
-  transition: opacity .25s ease;
+  display: none;
 }
 
 /* Use accent color as default for plain blockquotes */
@@ -743,16 +771,18 @@ article.prose blockquote { --callout-color: var(--accent-fg, #6aa9ff); }
   font-weight: 700;
   letter-spacing: .02em;
   margin-bottom: .6rem;
+  color: #2e3032;
 }
 
 .callout .callout-icon {
   width: 18px;
   height: 18px;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .3));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .2));
+  opacity: 0.8;
 }
 
 .callout .callout-content {
-  color: #e4e4e7;
+  color: #2e3032;
   line-height: 1.7;
 }
 
@@ -925,6 +955,157 @@ article.prose blockquote { --callout-color: var(--accent-fg, #6aa9ff); }
   margin-top: .25rem;
 }
 
+/* Password protection overlay */
+.password-overlay {
+  position: fixed;
+  top: 0; /* Start below header */
+  left: 0;
+  right: 0;
+  bottom: 0; /* Stop above footer */
+  background: rgba(0, 0, 0, 0.9); /* Darker fallback for browsers without backdrop-filter */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); /* Safari support */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.password-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.password-form {
+  background: rgba(255, 255, 255, 0.15); /* Slightly more opaque fallback */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.password-form h2 {
+  color: var(--text);
+  margin: 0 0 1rem 0;
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+}
+
+.password-form p {
+  color: var(--muted);
+  margin: 0 0 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.password-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.password-input:focus {
+  outline: none;
+  border-color: var(--accent-fg);
+}
+
+.password-submit {
+  background: var(--accent-fg);
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.password-submit:hover {
+  background: var(--accent-fg-dim);
+}
+
+/* Hint-only mode styling */
+.password-submit.hint-only-mode {
+  background: #10b981; /* Green color for continue button */
+  color: white;
+}
+
+.password-submit.hint-only-mode:hover {
+  background: #059669; /* Darker green on hover */
+}
+
+.password-error {
+  color: #ef4444;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.password-error.show {
+  opacity: 1;
+}
+
+/* Blur effect for protected content */
+.article-protected {
+  filter: blur(50px);
+  pointer-events: none;
+  user-select: none;
+  transition: filter 0.3s ease;
+}
+
+/* Mobile optimizations for blur effects */
+@media (max-width: 768px) {
+  .password-overlay {
+    backdrop-filter: blur(10px); /* Reduced blur on mobile for performance */
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  .password-form {
+    backdrop-filter: blur(5px); /* Reduced blur on mobile for performance */
+    -webkit-backdrop-filter: blur(5px);
+  }
+  
+  .article-protected {
+    filter: blur(30px); /* Reduced blur on mobile for performance */
+  }
+}
+
+/* Disable blur effects for devices that don't support backdrop-filter well */
+@supports not (backdrop-filter: blur(1px)) {
+  .password-overlay {
+    background: rgba(0, 0, 0, 0.95); /* Solid dark background */
+  }
+  
+  .password-form {
+    background: rgba(255, 255, 255, 0.2); /* Solid light background */
+  }
+  
+  .article-protected {
+    filter: none; /* No blur, just disable interactions */
+    opacity: 0.3; /* Make content semi-transparent instead */
+  }
+}
+
+.article-protected.revealed {
+  filter: blur(0);
+  pointer-events: auto;
+  user-select: auto;
+}
+
 /* Swup fade transition (container fades); blur only text content */
 #swup.transition-fade {
   will-change: opacity, transform;
@@ -947,6 +1128,24 @@ html.is-animating #swup.transition-fade .prose,
 html.is-leaving #swup.transition-fade .prose {
   opacity: 0;
   filter: blur(50px);
+  transform: translateY(4px);
+}
+
+/* Banner container - transitions handled manually in JS */
+#swup-banner {
+  will-change: opacity, transform;
+  transition: opacity .5s ease, transform 1s ease;
+}
+
+/* Hide banner container when no banner content */
+#swup-banner:empty {
+  display: none;
+}
+
+/* Swup transition states for banner */
+html.is-animating #swup-banner,
+html.is-leaving #swup-banner {
+  opacity: 0;
   transform: translateY(4px);
 }
 
@@ -1093,6 +1292,7 @@ html.is-leaving #swup.transition-fade .prose {
   
   article.prose {
     font-size: 0.95rem;
+    padding: 2rem 1rem; /* Reduced padding for tablets */
   }
   
   .article-title {
@@ -1258,6 +1458,7 @@ html.is-leaving #swup.transition-fade .prose {
   
   article.prose {
     font-size: 0.9rem;
+    padding: 1rem 0.5rem; /* Minimal padding for mobile phones */
   }
   
   .article-title {
@@ -1399,6 +1600,7 @@ html.is-leaving #swup.transition-fade .prose {
   
   article.prose {
     font-size: 0.85rem;
+    padding: 0.5rem 0.25rem; /* Minimal padding for very small screens */
   }
   
   .article-title {

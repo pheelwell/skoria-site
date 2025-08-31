@@ -1,24 +1,26 @@
 ---
 banner: /static/Zarineshian Temple.png
 date created: Friday, October 6th 2023, 6:38:58 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, August 31st 2025, 10:12:13 pm
 dg-publish: true
 eleventyNavigation:
   key: Example Site
+file.name: Example Site
 herocolor0: 67
 herocolor1: 43
 herocolor2: 53
 layout: base.njk
-path: /garden%5CMeta/Example%20Site/
+path: /garden/Meta/Example%20Site/
+status: ???
 title: Example Site
-type: Meta
+type: ???
 ---
 
-## Example
+# Example
 
 This is an example Obsidian note.
 
-### Headers
+## Headers
 
 ```
 # H1
@@ -29,14 +31,14 @@ This is an example Obsidian note.
 ###### H6
 ```
 
-## H1
-### H2
-#### H3
-##### H4
-###### H5
-###### H6
+# H1
+## H2
+### H3
+#### H4
+##### H5
+##### H6
 
-### Text Formatting
+## Text Formatting
 
 ```
 **Bold**
@@ -53,7 +55,7 @@ This is an example Obsidian note.
 
 `Inline code`
 
-### Lists
+## Lists
 
 ```
 Unordered list:
@@ -79,7 +81,7 @@ Ordered list:
 	1. Subitem 1.1 
 2. Item 2 
 
-### Links and Images
+## Links and Images
 
 ```
 [Link to Obsidian](https://obsidian.md)
@@ -91,7 +93,7 @@ Ordered list:
 
 ![Image](https://example.com/image.png)
 
-### Blockquotes
+## Blockquotes
 
 ```
 > This is a quote.
@@ -101,7 +103,7 @@ Ordered list:
 > This is a quote.
 > - Author Name
 
-### Callout
+## Callout
 ```
 > [!tip]: This is a callout box.
 ```
@@ -118,17 +120,17 @@ Ordered list:
 > [!quote] Quote
 > The actual Quote or thing that should be 
 
->[!read] Read to the Player
->This is Prose that is read
->ONLY USE THIS IN PLOTS AND SCENES, NOT IN WORLDBUILDING ARTICLES
+> [!read] Read to the Player
+> This is Prose that is read
+> ONLY USE THIS IN PLOTS AND SCENES, NOT IN WORLDBUILDING ARTICLES
 
->[!seed] Seed, Adventure Hook
->This is something you could use to build your adventure upon
+> [!seed] Seed, Adventure Hook
+> This is something you could use to build your adventure upon
 
->[!secret]-
+> [!secret]-
 > This should not be directly revealed to a player
 
-### Code Blocks
+## Code Blocks
 
 ```python example.py```:
 
@@ -139,7 +141,7 @@ def greet(name):
 greet("Obsidian")
 ``` 
 
-### Tables
+## Tables
 
 ```
 | Header | Header | Header |
@@ -155,7 +157,7 @@ greet("Obsidian")
 | Cell   | Cell   | Cell   |
 | Cell   | Cell   | Cell   |
 
-### Task Lists
+## Task Lists
 
 ```
 - [ ] Task 1
@@ -167,7 +169,7 @@ greet("Obsidian")
 - [x] Task 2 (completed)
 - [ ] Task 3
 
-### Footnotes
+## Footnotes
 
 ```
 This is a sentence with a footnote[^1].
@@ -179,7 +181,7 @@ This is a sentence with a footnote[^1].
 
 [^1]: This is the footnote.
 
-### Horizontal Rules
+## Horizontal Rules
 
 ```
 ---
@@ -187,7 +189,7 @@ This is a sentence with a footnote[^1].
 
 ---
 
-### MathJax
+## MathJax
 
 ```
 Inline equation: $E=mc^2$

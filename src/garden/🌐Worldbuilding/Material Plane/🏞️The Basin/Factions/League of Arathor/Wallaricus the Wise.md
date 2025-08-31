@@ -6,13 +6,10 @@ dg-publish: true
 eleventyNavigation:
   key: Wallaricus the Wise
   parent: League of Arathor
-herocolor0: 192
-herocolor1: 149
-herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin\Factions\League of
-  Arathor/League of Arathor.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CFactions%5CLeague%20of%20Arathor/Wallaricus%20the%20Wise/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Factions/League
+  of Arathor/League of Arathor.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor/Wallaricus%20the%20Wise/
 plane: Material Plane
 title: Wallaricus the Wise
 type: NPC

@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Sori
   parent: Gods
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Nether Plane\Gods/Gods.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CNether%20Plane%5CGods/Sori/
+parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Sori/
 plane: Nether Plane
 sum:
 - 'Domain: Sun'

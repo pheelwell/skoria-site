@@ -1,21 +1,24 @@
 ---
 continent: Other
 date created: Monday, February 10th 2025, 2:27:50 pm
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Skrixis
   parent: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CRaces/Skrixis/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Skrixis/
 plane: Material Plane
 title: Skrixis
+type: Race
 ---
 
 Skrixis are a race of insectoid humanoids who resemble humanoid grasshoppers, with sleek, segmented exoskeletons that range in color from earthy greens and browns to iridescent blues and golds. Their long, flexible antennae twitch with sensitivity to vibrations, allowing them to detect movement and sound with uncanny precision. Their powerful hind legs enable them to leap great distances, and their chitinous carapace provides natural armor.
+
+They are a related to the [Solith](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9C%EF%B8%8FIrasnian%20Wastes/Factions/Solith).
 
 ## Skrixis Traits
 

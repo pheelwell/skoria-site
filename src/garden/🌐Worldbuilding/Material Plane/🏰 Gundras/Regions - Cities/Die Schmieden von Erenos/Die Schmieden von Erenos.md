@@ -1,22 +1,22 @@
 ---
-continent: Gundras
-date created: Thursday, August 1st 2024, 11:12:13 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
-eleventyNavigation:
-  key: Die Schmieden von Erenos
-  parent: Gundras
-herocolor0: 214
-herocolor1: 207
-herocolor2: 184
-layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏰 Gundras/Gundras.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%B0%20Gundras%5CRegions%20-%20Cities%5CDie%20Schmieden%20von%20Erenos/
-plane: Material Plane
+type: Region
 title: Die Schmieden von Erenos
+status: sprout
+date created: Thursday, August 1st 2024, 11:12:13 pm
+date modified: Sunday, March 23rd 2025, 1:28:32 pm
+sum:
+- Mountain massif home to the Fogweavers; source of Nebeleisen and Nebelstahl
 ---
 
-[Schmieden von Erenos] sind ein Gebirgsmassiv im dem die Fogweaver beheimatet sind. 
+# Die Schmieden von Erenos
 
-In den Tiefen des Berges wird das seltene Nebeleisen geschürt, wo es direkt in den Nebelschmieden zu dem berühmten Nebelstahl geschmiedet wird. 
+A mountain massif housing the Fogweavers and their famed Nebelschmieden (mist forges).
 
-Benannt nach Erenos, dem Nebelgeist der einst das Gebirge bewohnte und schützte.
+## Overview
+- **Ore**: Nebeleisen mined deep within
+- **Process**: Mist-laden air yields particles fused with ore to make **Nebelstahl**
+- **Namesake**: Erenos, the mist spirit who once guarded the range
+
+## Related
+- **[[Nebelstahl]]** — Material
+- **[[The Fogweavers !!]]** — Faction

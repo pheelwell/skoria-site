@@ -2,7 +2,7 @@
 banner: /static/Naga02.png
 continent: Other
 date created: Thursday, December 14th 2023, 12:05:23 am
-date modified: Tuesday, March 18th 2025, 10:33:12 pm
+date modified: Sunday, March 30th 2025, 1:14:12 pm
 eleventyNavigation:
   key: Naga
   parent: Material Plane
@@ -10,11 +10,11 @@ herocolor0: 184
 herocolor1: 173
 herocolor2: 146
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%E2%9C%A8%20Other%5CRaces/Naga/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Naga/
 plane: Material Plane
 title: Naga
-type: Faction
+type: Thing
 ---
 
 The Naga are a sinister and enigmatic humanoid species distinguished by their snake-like lower bodies and the presence of four arms. With a reputation for darkness and malevolence, they are often seen as cunning and manipulative. 

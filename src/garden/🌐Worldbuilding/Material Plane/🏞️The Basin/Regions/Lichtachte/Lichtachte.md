@@ -2,17 +2,18 @@
 banner: /static/Lichtachte.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:43 pm
-date modified: Tuesday, March 18th 2025, 10:33:11 pm
+date modified: Sunday, March 30th 2025, 1:14:13 pm
 dg-publish: true
 eleventyNavigation:
   key: Lichtachte
   parent: The Basin
 herocolor0: 195
-herocolor1: 193
+herocolor1: 194
 herocolor2: 141
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane\🏞️The Basin/The Basin.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin%5CRegions%5CLichtachte/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
+  Basin.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte/
 plane: Material Plane
 sum:
 - Located in the center of [The Basin](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin)

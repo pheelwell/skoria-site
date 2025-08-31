@@ -9,86 +9,104 @@ eleventyNavigation:
   key: The Basin
   parent: Material Plane
 herocolor0: 192
-herocolor1: 149
+herocolor1: 150
 herocolor2: 78
 layout: base.njk
-parentpath: src/garden\🌐Worldbuilding\Material Plane/Material Plane.md
-path: /garden%5C%F0%9F%8C%90Worldbuilding%5CMaterial%20Plane%5C%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin/
+parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
+path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/The%20Basin/
 plane: Material Plane
+status: tree
 sum:
-- Located within Ivagur Peaks
-- Divided by Silent River
-- Central settlement is Edschmied
-- Notable settlements include Trollbans Hold, Defiler's Den, Maerhof, and Lichtachte
+- Located within Ivagur Peaks, divided by Silent River
+- Central settlement is Edschmied with notable cities including Trollbans Hold, Defiler's
+  Den, Maerhof, and Lichtachte
 - Geography includes hills, meadows, grasslands, dry barrens, and dense forests
-- Diverse flora and fauna with common animals like deer and foxes
 - Cultural melting pot with undead citizens due to The Plague
 - Main religion is worship of Arathor; rise in popularity of The Gifted who follow
   Naruun
 - Politics influenced by war between Defilers and League of Arathor; economy controlled
   by The Triad
 - Known for weaponsmithing and valuable resource Stoalium from Mines of Torrar
-- History involves ancient forces or gods shaping the land; hidden underground network
-  connects key locations
+- Hidden underground network connects key locations
 title: The Basin
 type: Continent
 ---
 
-As twilight descends upon the Ivagur Peaks, casting long shadows across the Basin, a solitary traveler journeys along an ancient path. The [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) winds gracefully around the hill atop which Edschmied stands sentinel, its waters glimmering like molten silver in the dwindling light. Within this secluded and diverse land, a myriad of tales and mysteries await those bold enough to seek them out.
+# The Basin
 
-!Map of the Basin.png
+A fertile central region within the Ivagur Peaks, home to diverse settlements and ongoing conflict between major factions.
+
+![](/static/Map%20of%20the%20Basin.png)
+
+## Overview
+
+The Basin is a secluded land divided by the [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River), featuring rolling hills, verdant meadows, and dense forests. It serves as a cultural melting pot and the center of ongoing political conflicts.
 
 ## Geography
-### Notable Settlements:
-- Edschmied: A central settlement constructed on a hill overlooking The Basin.
-- Trollbans Hold: A city renowned as the stronghold of [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) in the northwest.
-- Defiler’s Den: A notorious location nestled in the southeast where [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River) flows out of The Basin.
-- Maerhof: A settlement situated north of [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte).
-- [Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte): A significant western settlement connecting to [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) within Deep Forrest.
 
-### Scenery and Climate:
+### **Major Settlements**
+- **Edschmied** - Central settlement on a hill overlooking the Basin
+- **Trollbans Hold** - Stronghold of the [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) in the northwest
+- **Defiler's Den** - Notorious location in the southeast where Silent River exits
+- **Maerhof** - Settlement north of Lichtachte
+- **[Lichtachte](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Lichtachte)** - Western settlement connecting to [Prosnen](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Prosnen) in Deep Forest
 
-The topography of The Basin is primarily composed of rolling hills, verdant meadows, and expansive grasslands. Boasting a temperate climate that varies from oceanic near Edschmied to arid barrens towards the northeast and dense forests dominating its southwestern region. Travelers can traverse two primary land routes flanking either side of [Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River)'s divide – granting passage to numerous remarkable locales throughout.
+### **Landscape**
+- **Rolling hills** and **verdant meadows** dominate the central area
+- **Temperate climate** varying from oceanic near Edschmied to arid barrens in the northeast
+- **Dense forests** in the southwestern region
+- **Two primary land routes** flanking the Silent River
 
-### Flora and Fauna:
+### **Flora and Fauna**
+- **Deciduous and evergreen trees** (oak, maple) with coarse, textured bark
+- **Common animals**: Deer, foxes, squirrels, rabbits, badgers
+- **Avian life**: Songbirds, eagles, hawks
+- **Dangerous beasts** lurk in secluded forest depths
 
-The timberlands within The Basin teem with a rich tapestry of flora and fauna. Deciduous and evergreen trees, such as oak and maple, form a lush canopy under which smaller plants and flowers flourish. The bark of these trees is coarse and textured, providing shelter for insects and diminutive creatures.
+## Population & Culture
 
-Deer are a common sight, frequently observed grazing in meadows or sipping from the babbling brooks. Foxes are another ubiquitous species, admired for their cunning and resourcefulness as they stalk small rodents or scavenge for sustenance. Additional inhabitants include squirrels, rabbits, badgers, while the skies abound with avian life – from vibrant songbirds to regal birds of prey like eagles and hawks.
+### **Demographics**
+- **Cultural melting pot** due to seclusion
+- **Significant undead population** from The Plague, mostly in southeast
+- **Mixed living and undead communities**
 
-In the more secluded depths of the forest lurk perilous beasts – posing a formidable challenge even to experienced adventurers.
+### **Religion**
+- **Primary faith**: Worship of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor)
+- **Rising popularity**: The Gifted following Naruun
 
-## Population
-### Culture and Religion:
+## Politics & Economy
 
-The Basin serves as a cultural crucible due in part to its seclusion. A significant portion of its denizens are undead as an aftereffect of The Plague, with most residing in the southeastern region. The predominant faith practiced here is the worship of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor); however, there has been a surge in popularity for The Gifted who follow Naruun.
+### **Political Landscape**
+- **Ongoing conflict** between [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) and [League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor)
+- **Economic control** by The Triad
 
-### Politics and Economy:
+### **Economic Activities**
+- **Weaponsmithing** expertise in Edschmied
+- **Stoalium mining** from Mines of Torrar
+- **Trade routes** along the Silent River
 
-Politics within The Basin are chiefly influenced by the ongoing conflict between the [Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers) and the League of [Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor). In contrast, much of the economy is manipulated by The Triad. Edschmied is celebrated for its weaponsmithing expertise while Mines of Torrar yield an abundant supply of precious Stoalium.
+## History
 
-### History and Origin:
+### **Origins**
+- **Whispered creation** by primordial forces or deities
+- **Carved from surrounding territories** to create this distinctive realm
 
-For an exhaustive account of pivotal regional historic events, consult the Historic Events article. As for The Basin's genesis – it is whispered that primordial forces or even deities themselves crafted this distinctive realm by carving it out from surrounding territories.
+### **Key Events**
+- See Historic Events for detailed regional history
+- The Plague significantly affected population demographics
 
-> [!seed] Seed: Adventure Hook
-> Plunge into the enigmas of The Basin, unraveling hidden truths and buried secrets about its origins – all while navigating treacherous terrain and encountering the extraordinary creatures that call this region home.
+## Adventure Hooks
 
-> [!quote] Quote
-> "The secrets of The Basin are whispered like the wind through the trees, waiting for those who dare to listen."
+> [!seed] Adventure Hook
+> Explore the mysteries of The Basin, uncovering hidden truths about its origins while navigating treacherous terrain and encountering extraordinary creatures.
 
->[!secret]- 
-> Tunnels of the Basin: There is a concealed subterranean network connecting key locations throughout The Basin, known only to an elite few.
+> [!secret] Secret Information
+> **Tunnels of the Basin**: A concealed subterranean network connects key locations throughout The Basin, known only to an elite few.
 
-```leaflet
-id: main-map
-image: Map of the Basin.png
-height: 500px
-lat: 50
-long: 50
-minZoom: 1
-maxZoom: 5
-defaultZoom: 1
-unit: days
-scale: 0.1
-```
+## Related Content
+
+- **[Silent River](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Silent%20River)** - Major waterway dividing the region
+- **[Defilers](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/Defilers)** - Opposing faction in the ongoing conflict
+- **[League of Arathor](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Factions/League%20of%20Arathor)** - Order of paladins and knights
+- **The Triad** - Economic controlling force
+- **The Plague** - Historical event affecting population
