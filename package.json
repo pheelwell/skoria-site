@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "import": "python3 ./obsidian_to_11ty.py --obsidian-vault-dir /Users/pheelwell/Library/CloudStorage/OneDrive-SharedLibraries-Onedrive/my-garden/promised-victory/🌐Skoria --eleventy-content-dir src/garden --eleventy-static-dir src/static",
+    "download-shared": "python3 ./download_shared_md.py --url 'https://1drv.ms/f/c/ac3c9c449dbb67a2/IgC5MOmMznjhRIf8XGrlZUF6AQztAOO_kTgaWfF1pO30tkc' --dest '/Users/pheelwell/Library/CloudStorage/OneDrive-SharedLibraries-Onedrive/my-garden/promised-victory/🌐Skoria/Meta/Legendhunters/Regions/Test'",
+    "import": "python3 ./obsidian_to_11ty.py --obsidian-vault-dir '/Users/pheelwell/Library/CloudStorage/OneDrive-SharedLibraries-Onedrive/my-garden/promised-victory/🌐Skoria' --eleventy-content-dir src/garden --eleventy-static-dir src/static",
+    "sync": "npm run download-shared && npm run import",
     "dev": "eleventy --serve",
     "build": "eleventy"
   },

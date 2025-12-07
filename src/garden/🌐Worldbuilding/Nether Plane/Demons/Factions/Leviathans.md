@@ -7,7 +7,7 @@ date modified: Sunday, March 23rd 2025, 7:03:44 pm
 eleventyNavigation:
   key: Leviathans
   parent: Demons
-herocolor0: 202
+herocolor0: 200
 herocolor1: 192
 herocolor2: 185
 layout: base.njk

@@ -7,9 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Lichtachte
   parent: The Basin
-herocolor0: 195
+herocolor0: 196
 herocolor1: 194
-herocolor2: 141
+herocolor2: 143
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
   Basin.md"

@@ -9,7 +9,7 @@ parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Nether Plane.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/The%20Shattering/
 plane: Nether Plane
 status: tree
-sum:
+summary:
 - Cataclysmic divine conflict wiping out ~85% of civilization
 - Varuún vs Leptys: battle spawned the Maelstrom
 - Arathor and Lar created the barrier to the Nether using Umbrial's remains
@@ -31,10 +31,10 @@ A cataclysmic divine conflict that reset civilization and reshaped how gods inte
 - **Asmadan** initially sided with chaotic gods, later switched; **[Umbrial](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Umbrial)** shattered
 - **Zarinesh** lost their left hand
 - **Divine shards**: pieces of gods left in the world grant mortals power
-- **Barrier built** between [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane) and [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) by **[Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor)** with **[Lar](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Lar)**, using Umbrial’s remains
+- **Barrier built** between [Nether Plane](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane) and [Skoria](/garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Skoria) by **[Arathor](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Arathor)** with **[Lar](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Lar)**, using Umbrial's remains
 - **Non-interference pact** among gods to prevent further divine deaths (mechanism unknown)
 - **The Remnants**: elusive group keeping pre-shattering knowledge
-- **[Prophecy of Shadows](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Things/Prophecy%20of%20Shadows)**: warns of Umbrial’s return and a second Shattering unless stopped by chosen heroes
+- **[Prophecy of Shadows](/garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Things/Prophecy%20of%20Shadows)**: warns of Umbrial's return and a second Shattering unless stopped by chosen heroes
 
 ## Adventuring Notes
 

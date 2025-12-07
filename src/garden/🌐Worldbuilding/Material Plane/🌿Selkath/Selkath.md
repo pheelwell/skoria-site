@@ -6,8 +6,8 @@ date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: Selkath
   parent: Material Plane
-herocolor0: 27
-herocolor1: 20
+herocolor0: 28
+herocolor1: 19
 herocolor2: 32
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

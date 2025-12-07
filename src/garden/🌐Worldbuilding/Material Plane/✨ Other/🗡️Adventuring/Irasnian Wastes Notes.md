@@ -5,8 +5,8 @@ date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring
-herocolor0: 42
-herocolor1: 163
+herocolor0: 37
+herocolor1: 162
 herocolor2: 79
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"

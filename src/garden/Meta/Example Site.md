@@ -8,7 +8,7 @@ eleventyNavigation:
 file.name: Example Site
 herocolor0: 67
 herocolor1: 43
-herocolor2: 53
+herocolor2: 55
 layout: base.njk
 path: /garden/Meta/Example%20Site/
 status: ???

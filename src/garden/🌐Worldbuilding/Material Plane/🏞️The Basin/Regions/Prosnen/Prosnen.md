@@ -6,7 +6,7 @@ date modified: Sunday, March 23rd 2025, 9:35:06 pm
 eleventyNavigation:
   key: Prosnen
   parent: The Basin
-herocolor0: 184
+herocolor0: 180
 herocolor1: 188
 herocolor2: 197
 layout: base.njk

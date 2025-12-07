@@ -5,7 +5,7 @@ date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Lady Elara
   parent: Prosnen
-herocolor0: 184
+herocolor0: 180
 herocolor1: 188
 herocolor2: 197
 layout: base.njk

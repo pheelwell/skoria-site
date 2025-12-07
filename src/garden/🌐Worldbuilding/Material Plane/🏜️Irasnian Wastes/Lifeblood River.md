@@ -5,9 +5,9 @@ date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: Lifeblood River
   parent: Irasnian Wastes
-herocolor0: 9
-herocolor1: 28
-herocolor2: 17
+herocolor0: 10
+herocolor1: 16
+herocolor2: 29
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
   Wastes/Irasnian Wastes.md"

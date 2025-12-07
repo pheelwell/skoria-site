@@ -83,9 +83,12 @@ class ObsidianToeleventy:
         # for parent choose the parent folder of the file (if the parent folder contains a {parent}.md file})
         post['eleventyNavigation'] = {}
         
-        # guard for post not having a title
+        # guard for post not having a title - auto-generate from filename
         if "title" not in post.keys():
-            logger.error(f"ERROR: The file {root}/{filename} does not have a title set. Please set it manually in the frontmatter.")
+            # Remove .md extension and use filename as title
+            auto_title = filename.replace('.md', '')
+            logger.warning(f"WARNING: The file {root}/{filename} does not have a title set. Using filename as title: {auto_title}")
+            post['title'] = auto_title
             
         post['eleventyNavigation']['key'] = post['title']
 
