@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Material Plane
 herocolor0: 214
 herocolor1: 207
-herocolor2: 180
+herocolor2: 184
 layout: base.njk
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/
 plane: Material Plane

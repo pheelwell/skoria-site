@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Court of Change
   parent: Feywild
 herocolor0: 242
-herocolor1: 227
+herocolor1: 226
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Feywild/Feywild.md"

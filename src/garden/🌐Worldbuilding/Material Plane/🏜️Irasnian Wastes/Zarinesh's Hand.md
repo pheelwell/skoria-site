@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Zarinesh's Hand
   parent: Irasnian Wastes
 herocolor0: 10
-herocolor1: 16
+herocolor1: 15
 herocolor2: 30
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian

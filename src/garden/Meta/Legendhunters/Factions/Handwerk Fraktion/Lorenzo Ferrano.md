@@ -8,32 +8,24 @@ eleventyNavigation:
   parent: Legendhunters
 herocolor0: 67
 herocolor1: 43
-herocolor2: 55
+herocolor2: 53
 layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
-password: legend
-passwordhint: Story
-path: /garden/Meta/Legendhunters/Factions/Dreizack-Rat/Handwerk%20Fraktion/Lorenzo%20Ferrano/
+path: /garden/Meta/Legendhunters/Factions/Handwerk%20Fraktion/Lorenzo%20Ferrano/
 status: sprout
 title: Lorenzo Ferrano
-type: Mensch
+type: NPC
 ---
 
 ![](/static/Lorenzo%20Ferrano.png)
 
 
-| Rasse      |     |
-| ---------- | --- |
-| Geschlecht |     |
-| H          |     |
-
-
-
-Rasse: Mensch
-Geschlecht: männlich
-Herkunft: Ankor
-Beruf/Rolle: Müllermeister der Handwerk Fraktion in Ankor und Mitglied im Dreizack-Rat
-Lore:
+| Rasse       | Mensch                                                                    |
+| ----------- | ------------------------------------------------------------------------- |
+| Geschlecht  | männlich                                                                  |
+| Herkunft    | Ankor                                                                     |
+| Beruf/Rolle | Müllermeister der Handwerk Fraktion in Ankor und Mitglied im Dreizack-Rat |
+## Lore:
 - Bruder von Matteo Ferrano
 - berichtet von Kapuzengestalten auf seinen Seeweizenfeldern
 - erzählt von der Legende des Spiegelpfad:

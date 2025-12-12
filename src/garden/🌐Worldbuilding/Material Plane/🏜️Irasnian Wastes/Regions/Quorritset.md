@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Irasnian Wastes
 herocolor0: 67
 herocolor1: 43
-herocolor2: 53
+herocolor2: 55
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
   Wastes/Irasnian Wastes.md"

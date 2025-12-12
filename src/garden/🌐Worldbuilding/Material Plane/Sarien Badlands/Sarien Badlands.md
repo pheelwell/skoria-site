@@ -6,9 +6,9 @@ date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Sarien Badlands
   parent: Material Plane
-herocolor0: 11
-herocolor1: 356
-herocolor2: 311
+herocolor0: 8
+herocolor1: 345
+herocolor2: 44
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/Sarien%20Badlands/

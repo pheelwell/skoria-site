@@ -6,8 +6,8 @@ date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Essanrian Network
   parent: Material Plane
-herocolor0: 225
-herocolor1: 226
+herocolor0: 226
+herocolor1: 225
 herocolor2: 229
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

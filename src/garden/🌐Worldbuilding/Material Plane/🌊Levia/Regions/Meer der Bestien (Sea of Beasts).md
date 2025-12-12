@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Levia
 herocolor0: 180
 herocolor1: 191
-herocolor2: 180
+herocolor2: 183
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F30ALevia/Levia.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%8ALevia/Regions/Meer%20der%20Bestien%20%28Sea%20of%20Beasts%29/

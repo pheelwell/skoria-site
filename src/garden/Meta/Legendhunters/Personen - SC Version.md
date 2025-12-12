@@ -1,17 +1,10 @@
 ---
-Beruf/Rolle: null
-Erscheinungsbild: null
-Geschlecht: null
-Herkunft: null
-Lore: null
-Name: null
-Rasse: null
 eleventyNavigation:
   key: Personen - SC Version
   parent: Legendhunters
-herocolor0: 233
-herocolor1: 228
-herocolor2: 298
+herocolor0: 232
+herocolor1: 229
+herocolor2: 296
 layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
 path: /garden/Meta/Legendhunters/Personen%20-%20SC%20Version/

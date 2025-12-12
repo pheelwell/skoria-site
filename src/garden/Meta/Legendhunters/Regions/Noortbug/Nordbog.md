@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Norotbug
   parent: Legendhunters
 herocolor0: 209
-herocolor1: 217
+herocolor1: 218
 herocolor2: 0
 layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md

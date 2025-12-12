@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Demons
 herocolor0: 9
 herocolor1: 11
-herocolor2: 19
+herocolor2: 20
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Demons/Demons.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Demons/Factions/Infernals/

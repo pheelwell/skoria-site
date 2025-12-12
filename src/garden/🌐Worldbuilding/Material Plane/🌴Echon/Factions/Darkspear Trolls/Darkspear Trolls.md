@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Darkspear Trolls
   parent: Echon
 herocolor0: 272
-herocolor1: 260
+herocolor1: 259
 herocolor2: 293
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F334Echon/Echon.md"
