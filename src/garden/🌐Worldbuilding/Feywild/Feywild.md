@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Feywild
 herocolor0: 242
 herocolor1: 227
-herocolor2: 184
+herocolor2: 180
 layout: base.njk
 path: /garden/%F0%9F%8C%90Worldbuilding/Feywild/
 plane: Feywild

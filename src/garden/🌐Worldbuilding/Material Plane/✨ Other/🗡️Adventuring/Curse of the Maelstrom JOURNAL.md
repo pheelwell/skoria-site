@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Adventuring
 herocolor0: 37
 herocolor1: 161
-herocolor2: 79
+herocolor2: 80
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Curse%20of%20the%20Maelstrom%20JOURNAL/

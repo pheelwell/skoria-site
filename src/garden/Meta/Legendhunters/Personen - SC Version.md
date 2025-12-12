@@ -1,24 +1,21 @@
 ---
+Beruf/Rolle: null
+Erscheinungsbild: null
+Geschlecht: null
+Herkunft: null
+Lore: null
+Name: null
+Rasse: null
 eleventyNavigation:
   key: Personen - SC Version
   parent: Legendhunters
-herocolor0: 232
-herocolor1: 229
-herocolor2: 296
+herocolor0: 233
+herocolor1: 228
+herocolor2: 298
 layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
-path: /garden/Meta/Legendhunters/Buch%20der%20Gesichter/Personen%20-%20SC%20Version/
+path: /garden/Meta/Legendhunters/Personen%20-%20SC%20Version/
 title: Personen - SC Version
----
-
-Erscheinungsbild:
-Name: 
-Rasse:
-Geschlecht:
-Herkunft:
-Beruf/Rolle:
-Lore:
-
 ---
 
 Erscheinungsbild: ![](/static/Matteo%20Ferrano.png)
@@ -28,6 +25,8 @@ Geschlecht: männlich
 Herkunft: Ankor
 Beruf/Rolle: Schmied
 Lore: 
+- kann mit den entsprechenden Materialien magische Gegenstände schmieden
+- Ist neidisch auf seinen Bruder Lorenzo Ferrano der im Dreizack-Rat sitzt
 
 ---
 
@@ -44,7 +43,7 @@ Lore:
 
 ---
 
-Erscheinungsbild: ![](/static/WhatsApp%20Image%202025-11-22%20at%2014.42.17.jpg)
+Erscheinungsbild: ![](/static/Placeholder.png)
 Name: Tristam Skorson
 Rasse: Mensch
 Geschlecht: männlich

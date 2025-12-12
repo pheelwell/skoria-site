@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Prosnen
   parent: The Basin
 herocolor0: 180
-herocolor1: 188
+herocolor1: 187
 herocolor2: 197
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The

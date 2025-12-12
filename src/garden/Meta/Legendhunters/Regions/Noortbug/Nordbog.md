@@ -4,7 +4,7 @@ banner_y: 0.61667
 date created: Sunday, August 31st 2025, 9:32:10 pm
 date modified: Sunday, August 31st 2025, 11:36:23 pm
 eleventyNavigation:
-  key: Nordbog
+  key: Norotbug
   parent: Legendhunters
 herocolor0: 209
 herocolor1: 217
@@ -13,9 +13,9 @@ layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
 password: legend
 passwordhint: Background Lore für Ryn
-path: /garden/Meta/Legendhunters/Regions/Nordbog/
+path: /garden/Meta/Legendhunters/Regions/Noortbug/Norotbug/
 status: sprout
-title: Nordbog
+title: Norotbug
 type: Region
 ---
 

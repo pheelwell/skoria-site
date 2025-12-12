@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Naga
   parent: Material Plane
 herocolor0: 184
-herocolor1: 171
+herocolor1: 173
 herocolor2: 146
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

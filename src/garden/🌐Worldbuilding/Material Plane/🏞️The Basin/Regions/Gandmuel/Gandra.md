@@ -9,8 +9,8 @@ eleventyNavigation:
   key: Gandra
   parent: Gandmuel
 herocolor0: 192
-herocolor1: 150
-herocolor2: 78
+herocolor1: 146
+herocolor2: 77
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Gandmuel/Gandmuel.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%9E%EF%B8%8FThe%20Basin/Regions/Gandmuel/Gandra/

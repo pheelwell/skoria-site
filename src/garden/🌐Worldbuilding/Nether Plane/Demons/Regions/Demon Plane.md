@@ -5,9 +5,9 @@ date modified: Sunday, March 23rd 2025, 7:04:02 pm
 eleventyNavigation:
   key: Demon Plane
   parent: Demons
-herocolor0: 261
-herocolor1: 288
-herocolor2: 338
+herocolor0: 260
+herocolor1: 289
+herocolor2: 340
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Demons/Demons.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Demons/Regions/Demon%20Plane/

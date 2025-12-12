@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Skoria
   parent: Material Plane
 herocolor0: 138
-herocolor1: 176
+herocolor1: 173
 herocolor2: 180
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

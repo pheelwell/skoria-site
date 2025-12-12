@@ -7,7 +7,7 @@ herocolor1: 229
 herocolor2: 296
 layout: base.njk
 parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
-path: /garden/Meta/Legendhunters/Buch%20der%20Gesichter/Gottheiten%20-%20SC%20Version/
+path: /garden/Meta/Legendhunters/Gottheiten%20-%20SC%20Version/
 title: Gottheiten - SC Version
 ---
 
@@ -21,13 +21,12 @@ Lore:
 
 ---
 
-Erscheinungsbild:![](/static/Placeholder.png)
-Name: Somnara
-Rasse: Göttin
-Geschlecht: weiblich
-Herkunft: Traumebene
-Beruf/Rolle: Traumgöttin
-Lore:
+# Somnara ![](/static/Placeholder.png)
+**Rasse:** Göttin
+**Geschlecht:** weiblich
+**Herkunft:** Traumebene
+**Beruf/Rolle:** Traumgöttin
+**Lore:**
 - überreicht das Artefakt: Träne der Schlafenden
 - Prophezeiung:
 	- "Reisende zwischen den Welten, euer Pfad ist verwoben mit Schatten und Nebel. Die Geistergottheiten flüstern in den Träumen, denn die Schleier zwischen den Reichen sind dünn. Sucht die Runen in der Tiefe des Meeres, denn dort liegt der Schlüssel, die Stimmen der Geister zu hören. Doch hütet euch vor den Rufenden der Legenden. Sie weben ihre Lügen in die Dunkelheit und suchen, was nicht ihnen gehört. Folgt dem Pfad der Geister und haltet eure Herzen rein, denn nur so werdet ihr den Schleier lüften und die Wahrheit erkennen."
@@ -91,9 +90,11 @@ Lore:
 ---
 
 Erscheinungsbild:
-Name: 
-Rasse:
-Geschlecht:
-Herkunft:
-Beruf/Rolle:
-Lore:
+Name: Phantasos
+Rasse: Gott
+Geschlecht: männlich
+Herkunft: unbekannt
+Beruf/Rolle: Alptraumgott
+Lore: 
+
+---
