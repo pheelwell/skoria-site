@@ -7,9 +7,9 @@ date modified: null
 eleventyNavigation:
   key: Der Eisprinz
   parent: Legendhunters
-herocolor0: 232
+herocolor0: 233
 herocolor1: 228
-herocolor2: 296
+herocolor2: 298
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Unaligned/Der%20Eisprinz/

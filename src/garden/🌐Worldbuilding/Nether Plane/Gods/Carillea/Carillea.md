@@ -1,10 +1,14 @@
 ---
+banner: /static/shared_ai_account_Concept_art_portrait_of_a_radiant_deity_embod_8991d96e-48dd-4295-9d1d-2d8516776ea5.png
 continent: Gods
 date created: Tuesday, February 25th 2025, 11:18:03 pm
 date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Carillea
   parent: Gods
+herocolor0: 37
+herocolor1: 31
+herocolor2: 48
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Carillea/

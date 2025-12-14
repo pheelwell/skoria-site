@@ -108,8 +108,15 @@ module.exports = function() {
     }))
   }));
 
-  // Sort alpha
-  planesArr.sort((a, b) => a.title.localeCompare(b.title));
+  // Custom sort order: put "Other Realms" (merged Feywild+Misc) at the end
+  const sortLast = ["Other Realms"];
+  planesArr.sort((a, b) => {
+    const aLast = sortLast.includes(a.title);
+    const bLast = sortLast.includes(b.title);
+    if (aLast && !bLast) return 1;
+    if (!aLast && bLast) return -1;
+    return a.title.localeCompare(b.title);
+  });
   for (const p of planesArr) {
     p.continents.sort((a, b) => a.title.localeCompare(b.title));
     for (const c of p.continents) {

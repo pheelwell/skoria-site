@@ -1,4 +1,5 @@
 ---
+banner: /static/Solith.png
 continent: Irasnian Wastes
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Sunday, March 23rd 2025, 1:28:32 pm
@@ -6,9 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Solith
   parent: Irasnian Wastes
-herocolor0: 10
-herocolor1: 16
-herocolor2: 29
+herocolor0: 41
+herocolor1: 33
+herocolor2: 26
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian
   Wastes/Irasnian Wastes.md"

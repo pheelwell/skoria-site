@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Tristam Skorson
   parent: Legendhunters
 herocolor0: 209
-herocolor1: 218
+herocolor1: 217
 herocolor2: 0
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md

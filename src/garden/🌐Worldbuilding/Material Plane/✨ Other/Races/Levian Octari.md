@@ -1,13 +1,14 @@
 ---
+banner: /static/Placeholder.png
 continent: Other
 date created: Thursday, December 14th 2023, 12:05:23 am
 date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Levian Octari
   parent: Material Plane
-herocolor0: 214
-herocolor1: 207
-herocolor2: 184
+herocolor0: 67
+herocolor1: 42
+herocolor2: 53
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/Races/Levian%20Octari/

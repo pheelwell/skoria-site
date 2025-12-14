@@ -6,9 +6,9 @@ date modified: Sunday, March 30th 2025, 1:14:13 pm
 eleventyNavigation:
   key: Nimmerlicht (Neverlight)
   parent: Gundras
-herocolor0: 210
+herocolor0: 212
 herocolor1: 197
-herocolor2: 160
+herocolor2: 157
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3F0 Gundras/Gundras.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Regions%20-%20Cities/Nimmerlicht%20%28Neverlight%29/

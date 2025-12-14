@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Legendhunters
 herocolor0: 67
 herocolor1: 43
-herocolor2: 53
+herocolor2: 55
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/H%C3%A4ndlerpass/Kayfin/

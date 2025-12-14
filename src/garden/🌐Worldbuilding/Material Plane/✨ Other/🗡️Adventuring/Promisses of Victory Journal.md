@@ -1,13 +1,14 @@
 ---
+banner: /static/povv.png
 continent: Other
 date created: Friday, October 6th 2023, 6:38:52 pm
 date modified: Sunday, March 23rd 2025, 9:36:20 pm
 eleventyNavigation:
   key: Promisses of Victory Journal
   parent: Adventuring
-herocolor0: 37
-herocolor1: 161
-herocolor2: 79
+herocolor0: 295
+herocolor1: 324
+herocolor2: 10
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Promisses%20of%20Victory%20Journal/

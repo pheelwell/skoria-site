@@ -1,13 +1,14 @@
 ---
+banner: /static/Placeholder.png
 continent: Other
 date created: Sunday, November 12th 2023, 1:21:36 pm
 date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Irasnian Wastes Notes
   parent: Adventuring
-herocolor0: 37
-herocolor1: 161
-herocolor2: 79
+herocolor0: 67
+herocolor1: 43
+herocolor2: 55
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9C%A8%20Other/%F0%9F%97%A1%EF%B8%8FAdventuring/Irasnian%20Wastes%20Notes/

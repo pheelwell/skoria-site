@@ -1,4 +1,5 @@
 ---
+banner: /static/Herbstbog_map.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
@@ -6,9 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Herbstbog
   parent: The Basin
-herocolor0: 192
-herocolor1: 146
-herocolor2: 78
+herocolor0: 43
+herocolor1: 63
+herocolor2: 186
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
   Basin.md"

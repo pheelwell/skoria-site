@@ -713,6 +713,54 @@ article.prose figure {
 article.prose figure img { margin: 0 auto; }
 article.prose figure figcaption { color: #6b6b6b; font-size: .9rem; margin-top: .5rem; position: relative; z-index: 2; }
 
+/* Tables */
+article.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+article.prose table thead {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+article.prose table th,
+article.prose table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+article.prose table th {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+article.prose table td {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+
+article.prose table td strong {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+article.prose table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+article.prose table tbody tr:last-child td {
+  border-bottom: none;
+}
+
 /* Videos / iframes */
 article.prose video,
 article.prose iframe {

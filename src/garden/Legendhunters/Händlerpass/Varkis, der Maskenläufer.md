@@ -11,7 +11,7 @@ eleventyNavigation:
   parent: Legendhunters
 herocolor0: 67
 herocolor1: 43
-herocolor2: 55
+herocolor2: 53
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/H%C3%A4ndlerpass/Varkis%2C%20der%20Maskenl%C3%A4ufer/

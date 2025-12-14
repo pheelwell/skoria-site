@@ -1,6 +1,7 @@
 ---
 Ideals: Justice, honor, loyalty, courage, integrity
 alias: Erathenar
+banner: /static/Placeholder.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
@@ -8,6 +9,9 @@ dg-publish: true
 eleventyNavigation:
   key: High Paladin Erathenar
   parent: League of Arathor
+herocolor0: 67
+herocolor1: 43
+herocolor2: 53
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Factions/League
   of Arathor/League of Arathor.md"

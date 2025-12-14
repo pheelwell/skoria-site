@@ -1,4 +1,5 @@
 ---
+banner: /static/Falk.png
 continent: The Basin
 date created: Friday, October 6th 2023, 6:39:54 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
@@ -6,9 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Falk
   parent: The Basin
-herocolor0: 192
-herocolor1: 146
-herocolor2: 78
+herocolor0: 41
+herocolor1: 48
+herocolor2: 35
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
   Basin.md"

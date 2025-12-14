@@ -1,4 +1,5 @@
 ---
+banner: /static/Depiction of Zarinesh.png
 continent: Gods
 date created: Wednesday, October 18th 2023, 10:19:51 pm
 date modified: Saturday, February 15th 2025, 12:14:34 am
@@ -6,6 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Zarinesh
   parent: Gods
+herocolor0: 188
+herocolor1: 181
+herocolor2: 179
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Zarinesh/

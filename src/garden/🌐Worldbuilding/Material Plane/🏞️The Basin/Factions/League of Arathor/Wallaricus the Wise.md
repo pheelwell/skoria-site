@@ -1,4 +1,5 @@
 ---
+banner: /static/Wallaricus the Wise.png
 continent: The Basin
 date created: Friday, October 6th 2023, 6:39:54 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
@@ -6,6 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Wallaricus the Wise
   parent: League of Arathor
+herocolor0: 336
+herocolor1: 26
+herocolor2: 30
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Factions/League
   of Arathor/League of Arathor.md"

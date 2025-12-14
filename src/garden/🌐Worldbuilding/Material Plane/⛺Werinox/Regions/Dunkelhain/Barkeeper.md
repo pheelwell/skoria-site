@@ -1,10 +1,14 @@
 ---
+banner: /static/Bolrick_Gastwirt_zum_leisen_Becher.png
 continent: Werinox
 date created: Tuesday, March 18th 2025, 12:28:56 am
 date modified: Sunday, March 30th 2025, 1:14:13 pm
 eleventyNavigation:
   key: Barkeeper
   parent: Dunkelhain
+herocolor0: 24
+herocolor1: 29
+herocolor2: 44
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/⛺Werinox/Regions/Dunkelhain/Dunkelhain.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Regions/Dunkelhain/Barkeeper/

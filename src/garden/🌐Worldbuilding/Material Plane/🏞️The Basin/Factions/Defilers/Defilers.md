@@ -1,4 +1,5 @@
 ---
+banner: /static/Placeholder.png
 continent: The Basin
 date created: Friday, October 6th 2023, 7:41:44 pm
 date modified: Saturday, February 15th 2025, 12:09:13 am
@@ -6,9 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Defilers
   parent: The Basin
-herocolor0: 192
-herocolor1: 146
-herocolor2: 78
+herocolor0: 67
+herocolor1: 43
+herocolor2: 55
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/The
   Basin.md"

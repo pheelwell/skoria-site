@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Quorritset
   parent: Irasnian Wastes
 herocolor0: 67
-herocolor1: 43
+herocolor1: 42
 herocolor2: 53
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DC️Irasnian

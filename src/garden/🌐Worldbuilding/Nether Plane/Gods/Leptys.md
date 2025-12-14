@@ -1,4 +1,5 @@
 ---
+banner: /static/Leptys.png
 continent: Gods
 date created: Wednesday, October 18th 2023, 10:23:59 pm
 date modified: Saturday, February 15th 2025, 12:14:35 am
@@ -6,6 +7,9 @@ dg-publish: true
 eleventyNavigation:
   key: Leptys
   parent: Gods
+herocolor0: 132
+herocolor1: 62
+herocolor2: 48
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Nether Plane/Gods/Gods.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Nether%20Plane/Gods/Leptys/

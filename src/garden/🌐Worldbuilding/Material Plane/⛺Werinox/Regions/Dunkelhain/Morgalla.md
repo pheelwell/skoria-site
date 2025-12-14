@@ -1,10 +1,14 @@
 ---
+banner: /static/Morgalla.png
 continent: Werinox
 date created: Tuesday, March 18th 2025, 12:24:31 am
 date modified: Sunday, March 30th 2025, 1:14:13 pm
 eleventyNavigation:
   key: Morgalla
   parent: Dunkelhain
+herocolor0: 26
+herocolor1: 27
+herocolor2: 42
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/⛺Werinox/Regions/Dunkelhain/Dunkelhain.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Regions/Dunkelhain/Morgalla/

@@ -136,15 +136,45 @@ class ObsidianToeleventy:
             post['parentpath'] = f"{deeproot}/{parent_folder_name}.md"
         
         # if there is a "banner" key in the frontmatter with a valid value, add it to the post
+        # Otherwise, try to find the first image in the content as a fallback banner
+        banner_image = None
+        
         if "banner" in post.keys() and post['banner'] is not None:
             # extract the colors from the copied image
             #weird filehandling here because we already replaced to wikilinks, sry for that
             banner = unquote(post['banner'].replace("![](/static/","").replace(")",""))
-            colors = extract_colors(f"{self.eleventy_static_dir}/{banner}", palette_size=3)
-            post['banner'] = f"/static/{banner}"
-            post['herocolor0'] = int(colors[0].hsv[0]*360)
-            post['herocolor1'] = int(colors[1].hsv[0]*360)
-            post['herocolor2'] = int(colors[2].hsv[0]*360)
+            banner_image = banner
+        else:
+            # Fallback: find the first image in the article content
+            # Look for wiki-style images first: ![[image.png]] or ![[image.png|size]]
+            wiki_image_pattern = re.compile(r"!\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
+            wiki_match = wiki_image_pattern.search(text)
+            if wiki_match:
+                first_image = wiki_match.group(1)
+                # Check if this image exists in our image list
+                for image_tuple in self.image_list:
+                    if first_image == image_tuple[1]:
+                        banner_image = first_image
+                        logger.debug(f"Using first article image as banner: {banner_image}")
+                        break
+            
+            # Also check for already-converted markdown images: ![](/static/image.png)
+            if not banner_image:
+                md_image_pattern = re.compile(r"!\[\]\(/static/([^)]+)\)")
+                md_match = md_image_pattern.search(text)
+                if md_match:
+                    banner_image = unquote(md_match.group(1))
+                    logger.debug(f"Using first markdown image as banner: {banner_image}")
+        
+        if banner_image:
+            try:
+                colors = extract_colors(f"{self.eleventy_static_dir}/{banner_image}", palette_size=3)
+                post['banner'] = f"/static/{banner_image}"
+                post['herocolor0'] = int(colors[0].hsv[0]*360)
+                post['herocolor1'] = int(colors[1].hsv[0]*360)
+                post['herocolor2'] = int(colors[2].hsv[0]*360)
+            except Exception as e:
+                logger.warning(f"Could not extract colors from {banner_image}: {e}")
         
         # add continent and plane
         # The Notes in 🌐Worldbuilding worldbuilding are structured after {content_dir}/🌐Worldbuilding/{plane}/{continent}/..."""

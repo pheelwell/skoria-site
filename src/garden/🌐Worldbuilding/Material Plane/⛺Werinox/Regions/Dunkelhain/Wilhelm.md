@@ -1,10 +1,14 @@
 ---
+banner: /static/Wilhelm.png
 continent: Werinox
 date created: Tuesday, March 18th 2025, 9:21:11 pm
 date modified: Sunday, March 30th 2025, 1:14:13 pm
 eleventyNavigation:
   key: Wilhelm
   parent: Dunkelhain
+herocolor0: 50
+herocolor1: 38
+herocolor2: 39
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/⛺Werinox/Regions/Dunkelhain/Dunkelhain.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%E2%9B%BAWerinox/Regions/Dunkelhain/Wilhelm/

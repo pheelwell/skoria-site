@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Legendhunters
 herocolor0: 67
 herocolor1: 43
-herocolor2: 55
+herocolor2: 53
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/W%C3%BCste/Rashan/
