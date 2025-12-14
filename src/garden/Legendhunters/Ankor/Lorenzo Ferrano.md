@@ -1,6 +1,7 @@
 ---
 banner: /static/Seeweizen-Feld.png
 banner_y: null
+continent: Ankor
 date created: null
 date modified: null
 eleventyNavigation:
@@ -12,6 +13,7 @@ herocolor2: 54
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Ankor/Lorenzo%20Ferrano/
+plane: Legendhunters
 status: tree
 title: Lorenzo Ferrano
 type: NPC

@@ -5,8 +5,8 @@ date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Kellin van Grindern
   parent: Prosnen
-herocolor0: 184
-herocolor1: 188
+herocolor0: 180
+herocolor1: 187
 herocolor2: 197
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Prosnen/Prosnen.md"

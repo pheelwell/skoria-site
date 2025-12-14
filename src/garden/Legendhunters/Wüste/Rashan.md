@@ -1,6 +1,7 @@
 ---
 banner: /static/Placeholder.png
 banner_y: null
+continent: Wuste
 date created: null
 date modified: null
 eleventyNavigation:
@@ -12,6 +13,7 @@ herocolor2: 55
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/W%C3%BCste/Rashan/
+plane: Legendhunters
 status: seed
 title: Rashan
 type: NPC

@@ -3,6 +3,7 @@ aliases:
 - Die Hexe
 banner: /static/Hexenhaus Bild.png
 banner_y: null
+continent: Ankor
 date created: null
 date modified: null
 eleventyNavigation:
@@ -14,6 +15,7 @@ herocolor2: 197
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Ankor/Elarith%2C%20die%20Gefrorene/
+plane: Legendhunters
 status: sprout
 title: Elarith, die Gefrorene
 type: NPC

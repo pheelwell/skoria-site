@@ -1,19 +1,21 @@
 ---
 banner: /static/Svartfjord Scene.png
 banner_y: 0.61667
+continent: Noortbug
 date created: Sunday, August 31st 2025, 9:32:10 pm
 date modified: Sunday, August 31st 2025, 11:36:23 pm
 eleventyNavigation:
   key: Noortbug
   parent: Svartfjord
 herocolor0: 209
-herocolor1: 218
+herocolor1: 217
 herocolor2: 0
 layout: base.njk
 parentpath: src/garden/Legendhunters/Noortbug/Regions/Svartfjord/Svartfjord.md
 password: legend
 passwordhint: Background Lore für Ryn
 path: /garden/Legendhunters/Noortbug/Regions/Svartfjord/Noortbug/
+plane: Legendhunters
 status: sprout
 title: Noortbug
 type: Region

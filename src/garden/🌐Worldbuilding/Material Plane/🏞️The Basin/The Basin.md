@@ -9,7 +9,7 @@ eleventyNavigation:
   key: The Basin
   parent: Material Plane
 herocolor0: 192
-herocolor1: 150
+herocolor1: 146
 herocolor2: 78
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

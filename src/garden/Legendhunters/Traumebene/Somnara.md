@@ -1,17 +1,19 @@
 ---
 banner: /static/haequator.png
 banner_y: null
+continent: Traumebene
 date created: null
 date modified: null
 eleventyNavigation:
   key: Somnara
   parent: Legendhunters
 herocolor0: 232
-herocolor1: 229
+herocolor1: 228
 herocolor2: 296
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Traumebene/Somnara/
+plane: Legendhunters
 status: sprout
 title: Somnara
 type: God

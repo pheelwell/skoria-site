@@ -3,6 +3,7 @@ aliases:
 - (tot)
 banner: /static/Placeholder.png
 banner_y: null
+continent: Handlerpass
 date created: null
 date modified: null
 eleventyNavigation:
@@ -14,6 +15,7 @@ herocolor2: 55
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/H%C3%A4ndlerpass/Varkis%2C%20der%20Maskenl%C3%A4ufer/
+plane: Legendhunters
 status: sprout
 title: Varkis, der Maskenläufer
 type: NPC

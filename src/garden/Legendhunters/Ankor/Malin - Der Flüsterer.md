@@ -3,17 +3,19 @@ aliases:
 - (tot)
 banner: /static/haequator.png
 banner_y: null
+continent: Ankor
 date created: null
 date modified: null
 eleventyNavigation:
   key: Malin - Der Flüsterer
   parent: Legendhunters
-herocolor0: 232
-herocolor1: 229
-herocolor2: 296
+herocolor0: 233
+herocolor1: 228
+herocolor2: 298
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Ankor/Malin%20-%20Der%20Fl%C3%BCsterer/
+plane: Legendhunters
 status: tree
 title: Malin - Der Flüsterer
 type: NPC

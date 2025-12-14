@@ -6,9 +6,9 @@ dg-publish: true
 dg-skoria-home: true
 eleventyNavigation:
   key: Welcome to Skoria
-herocolor0: 214
-herocolor1: 208
-herocolor2: 199
+herocolor0: 216
+herocolor1: 209
+herocolor2: 198
 layout: base.njk
 path: /garden/Welcome%20to%20Skoria/
 permalink: /

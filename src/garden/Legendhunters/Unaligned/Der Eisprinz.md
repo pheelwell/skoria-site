@@ -1,17 +1,19 @@
 ---
 banner: /static/haequator.png
 banner_y: null
+continent: Unaligned
 date created: null
 date modified: null
 eleventyNavigation:
   key: Der Eisprinz
   parent: Legendhunters
-herocolor0: 233
+herocolor0: 232
 herocolor1: 228
-herocolor2: 298
+herocolor2: 296
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Unaligned/Der%20Eisprinz/
+plane: Legendhunters
 status: sprout
 title: Der Eisprinz
 type: NPC

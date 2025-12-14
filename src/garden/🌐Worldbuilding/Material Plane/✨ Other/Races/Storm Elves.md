@@ -6,7 +6,7 @@ date modified: Saturday, February 15th 2025, 12:14:35 am
 eleventyNavigation:
   key: Storm Elves
   parent: Material Plane
-herocolor0: 209
+herocolor0: 210
 herocolor1: 202
 herocolor2: 197
 layout: base.njk

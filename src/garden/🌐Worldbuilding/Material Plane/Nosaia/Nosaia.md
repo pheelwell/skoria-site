@@ -6,7 +6,7 @@ date modified: Sunday, March 23rd 2025, 1:28:31 pm
 eleventyNavigation:
   key: Nosaia
   parent: Material Plane
-herocolor0: 118
+herocolor0: 116
 herocolor1: 189
 herocolor2: 128
 layout: base.njk

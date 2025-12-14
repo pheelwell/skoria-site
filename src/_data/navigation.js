@@ -27,9 +27,27 @@ module.exports = function() {
     return __navCache;
   }
   const planes = new Map();
+  
+  // Define which planes should be merged together into combined columns
+  // Key = display name, Value = array of plane names to merge
+  const planeMerges = {
+    "Other Realms": ["Feywild", "Misc"]
+  };
+  
+  // Create reverse lookup: plane name -> merged name
+  const planeToMerged = {};
+  for (const [mergedName, planeList] of Object.entries(planeMerges)) {
+    for (const p of planeList) {
+      planeToMerged[p] = mergedName;
+    }
+  }
 
   for (const [title, data] of entries) {
-    const planeName = firstTruthy(data.plane, data["Plane"], data["plane"], "Misc");
+    let planeName = firstTruthy(data.plane, data["Plane"], data["plane"], "Misc");
+    
+    // Check if this plane should be merged with others
+    const displayPlaneName = planeToMerged[planeName] || planeName;
+    
     const continentName = firstTruthy(data.continent, data["Continent"], data["eleventyNavigation"] && data["eleventyNavigation"].parent, "General");
     const typeName = firstTruthy(data.type, data["Type"], "Article");
     const pathStr = normalizePath(data.path || data.permalink || "/");
@@ -38,31 +56,38 @@ module.exports = function() {
     const hc1 = Number(firstTruthy(data.herocolor1, (data.herocolor && data.herocolor[1]), 160));
     const hc2 = Number(firstTruthy(data.herocolor2, (data.herocolor && data.herocolor[2]), 220));
 
-    if (!planes.has(planeName)) {
-      planes.set(planeName, {
-        title: planeName,
+    if (!planes.has(displayPlaneName)) {
+      planes.set(displayPlaneName, {
+        title: displayPlaneName,
         banner: null,
         hc0: 120, hc1: 160, hc2: 220,
         continents: new Map(),
       });
     }
-    const plane = planes.get(planeName);
-    if (title === planeName) {
+    const plane = planes.get(displayPlaneName);
+    if (title === planeName || title === displayPlaneName) {
       if (banner) plane.banner = banner;
       plane.hc0 = isFinite(hc0) ? hc0 : plane.hc0;
       plane.hc1 = isFinite(hc1) ? hc1 : plane.hc1;
       plane.hc2 = isFinite(hc2) ? hc2 : plane.hc2;
     }
-    if (!plane.continents.has(continentName)) {
-      plane.continents.set(continentName, {
-        title: continentName,
+    
+    // For merged planes, use the original plane name as a sub-category prefix for the continent
+    let effectiveContinentName = continentName;
+    if (planeToMerged[planeName]) {
+      effectiveContinentName = planeName;
+    }
+    
+    if (!plane.continents.has(effectiveContinentName)) {
+      plane.continents.set(effectiveContinentName, {
+        title: effectiveContinentName,
         banner: null,
         hc0: plane.hc0, hc1: plane.hc1, hc2: plane.hc2,
         types: new Map(),
       });
     }
-    const continent = plane.continents.get(continentName);
-    if (title === continentName) {
+    const continent = plane.continents.get(effectiveContinentName);
+    if (title === continentName || title === effectiveContinentName) {
       if (banner) continent.banner = banner;
       continent.hc0 = isFinite(hc0) ? hc0 : continent.hc0;
       continent.hc1 = isFinite(hc1) ? hc1 : continent.hc1;

@@ -1,6 +1,7 @@
 ---
 banner: /static/haequator.png
 banner_y: null
+continent: Traumebene
 date created: null
 date modified: null
 eleventyNavigation:
@@ -12,6 +13,7 @@ herocolor2: 296
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Traumebene/Der%20W%C3%A4chtergeist/
+plane: Legendhunters
 status: sprout
 title: Der Wächtergeist
 type: God

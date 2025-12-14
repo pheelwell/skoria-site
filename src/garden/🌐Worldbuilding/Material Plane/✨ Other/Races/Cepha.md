@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Cepha
   parent: Material Plane
 herocolor0: 200
-herocolor1: 193
+herocolor1: 194
 herocolor2: 166
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"

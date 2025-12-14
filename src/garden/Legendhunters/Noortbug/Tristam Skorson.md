@@ -1,17 +1,19 @@
 ---
 banner: /static/Svartfjord Scene.png
 banner_y: null
+continent: Noortbug
 date created: null
 date modified: null
 eleventyNavigation:
   key: Tristam Skorson
   parent: Legendhunters
 herocolor0: 209
-herocolor1: 217
+herocolor1: 218
 herocolor2: 0
 layout: base.njk
 parentpath: src/garden/Legendhunters/Legendhunters.md
 path: /garden/Legendhunters/Noortbug/Tristam%20Skorson/
+plane: Legendhunters
 status: sprout
 title: Tristam Skorson
 type: NPC

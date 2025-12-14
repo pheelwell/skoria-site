@@ -151,7 +151,13 @@ class ObsidianToeleventy:
         # grab for this via regex and add it to the frontmatter
 
         # remove the content dir from the root
-        regex_root = root.replace(self.eleventy_content_dir,"")        # Regex pattern for extracting plane
+        regex_root = root.replace(self.eleventy_content_dir,"")
+        
+        # Check for Legendhunters first (special case - not under 🌐Worldbuilding)
+        legendhunters_pattern = re.compile(r"Legendhunters(/([^/]+))?")
+        legendhunters_match = legendhunters_pattern.search(regex_root)
+        
+        # Regex pattern for extracting plane from Worldbuilding structure
         plane_pattern = re.compile(r"🌐Worldbuilding/([^/]+)")
         plane_match = plane_pattern.search(regex_root)
         
@@ -159,17 +165,26 @@ class ObsidianToeleventy:
         continent_pattern = re.compile(r"🌐Worldbuilding/([^/]+)/([^/]+)")
         continent_match = continent_pattern.search(regex_root)
 
-        if plane_match:
+        if legendhunters_match:
+            # Legendhunters is its own plane
+            post['plane'] = "Legendhunters"
+            # Use subfolder as continent if available
+            if legendhunters_match.group(2):
+                post['continent'] = clean(legendhunters_match.group(2), no_emoji=True, lower=False)
+            else:
+                post['continent'] = "General"
+        elif plane_match:
             # Transform to titlecase
             post['plane'] = clean(plane_match.group(1), no_emoji=True, lower=False)
         else:
             logger.warning(f"WARNING: The file {regex_root} does not have a plane set. Please set it manually in the frontmatter.")
 
-        if continent_match:
-            # Transform to titlecase
-            post['continent'] = clean(continent_match.group(2), no_emoji=True, lower=False)
-        else:
-            logger.warning(f"WARNING: The file {regex_root} does not have a continent set. Please set it manually in the frontmatter.")
+        if not legendhunters_match:
+            if continent_match:
+                # Transform to titlecase
+                post['continent'] = clean(continent_match.group(2), no_emoji=True, lower=False)
+            else:
+                logger.warning(f"WARNING: The file {regex_root} does not have a continent set. Please set it manually in the frontmatter.")
 
 
         return dumps(post)
