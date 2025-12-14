@@ -9,7 +9,7 @@ eleventyNavigation:
   key: Fer
   parent: Gandmuel
 herocolor0: 192
-herocolor1: 146
+herocolor1: 150
 herocolor2: 78
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3DE️The Basin/Regions/Gandmuel/Gandmuel.md"

@@ -4,18 +4,18 @@ banner_y: 0.61667
 date created: Sunday, August 31st 2025, 9:32:10 pm
 date modified: Sunday, August 31st 2025, 11:36:23 pm
 eleventyNavigation:
-  key: Norotbug
-  parent: Legendhunters
+  key: Noortbug
+  parent: Svartfjord
 herocolor0: 209
 herocolor1: 218
 herocolor2: 0
 layout: base.njk
-parentpath: src/garden/Meta/Legendhunters/Legendhunters.md
+parentpath: src/garden/Legendhunters/Noortbug/Regions/Svartfjord/Svartfjord.md
 password: legend
 passwordhint: Background Lore für Ryn
-path: /garden/Meta/Legendhunters/Regions/Noortbug/Norotbug/
+path: /garden/Legendhunters/Noortbug/Regions/Svartfjord/Noortbug/
 status: sprout
-title: Norotbug
+title: Noortbug
 type: Region
 ---
 
@@ -122,7 +122,7 @@ type: Region
 - Geduldig, streng, aber mit Mühe im Umgang mit Menschen.  
 - Starke persönliche Bindung zu Ryn.
 
-![](/static/Thornvald.png)
+![](/static/Placeholder.png)
 ## Thornvald
 - **Lich**, mächtiger Magier, lebt isoliert auf einem Gipfel inmitten der Stadt.  
 - Dient den Seelen, kontrolliert die Flammen, führt die Ladwächter an.  

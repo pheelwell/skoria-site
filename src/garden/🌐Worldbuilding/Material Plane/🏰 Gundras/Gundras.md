@@ -8,9 +8,9 @@ dg-publish: true
 eleventyNavigation:
   key: Gundras
   parent: Material Plane
-herocolor0: 186
-herocolor1: 58
-herocolor2: 56
+herocolor0: 158
+herocolor1: 55
+herocolor2: 175
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8F%B0%20Gundras/Gundras/

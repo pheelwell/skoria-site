@@ -5,9 +5,9 @@ date modified: Sunday, March 23rd 2025, 1:28:32 pm
 eleventyNavigation:
   key: Der Wald von Bosque
   parent: Gaban
-herocolor0: 186
-herocolor1: 58
-herocolor2: 56
+herocolor0: 158
+herocolor1: 55
+herocolor2: 175
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/\U0001F3F0 Gundras/Regions
   - Cities/Gaban/Gaban.md"

@@ -5,8 +5,8 @@ date modified: Sunday, March 23rd 2025, 9:36:19 pm
 eleventyNavigation:
   key: Feywild
 herocolor0: 242
-herocolor1: 226
-herocolor2: 180
+herocolor1: 227
+herocolor2: 184
 layout: base.njk
 path: /garden/%F0%9F%8C%90Worldbuilding/Feywild/
 plane: Feywild

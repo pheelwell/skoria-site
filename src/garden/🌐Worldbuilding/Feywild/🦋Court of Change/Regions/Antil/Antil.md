@@ -11,8 +11,8 @@ eleventyNavigation:
   key: Antil
   parent: Court of Change
 herocolor0: 106
-herocolor1: 98
-herocolor2: 68
+herocolor1: 99
+herocolor2: 69
 layout: base.njk
 owner: pheelwell
 parentpath: "src/garden/\U0001F310Worldbuilding/Feywild/\U0001F98BCourt of Change/Court

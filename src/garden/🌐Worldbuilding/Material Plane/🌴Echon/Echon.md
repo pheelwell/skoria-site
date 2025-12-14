@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Echon
   parent: Material Plane
 herocolor0: 91
-herocolor1: 100
-herocolor2: 63
+herocolor1: 98
+herocolor2: 61
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
 path: /garden/%F0%9F%8C%90Worldbuilding/Material%20Plane/%F0%9F%8C%B4Echon/Echon/

@@ -135,8 +135,8 @@ class ObsidianToeleventy:
             post['eleventyNavigation']['parent'] = parent_folder_name
             post['parentpath'] = f"{deeproot}/{parent_folder_name}.md"
         
-        # if there is a "banner" key in the frontmatter, add it to the post
-        if "banner" in post.keys():
+        # if there is a "banner" key in the frontmatter with a valid value, add it to the post
+        if "banner" in post.keys() and post['banner'] is not None:
             # extract the colors from the copied image
             #weird filehandling here because we already replaced to wikilinks, sry for that
             banner = unquote(post['banner'].replace("![](/static/","").replace(")",""))

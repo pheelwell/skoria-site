@@ -7,7 +7,7 @@ date modified: Sunday, March 23rd 2025, 7:03:46 pm
 eleventyNavigation:
   key: Infernals
   parent: Demons
-herocolor0: 9
+herocolor0: 8
 herocolor1: 11
 herocolor2: 20
 layout: base.njk

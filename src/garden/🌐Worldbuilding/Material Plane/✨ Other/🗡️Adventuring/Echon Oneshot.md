@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Echon Oneshot
   parent: Adventuring
 herocolor0: 37
-herocolor1: 161
+herocolor1: 162
 herocolor2: 79
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/✨ Other/\U0001F5E1️Adventuring/Adventuring.md"

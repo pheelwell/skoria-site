@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Selkath
   parent: Material Plane
 herocolor0: 27
-herocolor1: 21
+herocolor1: 20
 herocolor2: 32
 layout: base.njk
 parentpath: "src/garden/\U0001F310Worldbuilding/Material Plane/Material Plane.md"
